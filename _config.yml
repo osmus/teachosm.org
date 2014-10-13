@@ -2,11 +2,11 @@ auto: true
 pygments: true
 server: true
 markdown: rdiscount
-permalink: /teachosm/:categories/:title/
+permalink: /:categories/:title/
 columnist:
   paths:
   - _posts
-baseurl: ''
+baseurl: '/teachosm'
 rdiscount:
   extensions: [smart]
 prose:
