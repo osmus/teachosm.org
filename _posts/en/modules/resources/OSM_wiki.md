@@ -1,0 +1,14 @@
+---
+published: false
+---
+
+## The OpenStreetMap wiki
+
+The [OpenStreetMap wiki](http://wiki.openstreetmap.org) is an indispensable reference for all things OpenStreetMap. You should ****always**** consult the wiki first for help, especially for tagging, projects, and for best practices. In fact, it is a good practice while mapping to open the [Tags](http://wiki.openstreetmap.org/wiki/Tags) page in an additional browser tab so you can refer to it when needed.
+
+Some useful references on the wiki include:
+- [Tags](http://wiki.openstreetmap.org/wiki/Tags) or proper attribution for map features
+- [Tasking Manager Support](http://wiki.openstreetmap.org/wiki/Tasking_manager_admin) on how to administer the OSM Tasking Manager
+- Information about the [US Chapter](http://wiki.openstreetmap.org/wiki/Foundation/Local_Chapters/United_States) of OpenStreetMap
+
+
