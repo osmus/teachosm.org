@@ -13,7 +13,7 @@ prose:
   rooturl: '_posts'
 translations:
   en:
-    tagline: "Learn OpenStreetMap Step by Step"
+    tagline: "Teach OpenStreetMap Step by Step"
     contribute: "Help improve our guides"
     trainingspan: "Are you a workshop organizer?"
     training: "Check out training material for this guide (in English)"
