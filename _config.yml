@@ -6,7 +6,7 @@ permalink: /:categories/:title/
 columnist:
   paths:
   - _posts
-baseurl: '/teachosm'
+baseurl: ''
 rdiscount:
   extensions: [smart]
 prose:

@@ -31,25 +31,6 @@
   </head>
   <body>
   <div id='wrapper'>
-    <div class="fillG cell12" id="banner-top">
-      <small class='language-switcher marginL cell6 cf'>
-        <a lang='en'>English</a> |
-        <a lang='bi'>Bahasa Indonesia</a> |
-        <a lang='jp'>日本語</a> |
-        <a lang='pt'>Português</a> |
-        <a lang='it'>Italiano</a> |
-        <a lang='fr'>Français</a> |
-        <a lang='de'>Deutsch</a> |
-        <a lang='es'>Español</a>
-      </small>
-      <!-- small search bar does not appear on the front page -->
-      {% unless page.fronttitle or page.contributetitle%}
-      <form class='searchbox-default rounded'>
-        <span class='icon logo-search'></span>
-        <input id='search-field' type='text' name='search' class='default-value' />
-      </form>
-      {% endunless%}
-    </div>
     <div id='header' class='cell12'>
       <div class='marginL cell9 padAll'>
         <div class='cell7 marginR'>
@@ -84,25 +65,4 @@
     </small>
   </div>
   </body>
-  <script>
-  // autocomplete search with all-translation json
-    $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
-      console.log(data);
-      var lang = "{{page.lang}}";
-      data.forEach(function(o){
-        if (o.lang === lang){
-          var destination;
-          $( "#search-field" ).autocomplete({
-           autoFocus: true, // highlight the first search result in dropdown
-           delay: 0,
-           source: o.chapters,
-           select: function(event, ui) {
-             destination = '{{site.baseurl}}' + ui.item.url;
-             window.location = destination;
-           }
-          });
-        }
-      })
-  });
-  </script>
 </html>
