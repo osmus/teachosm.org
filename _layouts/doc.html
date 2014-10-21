@@ -4,7 +4,7 @@ layout: default
 <div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
       <ul>
 
-    {% for post in site.categories.[page.category] %}
+    {% for post in site.categories.[page.category] reversed %}
       {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
       <li class='doc rounded'>
         <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
