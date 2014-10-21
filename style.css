@@ -315,7 +315,7 @@ body {
   font-weight:700;
 }
 #ads a:hover {color:#101010;}
-#ads .ad1 a {height:180px;background:#92d07a;margin-right:20px;}
+#ads .ad1 a {height:180px; margin-right:20px; border-color: #92d07a; border-width: 2px; border-style: solid;}
 #ads .ad2 a {height:80px; background:#ffd429;margin-bottom:20px;}
 #ads .ad3 a {height:60px; background:#7abeff;}
   #ads .ad2 a:hover {background:#f0ca42;}
