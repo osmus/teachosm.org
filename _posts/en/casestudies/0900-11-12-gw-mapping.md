@@ -1,12 +1,11 @@
 ---
 layout: doc
-title: GIS at George Washington University
+title: OSM at George Washington University
 permalink: /en/cases/gwu/
 lang: en
 category: cases
 published: true
 ---
-
 
 <IMAGE: Event IMAGE & OR LINK> 
 
@@ -14,4 +13,4 @@ For the past three years Nuala Cowan & Richard Hinton of the Geography departmen
 
 In spring 2013, classes collaborated with the American Red Cross to map disaster prone communities in both Colombia and Indonesia. Using high-resolution satellite imagery, GW Geography student’s traced road and building infrastructure, data that was subsequently field validated by domestic chapters of the Red Cross. In fall 2014 they worked on another collaborative project in conjunction with USAID, and the Open Cities Project at the World Bank . Once again, students mapped street level infrastructure, this time, in the city of Kathmandu, Nepal. Field partners for this collaboration were a World Bank funded non-profit called Kathmandu Living Labs . They performed field validation on the data created by the students and collected additional attribute information for critical infrastructure in the city (schools and hospitals). Richard and Nuala’s classes have continued to work on collaborations in recent semesters. In Spring 2014 students traced infrastructure in the Philippines in conjunction with the GeoCenter at USAID, and in Summer 2014 students worked once again with the American Red Cross to trace buildings in Harare, Zimbabwe. 
 
-The collaborative mapping initiatives at GWU Geography have been exclusively disaster related to date, as this coincides with the research interests of the faculty involved. We believe this type of instructional module/assignment is applicable to many disciplines and teaching scenarios, and the objective of the TeachOSM resource is to open that possibility to these other fields, in a comprehensive user friendly way. 
+The collaborative mapping initiatives at GWU Geography have been exclusively disaster related to date, as this coincides with the research interests of the faculty involved. We believe this type of instructional module/assignment is applicable to many disciplines and teaching scenarios, and the objective of the TeachOSM resource is to open that possibility to these other fields, in a comprehensive user friendly way.
