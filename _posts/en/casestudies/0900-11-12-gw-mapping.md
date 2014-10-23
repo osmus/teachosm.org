@@ -7,6 +7,13 @@ category: cases
 published: true
 ---
 
+1. Backstory
+2. Description of the mapping challenge/task
+3. Describe the workflow
+4. List any issues or problems encountered
+5. Discuss the results and what was learned
+6. Provide contact information
+
 <IMAGE: Event IMAGE & OR LINK> 
 
 Nuala Cowan & Richard Hinton of the Geography department regularly integrate the open source mapping platform, OpenStreetMap into the curriculum for their introductory undergraduate Geographical Information Systems (GIS) & Cartography classes; traditionally the domain of proprietary desktop software, and data. They have sought to expand the traditional curriculum, and expose students to various different open source software’s, web based platforms, and data collection initiatives, specifically in a service-learning environment. 
