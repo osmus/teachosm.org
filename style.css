@@ -373,48 +373,10 @@ body {
     .twitter:hover:before {background-position:-50px -178px;}
     .github:before {background-position:-80px -158px;}
     .github:hover:before {background-position:-80px -178px;}
-.sponsors span {display:block;}
-  .sponsors span a {color:#fc3f51;}
 a.license {
   position:absolute;
   left:360px;
   }
-.sponsors a.logo {margin-top:30px;}
-  .sponsors a.logo-hot {background-position:0 0;}
-  .sponsors a.logo-ausaid {width:70px;background-position:-76px 8px;}
-  .sponsors a.logo-bnpb {background-position:-142px 0;margin-top:30px;}
-
-.searchbox {
-  height:32px;
-  border:4px solid #f0f0f0;
-  }
-  .searchbox input {
-    border:none;
-    padding:4px 0px 4px 20px;
-    font-size:16px;
-    font-family:'Source Sans Pro',sans-serif;
-    background-color: #ffffff;
-  }
-  .logo-search {
-    float:left;
-    margin-left:3px;
-    width: 30px;
-    height: 28px;
-    background-position:-152px -150px;
-  }
-  input.default-value {
-    color:#ccc !important;
-    font-style: italic;
-  }
-.searchbox-default {
-  padding-right:08.3333%;
-  float:right;
-}
-.searchbox-default input {
-  border:none;
-  margin-top:6px;
-  background-color: #ffffff;
-}
 /* overriding default jquery ui css for autocomplete */
 .ui-corner-all {
   -moz-border-radius:   0px !important;
@@ -686,9 +648,6 @@ a.license {
   #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
   /*#ads .ad1 span.door {margin-top:-60px;}*/
   #footer {position:relative;}
-  .searchbox-default {padding-left:10px;float:left;}
-  .searchbox {border-radius:0px; border:8px solid #f0f0f0;}
-  .searchbox input {width:200px;}
   .doc-nav,.doc-nav.fixed {position:relative;margin-bottom:20px;}
   .doc-main {margin-left:0%}
   .feedback {padding-top:20px;padding-left:15px;}
