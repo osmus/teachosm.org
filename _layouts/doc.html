@@ -28,7 +28,7 @@ layout: default
         </a>
       </li>
       
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
         {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
         {% if post.cover %}{% unless post.category == page.category %}
           <li class='doc rounded'>
