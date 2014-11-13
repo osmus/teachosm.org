@@ -6,9 +6,8 @@ title: Contribute
 contributetitle: Help improve our guides
 startwith: "Ready to get started?"
 startA: Send us feedback
-startB: Create a translation
-startC: Improve Language
-startD: Fork and improve site
+startB: Make a Suggestion
+startC: Fork and improve site
 nosearch: true
 published: true
 ---
