@@ -309,7 +309,7 @@ body {
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
-  font-size: 18px;
+  font-size: 14px;
 }
 #ads a span:first-child {
   display:block;
