@@ -128,7 +128,7 @@ h2,h3,h4,h5,h6 {
   text-rendering: optimizeLegibility;
   }
 h1 {
-  color: #79bc5f;
+  color: #328cac;
   font-size: 22px;
   margin:10px 0 28px;
   }
@@ -163,7 +163,7 @@ strong {font-weight:700;}
 .doc ul {margin: 20px 0;}
 .doc  ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
 .doc li {margin-left:30px;}
-.doc li a, .doc p a {color: #79bc5f;}
+.doc li a, .doc p a {color: #328cac;}
 
 small {
   font-size:12px;
@@ -259,7 +259,7 @@ body {
   padding:6px 20px;
   }
   .language-switcher a.active {
-    color: #79bc5f;
+    color: #328cac;
     text-decoration: none;
     cursor: default;
     }
@@ -280,7 +280,7 @@ body {
   }
   .banner span {
     display:none;
-    color: #79bc5f;
+    color: #328cac;
     text-transform:uppercase;
     font-size:12px;
     font-weight:700;
@@ -400,7 +400,7 @@ a.license {
   }
 .ui-state-default, .ui-state-hover, .ui-state-focus {
   border:1px solid #fff !important;
-  background:#79bc5f !important;
+  background:#328cac !important;
   color:#fff !important;
   }
 
@@ -470,7 +470,7 @@ a.license {
   background:#f0f0f0;
   }
   .doc .title.active {
-    background:#79bc5f;
+    background:#328cac;
     color:#fff;
     }
     .doc .title span:before {
@@ -523,11 +523,11 @@ a.license {
     padding:10px 20px;
     font-size:14px;
     text-transform:uppercase;
-    background:#79bc5f;
+    background:#328cac;
     }
     .getstarted span a:hover {color:#fff;}
   .feedback span {display:block;font-weight:700;}
-  .feedback a {color: #79bc5f;}
+  .feedback a {color: #328cac;}
     .getstarted span:before, .getstarted span:after, .feedback span:before {
       content:'';
       display:block;
@@ -547,7 +547,7 @@ a.license {
   }
   .doc h2:hover,.doc h2:target,
   .doc h3:hover,.doc h3:target {
-    color:#79bc5f;
+    color:#328cac;
     }
   .doc h2:before,
   .doc h3:before {
@@ -569,7 +569,7 @@ a.license {
   padding:20px 0px;
   margin-left:70px;
 }
-  .contribute-intro a {color:#79bc5f;}
+  .contribute-intro a {color:#328cac;}
   .contribute-intro h4:before,.contribute-links h4:before {
     content: '';
     display: inline;
@@ -617,7 +617,7 @@ a.license {
   margin-top:40px;
 }
 .notfound a {
-  color:#79bc5f;
+  color:#328cac;
 }
 
 /* Mobile and tablet Layout
