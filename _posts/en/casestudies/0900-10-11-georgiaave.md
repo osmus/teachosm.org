@@ -7,6 +7,8 @@ category: cases
 published: true
 ---
 
+## Georgia Avenue Youth Ambassadors Mapping Project
+
 ![Georgia_Avenue_Youth_Ambassadors.jpeg](/_posts/en/casestudies/Georgia_Avenue_Youth_Ambassadors.jpeg)
 
 ### The Backstory
