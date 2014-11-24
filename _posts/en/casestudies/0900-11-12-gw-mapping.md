@@ -19,7 +19,7 @@ In spring 2013, classes collaborated with the American Red Cross to map disaster
 
 Our Workflow
 The instructors at GWU used the Tasking Manager tool to outline the study area (which is determined by our partners), and partition it for tracing. 
-Each student is given a quota of nodes to trace
+Each student is given a quota of nodes to trace.
 
 ### What we discovered
 The collaborative mapping initiatives at GWU Geography have been exclusively disaster related to date, as this coincides with the research interests of the faculty involved. We believe this type of instructional module/assignment is applicable to many disciplines and teaching scenarios, and the objective of the TeachOSM resource is to open that possibility to these other fields, in a comprehensive user friendly way.
