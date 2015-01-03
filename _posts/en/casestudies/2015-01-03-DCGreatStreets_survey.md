@@ -86,3 +86,5 @@ Tactically, teams of three seem to work best, but plan on at least two per team.
  
 See also Elliott Plack's diary [entry](https://www.openstreetmap.org/user/ElliottPlack/diary/26065)
 on how he created a street-level survey from his bicycle.
+
+To participate in DC Great Streets mapping parties or for more information, contact Steven Johnson (sejohnson8 at gmail dot com).
