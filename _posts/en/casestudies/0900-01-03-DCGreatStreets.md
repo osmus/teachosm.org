@@ -42,7 +42,7 @@ install Mapillary. Also review the  tips and techniques on the Mapillary page so
 2. Field Papers: We use [Field Papers](http://fieldpapers.org/) to make a paper map of the streets, which
 we annotate in the field. Print out large-scale maps of your area of interest so you can 
 annotate liberally and legibly. There is a very good Field Papers how-to on the 
-[OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Field_Papers/) which shows how to
+[OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Field_Papers) which shows how to
 use Field Papers for field data collection.
 
 ## Workflow
