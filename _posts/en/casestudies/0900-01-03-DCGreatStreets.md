@@ -46,11 +46,12 @@ annotate liberally and legibly. There is a very good Field Papers how-to on the
 use Field Papers for field data collection.
 
 ## Workflow
-The workflow: 
-1. Conduct field work
-2. Return to base and begin editing in OpenStreetMap
-3. Upload photos to Mapillary site
-4. Review work for completeness and accuracy
+The workflow:
+
+ 1. Conduct field work
+ 2. Return to base and begin editing in OpenStreetMap
+ 3. Upload photos to Mapillary site
+ 4. Review work for completeness and accuracy
  
 ### Form teams for field work:
 - Two teams of two or three people, one team on each side of the street. One person records 
