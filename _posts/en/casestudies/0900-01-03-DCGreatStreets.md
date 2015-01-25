@@ -21,12 +21,12 @@ Conducting a street-level survey is a good way to get students acquainted with l
 
 ## Rationale
 
-In late 2014, [MappingDC] began a collaboration with the [DC Great Streets](http://greatstreets.dc.gov/)
- program to conduct
+In late 2014, [MappingDC](http://mappingdc.org/) began a collaboration with the [DC Great Streets](http://greatstreets.dc.gov/)
+ program to conduct 
 a street-level survey in the twelve DC Great Streets corridors. The DC Great Streets 
 program dispenses capital improvement grants to small businesses in these corridors to 
 boost neighborhood economic resilience and help create lively urban centers around the city.
-Once a month, MappingDC hosts a mapping party in or along one of the corridors where we
+Once a month, MappingDC hosts a [mapping party](http://www.meetup.com/MappingDC/) in or along one of the corridors where we
 gather data in the field, upload, and edit the data in OpenStreetMap. The project is
 evolving with an emphasis on creating service learning opportunities for young adults that
 meet the needs of the DC Great Streets program.
@@ -35,7 +35,7 @@ meet the needs of the DC Great Streets program.
 
 ### Tools you'll need
 
-1. Mapillary: To create the streetview, we use[Mapillary](http://mapillary.com/), a 
+1. Mapillary: To create the streetview, we use [Mapillary](http://mapillary.com/), a 
 lightweight app that you add to your smartphone. So, before you get started, download and 
 install Mapillary. Also review the  tips and techniques on the Mapillary page so you take good, usable photos. 
 
