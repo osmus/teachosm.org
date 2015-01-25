@@ -83,7 +83,7 @@ Tactically, teams of three seem to work best, but plan on at least two per team.
 
 ## For more information:
 
-(Jaakko Helleranta's write up on how to use Mapillary would go here.)
+Mapillary provides detailed [instructions](https://www.mapillary.com/instructions.html)
 
 See also Elliott Plack's diary [entry](https://www.openstreetmap.org/user/ElliottPlack/diary/26065)
 on how he created a street-level survey on bicycle.
