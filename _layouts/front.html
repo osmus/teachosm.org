@@ -26,21 +26,28 @@ layout: default
 </div>
 
 <div id='front' class='marginL cell9 padAll'>
-  <div class='front-text cell9 marginR'>
+  <div class='front-text cell7 marginR'>
     <h4 class='tagtitle'>{{ page.teachtitle }}</h4>
     <p class='tagwords'>{{ page.teachintro }}</p>
   </div>
-<!--  
-  <div class='faqbox cell4'>
-    <h4>{{page.faq}}</h4>
-    <ul class='faq'>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/intro/whyteach/'>{{page.faqA}}</a></li>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/workflow/'>{{page.faqB}}</a></li>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/cases/'>{{page.faqC}}</a></li>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/resources/'>{{page.faqD}}</a></li>
+
+<!--
+  <div class='cell4'>
+    <ul>
+      {% for post in site.categories.['cases'] reversed %}
+      {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+        <li class='doc rounded'>
+          <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
+        <span><img src="{{post.image}}"/> {{ post.title }}</span>
+        </a>
+      </li>
+      {% endunless %}{% endif %}
+      {% endfor %}
+    </ul>
+
   </div>
---->
-  <div class='front-text cell9 marginR'>
+-->
+  <div class='front-text cell7 marginR'>
     <h4 class='tagtitle'>{{ page.osmtitle }}</h4>
     <p class='tagwords'>{{ page.osmintro }}</p>
   </div>

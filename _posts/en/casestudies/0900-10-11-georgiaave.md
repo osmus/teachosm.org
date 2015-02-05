@@ -5,11 +5,12 @@ permalink: "/en/cases/georgia-ave/"
 lang: en
 category: cases
 published: true
+image: "/img/Georgia_Avenue_Youth_Ambassadors.jpeg"
 ---
 
 ## Georgia Avenue Youth Ambassadors Mapping Project
 
-![Georgia_Avenue_Youth_Ambassadors.jpeg](/_posts/en/casestudies/Georgia_Avenue_Youth_Ambassadors.jpeg)
+![Georgia_Avenue_Youth_Ambassadors.jpeg](/img/Georgia_Avenue_Youth_Ambassadors.jpeg)
 
 ### The Backstory
 In July-August 2014, members of MappingDC worked with about 20 students ages 12-18 in Washington, DC to map out Georgia Avenue, a major commercial corridor in a largely lower-income part of town.

@@ -5,6 +5,7 @@ permalink: /en/cases/gwu/
 lang: en
 category: cases
 published: true
+image: "/img/gwu-casestudy.jpg"
 ---
 
 ## OSM at George Washington University
