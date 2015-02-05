@@ -7,11 +7,11 @@ category: cases
 published: true
 ---
 
-# Conducting a Street-level Survey Using OpenStreetMap
+# DC Great Streets: A Street-level Survey Using OpenStreetMap
 
 ## Background
 
-Conducting a street-level survey is a good way to get students acquainted with local land
+Conducting a street-level survey is a great way to get students acquainted with local land
  use and land cover while learning important technical skills in the 
  [OpenStreetMap](http://openstreetmap/) environment. The objective of a survey is to make 
  a field-level determination of how the property or building is being used, create a 
