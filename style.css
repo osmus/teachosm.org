@@ -319,6 +319,7 @@ body {
 #ads .ad1 a {height:180px; margin-right:20px; border-color: #328cac; border-width: 2px; border-style: solid; background-image: url("/img/banner.jpg"); font-size: 22px;}
 #ads .ad2 a {height:80px; background:#fcbf03; margin-bottom:20px;}
 #ads .ad3 a {height:60px; background:#e88723;}
+  #ads .ad1 a:hover {opacity:0.8;}
   #ads .ad2 a:hover {background:#ffcb2d;}
   #ads .ad3 a:hover {background:#f79225;}
   #ads .ad1 span.door {
