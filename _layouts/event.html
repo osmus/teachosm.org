@@ -1,0 +1,97 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name='robots' content='{% if page.hidden %}noindex{% else %}index{% endif %}'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name='twitter:site' content='@{{twitter}}' />
+  <meta property='og:site_name' content='{{ site.title }}' />
+  <meta name='twitter:url' content='{{page.permalink}}' />
+  <meta name='twitter:domain' content='{{site.baseurl}}' />
+  <meta property='og:url' content='{{page.permalink}}' />
+  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  {% if page.image %}
+    <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
+  {% else %}
+    <meta name='twitter:image' content='{{site.baseurl}}/img/default-twitter-card.png' />
+    <meta name='st:image' content='{{site.baseurl}}/img/default-twitter-card.png' />
+    <meta property='og:image' content='{{site.baseurl}}/img/default-twitter-card.png' />
+  {% endif %}
+  <meta property='og:type' content='website' />
+  <meta name='twitter:card' content='summary_large_image' />
+
+  <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}{{ site.title }}</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+ <!--  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' /> -->
+  <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
+	<link href='{{site.baseurl}}/assets/css/base.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/assets/css/site.css' rel='stylesheet' />
+  <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+</head>
+<body class='{% if page.url == "/index.html" %}front{% endif %}'>
+
+<nav class='pad2 fill-red site-navigation center space'>
+  <a class='strong {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+  <a class='strong {% if page.url contains "sotmus" %}active{% endif %}' href='{{site.baseurl}}/sotmus/'>TeachOSM Workshop at SotM US</a>
+  <a class='strong {% if page.url contains "page2" %}active{% endif %}' href='http://stateofthemap.us/'>SotM US</a>
+  <a href='https://twitter.com/search?q=%23teachosm&src=typd' target='_blank' class='hide-mobile icon twitter inline small strong dark'>#teachosm</a>
+</nav>
+
+
+<header class='clearfix splash center pad4y'>
+  <a href='{{site.baseurl}}' class='block'>
+    <img id='logo' src='{{site.baseurl}}/img/sotm-logo.png' alt='HOT Summit' />
+  </a>
+</header>
+
+{{content}}
+
+<div class='pad2x show-mobile'>
+  <a href='#sponsors' class='button block'>Supporters</a>
+</div>
+
+
+<section id='sponsors' class='hide-mobile col12 center fill-light pad2y'>
+  <div class='limiter clearfix'>
+    <div class='col10 margin1'>
+      <h2 class='space-bottom1'>Participating Groups</h2>
+
+      <nav class='space-bottom2'>
+        <a href='http://group1.org/' target='_blank'><img class='participating' src='{{site.baseurl}}/img/group1_logo.png' alt='Group1' /></a>
+        <a href='http://group2.org/' target='_blank'><img class='participating' src='{{site.baseurl}}/img/group2_logo.png' alt='Group2' /></a>
+      </nav>
+
+      <h3>Get in touch to get involved</h3>
+
+    </div>
+  </div>
+</section>
+
+<section class='fill-white pad2y center'>
+  <div class='limiter'>
+    <p><strong>Interested in participating?</strong> Email <a href='mailto:{{site.email}}'>{{site.email}}</a> to learn more.</p>
+  </div>
+</section>
+<footer class='col12 center fill-blue'>
+  <div class='pad2y col12'>
+    <div class='limiter'>
+      <p class='small hide-mobile'>
+        <a href='{{site.baseurl}}'>{{site.title}}</a> | <a href='https://twitter.com/search?q=%23{{site.hashtag}}&src=typd' target='_blank'>#teachosm</a><!-- | Photo credits: Photo Credits-->
+    </div>
+  </div>
+</footer>
+
+<!-- Analytics / Tracking -->
+<!-- End Analytics / Tracking -->
+
+</body>
+</html>
