@@ -3,6 +3,7 @@ pygments: true
 server: true
 markdown: rdiscount
 permalink: /:categories/:title/
+email: info@teachosm.org
 columnist:
   paths:
   - _posts
