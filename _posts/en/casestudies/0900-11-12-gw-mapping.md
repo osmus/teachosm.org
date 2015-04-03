@@ -18,7 +18,7 @@ Nuala Cowan & Richard Hinton of the Geography department regularly integrate the
 ### The Mapping Challenge
 In spring 2013, classes collaborated with the American Red Cross to map disaster prone communities in both Colombia and Indonesia. Using high-resolution satellite imagery, GW Geography students remotely traced road and building infrastructure, data that was subsequently field validated by domestic chapters of the Red Cross. In fall 2013 they worked on another collaborative project in conjunction with USAID and the Open Cities Project at the World Bank. Once again, students mapped street level infrastructure, this time, in the city of Kathmandu, Nepal. Field partner for this collaboration was a non-profit called [Kathmandu Living Labs](http://kathmandulivinglabs.org/) (KLL). KLL then performed OSM Patrol Sessions (Data Quality check and Validation) on the data created by the students (and others) for Kathmandu. Richard and Nuala’s classes have continued to work on collaborations in recent semesters. In Spring 2014 students traced infrastructure in the Philippines in conjunction with the GeoCenter at USAID, and in Summer 2014 students worked once again with the American Red Cross to trace buildings in Harare, Zimbabwe. 
 
-Our Workflow
+### Our Workflow
 The instructors at GWU used the Tasking Manager tool to outline the study area (which is determined by our partners), and partition it for tracing. 
 Each student is given a quota of nodes to trace.
 
