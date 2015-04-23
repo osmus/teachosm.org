@@ -8,7 +8,7 @@ published: true
 ---
 
 ### Backstory
-In the United States, AP Geography is offered during high school students' freshman year.  As explained by The College Board[1], since it's introduction in 2001, the growth of the number of students taking the course has been one of the
+In the United States, AP Geography is offered during high school students' freshman year.  As explained by The College Board [1], since it's introduction in 2001, the growth of the number of students taking the course has been one of the
 fastest of all AP course offerings to high school students across the United States.  A similar growth pattern has taken place in the number of contributors to the OpenStreetMap (OSM) since it's birth and, in the United States specifically,
 since the 1st State of the Map U.S. (SOTMUS) Conference in 2010.
 
