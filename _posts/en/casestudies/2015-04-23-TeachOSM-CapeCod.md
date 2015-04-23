@@ -57,8 +57,8 @@ opportunity to introduce OSM to their students.  It is much appreciated.
 
 ### Contact Information
 Shawn Goulet   
-Email: shawndotgouletatgmaildotcom   
-Twitter: @Shawn_Goulet
+shawndotgouletatgmaildotcom   
+[@Shawn_Goulet] (https://twitter.com/Shawn_Goulet)   
 
 [1] [The College Board - AP Geography] (http://apcentral.collegeboard.com/apc/members/courses/teachers_corner/220797.html)   
 [2] [Field Papers](http://fieldpapers.org/)
