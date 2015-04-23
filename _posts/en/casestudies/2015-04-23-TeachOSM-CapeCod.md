@@ -22,7 +22,7 @@ Mashpee High School senior who went through the AP Geography program and assists
 ### The Mapping Task
 On Cape Cod, TeachOSM mapping began in the Fall of 2013.  Hilary and Shawn agreed that the simplest approach to track students' contributions to the OSM was to grid the specific town and assign grids to students to begin working on
 specific areas within the town  The grids are generated in GIS software and the number and/or size of the grids is whatever the teacher and Shawn agree is appropriate depending on different variables such as the number of students, the
-number of sections offered and others that is variable annually.  At this point, the students are introduced to OSM and Field Papers[2] throughout the course of the school year.  Throughout the course of the school year, the students
+number of sections offered and others that is variable annually.  At this point, the students are introduced to OSM and Field Papers [2] throughout the course of the school year.  Throughout the course of the school year, the students
 are tasked with continuously editing the OSM map features within their assigned grids.  In addition, there is a map features theme which tasks the students with editing map features that fall under the topics covered in the various
 sections of the course at the time each section is being covered within their town or another geographic area where they have great knowledge of map features on the ground.  If the teacher chooses, students work with the teacher and Shawn to
 develop a project surrounding OSM and possibly the use of a geoprocessing software.
