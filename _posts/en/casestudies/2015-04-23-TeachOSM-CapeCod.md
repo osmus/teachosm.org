@@ -5,11 +5,7 @@ permalink: "/en/cases/cape-cod/"
 lang: en
 category: cases
 published: true
-<!--- image: "/img/capecod-casestudy.jpg" -->
 ---
-
-<!--- ## OSM on Cape Cod -->
-<!--- <img src="/img/capecod-casestudy.jpg" /> -->
 
 ### Backstory
 In the United States, AP Geography is offered during high school students' freshman year.  As explained by The College Board[1], since it's introduction in 2001, the growth of the number of students taking the course has been one of the
