@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: TeachOSM Cape Cod
-permalink: /en/cases/cape-cod/
+permalink: "/en/cases/cape-cod/"
 lang: en
 category: cases
 published: true
