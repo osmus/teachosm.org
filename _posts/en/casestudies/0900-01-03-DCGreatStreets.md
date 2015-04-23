@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Conduct a Street-level Survey
+title: Conducting Street-level Surveys in DC
 permalink: "/en/cases/DCGreatStreets_survey_casestudy/"
 lang: en
 category: cases
 published: true
 ---
 
-# DC Great Streets: A Street-level Survey Using OpenStreetMap
+# "DC Great Streets: A Street-level Survey Using OpenStreetMap"
 
 ## Background
 
