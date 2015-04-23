@@ -56,9 +56,12 @@ dynamics out of everyone's control as previously described.  Regardless, OSM int
 opportunity to introduce OSM to their students.  It is much appreciated.
 
 ### Contact Information
-Shawn Goulet
-Email: shawndotgouletatgmaildotcom
+Shawn Goulet   
+
+Email: shawndotgouletatgmaildotcom   
+
 Twitter: @shawn_goulet
 
-[1] [The College Board - AP Geography] (http://apcentral.collegeboard.com/apc/members/courses/teachers_corner/220797.html)
+[1] [The College Board - AP Geography] (http://apcentral.collegeboard.com/apc/members/courses/teachers_corner/220797.html)   
+
 [2] [Field Papers](http://fieldpapers.org/)
