@@ -4,13 +4,26 @@ title: TeachOSM at State of the Map
 published: true
 ---
 
+In conjunction with the annual OpenStreetMap US [State of the Map US conference] (http://stateofthemap.us/), TeachOSM is presenting a half-day workshop on teaching geography using OpenStreetMap in the classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
+
+* Understand why OpenStreetMap is a great tool for teaching geography
+* How to map using OpenStreetMap
+* How to design and teach classroom modules around OpenStreetMap (OSM).
+
+Details:
+* Workshop date/time: Monday, June 8th, 9am-1pm.
+* Workshop location: NYU Global Center for Academic & Spiritual Life, 238 Thompson St, 3rd Fl, NYC 10012
+* Please register for both the conference and the workshop.
+
+To register for the conference, click [here] (http://tinyurl.com/k9zdvzy) and Use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends 1 June.
+
+
 Mapping has applicability across many fields and communities of interest, and can used to document, archive, plan and contribute to both local and international initiatives. During this workshop we will demonstrate a training program, which will incorporate hands-on mapping in the OSM environment. We would like to see other instructors replicate this mapping program for their particular discipline and curricular needs.
 
 Workshop Objectives:
 
 * Develop a mapping activity that can be replicated easily and scaled to accommodate a wide range of teachers
 * Develop a mapping activity that students can undertake for community service
-
 
 For or teachers/educators/librarians - devoted to methods for teachers wanting to incorporate OpenStreetMap into their classrooms
 
@@ -24,10 +37,7 @@ For or teachers/educators/librarians - devoted to methods for teachers wanting t
   * Street-level Survey (e.g. DC GreatStreets)
   * MapGive/HOT  (e.g. meeting humanitarian needs)
 
-###  When:
-
-Kickoff teacher track - State of the Map - US (6 - 8 June) New York City with a half-day workshop. Suggested schedule would be Friday afternoon to accommodate travel.
-
+Mapping has applicability across many fields and communities of interest, and can used to document, archive, plan and contribute to both local and international initiatives. During this workshop we will demonstrate a training program, which will incorporate hands-on mapping in the OSM environment. We would like to see other instructors replicate this mapping program for their particular discipline and curricular needs.
 
 ## Detailed Outline of Teacher Workshop
 
