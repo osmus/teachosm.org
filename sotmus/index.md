@@ -15,10 +15,10 @@ Details:
 * Workshop location: NYU Global Center for Academic & Spiritual Life, 238 Thompson St, 3rd Fl, NYC 10012
 * Please register for both the conference and the workshop.
 
-To register for the conference, click [here] (http://tinyurl.com/k9zdvzy) and Use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends 1 June.
+To register for the conference, 
+1. Click [here] (http://tinyurl.com/k9zdvzy) and Use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends 1 June. 
+2. Then click [here] (https://www.eventbrite.com/e/teachosm-workshop-teaching-geography-with-openstreetmap-tickets-17057282792) to register for the workshop.
 
-
-Mapping has applicability across many fields and communities of interest, and can used to document, archive, plan and contribute to both local and international initiatives. During this workshop we will demonstrate a training program, which will incorporate hands-on mapping in the OSM environment. We would like to see other instructors replicate this mapping program for their particular discipline and curricular needs.
 
 Workshop Objectives:
 
