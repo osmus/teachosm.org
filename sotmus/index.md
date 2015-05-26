@@ -15,7 +15,7 @@ Details:
 * Workshop location: NYU Global Center for Academic & Spiritual Life, 238 Thompson St, 3rd Fl, NYC 10012
 * Please register for both the conference and the workshop.
 
-### To register for the conference,
+### Register Now!
 
 1. Click [here] (http://tinyurl.com/k9zdvzy) and Use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends 1 June.
 
