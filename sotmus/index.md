@@ -11,13 +11,14 @@ In conjunction with the annual OpenStreetMap US [State of the Map US conference]
 * How to design and teach classroom modules around OpenStreetMap (OSM).
 
 Details:
+
 * Workshop date/time: Monday, June 8th, 9am-1pm.
 * Workshop location: NYU Global Center for Academic & Spiritual Life, 238 Thompson St, 3rd Fl, NYC 10012
 * Please register for both the conference and the workshop.
 
 ### Register Now!
 
-1. Click [here](http://tinyurl.com/k9zdvzy) and Use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends 1 June.
+1. Click [here](http://tinyurl.com/k9zdvzy) and use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends *1 June*.
 
 2. Then click [here](https://www.eventbrite.com/e/teachosm-workshop-teaching-geography-with-openstreetmap-tickets-17057282792) to register for the workshop.
 
