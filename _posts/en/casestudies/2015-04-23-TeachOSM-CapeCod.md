@@ -5,6 +5,8 @@ permalink: "/en/cases/cape-cod/"
 lang: en
 category: cases
 published: true
+image: "/img/capecod-casestudy-1.JPG"
+image: "/img/capecod-casestudy-2.JPG"
 ---
 
 ### Backstory
