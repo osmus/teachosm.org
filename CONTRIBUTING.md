@@ -1,11 +1,11 @@
 # Contributing to TeachOSM
 
-Thank you for your interest in contributing to [teachosm.org](http://teachosm.org). This file explains how to make
-contributions. We can also coordinate work with ['issues' here on github](https://github.com/osmlab/teachosm/issues?state=open), and discussion on the [TeachOSM Mailing list](https://lists.openstreetmap.org/listinfo/teachosm). Be sure to follow these channels if you are interested in ongoing contribution. 
+Thank you for your interest in contributing to [teachosm.org](http://teachosm.org). We explain here how to make
+contributions to this repository. We can also coordinate work by creating an ['issue' here on github](https://github.com/osmlab/teachosm/issues?state=open), and discussion on the [TeachOSM Mailing list](https://lists.openstreetmap.org/listinfo/teachosm). Be sure to follow these channels if you are interested in ongoing contribution. 
 
 ## Relationship to LearnOSM
 
-This site is a fork of the great work done by the folks who contributed to [learnosm.org](http://learnosm.org).  We believe that TeachOSM.org will be a complement to that project and want to ensure the two are well-linked.
+This site started as a fork of the great work done by the folks who contributed to [LearnOSM](http://learnosm.org).  The materials here on TeachOSM.org in many cases complement the materials found at LearnOSM. The intent to date, has been to mirror the structure of TeachOSM materials after the structure of LearnOSM. Depending on the volume and complexity of your contribution, it may be useful to have a look at how LearnOSM is put together prior to submitting your content.
 
 ## Text modifications and translations
 
