@@ -15,7 +15,7 @@ The outline procedure for contributing is: [fork the TeachOSM repository](https:
 
 TeachOSM is built with [Jekyll](http://jekyllrb.com/). All content can be found under `_posts/`. The site is multilingual and posts are organized by language code (`_posts/bi`, `_posts/en`, etc).
 
-It's handy to run the site locally when editing content or code - Jekyll documentation contains a good section on [installation](http://jekyllrb.com/docs/installation/).
+It's handy to run the site locally when editing content or code. Jekyll documentation contains a good section on [installation](http://jekyllrb.com/docs/installation/).
 
 For fresh translations always start with a copy of the English guide.
 
