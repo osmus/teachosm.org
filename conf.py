@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'learnosm'
-copyright = u'2012, Kate Chapman'
+project = u'teachosm'
+copyright = u'2015, Steven Johnson'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'learnosmdoc'
+htmlhelp_basename = 'teachosmdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,8 +183,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'learnosm.tex', u'learnosm Documentation',
-   u'Kate Chapman', 'manual'),
+  ('index', 'teachosm.tex', u'TeachOSM Documentation',
+   u'Steven Johnson', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -213,8 +213,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'learnosm', u'learnosm Documentation',
-     [u'Kate Chapman'], 1)
+    ('index', 'teachosm', u'Teachosm Documentation',
+     [u'Steven Johnson'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'learnosm', u'learnosm Documentation',
-   u'Kate Chapman', 'learnosm', 'One line description of project.',
+  ('index', 'teachosm', u'Teachosm Documentation',
+   u'Steven Johnson', 'teachosm', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -245,10 +245,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'learnosm'
-epub_author = u'Kate Chapman'
-epub_publisher = u'Kate Chapman'
-epub_copyright = u'2012, Kate Chapman'
+epub_title = u'teachosm'
+epub_author = u'Steven Johnson'
+epub_publisher = u'Steven Johnson'
+epub_copyright = u'2015, Steven Johnson'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
