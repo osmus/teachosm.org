@@ -4,7 +4,7 @@ Repository for http://teachosm.org
 
 These pages comprise TeachOSM, a set of community contributed resources for teachers, trainers, educators, and instructors who want to bring OpenStreetMap into their classrooms.
 
-![homepage](https://raw.github.com/hotosm/learnosm/gh-pages/homepage.png)
+![homepage](https://raw.github.com/teachosm/2015-10-21_1255_teachosm_page.png)
 
 ## Contributing
 
