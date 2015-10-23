@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-	author="learnOSM.org"
+	author="TeachOSM.org"
 	version="1.0"
 	shortdescription="Sample Presets File"
 	description="Demonstrating how to create custom presets files for JOSM">
