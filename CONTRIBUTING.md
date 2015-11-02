@@ -7,13 +7,13 @@ contributions to this repository. We can also coordinate work by creating an ['i
 
 This site started as a fork of the great work done by the folks who contributed to [LearnOSM](http://learnosm.org).  The materials here on TeachOSM.org in many cases complement the materials found at LearnOSM. The intent to date, has been to mirror the structure of TeachOSM materials after the structure of LearnOSM. Depending on the volume and complexity of your contribution, it may be useful to have a look at how LearnOSM is put together prior to submitting your content.
 
-## Text modifications and translations
+## Translations and related text modifications
 
 Daniel Joseph has written a [detailed explanation of the translation workflow](https://github.com/AmericanRedCross/Guides/blob/master/TranslationWorkflow_LearnOSM/translatorWorkflow.md) assuming no technical/github know-how.  The explanation is intended for LearnOSM but should also be useful for this site.
 
 The outline procedure for contributing is: [fork the TeachOSM repository](https://help.github.com/articles/fork-a-repo), improve content or site, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
 
-TeachOSM is built with [Jekyll](http://jekyllrb.com/). All content can be found under `_posts/`. The site is multilingual and posts are organized by language code (`_posts/bi`, `_posts/en`, etc).
+TeachOSM is built with [Jekyll](http://jekyllrb.com/). All content can be found under `_posts/`. The site is multilingual and posts are organized by language code (`_posts/id`, `_posts/en`, `_posts/es`, etc).
 
 It's handy to run the site locally when editing content or code. Jekyll documentation contains a good section on [installation](http://jekyllrb.com/docs/installation/).
 
