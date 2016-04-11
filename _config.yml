@@ -8,7 +8,7 @@ columnist:
   paths:
   - _posts
 baseurl: ''
-rdiscount:
+kramdown:
   extensions: [smart]
 prose:
   rooturl: '_posts'
