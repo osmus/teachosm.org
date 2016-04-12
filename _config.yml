@@ -8,7 +8,6 @@ columnist:
   paths:
   - _posts
 baseurl: ''
-  extensions: [smart]
 prose:
   rooturl: '_posts'
 translations:
