@@ -1,14 +1,14 @@
 auto: true
 pygments: true
 server: true
-markdown: rdiscount
+markdown: kramdown
 permalink: /:categories/:title/
 email: info@teachosm.org
 columnist:
   paths:
   - _posts
 baseurl: ''
-kramdown:
+kramdown
   extensions: [smart]
 prose:
   rooturl: '_posts'
