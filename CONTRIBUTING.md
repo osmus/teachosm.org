@@ -23,13 +23,13 @@ For fresh translations always start with a copy of the English guide.
 
 - Download and install [Ruby 1.9](http://rubyinstaller.org/downloads/), enable the PATH setting during installation
 - Open a command prompt (cmd.exe) and install jekyll by typing `gem install jekyll`
-- Install rdiscount by typing `gem install rdiscount --platform=ruby -v 1.6.8`
-- Navigate to your local learnosm repository `cd C:\learnosm`
+- Install kramdown by typing `gem install kramdown --platform=ruby -v 2.1.1`
+- Navigate to your local teachosm repository `cd C:\teachosm`
 - Start the local webserver by executing the following 2 commands, or save them to a .bat file and start:
 
 	```
     chcp 65001
-    jekyll --rdiscount > jekyll_log.txt 2> jekyll_errorlog.txt
+    jekyll --kramdown > jekyll_log.txt 2> jekyll_errorlog.txt
     ```
 
 - Open a browser and go to localhost:4000
@@ -38,7 +38,7 @@ For fresh translations always start with a copy of the English guide.
 
 - Make sure your version of Ruby is up to date
 - gem install jekyll
-- gem install rdiscount
+- gem install kramdown
 - From within your local teachosm repository, jekyll serve --w
 - Open a browser and go to localhost:4000
 
