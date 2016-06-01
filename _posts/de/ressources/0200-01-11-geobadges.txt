@@ -1,0 +1,3 @@
+GeoBadges - GeoBadges gewähren Kredit in Form von 'micro-credentials' für bewiesende Fähigkeit in open source mapping Techniken, inklusive OpenStreetMap. Die Idee ist das Schüler verschiedene 
+Badges verdienen können, die ihre Fähigkeiten zeigen im erstellen von qualitativen Kartendaten. Diese Badges können in einem Lebenslauf oder einem CV aufgelistet werden, und in einer nicht zu fernen
+Zukunft, zählen sie zu den Lernvoraussetzungen in vielen Schulen.
