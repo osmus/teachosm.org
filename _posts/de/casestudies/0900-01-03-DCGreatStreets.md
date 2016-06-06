@@ -1,8 +1,8 @@
----
+﻿---
 layout: doc
 title: Conducting Street-level Surveys in DC
-permalink: "/en/cases/DCGreatStreets_survey_casestudy/"
-lang: en
+permalink: "/de/cases/DCGreatStreets_survey_casestudy/"
+lang: de
 category: cases
 published: true
 ---

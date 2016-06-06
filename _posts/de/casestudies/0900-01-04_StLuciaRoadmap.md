@@ -1,3 +1,5 @@
+ï»¿
+
 ## MapSaintLucia - eine in einer Gemeinschafft entwickelte Strassenkarte
 
 Herzlichen Glückwunsch! Sie haben soeben einen Mapathon erfolgreich abgeschlossen und können kaum die Möglichkeit erwarte, weitere Mapping Events zu unternehmen. Also dann, was sollten Sie nun tuen? Dieses Dokument enthält Elemente eines noch offenen Mapping-Plans für Saint Lucia mit einem speziellen Fokus auf technische Weiterentwicklung und Gemeineentwicklung. Dieser ist als 6 Monateplan konzipiert, kann aber auch leicht auf die lokale Gemeinschafft angepasst werden.
