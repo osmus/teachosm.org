@@ -1,0 +1,118 @@
+Charter for TeachOSM Project
+========================================
+
+Revision History
+-----------------
+
+
+|Version    |    Date    |    Author    |    Change    |
+|-----------|------------|--------------|--------------|
+|1.0        |13 May 2016 |    SEJ    | Initial version |
+|1.1        |20 May 2016 |    SEJ   |   Update Purpose, voting procedures |
+|1.2        |26 May 2016 |    SEJ   |  Incorporate comments from Board |
+
+    
+Project Name
+------------------
+
+The name of this project is TeachOSM.
+
+Purpose
+-------
+
+The purpose of this project is to provide operational support and strategic guidance for the educational outreach mission of OpenStreetMap US.
+
+Scope
+-----
+
+The scope of the TeachOSM project is:
+  * To promote the adoption and use of OpenStreetMap to teach geography
+  * To develop a set of tools for educators and instructors that enable them to use OpenStreetMap to teach geography and mapping technique.
+  * To support congruent educational initiatives of the OpenStreetMap US community.
+  * To augment the work of the Humanitarian OpenStreetMap Team Training Working Group and extend the vocational education and training efforts of HOT. 
+
+Out of Scope
+------------
+
+Activities not directly related to the educational objectives above. 
+
+Operational Practices
+---------------------
+
+The tools/means by which TeachOSM working group will collaborate include:
+
+* TeachOSM may use Google Docs document collaboration.
+* TeachOSM may use Hackpad to collaborate.
+* TeachOSM may use Google video calls `('hangouts')` for meetings.
+* TeachOSM will publish all meeting notes publicly to the TeachOSM list as well as to the OpenStreetMap wiki.
+* Routine, day-to-day conversations will be held on a subchannel of the OpenStreetMap US Slack channel.
+
+These tools may be revised as the technical environment evolves. However, all decisions of the group will be posted publicly.
+
+Deliverables and Milestones
+---------------------------
+
+Deliverables of the TeachOSM workgroup include:
+  * All materials on the TeachOSM website, specifically the case studies, curricula, lessons, modules, reports, and other materials deemed relevant to the TeachOSM mission.
+  * Support for GeoBadges
+  * Contributions to an OSM data validation module and workflow
+  * Programming for the Census Project Survey America program
+  * Other course materials developed for workshops, trainings, and seminars
+
+Reporting
+---------
+
+The Steering Committee will report to the Board at a minimum of once annually. The report will include at a minumum project status for finances, staffing, significant accomplishments, identification of project needs and risks, and project outlook. The Steering Committee and the Board will set the date for the initial report and establish a date for recurring reports. 
+
+Current Meeting Schedule
+------------------------
+
+Meetings are scheduled to occur on _TBD_. From time to time, ad hoc meetings may be scheduled when issues arise that require immediate attention. 
+
+Steering Committee
+------------------
+
+The purpose of the Steering Committee is to provide operational support and strategic guidance for the TeachOSM project. The initial Steering Committee consists of five members. These five members are: 
+
+1. Nuala Cowan, George Washington University
+2. Mikel Maron, Mapbox
+3. Maggie Cawley, Boomerang Geospatial
+4. Richard Hinton, George Washington University
+5. Steven Johnson, GeomanticLabs
+
+Steering Committee Responsibilities
+-----------------------------------
+
+All members must participate in meetings, conference calls, as well as work collectively and individually to meet the objectives of the TeachOSM Working Group. 
+
+Duration
+--------
+
+This charter will be revised from time-to-time as conditions warrant, or as OpenStreetMap US and TeachOSM deem necessary. In any event, this charter shall be reviewed and any necessary revisions made no later than 1 June, 2017.
+
+Voting and Dispute Resolution
+----------------------------------------
+
+Voting is the method for dispute resolution and voting is vested in the Steering Committee at this time. Decisions affecting the project will be determined by a majority vote of the Steering Committee.
+
+Current Links
+-------------
+
+1. The [TeachOSM website](http://teachosm.org)
+2. The [TeachOSM mailing list](https://lists.openstreetmap.org/listinfo/teachosm)
+3. The [TeachOSM Twitter feed](http://twitter.com/TEACHOSM)
+ 
+
+Partners
+--------
+
+Listed here are partners and allies of the TeachOSM project.
+
+1. [Humanitarian OpenStreetMap Team](http://hotosm.org/), maintains [LearnOSM](http://learnosm.org) on basic mapping instruction, as well as maintains the OSM Tasking Manager.
+2. [Humanitarian OpenStreetMap Team Training Working Group](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/Working_groups/Training), focuses on maintining HOT's training resources, including LearnOSM.
+3. [Geobadges](http://geobadges.org/) operated under the aegis of the [American Geographic Society](http://americangeo.org/), Geobadges offers micro-credentials for geographic learning.
+4. [OpenStreetMap](http://openstreetmap.org/), the parent project.
+5. [YouthMappers](http://youthmappers.org/), a consortium of university-level student mapping clubs.
+
+Additional partners may be added as the TeachOSM project evolves.
+
