@@ -1,4 +1,4 @@
-﻿#TeachOSM Glossar#
+#TeachOSM Glossar#
 
 |Entry| Term | Definition | Source | Links/Resources|
 |1 TeachOSM | Ist eine Online Ressource, die Pädagogen auf allen Ebenen dabei unterstützt beim Kennenlernen von OpenStreetMap im Unterrichtsgebrauch. Instruktoren können das verfügbare Material benutzen für das Erstellen von Aufgaben, die den fachrichterlichen oder curricularen Gebräuche angepasst werden können. |TOSM |
