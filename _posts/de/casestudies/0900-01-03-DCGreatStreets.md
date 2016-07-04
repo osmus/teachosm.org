@@ -1,4 +1,4 @@
-﻿---
+---
 layout: doc
 title: Conducting Street-level Surveys in DC
 permalink: "/de/cases/DCGreatStreets_survey_casestudy/"
