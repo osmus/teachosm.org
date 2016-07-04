@@ -1,4 +1,4 @@
-﻿
+
 
 ## MapSaintLucia - eine in einer Gemeinschafft entwickelte Strassenkarte
 

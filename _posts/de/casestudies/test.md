@@ -1,4 +1,4 @@
-﻿---
+---
 published: false
 layout: doc
 title: Test Case
