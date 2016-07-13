@@ -7,7 +7,7 @@ email: info@teachosm.org
 columnist:
   paths:
   - _posts
-baseurl: ''
+baseurl: 'teachosm'
 prose:
   rooturl: '_posts'
 translations:
