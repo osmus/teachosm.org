@@ -5,7 +5,7 @@
 |2 OpenStreetMap | is the free and open web map of the world. Anyone can edit OpenStreetMap and it supports a level of granularity not common maps produced by official agencies. Because of that, OpenStreetMap is an ideal platform for teaching the fundamentals of geography, such as place, space, and location. | TOSM | [TeachOSM](https://www.openstreetmap.org/) |
 |3 Open Source | means accessibility for everyone, and updates and corrections are easily made online. The vast majority of mapping on the open platform comes from individuals, or small groups of individuals, such as community groups. | TOSM | [Choosing a Web Mapping Platform](http://wiki.osgeo.org/wiki/Choosing_a_Web_Mapping_Platform) |
 |4| Mapping Platform | a toolkit that helps you build a web mapping application. | OSGEO | [OSGEO](http://wiki.osgeo.org/wiki/Choosing_a_Web_Mapping_Platform) |
-|5| OSM Foundation | an international not-for-profit organization supporting, but not controlling, the OpenStreetMap Project. | OSMF | (http://www.osmfoundation.org/wiki/Main_Page) |
+|5| OSM Foundation | an international not-for-profit organization supporting, but not controlling, the OpenStreetMap Project. | OSMF |[OSMF](http://www.osmfoundation.org/wiki/Main_Page) |
 |6| Scale | 
 |7| Survey | 
 |8| Mapping |
