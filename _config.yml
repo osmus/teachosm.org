@@ -1,15 +1,13 @@
 auto: true
-pygments: true
+highlighter: rouge
 server: true
-markdown: rdiscount
+markdown: kramdown
 permalink: /:categories/:title/
 email: info@teachosm.org
 columnist:
   paths:
   - _posts
 baseurl: ''
-rdiscount:
-  extensions: [smart]
 prose:
   rooturl: '_posts'
 translations:
@@ -20,3 +18,11 @@ translations:
     training: "Check out training material for this guide (in English)"
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!" 
+  de:
+    tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
+    contribute: "Hilf mit, unsere Anleitungen zu verbessern"
+    trainingspan: "Veranstaltest du Workshops?"
+    training: "Siehr dir unsere Unterlagen für diesen Kurs an (in Englisch)"
+    feedbackspan: "War dieses Kapitel hilfreich?"
+    feedback: "Sende uns Feedback und verbessere die Anleitungen!"
+    getstarted: "weiter zum nächsten Kapitel"

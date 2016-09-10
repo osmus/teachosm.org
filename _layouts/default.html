@@ -31,6 +31,19 @@
   </head>
   <body>
   <div id='wrapper'>
+	<div class="fillG cell11" id="banner-top">
+      <small class='language-switcher marginL marginR cell11 cf'>
+        <a lang='en'>English</a> |
+        <a lang='de'>Deutsch</a> |
+      </small>
+      <!-- small search bar does not appear on the front page -->
+      {% unless page.fronttitle or page.contributetitle%}
+      <form class='searchbox-default rounded'>
+        <span class='icon logo-search'></span>
+        <input id='search-field' type='text' name='search' class='default-value' />
+      </form>
+      {% endunless%}
+    </div>
     <div id='header' class='cell12'>
       <div class='marginL cell9 padAll'>
         <div class='cell7 marginR'>
