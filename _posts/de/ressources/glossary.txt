@@ -1,0 +1,22 @@
+#TeachOSM Glossar#
+
+|Entry| Term | Definition | Source | Links/Resources|
+|1 TeachOSM | Ist eine Online Ressource, die Pädagogen auf allen Ebenen dabei unterstützt beim Kennenlernen von OpenStreetMap im Unterrichtsgebrauch. Instruktoren können das verfügbare Material benutzen für das Erstellen von Aufgaben, die den fachrichterlichen oder curricularen Gebräuche angepasst werden können. |TOSM |
+|2 OpenStreetMap | Ist eine gratis und freizugängliche Webkarte von der Erde. Jeder kann OpenStreetMap bearbeiten und sie unterstützt eine Granularitätsebene und nicht eine gewöhnliche Karte die von offiziellen Firmen erstellt wurden. Wegen dem ist OpenStreetMap eine ideale Plattform, um die Grundkenntnisse von Geographie, wie Platz, Raum und Standort, beizubringen | TOSM | (https://www.openstreetmap.org/) |
+|3 Open Source | Bedeutet Zugänglichkeit für jeden, Updates und Verbesserungen können gemütlich online getan werden. Die grosse Mehrheit des Mappens auf der open Plattform werden von Individuen oder kleinen Gruppen, wie Gemeinschaftsgruppen, gemacht| TOSM | (http://wiki.osgeo.org/wiki/Choosing_a_Web_Mapping_Platform) |
+|4| Mapping Plattform | Ein Hilfsprogramm, das dabei hilft eine Web Mapping Applikation zu erstellen  | OSGEO | (http://wiki.osgeo.org/wiki/Choosing_a_Web_Mapping_Platform) |
+|5| OSM Foundation | Eine Internationale none-profit Organisation unterstützt, aber kontrolliert nicht, das OpenStreetMap-Projekt | OSMF | (http://www.osmfoundation.org/wiki/Main_Page) |
+|6| Scale | 
+|7| Survey | 
+|8| Mapping |
+|9| Geography |
+|10| Humanitarian OpenStreetMap Team (HOT) |
+|11| Field Papers |
+|12| Resolution |
+|13| Case Study |
+|14| Tasking Manager (OSM TM) |
+|15| Job |
+|16| Administrative Rights |
+|17| GeoJSON |
+|18| KML |
+|19| Cell Size |
