@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/resources/whosaroundme
 lang: en
-title: Who's Around Me: Find Nearby Mappers
+title: Who's Around Me - Find Nearby Mappers
 category: resources
 published: true
 ---
