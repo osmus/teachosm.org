@@ -3,14 +3,15 @@ layout: contribute
 permalink: /de/contribute/
 lang: de
 title: Contribute
-contributetitle: Help improve our guides
-startwith: "Ready to get started?"
-startA: Send us feedback
-startB: Make a Suggestion
-startC: Fork and improve site
+contributetitle: Helfen Sie uns unsere Anleitungen zu verbessern
+startwith: "Bereit loszulegen?"
+startA: Schicken Sie uns Feedback
+startB: Einen Vorschlag machen
+startC: Seite forken und verbessern
 nosearch: true
 published: true
 ---
 
-This guide is created and maintained by the 
-TeachOSM community. You can help us improve this guide by simply sending your feedback via email to: info [at] teachosm.org, or by contributing directly to the [Github](http://github.com/osmlab/teachosm) repository.
+Diese Anleitung wurde von der TeachOSM Community erstellt
+und wird von ihr auch verwaltet. Sie können uns helfen unsere Anleitung zu verbessern, indem Sie uns Ihr Feedback per Email an folgende Adresse schicken: info [at] teachosm.org, 
+oder indem Sie direkt an unserem [Github](http://github.com/osmlab/teachosm) Repository beitragen.
