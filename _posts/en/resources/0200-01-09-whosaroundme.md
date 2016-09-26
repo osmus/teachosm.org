@@ -1,5 +1,10 @@
 ---
-published: false
+layout: doc
+permalink: /en/resources/whosaroundme
+lang: en
+title: Who's Around Me - Find Nearby Mappers
+category: resources
+published: true
 ---
 
 ## Find other mappers near you using Who's Around Me

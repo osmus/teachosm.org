@@ -1,3 +1,11 @@
+---
+layout: doc
+permalink: /en/resources/CommDevRoadmap
+lang: en
+title: Community Development Roadmap
+category: resources
+published: false
+---
 # Community Development Roadmap
 
 Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.
