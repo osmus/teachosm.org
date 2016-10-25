@@ -13,6 +13,6 @@ Youthmappers is a project of the Mapping for Resiliance University Consortium Gr
 Capitalizing on web-based open geospatial technologies, Youthmapper's mission is to cultivate a generation of young leaders to create resilient communities and to define their world by mapping it.
 
 
-Visit the [Youthmappers](http://www.youthmappers.org/)site to find out more about our program, and how you can start your own chapter. The organization provides structure and guidance to the individual, student-led chapters and their mapping efforts
+Visit the [Youthmappers](http://www.youthmappers.org/) site to find out more about our program, and how you can start your own chapter. The organization provides structure and guidance to the individual, student-led chapters and their mapping efforts
 
 
