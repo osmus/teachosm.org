@@ -7,4 +7,6 @@ category: resources
 published: true
 ---
 ## Youthmappers
-Youtmappers is a project of the Mapping for Resiliance University Consortium Grant, funded by the Geocenter at USAID
+Youthmappers is a project of the Mapping for Resiliance University Consortium Grant, funded by the Geocenter at USAID. 
+
+To find out more about Youthmappers, visit out site
