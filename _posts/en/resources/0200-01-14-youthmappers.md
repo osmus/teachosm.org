@@ -1,8 +1,8 @@
 ---
 layout: doc
-permalink: /en/resources/hot
+permalink: /en/resources/youthmappers
 lang: en
-title: The Humanitarian OpenStreetMap Team (HOT)
+title: YouthMappers
 category: resources
 published: true
 ---
