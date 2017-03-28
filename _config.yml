@@ -30,6 +30,8 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+#Added site map
+- jekyll-sitemap
 
 translations:
   en:
