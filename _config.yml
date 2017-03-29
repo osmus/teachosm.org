@@ -31,7 +31,8 @@ prose:
     - /_layouts
     - /_includes
 #Added site map
-# - jekyll-sitemap
+gems:
+  - jekyll-sitemap
 
 translations:
   en:
