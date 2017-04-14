@@ -1,15 +1,39 @@
-auto: true
-highlighter: rouge
-server: true
+#Jekyll configuration file
+
+#Build configuration, see http://jekyllrb.com/docs/configuration/#default-configuration
+# auto: true
+# server: true
+highlighter:  rouge
 markdown: kramdown
+kramdown:
+  extensions: [smart]
+
+#Permalink structure, see http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title/
 email: info@teachosm.org
+
+#Front Matter, see http://jekyllrb.com/docs/configuration/#front-matter-defaults
 columnist:
   paths:
   - _posts
+
+#serving the site, see http://jekyllrb.com/docs/configuration/#default-configuration or http://jekyllrb.com/docs/github-pages/#project-page-url-structure
 baseurl: ''
+
+#Prose configurations, see https://github.com/prose/prose/wiki/Prose-Configuration
 prose:
   rooturl: '_posts'
+  siteurl: "http://teachosm.org/"
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+#Added site map
+gems:
+  - jekyll-sitemap
+
 translations:
   en:
     tagline: "Teach OpenStreetMap Step by Step"
