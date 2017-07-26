@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/resources/
-lang: en
+permalink: /es/resources/
+lang: es
 title: Resources
 category: resources
 cover: "yes"
