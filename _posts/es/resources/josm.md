@@ -1,0 +1,3 @@
+## El Editor JOSM para OpenStreetMap
+
+Los ejemplos de esta guía han estado basados en su mayoría en el iD editor. Sin embargo, el editor Java para OpenStreetMap, o JOSM es un buen complemento para iD, especialmente para tareas más complejas. El [JOSM](https://josm.openstreetmap.de/) tiene un conjunto de elementos más robusto, pero también una curva de aprendizaje más pronunciada. Sin embargo, para realizar algunas pruebas más avanzadas, -tales como la gestión de relaciones (un tipo de datos geográficos especial), es indispensable. 
