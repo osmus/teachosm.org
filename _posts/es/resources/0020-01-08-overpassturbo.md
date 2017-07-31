@@ -4,6 +4,7 @@ permalink: /es/resources/overpass
 lang: es
 title: Validación de calidad de datos con Overpass Turbo
 category: resources
+published: true
 ---
 
 ## Validación de calidad de datos con Overpass Turbo
