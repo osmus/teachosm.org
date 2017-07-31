@@ -9,7 +9,7 @@ kramdown:
   extensions: [smart]
 
 #Permalink structure, see http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:title/
+permalink: /:lang/:categories/:title/
 email: info@teachosm.org
 
 #Front Matter, see http://jekyllrb.com/docs/configuration/#front-matter-defaults
