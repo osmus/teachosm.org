@@ -4,6 +4,7 @@ permalink: /es/resources/maproulette
 lang: es
 title: MapRoulette
 category: resources
+published: true
 ---
 
 ## MapRoulette
