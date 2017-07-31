@@ -50,3 +50,11 @@ translations:
     feedbackspan: "War dieses Kapitel hilfreich?"
     feedback: "Sende uns Feedback und verbessere die Anleitungen!"
     getstarted: "weiter zum nächsten Kapitel"
+  es:
+    tagline: "Enseña OpenStreetMap (OSM) paso a paso"
+    contribute: " "
+    trainingspan: " "
+    training: " "
+    feedbackspan: " "
+    feedback: " "
+    getstarted: " " 
