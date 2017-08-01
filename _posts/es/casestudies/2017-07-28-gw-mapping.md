@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: OSM at George Washington University
+title: OSM en la Universidad de George Washington
 permalink: /es/cases/gwu/
 lang: es
 category: cases
