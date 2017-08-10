@@ -12,4 +12,4 @@ nosearch: true
 published: true
 ---
 
-placeholder
+This is placeholder for text en Español
