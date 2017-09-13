@@ -4,21 +4,21 @@ title: TeachOSM at State of the Map
 published: true
 ---
 
-In conjunction with the annual OpenStreetMap US [State of the Map US conference] (http://stateofthemap.us/), TeachOSM is presenting a half-day workshop on teaching geography using OpenStreetMap in the classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
+In conjunction with the annual OpenStreetMap US [State of the Map US conference] (http://stateofthemap.us/), TeachOSM is presenting a one-day workshop on teaching geography using OpenStreetMap in the classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
 
-* Understand why OpenStreetMap is a great tool for teaching geography
+* Learn how to introduce open mapping techniques 
 * How to map using OpenStreetMap
-* How to design and teach classroom modules around OpenStreetMap (OSM).
+* Incorporate open mapping into the AP Human Geography curriculum.
 
 Details:
 
-* Workshop date/time: Monday, June 8th, 9am-1pm.
-* Workshop location: NYU Global Center for Academic & Spiritual Life, 238 Thompson St, 3rd Fl, NYC 10012
+* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
+* Workshop location: [BOULDER]
 * Please register for both the conference and the workshop.
 
 ### Register Now!
 
-1. Click [here](http://tinyurl.com/k9zdvzy) and use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends *1 June*.
+1. Click [here](http://tinyurl.com/k9zdvzy) and use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends *30 September*.
 
 2. Then click [here](https://www.eventbrite.com/e/teachosm-workshop-teaching-geography-with-openstreetmap-tickets-17057282792) to register for the workshop.
 
@@ -33,18 +33,13 @@ For or teachers/educators/librarians - devoted to methods for teachers wanting t
 * OpenStreetMap: The Project
 * Intro to editing OSM
 * Conducting field work
-* Tools to assess quality (Overpass Turbo) and assign credit
+* Tools to assess quality and assign credit
 * Organizing and event: How-To
-* focus on refining educational (pedacological) aspects of teaching mapping OpenStreetMap
-  * Mapping guided historical trails (architectural walking tours)
-  * Street-level Survey (e.g. DC GreatStreets)
-  * MapGive/HOT  (e.g. meeting humanitarian needs)
-
-Mapping has applicability across many fields and communities of interest, and can used to document, archive, plan and contribute to both local and international initiatives. During this workshop we will demonstrate a training program, which will incorporate hands-on mapping in the OSM environment. We would like to see other instructors replicate this mapping program for their particular discipline and curricular needs.
+* Using the TeachOSM for High School modules in your class
 
 ## Detailed Outline of Teacher Workshop
 
-You’ve heard about OpenStreetMap, but how can you make use of it to teach geography? This is a half-day workshop aimed at teachers and who would like to incorporate OpenStreetMap into their classes, but open to anyone who would like to teach OpenStreetMap or 
+Mapping in OpenStreetMap is a singularly valuable activity, but how can you make use of it to teach geography? This is a one-day workshop aimed at teachers and who would like to incorporate OpenStreetMap into their classes, but open to anyone who would like to teach open mapping techniques. 
 
 At the end of this workshop you should be able to:
 
