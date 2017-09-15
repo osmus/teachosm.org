@@ -13,6 +13,11 @@ Mapping in OpenStreetMap is a valuable activity, but how can you make use of it 
 * Use open mapping to teach geography, social sciences, and natural sciences
 * Incorporate open mapping into the AP Human Geography curriculum.
 
+## Workshop Time & Place:
+The State of the Map conference takes place Fri, 20 Oct through Sun, 22 October.
+* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
+* Workshop location: University of Colorado, Boulder
+
 ## Who should attend: 
 * High School, community college, and university geography teachers
 * Other educators, vocational instructors, librarians who want to teach open mapping 
@@ -32,10 +37,7 @@ At the end of this workshop, you should be able to:
 * Organizing and event: How-To
 * Using the TeachOSM for High School modules in your class
 
-## Register Now!
-* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
-* Workshop location: University of Colorado, Boulder
-
-## Click [here](https://ti.to/osmus/state-of-the-map-us-2017) and register as a student/academic. Please use the special code, 'TEACHOSM' to get the reduced registration price.
+## Register Now! Click [here](https://ti.to/osmus/state-of-the-map-us-2017) and register as a student/academic. 
+Please use the special code, 'TEACHOSM' to get the reduced registration price.
 
 
