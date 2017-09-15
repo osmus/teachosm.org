@@ -4,23 +4,21 @@ title: TeachOSM at State of the Map
 published: true
 ---
 
-In conjunction with the annual OpenStreetMap US [State of the Map US conference] (http://stateofthemap.us/), TeachOSM is presenting a one-day workshop on teaching geography using OpenStreetMap in the classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
+ TeachOSM is presenting a one-day workshop for educators . Attend both the [State of the Map US conference] (http://stateofthemap.us/) and develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
 
 * Learn how to introduce open mapping techniques 
 * How to map using OpenStreetMap
 * Incorporate open mapping into the AP Human Geography curriculum.
 
-Details:
-
-* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
-* Workshop location: [BOULDER]
-* Please register for both the conference and the workshop.
-
 ### Register Now!
 
-1. Click [here](http://tinyurl.com/k9zdvzy) and use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends *30 September*.
+* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
+* Workshop location: [BOULDER.SPECIFIC.SITE.COMING.SOON]
+* Please register for both the conference _AND_ the workshop.
 
-2. Then click [here](https://www.eventbrite.com/e/teachosm-workshop-teaching-geography-with-openstreetmap-tickets-17057282792) to register for the workshop.
+1. Click [here](http://UPDATE.ME) and use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends *30 September*.
+
+2. Then click [here](https://REGISTRATION.LINK.HERE) to register for the workshop.
 
 
 Workshop Objectives:
