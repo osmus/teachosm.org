@@ -3,10 +3,11 @@ layout: event
 title: TeachOSM at State of the Map
 published: true
 ---
-### Every Student a Mapper: Teaching Geography with OpenStreetMap
+
+# Every Student a Mapper: Teaching Geography with OpenStreetMap
 ## Creating Awesome Mapping Projects with Free Software
 
-TeachOSM is presenting a one-day open mapping workshop for geography teachers and other educators. Come attend the [State of the Map US conference] (http://stateofthemap.us/) and a special workshop where you can develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
+Mapping in OpenStreetMap is a valuable activity, but how can you make use of it to teach geography? TeachOSM is presenting a one-day open mapping workshop for geography teachers and other educators. Come attend the [State of the Map US conference] (http://stateofthemap.us/) and a special workshop where you can develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
  
 * Acquire open mapping skills using OpenStreetMap
 * Use open mapping to teach geography, social sciences, and natural sciences
@@ -31,15 +32,10 @@ At the end of this workshop, you should be able to:
 * Organizing and event: How-To
 * Using the TeachOSM for High School modules in your class
 
-### Register Now!
-
+## Register Now!
 * Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
 * Workshop location: University of Colorado, Boulder
 
-# Click [here](https://ti.to/osmus/state-of-the-map-us-2017) and register as a student/academic. Please use the special code, 'TEACHOSM' to get the reduced registration price.
-
-
-
-Mapping in OpenStreetMap is a valuable activity, but how can you make use of it to teach geography? This is a one-day workshop aimed at teachers and who would like to incorporate OpenStreetMap into their classes, but open to anyone who would like to teach open mapping techniques. 
+## Click [here](https://ti.to/osmus/state-of-the-map-us-2017) and register as a student/academic. Please use the special code, 'TEACHOSM' to get the reduced registration price.
 
 
