@@ -3,84 +3,43 @@ layout: event
 title: TeachOSM at State of the Map
 published: true
 ---
+### Every Student a Mapper: Teaching Geography with OpenStreetMap
+## Creating Awesome Mapping Projects with Free Software
 
- TeachOSM is presenting a one-day workshop for educators . Attend both the [State of the Map US conference] (http://stateofthemap.us/) and develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
-
-* Learn how to introduce open mapping techniques 
-* How to map using OpenStreetMap
+TeachOSM is presenting a one-day open mapping workshop for geography teachers and other educators. Come attend the [State of the Map US conference] (http://stateofthemap.us/) and a special workshop where you can develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
+ 
+* Acquire open mapping skills using OpenStreetMap
+* Use open mapping to teach geography, social sciences, and natural sciences
 * Incorporate open mapping into the AP Human Geography curriculum.
 
-### Register Now!
+## Who should attend: 
+* High School, community college, and university geography teachers
+* Other educators, vocational instructors, librarians who want to teach open mapping 
 
-* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
-* Workshop location: [BOULDER.SPECIFIC.SITE.COMING.SOON]
-* Please register for both the conference _AND_ the workshop.
+## Workshop Objectives:
+At the end of this workshop, you should be able to:
+* Be comfortable and confident with open mapping on the OpenStreetMap platform
+* Develop mapping activities that can be replicated easily and scaled to accommodate a wide range of teachers
+* Guide students in mapping activities to meet student community service requirements
 
-1. Click [here](http://UPDATE.ME) and use the special code, 'TEACHOSM' to get the reduced registration price. And do it soon, too: registration ends *30 September*.
-
-2. Then click [here](https://REGISTRATION.LINK.HERE) to register for the workshop.
-
-
-Workshop Objectives:
-
-* Develop a mapping activity that can be replicated easily and scaled to accommodate a wide range of teachers
-* Develop a mapping activity that students can undertake for community service
-
-For or teachers/educators/librarians - devoted to methods for teachers wanting to incorporate OpenStreetMap into their classrooms
-
-* OpenStreetMap: The Project
+## General Workshop Agenda
+* OpenStreetMap: Introduction to the Project
 * Intro to editing OSM
-* Conducting field work
+* Conducting field work to collect data
+* A survey of the OpenStreetMap Toolkit
 * Tools to assess quality and assign credit
 * Organizing and event: How-To
 * Using the TeachOSM for High School modules in your class
 
-## Detailed Outline of Teacher Workshop
+### Register Now!
 
-Mapping in OpenStreetMap is a singularly valuable activity, but how can you make use of it to teach geography? This is a one-day workshop aimed at teachers and who would like to incorporate OpenStreetMap into their classes, but open to anyone who would like to teach open mapping techniques. 
+* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
+* Workshop location: University of Colorado, Boulder
 
-At the end of this workshop you should be able to:
+# Click [here](https://ti.to/osmus/state-of-the-map-us-2017) and register as a student/academic. Please use the special code, 'TEACHOSM' to get the reduced registration price.
 
-* Understand the power of open source geographic data in today's information ecology
-* Articulate the reasons for using OpenStreetMap in your classes
-* Understand the basic workings of OpenStreetMap
-* Perform basic editing operations in OpenStreetMap
-* Export data from OpenStreetMap to use in geospatial analysis
-* Create a rubric and grading scale
-* Organize an OpenStreetMap event (managing accounts, using Tasking Mgr, what to map, other resources)
 
-### An Overview of OpenStreetMap - 20 min
 
-Advantages of using OpenStreetMap
+Mapping in OpenStreetMap is a valuable activity, but how can you make use of it to teach geography? This is a one-day workshop aimed at teachers and who would like to incorporate OpenStreetMap into their classes, but open to anyone who would like to teach open mapping techniques. 
 
-* Data are reusable
-* Edit and view in the browser - no special software needed
-* Experiential learning with immediate results
-* Opportunities for service learning
-* Skills development
-
-Questions? 
-
-### Getting started with OpenStreetMap - 2 hrs
-
-* Creating an account
-* Tagging and (wiki-based) help for tagging
-* An introduction to the iD editor
-* Digitizing exercise: Creating point features
-* Digitizing exercise: Creating linear features
-* Digitizing exercise: Creating area (polygon) features
-* Reviewing your work
-
-Questions?
-
-### Break - 15 min
-
-### Advanced Topics - 1.5 hrs
-
-* Organizing an OSM mapping project
-* Using the OSM Tasking Manager (to make assignments, control editing)
-* Managing student accounts
-* Grading and rubrics - using Overpass Turbo
-* How to export data from OSM for downstream uses
-* Wrap-up and questions
 
