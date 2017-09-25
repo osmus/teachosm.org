@@ -18,6 +18,11 @@ The State of the Map conference takes place Fri, 20 Oct through Sun, 22 October.
 * Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
 * Workshop location: University of Colorado, Boulder
 
+## Registration:
+You can attend the conference and the workshop for only $35 or attend the workshop for FREE!
+1. Register for the conference here using the code 'TEACHOSM' for the $35 reduced registration: https://ti.to/osmus/state-of-the-map-us-2017
+2. Then register for the FREE workshop
+
 ## Who should attend: 
 * High School, community college, and university geography teachers
 * Other educators, vocational instructors, librarians who want to teach open mapping 
