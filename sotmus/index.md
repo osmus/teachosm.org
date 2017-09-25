@@ -21,7 +21,7 @@ The State of the Map conference takes place Fri, 20 Oct through Sun, 22 October.
 ## Registration:
 You can attend the conference and the workshop for only $35 or attend the workshop for FREE!
 1. Register for the conference here using the code 'TEACHOSM' for the $35 reduced registration: https://ti.to/osmus/state-of-the-map-us-2017
-2. Then register for the FREE workshop
+2. Then register for the FREE workshop here: http://bit.ly/2xrOkia
 
 ## Who should attend: 
 * High School, community college, and university geography teachers
