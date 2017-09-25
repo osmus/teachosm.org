@@ -42,7 +42,4 @@ At the end of this workshop, you should be able to:
 * Organizing and event: How-To
 * Using the TeachOSM for High School modules in your class
 
-## Register Now! Click [here](https://ti.to/osmus/state-of-the-map-us-2017) and register as a student/academic. 
-Please use the special code, 'TEACHOSM' to get the reduced registration price.
-
 
