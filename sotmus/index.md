@@ -7,7 +7,7 @@ published: true
 # Every Student a Mapper: Teaching Geography with OpenStreetMap
 ## Creating Awesome Mapping Projects with Free Software
 
-Mapping in OpenStreetMap is a valuable activity, but how can you make use of it to teach geography? TeachOSM is presenting a one-day open mapping workshop for geography teachers and other educators. Come attend the [State of the Map US conference] (http://stateofthemap.us/) and a special workshop where you can develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
+Mapping in OpenStreetMap is a valuable activity, but how can you make use of it to teach geography? TeachOSM is presenting a half-day open mapping workshop for geography teachers and other educators. Come attend the [State of the Map US conference] (http://stateofthemap.us/) and a special workshop where you can develop the skills you need to put open mapping in your classroom. This hands-on workshop is free to all US State of the Map conference attendees and designed to help educators & students of all kinds to:
  
 * Acquire open mapping skills using OpenStreetMap
 * Use open mapping to teach geography, social sciences, and natural sciences
