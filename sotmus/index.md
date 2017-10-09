@@ -15,8 +15,8 @@ Mapping in OpenStreetMap is a valuable activity, but how can you make use of it 
 
 ## Workshop Time & Place:
 The State of the Map conference takes place Fri, 20 Oct through Sun, 22 October.
-* Workshop date/time: Sunday, 22 Oct 2017 9am-4pm.
-* Workshop location: University of Colorado, Boulder
+* Workshop date/time: Sunday, 22 Oct 2017 9am-1pm.
+* Workshop location: Ketchum 1B64, University of Colorado, Boulder
 
 ## Registration:
 You can attend the conference and the workshop for only $35 or attend the workshop for FREE!
