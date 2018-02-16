@@ -31,7 +31,7 @@ meet the needs of the DC Great Streets program.
 
 ### Tools you'll need
 
-1. Mapillary: To create the streetview, we use[Mapillary](http://mapillary.com/), a 
+1. Mapillary: To create the streetview, we use [Mapillary](http://mapillary.com/), a 
 lightweight app that you add to your smartphone. So, before you get started, download and 
 install Mapillary. Also review the  tips and techniques on the Mapillary page so you take good, usable photos. 
 
