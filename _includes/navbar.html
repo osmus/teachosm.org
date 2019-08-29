@@ -1,0 +1,95 @@
+<!-- <nav class="navbar">
+  <div class="nav-wrapper">
+  <a href="{{site.baseurl}}" class="brand-logo">TeachOSM</a>
+  <ul id="nav-mobile" class="right">
+    <li><a href="{{site.baseurl}}/blog">Triggering github pages rebuild, Blog</a></li>
+    <li><a href="{{site.baseurl}}/courses">Projects</a></li>
+  </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top {% if page.title != 'home' %}navbar-shrink{% endif %}">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{site.baseurl}}/">
+        <img class="logo" src="{{site.baseurl}}/assets/images/logo.png" />
+        <span id="beta-text">beta</span>
+      </a>
+
+    {% if page.title == 'home' %}
+      <div class="horizontal-landing-page-menu" style="padding-left:0px">
+          <ul class="nav navbar-nav menu2 hidden-xs">
+            <li class="t-title"><a href="#about" class="page-scroll">About</a></li>
+            <li class="t-title"><a href="#calendar" class="page-scroll">Calendar</a></li>
+            <li class="t-title"><a href="#contact" class="page-scroll">Contact Us</a></li>
+          </ul>
+      </div>
+
+      <div class="navbar2 vertical-landing-page-menu">
+        <div class="side-nav vertical-nav">
+            <div class="container-fluid">
+              <div class="row">
+                <!--<ul class="hidden-xs nav" style="padding-left: 0px;">-->
+                <ul class="nav nav2-list" style="padding-left: 0px;">
+                  <li class="t-title"><a href="#about" class="page-scroll">About</a></li>
+                  <li class="t-title"><a href="#calendar" class="page-scroll">Calendar</a></li>
+                  <li class="t-title"><a href="#contact" class="page-scroll">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    {% endif %}
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{{site.baseurl}}/blog">Blog</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{{site.baseurl}}/projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{{site.baseurl}}/resources">Resources</a>
+        </li>
+        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+$(function(){
+
+  if (window.location.pathname == '/' || window.location.pathname == '/teachosm/') {
+      console.log('homepage');
+      console.log(window.location.href);
+    } else {
+
+      $('a').each(function() {
+        //console.log(location.search)
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+        if ($(this).prop('href')+'/' == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+  }
+
+});
+</script>

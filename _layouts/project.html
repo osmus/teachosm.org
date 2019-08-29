@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="page">
+      {% include navbar.html %}
+      <content class="project-content">
+        <img src="https://teachosm-project-pics.s3.amazonaws.com/{{ page.thumbnail }}" />
+        <header class="project-title">
+          <h1>{{ page.title }}</h1>
+          <h3>{{ page.subtitle }}</h3>
+          <p>{{ page.author }}</p>
+        </header>
+        <div class="project-filters-display">
+          <h3>Project Type:</h3>
+          <p>
+            {% case page.type %}
+              {% when 'desktop' %}
+              Desktop
+              {% when 'field' %}
+              Field
+              {% when 'mobile' %}
+              Mobile
+            {% endcase %}
+          </p>
+          <h3>Audience:</h3>
+          <p>
+            {% case page.audience %}
+              {% when 'primary' %}
+              Primary
+              {% when 'high_school' %}
+              High School / Secondary
+              {% when 'community_college' %}
+              Community College
+              {% when 'university' %}
+              University
+              {% when 'other' %}
+              Other
+            {% endcase %}
+          </p>
+          <h3>Difficulty:</h3>
+          <p>
+            {% case page.difficulty %}
+              {% when 'beginner' %}
+              Beginner
+              {% when 'intermediate' %}
+              Intermediate
+              {% when 'advanced' %}
+              Advanced
+            {% endcase %}
+          </p>
+          <h3>Educator Preparation Time:</h3>
+          <p>
+            {% case page.preparation_time %}
+              {% when 'less_than_one_hour' %}
+              < 1 hour
+              {% when 'one_hour' %}
+              1 hour
+              {% when 'two_to_four_hours' %}
+              2 - 4 hours
+              {% when 'one_day' %}
+              1 day
+              {% when 'more_than_one_day' %}
+              > 1 day
+            {% endcase %}
+          </p>
+          <h3>Education Activity Duration:</h3>
+          <p>
+            {% case page.project_time %}
+              {% when 'less_than_one_hour' %}
+              < 1 hour
+              {% when 'one_hour' %}
+              1 hour
+              {% when 'two_to_four_hours' %}
+              2 - 4 hours
+              {% when 'one_day' %}
+              1 day
+              {% when 'more_than_one_day' %}
+              > 1 day
+            {% endcase %}
+          </p>
+        </div>
+        <div class="project-tags">
+          <p>Tags:&nbsp;</p>
+          <div class="card-tags">
+            {% for tag in page.tags %}
+              <span class="card-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <p class="project-description">{{ page.description }}</p>
+        <div class="project-buttons">
+          <a class="primary-button" href="{{ site.baseurl }}/projects">Back to Projects</a>
+          <a class="primary-button" href="https://teachosm-project-content.s3.amazonaws.com/{{ page.filename }}">Download Project</a>
+        </div>
+      </content>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

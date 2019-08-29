@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="/assets/css/agency.css" />-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/selectize.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- recommended in https://jekyllrb.com/docs/posts/ -->
+  <meta charset="utf-8" />
+
+  <script src="/assets/js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+  <script>
+    var supportsES6 = function() {
+      try {
+        new Function("(a = 0) => a");
+        return true;
+      }
+      catch (err) {
+        return false;
+      }
+    }();
+
+    if (!supportsES6) {
+      alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
+    }
+  </script>
+</head>
+
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="page">
+      <!-- <nav class="navbar">
+  <div class="nav-wrapper">
+  <a href="" class="brand-logo">TeachOSM</a>
+  <ul id="nav-mobile" class="right">
+    <li><a href="/blog">Triggering github pages rebuild, Blog</a></li>
+    <li><a href="/courses">Projects</a></li>
+  </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/">
+        <img class="logo" src="/assets/images/logo.png" />
+        <span id="beta-text">beta</span>
+      </a>
+
+    
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/blog">Blog</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/resources">Resources</a>
+        </li>
+        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+$(function(){
+
+  if (window.location.pathname == '/' || window.location.pathname == '/teachosm/') {
+      console.log('homepage');
+      console.log(window.location.href);
+    } else {
+
+      $('a').each(function() {
+        //console.log(location.search)
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+        if ($(this).prop('href')+'/' == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+  }
+
+});
+</script>
+
+      <div class="blog-post content">
+        <div class="blog-post-title">
+          Conducting Street-level Surveys in DC
+        </div>
+        
+        
+        <span class="blog-post-date">January 04, 2015</span>
+        
+        </br>
+        </br>
+        </br>
+        <h1 id="dc-great-streets-a-street-level-survey-using-openstreetmap">“DC Great Streets: A Street-level Survey Using OpenStreetMap”</h1>
+
+<h2 id="background">Background</h2>
+
+<p>Conducting a street-level survey is a great way to get students acquainted with local land
+ use and land cover while learning important technical skills in the
+ <a href="http://openstreetmap/">OpenStreetMap</a> environment. The objective of a survey is to make
+ a field-level determination of how the property or building is being used, create a
+ geo-located photo survey of the streetscape, and add those features to OpenStreetMap. In
+ the paragraphs below, we discuss the rationale for a street-level survey, outline the
+ basic mapping activities, and offer pointers for your street-level survey.</p>
+
+<h2 id="rationale">Rationale</h2>
+
+<p>In late 2014, <a href="http://mappingdc.org/">MappingDC</a> began a collaboration with the <a href="http://greatstreets.dc.gov/">DC Great Streets</a>
+ program to conduct
+a street-level survey in the twelve DC Great Streets corridors. The DC Great Streets
+program dispenses capital improvement grants to small businesses in these corridors to
+boost neighborhood economic resilience and help create lively urban centers around the city.
+Once a month, MappingDC hosts a <a href="http://www.meetup.com/MappingDC/">mapping party</a> in or along one of the corridors where we
+gather data in the field, upload, and edit the data in OpenStreetMap. The project is
+evolving with an emphasis on creating service learning opportunities for young adults that
+meet the needs of the DC Great Streets program.</p>
+
+<h2 id="conducting-your-own-street-level-survey">Conducting your own street-level survey</h2>
+
+<h3 id="tools-youll-need">Tools you’ll need</h3>
+
+<ol>
+  <li>
+    <p>Mapillary: To create the streetview, we use <a href="http://mapillary.com/">Mapillary</a>, a
+lightweight app that you add to your smartphone. So, before you get started, download and
+install Mapillary. Also review the  tips and techniques on the Mapillary page so you take good, usable photos.</p>
+  </li>
+  <li>
+    <p>Field Papers: We use <a href="http://fieldpapers.org/">Field Papers</a> to make a paper map of the streets, which
+we annotate in the field. Print out large-scale maps of your area of interest so you can
+annotate liberally and legibly. There is a very good Field Papers how-to on the
+<a href="http://wiki.openstreetmap.org/wiki/Field_Papers">OpenStreetMap wiki</a> which shows how to
+use Field Papers for field data collection.</p>
+  </li>
+</ol>
+
+<h2 id="workflow">Workflow</h2>
+<p>The workflow:</p>
+
+<ol>
+  <li>Conduct field work</li>
+  <li>Return to base and begin editing in OpenStreetMap</li>
+  <li>Upload photos to Mapillary site</li>
+  <li>Review work for completeness and accuracy</li>
+</ol>
+
+<h3 id="form-teams-for-field-work">Form teams for field work:</h3>
+<ul>
+  <li>Two teams of two or three people, one team on each side of the street. One person records
+basic information about the property or building (e.g. name, address, phone, website, etc.),
+ the second person records takes photos. A third person is useful to take supplemental notes,
+ help navigate, but not essential.</li>
+</ul>
+
+<h3 id="editing-process">Editing process</h3>
+
+<ul>
+  <li>
+    <p>Trace building outlines as necessary. There are often multiple businesses in a building
+so enter each business as a point and give it its own address.</p>
+  </li>
+  <li>
+    <p>The Great Streets program has a simple rating system to help determine which properties
+qualify for assistance. Mappers tag each property with a rating, which the DC Great
+Streets program can use to assess property condition. You should refer to the
+<a href="http://wiki.openstreetmap.org/wiki/Key:building:condition">building condition</a> page on the
+OSM wiki for help in tagging building conditions.</p>
+  </li>
+  <li>
+    <p>Follow the instructions on the Mapillary page for uploading your photos from your phone
+to the Mapillary site.</p>
+  </li>
+</ul>
+
+<h2 id="lessons-learned">Lessons Learned</h2>
+<p>MappingDC and DC Great Streets program are still working on how to standardize the tagging
+scheme for building conditions so that they are useful to the program. We’ve also learned
+that some photos are not usable because they are blurry, too dark, washed out, or taken at
+a bad angle. We’re working on developing field techniques that will make for more consistently
+usable photo quality.
+Tactically, teams of three seem to work best, but plan on at least two per team.</p>
+
+<h2 id="for-more-information">For more information:</h2>
+
+<p>Mapillary provides detailed <a href="https://help.mapillary.com/hc/en-us">instructions</a></p>
+
+<p>See also Elliott Plack’s diary <a href="https://www.openstreetmap.org/user/ElliottPlack/diary/26065">entry</a>
+on how he created a street-level survey on bicycle.</p>
+
+<p>For more information on street surveys or DC Great Streets mapping parties, please contact Steven Johnson (sejohnson8 at gmail dot com).</p>
+
+      </div>
+    </div>
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li>
+            <a href="http://twitter.com/teachosm">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/TEACHOSM/">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/osmlab">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li><a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li><a href="/terms-of-use">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

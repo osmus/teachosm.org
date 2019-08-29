@@ -1,0 +1,77 @@
+---
+title: add-project
+permalink: "/projects/add"
+layout: generic
+---
+
+<header>
+  <h1 class="page-title">Create Project</h1>
+  <a class="btn primary-button" href='{{site.baseurl}}/projects'>Back to Projects</a>
+</header>
+<form id="add-project-form" action="#" class="hidden">
+  <div>
+    <h1>User Information</h1>
+    <section>
+      <p>Welcome to the Create Project form. This form was built to make it easy for contributors to add new projects to the TeachOSM projects portal. Please start by answering a couple questions about yourself.</p>
+      <label for="name">What is your name? (The name entered here will show up as the author of the project) *</label>
+      <input id="name" name="name" type="text" class="required">
+      <label for="osmUsername">What is your OSM username? *</label>
+      <input id="osmUsername" name="osmUsername" type="text" class="required">
+      <label for="confirmOSMUsername">Please confirm your OSM username *</label>
+      <input id="confirmOSMUsername" name="confirmOSMUsername" type="text" class="required">
+    </section>
+    <h1>Project Information</h1>
+    <section>
+      <p>Next let's add the project information and resources, including the content you would like to upload as project materials.</p>
+      <label for="projectTitle">What is your project's title? *</label>
+      <input id="projectTitle" name="projectTitle" type="text" class="required">
+      <label for="projectSubtitle">What is your project's subtitle? (This is optional)</label>
+      <input id="projectSubtitle" name="projectSubtitle" type="text">
+      <label for="projectDescription">Please provide a brief description of the project. *</label>
+      <textarea id="projectDescription" name="projectDescription" class="required"></textarea>
+      <label class="top-margin">Please upload a project image. (This will appear beside your project on the site and should be a .png, .jpg, or .tif file) *</label>
+      <br />
+      <label style="font-style: italic;">You can either drag and drop an image or click on the "Upload Image" box below</label>
+      <div class="uploadable">
+        <input id="projectImage" name="projectImage" type="file" accept="image/*" class="required" />
+        <label id="projectImageLabel" for="projectImage"><i class="fa fa-image"></i><br />Upload Image</label>
+      </div>
+      <label class="top-margin">Please upload your project materials. (This is the main content that users will download to help teach the course and should have one of these extensions: .pdf, .doc, .docx, .odt, .xls, .xlsx) *</label>
+      <br />
+      <label style="font-style: italic;">You can either drag and drop your file or click on the "Upload File" box below</label>
+      <div class="uploadable">
+        <input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx" class="required" />
+        <label id="projectFileLabel" for="projectFile"><i class="fa fa-upload"></i><br />Upload File</label>
+      </div>
+    </section>
+    <h1>Filters and Tags</h1>
+    <section>
+      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. Please select one option for each of the filters below.</p>
+
+      {% for filter in site.filters %}
+        <div class="project-filter-list">
+          <h3>{{ filter.title }} *</h3>
+          <div class="project-filter-options-wrapper">
+            {% for option in filter.options %}
+              <div class="project-filter-option">
+                <input id="{{ filter.name }}::{{ option.name }}" type="radio" name="{{ filter.name }}" value="{{ option.value }}" class="required {{ filter.name }}-filter" />
+                <label for="{{ filter.name }}::{{ option.name }}">{{ option.name }}</label>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+      <label for="tagSelector">Tags</label>
+      <p>Select as many tags as you would like. You can also opt not to select any tags, but it may make it more difficult for users to search for your project.</p>
+      <input id="tagSelector" data-placeholder="Select tags" />
+    </section>
+    <h1>Finish and Submit</h1>
+    <section>
+      <p>That's it! Thank you for contributing to the TeachOSM project portal. After a quick review, your project will be uploaded to the portal and be available for teachers everywhere to help them with their work.</p>
+      <br />
+      <div class="g-recaptcha" data-sitekey="6LdylbMUAAAAAHuUEVFVmstJkdafdAG9Z0LB6ziN"></div>
+      <br />
+      <p>Press the "finish" button below to submit your project.</p>
+    </section>
+  </div>
+</form>

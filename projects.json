@@ -1,0 +1,22 @@
+---
+---
+
+[
+  {% for project in site.projects %}
+    {
+      "title": "{{ project.title | escape }}",
+      "subtitle": "{{ project.subtitle | escape }}",
+      "description": "{{ project.description | escape }}",
+      "date_posted": "{{ project.date_posted | date: '%b %d, %Y' }}",
+      "tags": "{{ project.tags | join: ', ' }}",
+      "type": "{{ project.type }}",
+      "audience": "{{ project.audience }}",
+      "difficulty": "{{ project.difficulty }}",
+      "preparation_time": "{{ project.preparation_time }}",
+      "project_time": "{{ project.project_time }}",
+      "author": "{{ project.author }}",
+      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/{{ project.thumbnail }}",
+      "url": "{{ site.baseurl }}{{ project.url }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

@@ -1,0 +1,50 @@
+---
+title: blog
+permalink: "/blog"
+layout: default
+pagination:
+  enabled: true
+---
+
+
+
+<div class="blog-title">
+  <h1 class="page-title">Blog Posts</h1>
+</div>
+
+<div class="blog-post-list">
+  {% for post in site.posts %}
+  <a href="{{site.baseurl}}{{ post.url }}" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">{{ post.title }}</div>
+      <div class="blog-post-card-image-wrapper">
+        {% if post.thumbnail %}
+        <img class="blog-post-card-image" src="./assets/images/blog/{{post.thumbnail}}">
+        {% else %}
+        <img class="blog-post-card-image" src="./assets/images/default-blog-post.jpg">
+        {% endif %}
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">{{post.description}}</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+
+<!--
+<script>
+  document.querySelector(".pagination-number").addEventListener('keydown', function(event) {
+    var newPageNumber = event.target.value;
+    var code = (event.keyCode ? event.keyCode : event.which);
+    if (code == 13) {
+      var newUrl = window.location.origin + "/blog";
+      if (newPageNumber > 1) {
+        newUrl += "/page/" + newPageNumber;
+      }
+      window.open(newUrl, "_self");
+    }
+  });
+</script>
+-->

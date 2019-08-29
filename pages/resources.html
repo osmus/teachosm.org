@@ -1,0 +1,50 @@
+---
+title: resources
+permalink: "/resources"
+layout: default
+---
+
+<div class="resources">
+	<section id="resources-title">
+		<h1 id="page-title">Resources</h1>
+		<span id="spotlight-card">
+			<p>This guide should give you sufficient information about the OpenStreetMap platform so that you can incorporate it into your classroom. But once you and your students are comfortable using the platform, you will want to branch out and do more. This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.</p>
+		</span>
+	</section>
+	<section id="meet-mappers">
+		<img src="{{site.baseurl}}/assets/images/meetmappers2.png">
+		<div id="MYM-right">
+			<h2 id="mappers-title">Discover Mappers Near You</h2>
+			<div id="MYM-description">
+				<a href="https://mym.rtijn.org/"><h3>https://mym.rtijn.org/</h3></a>
+				<p> "Meet Your Mapper (MYM) tells you who has mapped in your area, when, and how much. Use it for fun, curiosity, or to help you make a list of people to invite to a mapping party or some other OSM event."</p>
+			</div>
+			<div id="MYM-map">
+			  	<!--<img src="{{site.baseurl}}/assets/images/meetmappers.png" alt="" style="height:200px" style="width:300px"> -->
+			  <a href="https://mym.rtijn.org/"><button class="primary-button" id="MYM-button">Check it Out</button></a>
+			</div>
+		</div>
+	</section>
+	<section class="more-resources">
+		<h2 id="more-resources-title">More Resources</h2>
+			{% for resource in site.resources %}
+				<a href="{{resource.link}}">
+					<div id="resource-card">
+						<div id="summary-container">
+							<h3>{{resource.title}}</h3>
+							<h4>{{resource.type}}</h4>
+							<p>{{resource.description}}</p>
+						</div>
+						<div id="photo-container">
+						  <img src="{{site.baseurl}}/assets/images/resource-thumbnails/{{resource.thumbnail}}">
+						{% if resource.tags.size > 0 %}
+							{% for tag in resource.tags %}
+								<h4 class="card-tag">{{tag}}</h4>
+							{% endfor %}
+						{% endif %}
+						</div>
+					</div>
+				</a>
+			{% endfor %}
+	</section>
+</div>

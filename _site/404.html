@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  
+    <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="/assets/css/agency.css" />-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/selectize.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- recommended in https://jekyllrb.com/docs/posts/ -->
+  <meta charset="utf-8" />
+
+  <script src="/assets/js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+  <script>
+    var supportsES6 = function() {
+      try {
+        new Function("(a = 0) => a");
+        return true;
+      }
+      catch (err) {
+        return false;
+      }
+    }();
+
+    if (!supportsES6) {
+      alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
+    }
+  </script>
+</head>
+
+  
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class=" page">
+      <!-- <nav class="navbar">
+  <div class="nav-wrapper">
+  <a href="" class="brand-logo">TeachOSM</a>
+  <ul id="nav-mobile" class="right">
+    <li><a href="/blog">Triggering github pages rebuild, Blog</a></li>
+    <li><a href="/courses">Projects</a></li>
+  </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/">
+        <img class="logo" src="/assets/images/logo.png" />
+        <span id="beta-text">beta</span>
+      </a>
+
+    
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/blog">Blog</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/resources">Resources</a>
+        </li>
+        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+$(function(){
+
+  if (window.location.pathname == '/' || window.location.pathname == '/teachosm/') {
+      console.log('homepage');
+      console.log(window.location.href);
+    } else {
+
+      $('a').each(function() {
+        //console.log(location.search)
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+        if ($(this).prop('href')+'/' == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+  }
+
+});
+</script>
+
+      <div class="wrapper">
+        <section class="panel-border-style">
+          <div class=" content">
+            <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li>
+            <a href="http://twitter.com/teachosm">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/TEACHOSM/">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/osmlab">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li><a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li><a href="/terms-of-use">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="/assets/js/agency.js"></script>
+
+
+  </body>
+</html>

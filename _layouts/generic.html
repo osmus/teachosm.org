@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  {% if page.custom_head %}
+    {% include {{ page.custom_head }} %}
+  {% else %}
+    {% include head.html %}
+  {% endif %}
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="{{ page.title }} page">
+      {% include navbar.html %}
+
+          <div class="{{ page.title }} content">
+            {{ content }}
+          </div>
+
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

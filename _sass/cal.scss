@@ -1,0 +1,63 @@
+#content
+{
+   background: #fff;
+   border: 1px solid #2c3e50;
+   padding: 5px 15px;
+   margin: auto;
+}
+
+.titlebox
+{
+  float:left;
+  padding:0 5px;
+  margin:-20px 0 0 30px;
+  background:#fff;
+  font-weight: 700;
+}
+
+dt, dd
+{
+   display: inline;
+}  
+
+dd
+{
+   padding-right: 20px;
+} 
+dl
+{
+   margin-top: 10px;
+   margin-bottom:10px;
+} 
+
+.legend_color {
+  width: 55px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: -4px;
+}
+
+#class1-color{
+  background-color: lightBlue;
+  border: 2px solid #72bcd4;
+}
+
+#class2-color{
+  background-color: red;
+  border: 2px solid darkred;
+}  
+
+#class3-color{
+  background-color: #ffff99;
+  border: 2px solid #e7e700;
+}
+
+#content li {
+  list-style: none;
+  display: inline-block;
+}
+
+#legend-list {
+  width: 100%;
+}

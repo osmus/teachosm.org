@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="/assets/css/agency.css" />-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/selectize.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- recommended in https://jekyllrb.com/docs/posts/ -->
+  <meta charset="utf-8" />
+
+  <script src="/assets/js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+  <script>
+    var supportsES6 = function() {
+      try {
+        new Function("(a = 0) => a");
+        return true;
+      }
+      catch (err) {
+        return false;
+      }
+    }();
+
+    if (!supportsES6) {
+      alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
+    }
+  </script>
+</head>
+
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="page">
+      <!-- <nav class="navbar">
+  <div class="nav-wrapper">
+  <a href="" class="brand-logo">TeachOSM</a>
+  <ul id="nav-mobile" class="right">
+    <li><a href="/blog">Triggering github pages rebuild, Blog</a></li>
+    <li><a href="/courses">Projects</a></li>
+  </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/">
+        <img class="logo" src="/assets/images/logo.png" />
+        <span id="beta-text">beta</span>
+      </a>
+
+    
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/blog">Blog</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/resources">Resources</a>
+        </li>
+        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+$(function(){
+
+  if (window.location.pathname == '/' || window.location.pathname == '/teachosm/') {
+      console.log('homepage');
+      console.log(window.location.href);
+    } else {
+
+      $('a').each(function() {
+        //console.log(location.search)
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+        if ($(this).prop('href')+'/' == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+  }
+
+});
+</script>
+
+      <div class="blog-post content">
+        <div class="blog-post-title">
+          GIS Day Farmers Market Mapping Project
+        </div>
+        
+        
+        <span class="blog-post-date">February 05, 2015</span>
+        
+        </br>
+        </br>
+        </br>
+        <h3 id="the-backstory">The Backstory</h3>
+
+<p>For Northern Virginia Community College GIS Day, we decided to plan a mapathon incorporating National Geographic’s “The Future of Food” theme.  We planned to map Farmers Markets in Virginia using Open Street Map.  While we were able to find long/lat information for Farmers Markets in Virginia which students could add to OSM, we also wanted to show students that they could go out to their local Farmers Markets and gather information to be uploaded to OSM using field papers.</p>
+
+<h3 id="the-mapping-challenge">The Mapping Challenge</h3>
+
+<p>The first step was to print a map from the <a href="http://fieldpapers.org/">field papers website</a> which would include the location of a local Farmers Market.  Once the map was printed, a NOVA instructor was able to write information directly onto the printed map including street address and names of buildings in the same area as the Farmers Market.<br />
+<img src="../../../assets/images/blog/Market_Field_Paper.jpg" alt="field_paper1001.jpg" />
+After the information was gathered, the paper map was converted to a jpeg file and then uploaded using the field papers website.  Once the map was uploaded, information was easily added to OSM.</p>
+
+<h3 id="the-workflow">The Workflow</h3>
+
+<p>Because our participants were not actually going to use field papers for this event, the workflow only involved an instructor and a family member assistant!  If field papers had been part of the event, a map atlas would have been printed and distributed to participants ahead of time.</p>
+<h3 id="stumbling-blocks">Stumbling Blocks</h3>
+
+<p>Creating an atlas using field papers took some time to master, but the process was relatively simple.
+Make sure that you follow the instructions for the correct type of file that can be uploaded using field papers or your map will not upload.</p>
+
+<h3 id="results">Results</h3>
+
+<p>With three simple pictures, we were able to show students how easy it is to work in the field and add the most accurate information to OSM.</p>
+
+<h3 id="contact-information">Contact Information</h3>
+
+<p>Please contact Janice Ouellette jouellette [at] nvcc.edu with any questions.</p>
+
+      </div>
+    </div>
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li>
+            <a href="http://twitter.com/teachosm">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/TEACHOSM/">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/osmlab">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li><a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li><a href="/terms-of-use">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

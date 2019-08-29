@@ -1,0 +1,33 @@
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="{{site.baseurl}}/assets/css/agency.css" />-->
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/selectize.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/jquery.steps.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- recommended in https://jekyllrb.com/docs/posts/ -->
+  <meta charset="utf-8" />
+
+  <script src="{{site.baseurl}}/assets/js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/assets/js/bootstrap.js"></script>
+
+  <script>
+    var supportsES6 = function() {
+      try {
+        new Function("(a = 0) => a");
+        return true;
+      }
+      catch (err) {
+        return false;
+      }
+    }();
+
+    if (!supportsES6) {
+      alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
+    }
+  </script>
+</head>

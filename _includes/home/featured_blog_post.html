@@ -1,0 +1,40 @@
+{% assign post = site.posts | where: "title", site.featured_blog_post | first %}
+
+<section id="featured-blog-post" class="dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Featured Blog Post</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        {% if post.thumbnail %}
+        <img id="featured-blog-post-thumbnail" src="./assets/images/blog/{{post.thumbnail}}">
+        {% else %}
+        <img id="featured-blog-post-thumbnail" src="./assets/images/default-blog-post.jpg">
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <div class="row">
+            <div class="col-md-6" id="featured-post-left">
+              <h3>{{post.title}}</h3>
+              {% if post.author %}<h4>{{post.author}}</h4>{% endif %}
+              <a id="check-it-out-wrapper" href="{{site.baseurl}}{{ post.url }}">
+                <button id="check-it-out">Check it Out!</button>
+              </a>
+            </div>
+            <div class="col-md-6" id="featured-post-right">
+              {% if post.thumbnail %}
+              <img id="featured-blog-post-thumbnail" src="./assets/images/blog/{{post.thumbnail}}">
+              {% else %}
+              <img id="featured-blog-post-thumbnail" src="./assets/images/default-blog-post.jpg">
+              {% endif %}
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

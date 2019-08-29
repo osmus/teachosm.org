@@ -1,0 +1,72 @@
+$primary-color: #7EBC6F;
+$secondary-color: #222;
+$accent-color: #d500f9;
+
+@import url('https://fonts.googleapis.com/css?family=Signika:300,400,500,700|Raleway:300,400,600');
+
+@font-face {
+   font-family: "Anderson_Grotesk";
+   src: url("fonts/AndersonGrotesk.otf") format("opentype");
+}
+
+$font: 'Anderson_Grotesk', sans-serif;
+
+$mobile-width: 600px;
+$tablet-width: 900px;
+
+// .primary-button {
+//   background: $secondary-color;
+//   border-radius: 4px;
+//   color: white;
+//   display: block;
+//   font-size: 14px;
+//   font-weight: bold;
+//   overflow: hidden;
+//   padding: 12px;
+//   text-align: center;
+//   text-decoration: none;
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+//   max-width: 200px;
+
+//   &:hover, &:active, &:focus {
+//     color: $primary-color;
+//     border: 2px solid $primary-color;
+//     background: white;
+//   }
+// }
+
+
+@mixin primary-button-style {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid rgba(black, 0.7);
+  display: block;
+  max-width: 200px;
+  padding: 8px;
+  padding-top: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: rgba(black, 0.7);
+
+  &:hover, &:active, &:focus {
+    color: black;
+    border: 1px solid black;
+    background: white;
+  }
+
+}
+.primary-button {
+  @include primary-button-style;
+}
+
+.card-tag {
+    border: 1px solid #7EBC6F;
+    color: #7EBC6F;
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+}

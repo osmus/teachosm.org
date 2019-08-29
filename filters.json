@@ -1,0 +1,18 @@
+---
+---
+
+[
+  {% for filter in site.filters %}
+    {
+      "name": "{{ filter.name }}",
+      "options": [
+        {% for option in filter.options %}
+          {
+            "name": "{{ option.name }}",
+            "value": "{{ option.value }}"
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

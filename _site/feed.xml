@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-23T04:39:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TeachOSM</title><entry><title type="html">MapSaintLucia - a Community Development Roadmap</title><link href="http://localhost:4000/posts/2016/04/StLuciaRoadmap.html" rel="alternate" type="text/html" title="MapSaintLucia - a Community Development Roadmap" /><published>2016-04-20T00:00:00+00:00</published><updated>2016-04-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2016/04/StLuciaRoadmap</id><content type="html" xml:base="http://localhost:4000/posts/2016/04/StLuciaRoadmap.html">&lt;p&gt;Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.&lt;/p&gt;
+
+&lt;h3 id=&quot;schedule-regular-events&quot;&gt;Schedule Regular Events:&lt;/h3&gt;
+
+&lt;p&gt;The OpenStreetMap community typically schedule at least four events a year, though we always have more.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Begin organizing the next mapathon now. The dates for 2016 are:
+    &lt;ul&gt;
+      &lt;li&gt;Winter: March 5-6&lt;/li&gt;
+      &lt;li&gt;Spring: May 14-15&lt;/li&gt;
+      &lt;li&gt;Summer: August 9-10&lt;/li&gt;
+      &lt;li&gt;Fall: November 5-6&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use the TeachOSM Tasking Manager to create bite-sized mapping jobs for future events: &lt;a href=&quot;http://tasks.teachosm.org/&quot;&gt;http://tasks.teachosm.org/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider a theme for next mapathon. You can focus on a specific geographic area, e.g. all roads and buildings in Laborie or Micoud. Or, you can focus on collecting a specific feature, such as collecting all fire stations or schools. In fact, mapping critical infrastructure makes a great project due to the high value of the data.  But smaller mapping projects can also be useful such as mapping historical and cultural sites, capturing hiking trails using GPS, or even mapping all local rum shops.&lt;/li&gt;
+  &lt;li&gt;Plan an Open Mapping Roadshow and hold OpenStreetMap mapathons across Saint Lucia. The regional ICT Access centers make excellent sites for mapathons as they are properly equipped and offer access to local mapping communities. Follow the basic requirements for hosting a mapathon (e.g. computers, wifi, FieldPapers, and Mapillary).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-quality--validation&quot;&gt;Data quality &amp;amp; Validation:&lt;/h2&gt;
+
+&lt;p&gt;Begin taking steps to address data quality. It’s common for new mappers to enter roads that don’t connect properly, building corners that should be squared, and features improperly tagged. The following resources provide examples of validation and data quality procedures.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;To square building corners, see the ‘Buildings’ section of the Bandung tracing guide: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/guide/Bandung-Indo.html&quot;&gt;http://hotosm.github.io/tracing-guides/guide/Bandung-Indo.html&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The JOSM editor (see Power Mapping, below) provides robust data validation tools. To use them, see this tracing guide: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/tip/josm-validation.html&quot;&gt;http://hotosm.github.io/tracing-guides/tip/josm-validation.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MapRoulette: &lt;a href=&quot;http://maproulette.org/&quot;&gt;http://maproulette.org/&lt;/a&gt; - An fun and addictive tool to improve data quality.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;power-mapping&quot;&gt;Power Mapping:&lt;/h2&gt;
+
+&lt;p&gt;OpenStreetMap’s web-based iD editor is the easiest and most convenient way to get started mapping. But eventually, you will become quite proficient in OpenStreetMap mapping techniques and you will want to graduate to the Java OpenStreetMap Editor, aka JOSM. JOSM allows you to map quickly with keyboard shortcuts, a series of editing tools for common tasks and specialized plugins. Here is your guide to take your mapping skills to the next level.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A quick guide to JOSM: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/guide/josm101-part1.html&quot;&gt;http://hotosm.github.io/tracing-guides/guide/josm101-part1.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Becoming a power mapper: &lt;a href=&quot;https://www.mapbox.com/blog/osm-mapping-guide/&quot;&gt;https://www.mapbox.com/blog/osm-mapping-guide/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Graduate to JOSM: &lt;a href=&quot;https://www.mapbox.com/blog/making-the-most-josm/&quot;&gt;https://www.mapbox.com/blog/making-the-most-josm/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Becoming a power mapper: &lt;a href=&quot;https://www.mapbox.com/blog/power-mapper/&quot;&gt;https://www.mapbox.com/blog/power-mapper/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Keyboard shortcuts for the iD editor: &lt;a href=&quot;http://wiki.openstreetmap.org/wiki/ID/Shortcuts&quot;&gt;http://wiki.openstreetmap.org/wiki/ID/Shortcuts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;More editing tips for the iD editor: &lt;a href=&quot;http://osmgeoweek.org/plan/id-editor/&quot;&gt;http://osmgeoweek.org/plan/id-editor/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reference-materials&quot;&gt;Reference Materials:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to tag that thing? See the Map Features page on the wiki: &lt;a href=&quot;http://wiki.openstreetmap.org/wiki/Map_Features&quot;&gt;http://wiki.openstreetmap.org/wiki/Map_Features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use TagInfo to know which tags are in common usage - &lt;a href=&quot;http://taginfo.openstreetmap.org/&quot;&gt;http://taginfo.openstreetmap.org/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Begin development of a Tracing Guide specific to the Eastern Caribbean region. The tracing guide should show examples of land uses specific to the eastern Caribbean, such as banana farms, orchards for tropical fruits, buildings peculiar to Saint Lucia. See more here: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/&quot;&gt;http://hotosm.github.io/tracing-guides/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The OSM Wiki page for Saint Lucia is YOUR place to add projects, resources, contacts, and more: &lt;a href=&quot;http://wiki.openstreetmap.org/wiki/WikiProject_Saint_Lucia&quot;&gt;http://wiki.openstreetmap.org/wiki/WikiProject_Saint_Lucia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Subscribe to Talk-Carib and start conversation about mapping projects: &lt;a href=&quot;https://lists.openstreetmap.org/listinfo/talk-carib&quot;&gt;https://lists.openstreetmap.org/listinfo/talk-carib&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Continue cultivating Street/Field Survey using FieldPapers. http://fieldpapers.org/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;education--credentials&quot;&gt;Education &amp;amp; Credentials:&lt;/h2&gt;
+
+&lt;p&gt;Geobadges are micro-credentials for students or all ages: &lt;a href=&quot;http://geobadges.org/&quot;&gt;http://geobadges.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TeachOSM offers resources to teachers and instructors who want to use OpenStreetMap to teach geographic skills and reasoning - &lt;a href=&quot;http://teachosm.org/&quot;&gt;http://teachosm.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;promotional&quot;&gt;Promotional:&lt;/h2&gt;
+
+&lt;p&gt;Here are some resources to promote future events with comparisons, establish bragging rights, and create printed maps.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use Geofabrik’s Map Compare to measure progress against proprietary maps - &lt;a href=&quot;http://tools.geofabrik.de/mc/#16/13.8192/-60.8997&amp;amp;num=2&amp;amp;mt0=mapnik&amp;amp;mt1=google-map&quot;&gt;http://tools.geofabrik.de/mc/#16/13.8192/-60.8997&amp;amp;num=2&amp;amp;mt0=mapnik&amp;amp;mt1=google-map&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OSM Fight is a fun little game to pit your mapping skills against your peers! &lt;a href=&quot;http://osmfight.neis-one.org&quot;&gt;http://osmfight.neis-one.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Printed maps - &lt;a href=&quot;http://maperitive.net/&quot;&gt;http://maperitive.net/&lt;/a&gt; is a lightweight application that provides the ability to print specialized maps based on GPS and OpenStreetMap. The user controls what data are on the map and how they are rendered.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.</summary></entry><entry><title type="html">TeachOSM on Cape Cod</title><link href="http://localhost:4000/posts/2015/04/TeachOSM-CapeCod.html" rel="alternate" type="text/html" title="TeachOSM on Cape Cod" /><published>2015-04-23T00:00:00+00:00</published><updated>2015-04-23T00:00:00+00:00</updated><id>http://localhost:4000/posts/2015/04/TeachOSM-CapeCod</id><content type="html" xml:base="http://localhost:4000/posts/2015/04/TeachOSM-CapeCod.html">&lt;p&gt;&lt;img src=&quot;../../../assets/images/blog/capecod-casestudy-1.jpg&quot; alt=&quot;capecod-casestudy-1.jpg&quot; /&gt;
+&lt;img src=&quot;../../../assets/images/blog/capecod-casestudy-2.jpg&quot; alt=&quot;capecod-casestudy-2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
+&lt;p&gt;In the United States, AP Geography is offered during high school students’ freshman year.  As explained by The College Board [1], since it’s introduction in 2001, the growth of the number of students taking the course has been one of the fastest of all AP course offerings to high school students across the United States.  A similar growth pattern has taken place in the number of contributors to the OpenStreetMap (OSM) since it’s birth and, in the United States specifically, since the 1st State of the Map U.S. (SOTMUS) Conference in 2010.&lt;/p&gt;
+
+&lt;p&gt;Shawn Goulet, a GIS Analyst with the Cape Cod Commission made an introduction to OSM presentation to the staff of the Social Studies department of Barnstable Public Schools in the Fall of 2013 and was bolstered following Shawn’s attendance at
+SOTMUS 2014 in Washington, D.C.  Hilary Mueller, the AP Geography teacher at Barnstable High School, and Virginia Turner, the Social Studies Curriculum Coordinator for grades 6-12 in Barnstable Public Schools enthusiastically welcomed Shawn to
+work with them on working with the students of the AP sections on editing the OSM throughout the school year.  This collaboration with Hilary and her students has continued over the past 2 school years.&lt;/p&gt;
+
+&lt;p&gt;Additionally, over the past year, Celeste Reynolds, the AP Geography teacher at Mashpee High School has expressed interest in adding OSM editing to Mashpee’s AP Geography sections.  Towareds that end, Shawn has been working with a
+Mashpee High School senior who went through the AP Geography program and assists Celeste with her current sections, to develop a plan in hopes that Celeste can begin adding OSM editing to the curriculum for the 2015-2016 school year.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-mapping-task&quot;&gt;The Mapping Task&lt;/h3&gt;
+&lt;p&gt;On Cape Cod, TeachOSM mapping began in the Fall of 2013.  Hilary and Shawn agreed that the simplest approach to track students’ contributions to the OSM was to grid the specific town and assign grids to students to begin working on
+specific areas within the town  The grids are generated in GIS software and the number and/or size of the grids is whatever the teacher and Shawn agree is appropriate depending on different variables such as the number of students, the
+number of sections offered and others that is variable annually.  At this point, the students are introduced to OSM and Field Papers [2] throughout the course of the school year.  Throughout the course of the school year, the students
+are tasked with continuously editing the OSM map features within their assigned grids.  In addition, there is a map features theme which tasks the students with editing map features that fall under the topics covered in the various
+sections of the course at the time each section is being covered within their town or another geographic area where they have great knowledge of map features on the ground.  If the teacher chooses, students work with the teacher and Shawn to
+develop a project surrounding OSM and possibly the use of a geoprocessing software.&lt;/p&gt;
+
+&lt;p&gt;For Mashpee, the OSM outline for integration with the course will be completed before the end of Spring 2015.  Looking forward, Celeste wishes to commence OSM editing in a similar fashion as described above in Mashpee during the 2015-2016
+school year.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-workflow&quot;&gt;Our Workflow&lt;/h3&gt;
+&lt;p&gt;The workflow of students’ contribution to the OSM is described above.  To track the students’ progress, the students are required to document their contributions in a journal entering information such as beginning location, ending location,
+and a screen shot(s) of their edits from their account page at the end of each editing session.  For now, this journal is maintained in a Google Doc file that is shared between the student and the teacher.  Thus far, we have found that
+this provides a sufficient framework for the students to establish their independent workflows and the teacher to track the student’s contributions.  The student is to be assigned additional grids in the town as each is deemed completed to the
+best of their ability by the student.  Also, the editing of map features under each course section changes everytime the course moves to a new section.  This component provides a direct connection to the course curriculum and it allows
+students to map features not necessarily within their town of which they have great knowledge and care.  Finally, the course project is open to a discussion between the teacher and Shawn.&lt;/p&gt;
+
+&lt;h3 id=&quot;issues&quot;&gt;Issues&lt;/h3&gt;
+&lt;p&gt;The largest challenge to this point for all parties has been the coordination of schedules and time during work and school hours.  TeachOSM is time-consuming.  There is a lot of material that is mandated for the teachers and students to cover
+in the AP Geography sections not including the integration of OSM contributions.  TeachOSM sessions have to take place during the school day due to the many after school commitments that the teachers and students may have.  As a result, that
+provides many challenges including the need for long periods (if avalailable) to provide sufficient time for edits and issues resolution.  Additionally, school cancellations due to weather events put the teachers and students behind in their
+course schedule, which in turn pushes TeachOSM meetings further back on everyone’s schedule and the TeachOSM component loses momentum.  Towards this end, we have found that coordination, flexibility and patience is extremely important.  Also,
+repitition of the editing process with students is necessary at each TeachOSM meeting due to the students’ becoming overwhelmed from not necessarily actively contribuitng to OSM on a regular basis outside of the school day.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-weve-learned&quot;&gt;What We’ve Learned&lt;/h3&gt;
+&lt;p&gt;TeachOSM has been a lot of fun for everyone involved.  The teachers and students enjoy contributing to OSM.  It is productive and students are learning a new way to think, new areas of their town they may never have visited and are gaining
+practical skills that are applied to work in many positions in today’s workforce.  The independent thinking nature of OSM editing in a relatively free-form structure brings the students outside of their comfort zone that they typically learn
+within.  This is valuable.  Today’s professionals in many fields may need to go outside of their everyday working environment from time to time to conduct business and be able to adapt to whatever is necessary for them to do their jobs.  This
+is a skill that is only improved through experience.  Gaining this experience early on in life will only prove more worthwhile with time.&lt;/p&gt;
+
+&lt;p&gt;When given the opportunity to work with students, time management is extremely important to being productive.  OSM editing is also valuable both to the AP Geography course and to the students’ futures.  The students can easily relate to the
+map features and they can see their work being integrated in products they actively use such as Craigslist, MapQuest, Pintrest and others.  This process is a continuous work in progress and flexibility is key due to the uncertainty of
+dynamics out of everyone’s control as previously described.  Regardless, OSM integration is most certainly valuable for high school-aged students to be given the opportunity.  Towards this end, we commend the teachers that give us the
+opportunity to introduce OSM to their students.  It is much appreciated.&lt;/p&gt;
+
+&lt;h3 id=&quot;contact-information&quot;&gt;Contact Information&lt;/h3&gt;
+&lt;p&gt;Shawn Goulet &lt;br /&gt;
+shawndotgouletatgmaildotcom &lt;br /&gt;
+[@Shawn_Goulet] (https://twitter.com/Shawn_Goulet)&lt;/p&gt;
+
+&lt;p&gt;[1] [The College Board - AP Geography] (http://apcentral.collegeboard.com/apc/members/courses/teachers_corner/220797.html) &lt;br /&gt;
+[2] &lt;a href=&quot;http://fieldpapers.org/&quot;&gt;Field Papers&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">GIS Day Farmers Market Mapping Project</title><link href="http://localhost:4000/posts/2015/02/farmers.html" rel="alternate" type="text/html" title="GIS Day Farmers Market Mapping Project" /><published>2015-02-05T00:00:00+00:00</published><updated>2015-02-05T00:00:00+00:00</updated><id>http://localhost:4000/posts/2015/02/farmers</id><content type="html" xml:base="http://localhost:4000/posts/2015/02/farmers.html">&lt;h3 id=&quot;the-backstory&quot;&gt;The Backstory&lt;/h3&gt;
+
+&lt;p&gt;For Northern Virginia Community College GIS Day, we decided to plan a mapathon incorporating National Geographic’s “The Future of Food” theme.  We planned to map Farmers Markets in Virginia using Open Street Map.  While we were able to find long/lat information for Farmers Markets in Virginia which students could add to OSM, we also wanted to show students that they could go out to their local Farmers Markets and gather information to be uploaded to OSM using field papers.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-mapping-challenge&quot;&gt;The Mapping Challenge&lt;/h3&gt;
+
+&lt;p&gt;The first step was to print a map from the &lt;a href=&quot;http://fieldpapers.org/&quot;&gt;field papers website&lt;/a&gt; which would include the location of a local Farmers Market.  Once the map was printed, a NOVA instructor was able to write information directly onto the printed map including street address and names of buildings in the same area as the Farmers Market.&lt;br /&gt;
+&lt;img src=&quot;../../../assets/images/blog/Market_Field_Paper.jpg&quot; alt=&quot;field_paper1001.jpg&quot; /&gt;
+After the information was gathered, the paper map was converted to a jpeg file and then uploaded using the field papers website.  Once the map was uploaded, information was easily added to OSM.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-workflow&quot;&gt;The Workflow&lt;/h3&gt;
+
+&lt;p&gt;Because our participants were not actually going to use field papers for this event, the workflow only involved an instructor and a family member assistant!  If field papers had been part of the event, a map atlas would have been printed and distributed to participants ahead of time.&lt;/p&gt;
+&lt;h3 id=&quot;stumbling-blocks&quot;&gt;Stumbling Blocks&lt;/h3&gt;
+
+&lt;p&gt;Creating an atlas using field papers took some time to master, but the process was relatively simple.
+Make sure that you follow the instructions for the correct type of file that can be uploaded using field papers or your map will not upload.&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;With three simple pictures, we were able to show students how easy it is to work in the field and add the most accurate information to OSM.&lt;/p&gt;
+
+&lt;h3 id=&quot;contact-information&quot;&gt;Contact Information&lt;/h3&gt;
+
+&lt;p&gt;Please contact Janice Ouellette jouellette [at] nvcc.edu with any questions.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Backstory</summary></entry><entry><title type="html">Conducting Street-level Surveys in DC</title><link href="http://localhost:4000/posts/2015/01/DCGreatStreets.html" rel="alternate" type="text/html" title="Conducting Street-level Surveys in DC" /><published>2015-01-04T00:00:00+00:00</published><updated>2015-01-04T00:00:00+00:00</updated><id>http://localhost:4000/posts/2015/01/DCGreatStreets</id><content type="html" xml:base="http://localhost:4000/posts/2015/01/DCGreatStreets.html">&lt;h1 id=&quot;dc-great-streets-a-street-level-survey-using-openstreetmap&quot;&gt;“DC Great Streets: A Street-level Survey Using OpenStreetMap”&lt;/h1&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Conducting a street-level survey is a great way to get students acquainted with local land
+ use and land cover while learning important technical skills in the
+ &lt;a href=&quot;http://openstreetmap/&quot;&gt;OpenStreetMap&lt;/a&gt; environment. The objective of a survey is to make
+ a field-level determination of how the property or building is being used, create a
+ geo-located photo survey of the streetscape, and add those features to OpenStreetMap. In
+ the paragraphs below, we discuss the rationale for a street-level survey, outline the
+ basic mapping activities, and offer pointers for your street-level survey.&lt;/p&gt;
+
+&lt;h2 id=&quot;rationale&quot;&gt;Rationale&lt;/h2&gt;
+
+&lt;p&gt;In late 2014, &lt;a href=&quot;http://mappingdc.org/&quot;&gt;MappingDC&lt;/a&gt; began a collaboration with the &lt;a href=&quot;http://greatstreets.dc.gov/&quot;&gt;DC Great Streets&lt;/a&gt;
+ program to conduct
+a street-level survey in the twelve DC Great Streets corridors. The DC Great Streets
+program dispenses capital improvement grants to small businesses in these corridors to
+boost neighborhood economic resilience and help create lively urban centers around the city.
+Once a month, MappingDC hosts a &lt;a href=&quot;http://www.meetup.com/MappingDC/&quot;&gt;mapping party&lt;/a&gt; in or along one of the corridors where we
+gather data in the field, upload, and edit the data in OpenStreetMap. The project is
+evolving with an emphasis on creating service learning opportunities for young adults that
+meet the needs of the DC Great Streets program.&lt;/p&gt;
+
+&lt;h2 id=&quot;conducting-your-own-street-level-survey&quot;&gt;Conducting your own street-level survey&lt;/h2&gt;
+
+&lt;h3 id=&quot;tools-youll-need&quot;&gt;Tools you’ll need&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mapillary: To create the streetview, we use &lt;a href=&quot;http://mapillary.com/&quot;&gt;Mapillary&lt;/a&gt;, a
+lightweight app that you add to your smartphone. So, before you get started, download and
+install Mapillary. Also review the  tips and techniques on the Mapillary page so you take good, usable photos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Field Papers: We use &lt;a href=&quot;http://fieldpapers.org/&quot;&gt;Field Papers&lt;/a&gt; to make a paper map of the streets, which
+we annotate in the field. Print out large-scale maps of your area of interest so you can
+annotate liberally and legibly. There is a very good Field Papers how-to on the
+&lt;a href=&quot;http://wiki.openstreetmap.org/wiki/Field_Papers&quot;&gt;OpenStreetMap wiki&lt;/a&gt; which shows how to
+use Field Papers for field data collection.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;The workflow:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Conduct field work&lt;/li&gt;
+  &lt;li&gt;Return to base and begin editing in OpenStreetMap&lt;/li&gt;
+  &lt;li&gt;Upload photos to Mapillary site&lt;/li&gt;
+  &lt;li&gt;Review work for completeness and accuracy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;form-teams-for-field-work&quot;&gt;Form teams for field work:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Two teams of two or three people, one team on each side of the street. One person records
+basic information about the property or building (e.g. name, address, phone, website, etc.),
+ the second person records takes photos. A third person is useful to take supplemental notes,
+ help navigate, but not essential.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;editing-process&quot;&gt;Editing process&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Trace building outlines as necessary. There are often multiple businesses in a building
+so enter each business as a point and give it its own address.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Great Streets program has a simple rating system to help determine which properties
+qualify for assistance. Mappers tag each property with a rating, which the DC Great
+Streets program can use to assess property condition. You should refer to the
+&lt;a href=&quot;http://wiki.openstreetmap.org/wiki/Key:building:condition&quot;&gt;building condition&lt;/a&gt; page on the
+OSM wiki for help in tagging building conditions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Follow the instructions on the Mapillary page for uploading your photos from your phone
+to the Mapillary site.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;MappingDC and DC Great Streets program are still working on how to standardize the tagging
+scheme for building conditions so that they are useful to the program. We’ve also learned
+that some photos are not usable because they are blurry, too dark, washed out, or taken at
+a bad angle. We’re working on developing field techniques that will make for more consistently
+usable photo quality.
+Tactically, teams of three seem to work best, but plan on at least two per team.&lt;/p&gt;
+
+&lt;h2 id=&quot;for-more-information&quot;&gt;For more information:&lt;/h2&gt;
+
+&lt;p&gt;Mapillary provides detailed &lt;a href=&quot;https://help.mapillary.com/hc/en-us&quot;&gt;instructions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See also Elliott Plack’s diary &lt;a href=&quot;https://www.openstreetmap.org/user/ElliottPlack/diary/26065&quot;&gt;entry&lt;/a&gt;
+on how he created a street-level survey on bicycle.&lt;/p&gt;
+
+&lt;p&gt;For more information on street surveys or DC Great Streets mapping parties, please contact Steven Johnson (sejohnson8 at gmail dot com).&lt;/p&gt;</content><author><name></name></author><summary type="html">“DC Great Streets: A Street-level Survey Using OpenStreetMap”</summary></entry><entry><title type="html">Georgia Avenue Mapping</title><link href="http://localhost:4000/posts/2014/10/Georgia-Ave.html" rel="alternate" type="text/html" title="Georgia Avenue Mapping" /><published>2014-10-20T00:00:00+00:00</published><updated>2014-10-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2014/10/Georgia-Ave</id><content type="html" xml:base="http://localhost:4000/posts/2014/10/Georgia-Ave.html">&lt;h2 id=&quot;georgia-avenue-youth-ambassadors-mapping-project&quot;&gt;Georgia Avenue Youth Ambassadors Mapping Project&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../assets/images/blog/Georgia_Avenue_Youth_Ambassadors.jpg&quot; alt=&quot;Georgia_Avenue_Youth_Ambassadors.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-backstory&quot;&gt;The Backstory&lt;/h3&gt;
+&lt;p&gt;In July-August 2014, members of MappingDC worked with about 20 students ages 12-18 in Washington, DC to map out Georgia Avenue, a major commercial corridor in a largely lower-income part of town.
+The idea was to collect data on businesses so local groups and citizens can use it, while at the same time teaching the kids new skills and getting them engaged in their community while seeing it from a new viewpoint through geography and mapping. By the end, the students added almost 300 businesses to OpenStreetMap along the street and learned about geography and mapping.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-partners&quot;&gt;The Partners&lt;/h3&gt;
+&lt;p&gt;The project is part of the city’s Summer Youth Program, where young people work with local nonprofits on their projects that benefit the community. The nonprofit in this case is MOMIE’s TLC, which teaches minority students about local history, social justice, entrepreneurship, business skills and such. Part of their summer curriculum is to work with two local nonprofits, the Georgia Avenue Business Association (GABA) and the Georgia Avenue Community Development Task Force, on a biennial business survey, where they track what businesses exist and what local residents want, then have community meetings to discuss the survey and the mapping data that was collected.
+Previously the survey and data was just on the Task Force’s website, so it wasn’t very easy for people to find or use it – we figured, why not put this data they’re already collecting in a place where it’s more accessible and anybody around the world can use, while at the same time getting local kids involved – OpenStreetMap!&lt;/p&gt;
+
+&lt;h3 id=&quot;the-workflow&quot;&gt;The Workflow&lt;/h3&gt;
+&lt;p&gt;Buildings for many of the areas around Georgia Avenue were missing, so Tasking Manager was used to help subdivide the area, and help volunteers target the missing buildings.
+Volunteers helped add buildings along the avenue and elsewhere in the area, so we had a good base for the students to use.
+Andrew and Steven met with the Youth Ambassadors and organizers and gave a presentation on OpenStreetMap, with a brief demo of the system. They were excited to use it.
+Then came the actual business information. The nonprofits developed forms for the students to use, and they went out to collect that data. Having done this multiple times in the past, the nonprofits had good forms and steps worked out already. (Along the way, the students also spoke with business owners about entrepreneurship and business skills, and refined an “elevator speech,” as part of their curriculum.) The students also collected some info on the building structures and facades, which the businesses can use to apply for “Great Streets” revitalization grants from the city government.
+For the data entry into OSM, Andrew, Steven, Brandon and Richard met with the students at a community center to help them enter the data they collected back into OpenStreetMap. After some compuer struggles (more on that below) we got the students logins and they started to add the data they had collected.&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+&lt;p&gt;The students mapped at least 268 places, including local businesses, restaurants, fire stations, offices, salons, etc. We expect there are more now the project is done. About 7 students were registered on OpenStreetMap. One student even started mapping mailboxes on the street on her own, outside of the project. We are thinking about more interaction in the future with them, like other community mapping sessions.
+The data was also used to create a poster-sized map for a meeting of the Georgia Avenue Community Development Task Force, where local residents will discuss business and development needs. The Youth Ambassadors presented on their project and received a standing ovation, and the maps were printed and used in community conversations during the meeting.&lt;/p&gt;</content><author><name></name></author><summary type="html">Georgia Avenue Youth Ambassadors Mapping Project</summary></entry><entry><title type="html">OSM at George Washington University</title><link href="http://localhost:4000/posts/2014/10/gw-mapping.html" rel="alternate" type="text/html" title="OSM at George Washington University" /><published>2014-10-20T00:00:00+00:00</published><updated>2014-10-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2014/10/gw-mapping</id><content type="html" xml:base="http://localhost:4000/posts/2014/10/gw-mapping.html">&lt;h2 id=&quot;osm-at-george-washington-university&quot;&gt;OSM at George Washington University&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../assets/images/blog/gwu-casestudy.jpg&quot; alt=&quot;gwu-casestudy.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
+&lt;p&gt;Nuala Cowan &amp;amp; Richard Hinton of the Geography department regularly integrate the open source mapping platform, OpenStreetMap into the curriculum for their introductory undergraduate Geographical Information Systems (GIS) &amp;amp; Cartography classes, -traditionally the domain of proprietary desktop software and data. They have sought to expand the traditional curriculum, and expose students to various open source software, web based platforms, and data collection initiatives, specifically in a service-learning environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-mapping-challenge&quot;&gt;The Mapping Challenge&lt;/h3&gt;
+&lt;p&gt;In spring 2013, classes collaborated with the American Red Cross to map disaster prone communities in both Colombia and Indonesia. Using high-resolution satellite imagery, GW Geography students remotely traced road and building infrastructure, data that was subsequently field validated by domestic chapters of the Red Cross. In fall 2013 they worked on another collaborative project in conjunction with USAID and the Open Cities Project at the World Bank. Once again, students mapped street level infrastructure, this time, in the city of Kathmandu, Nepal. Field partner for this collaboration was a non-profit called &lt;a href=&quot;http://kathmandulivinglabs.org/&quot;&gt;Kathmandu Living Labs&lt;/a&gt; (KLL). KLL then performed OSM Patrol Sessions (Data Quality check and Validation) on the data created by the students (and others) for Kathmandu. Richard and Nuala’s classes have continued to work on collaborations in recent semesters. In Spring 2014 students traced infrastructure in the Philippines in conjunction with the GeoCenter at USAID, and in Summer 2014 students worked once again with the American Red Cross to trace buildings in Harare, Zimbabwe.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-workflow&quot;&gt;Our Workflow&lt;/h3&gt;
+&lt;p&gt;The instructors used the Tasking Manager tool to outline the study area (which is determined by our partners), and partition it for tracing. Each student is given a quota of nodes to trace.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-discovered&quot;&gt;What we discovered&lt;/h3&gt;
+&lt;p&gt;The collaborative mapping initiatives at GWU Geography have been exclusively disaster related to date, as this coincides with the research interests of the faculty involved. We believe this type of instructional module/assignment is applicable to many disciplines and teaching scenarios, and the objective of the TeachOSM resource is to open that possibility to these other fields, in a comprehensive user friendly way.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Backstory&lt;/li&gt;
+  &lt;li&gt;The mapping challenge&lt;/li&gt;
+  &lt;li&gt;Our workflow&lt;/li&gt;
+  &lt;li&gt;Stumbling Blocks&lt;/li&gt;
+  &lt;li&gt;Discuss the results and what was learned&lt;/li&gt;
+  &lt;li&gt;Provide contact information&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">OSM at George Washington University</summary></entry></feed>

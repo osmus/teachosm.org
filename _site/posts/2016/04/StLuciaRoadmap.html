@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="/assets/css/agency.css" />-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/selectize.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- recommended in https://jekyllrb.com/docs/posts/ -->
+  <meta charset="utf-8" />
+
+  <script src="/assets/js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+  <script>
+    var supportsES6 = function() {
+      try {
+        new Function("(a = 0) => a");
+        return true;
+      }
+      catch (err) {
+        return false;
+      }
+    }();
+
+    if (!supportsES6) {
+      alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
+    }
+  </script>
+</head>
+
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="page">
+      <!-- <nav class="navbar">
+  <div class="nav-wrapper">
+  <a href="" class="brand-logo">TeachOSM</a>
+  <ul id="nav-mobile" class="right">
+    <li><a href="/blog">Triggering github pages rebuild, Blog</a></li>
+    <li><a href="/courses">Projects</a></li>
+  </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/">
+        <img class="logo" src="/assets/images/logo.png" />
+        <span id="beta-text">beta</span>
+      </a>
+
+    
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/blog">Blog</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/resources">Resources</a>
+        </li>
+        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+$(function(){
+
+  if (window.location.pathname == '/' || window.location.pathname == '/teachosm/') {
+      console.log('homepage');
+      console.log(window.location.href);
+    } else {
+
+      $('a').each(function() {
+        //console.log(location.search)
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+        if ($(this).prop('href')+'/' == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+  }
+
+});
+</script>
+
+      <div class="blog-post content">
+        <div class="blog-post-title">
+          MapSaintLucia - a Community Development Roadmap
+        </div>
+        
+        
+        <span class="blog-post-date">April 20, 2016</span>
+        
+        </br>
+        </br>
+        </br>
+        <p>Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.</p>
+
+<h3 id="schedule-regular-events">Schedule Regular Events:</h3>
+
+<p>The OpenStreetMap community typically schedule at least four events a year, though we always have more.</p>
+
+<ul>
+  <li>Begin organizing the next mapathon now. The dates for 2016 are:
+    <ul>
+      <li>Winter: March 5-6</li>
+      <li>Spring: May 14-15</li>
+      <li>Summer: August 9-10</li>
+      <li>Fall: November 5-6</li>
+    </ul>
+  </li>
+  <li>
+    <p>Use the TeachOSM Tasking Manager to create bite-sized mapping jobs for future events: <a href="http://tasks.teachosm.org/">http://tasks.teachosm.org/</a></p>
+  </li>
+  <li>Consider a theme for next mapathon. You can focus on a specific geographic area, e.g. all roads and buildings in Laborie or Micoud. Or, you can focus on collecting a specific feature, such as collecting all fire stations or schools. In fact, mapping critical infrastructure makes a great project due to the high value of the data.  But smaller mapping projects can also be useful such as mapping historical and cultural sites, capturing hiking trails using GPS, or even mapping all local rum shops.</li>
+  <li>Plan an Open Mapping Roadshow and hold OpenStreetMap mapathons across Saint Lucia. The regional ICT Access centers make excellent sites for mapathons as they are properly equipped and offer access to local mapping communities. Follow the basic requirements for hosting a mapathon (e.g. computers, wifi, FieldPapers, and Mapillary).</li>
+</ul>
+
+<h2 id="data-quality--validation">Data quality &amp; Validation:</h2>
+
+<p>Begin taking steps to address data quality. It’s common for new mappers to enter roads that don’t connect properly, building corners that should be squared, and features improperly tagged. The following resources provide examples of validation and data quality procedures.</p>
+
+<ul>
+  <li>
+    <p>To square building corners, see the ‘Buildings’ section of the Bandung tracing guide: <a href="http://hotosm.github.io/tracing-guides/guide/Bandung-Indo.html">http://hotosm.github.io/tracing-guides/guide/Bandung-Indo.html</a></p>
+  </li>
+  <li>The JOSM editor (see Power Mapping, below) provides robust data validation tools. To use them, see this tracing guide: <a href="http://hotosm.github.io/tracing-guides/tip/josm-validation.html">http://hotosm.github.io/tracing-guides/tip/josm-validation.html</a></li>
+  <li>MapRoulette: <a href="http://maproulette.org/">http://maproulette.org/</a> - An fun and addictive tool to improve data quality.</li>
+</ul>
+
+<h2 id="power-mapping">Power Mapping:</h2>
+
+<p>OpenStreetMap’s web-based iD editor is the easiest and most convenient way to get started mapping. But eventually, you will become quite proficient in OpenStreetMap mapping techniques and you will want to graduate to the Java OpenStreetMap Editor, aka JOSM. JOSM allows you to map quickly with keyboard shortcuts, a series of editing tools for common tasks and specialized plugins. Here is your guide to take your mapping skills to the next level.</p>
+
+<ul>
+  <li>A quick guide to JOSM: <a href="http://hotosm.github.io/tracing-guides/guide/josm101-part1.html">http://hotosm.github.io/tracing-guides/guide/josm101-part1.html</a></li>
+  <li>Becoming a power mapper: <a href="https://www.mapbox.com/blog/osm-mapping-guide/">https://www.mapbox.com/blog/osm-mapping-guide/</a></li>
+  <li>Graduate to JOSM: <a href="https://www.mapbox.com/blog/making-the-most-josm/">https://www.mapbox.com/blog/making-the-most-josm/</a></li>
+  <li>Becoming a power mapper: <a href="https://www.mapbox.com/blog/power-mapper/">https://www.mapbox.com/blog/power-mapper/</a></li>
+  <li>Keyboard shortcuts for the iD editor: <a href="http://wiki.openstreetmap.org/wiki/ID/Shortcuts">http://wiki.openstreetmap.org/wiki/ID/Shortcuts</a></li>
+  <li>More editing tips for the iD editor: <a href="http://osmgeoweek.org/plan/id-editor/">http://osmgeoweek.org/plan/id-editor/</a></li>
+</ul>
+
+<h2 id="reference-materials">Reference Materials:</h2>
+
+<ul>
+  <li>How to tag that thing? See the Map Features page on the wiki: <a href="http://wiki.openstreetmap.org/wiki/Map_Features">http://wiki.openstreetmap.org/wiki/Map_Features</a></li>
+  <li>
+    <p>Use TagInfo to know which tags are in common usage - <a href="http://taginfo.openstreetmap.org/">http://taginfo.openstreetmap.org/</a></p>
+  </li>
+  <li>Begin development of a Tracing Guide specific to the Eastern Caribbean region. The tracing guide should show examples of land uses specific to the eastern Caribbean, such as banana farms, orchards for tropical fruits, buildings peculiar to Saint Lucia. See more here: <a href="http://hotosm.github.io/tracing-guides/">http://hotosm.github.io/tracing-guides/</a></li>
+  <li>The OSM Wiki page for Saint Lucia is YOUR place to add projects, resources, contacts, and more: <a href="http://wiki.openstreetmap.org/wiki/WikiProject_Saint_Lucia">http://wiki.openstreetmap.org/wiki/WikiProject_Saint_Lucia</a></li>
+  <li>Subscribe to Talk-Carib and start conversation about mapping projects: <a href="https://lists.openstreetmap.org/listinfo/talk-carib">https://lists.openstreetmap.org/listinfo/talk-carib</a></li>
+  <li>Continue cultivating Street/Field Survey using FieldPapers. http://fieldpapers.org/</li>
+</ul>
+
+<h2 id="education--credentials">Education &amp; Credentials:</h2>
+
+<p>Geobadges are micro-credentials for students or all ages: <a href="http://geobadges.org/">http://geobadges.org/</a></p>
+
+<p>TeachOSM offers resources to teachers and instructors who want to use OpenStreetMap to teach geographic skills and reasoning - <a href="http://teachosm.org/">http://teachosm.org/</a></p>
+
+<h2 id="promotional">Promotional:</h2>
+
+<p>Here are some resources to promote future events with comparisons, establish bragging rights, and create printed maps.</p>
+
+<ul>
+  <li>Use Geofabrik’s Map Compare to measure progress against proprietary maps - <a href="http://tools.geofabrik.de/mc/#16/13.8192/-60.8997&amp;num=2&amp;mt0=mapnik&amp;mt1=google-map">http://tools.geofabrik.de/mc/#16/13.8192/-60.8997&amp;num=2&amp;mt0=mapnik&amp;mt1=google-map</a></li>
+  <li>OSM Fight is a fun little game to pit your mapping skills against your peers! <a href="http://osmfight.neis-one.org">http://osmfight.neis-one.org</a></li>
+  <li>Printed maps - <a href="http://maperitive.net/">http://maperitive.net/</a> is a lightweight application that provides the ability to print specialized maps based on GPS and OpenStreetMap. The user controls what data are on the map and how they are rendered.</li>
+</ul>
+
+      </div>
+    </div>
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li>
+            <a href="http://twitter.com/teachosm">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/TEACHOSM/">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/osmlab">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li><a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li><a href="/terms-of-use">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+  
+    <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="/assets/css/agency.css" />-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/selectize.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- recommended in https://jekyllrb.com/docs/posts/ -->
+  <meta charset="utf-8" />
+
+  <script src="/assets/js/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+  <script>
+    var supportsES6 = function() {
+      try {
+        new Function("(a = 0) => a");
+        return true;
+      }
+      catch (err) {
+        return false;
+      }
+    }();
+
+    if (!supportsES6) {
+      alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
+    }
+  </script>
+</head>
+
+  
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="blog page">
+      <!-- <nav class="navbar">
+  <div class="nav-wrapper">
+  <a href="" class="brand-logo">TeachOSM</a>
+  <ul id="nav-mobile" class="right">
+    <li><a href="/blog">Triggering github pages rebuild, Blog</a></li>
+    <li><a href="/courses">Projects</a></li>
+  </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/">
+        <img class="logo" src="/assets/images/logo.png" />
+        <span id="beta-text">beta</span>
+      </a>
+
+    
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/blog">Blog</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/resources">Resources</a>
+        </li>
+        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+$(function(){
+
+  if (window.location.pathname == '/' || window.location.pathname == '/teachosm/') {
+      console.log('homepage');
+      console.log(window.location.href);
+    } else {
+
+      $('a').each(function() {
+        //console.log(location.search)
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+        if ($(this).prop('href')+'/' == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+  }
+
+});
+</script>
+
+      <div class="wrapper">
+        <section class="panel-border-style">
+          <div class="blog content">
+            <div class="blog-title">
+  <h1 class="page-title">Blog Posts</h1>
+</div>
+
+<div class="blog-post-list">
+  
+  <a href="/posts/2016/04/StLuciaRoadmap.html" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">MapSaintLucia - a Community Development Roadmap</div>
+      <div class="blog-post-card-image-wrapper">
+        
+        <img class="blog-post-card-image" src="./assets/images/default-blog-post.jpg">
+        
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <a href="/posts/2015/04/TeachOSM-CapeCod.html" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">TeachOSM on Cape Cod</div>
+      <div class="blog-post-card-image-wrapper">
+        
+        <img class="blog-post-card-image" src="./assets/images/blog/capecod-casestudy-1-thumbnail.jpg">
+        
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">In the United States, AP Geography is offered during high school students' freshman year.  As explained by The College Board, since it's introduction in 2001, the growth of the number of students taking the course has been one of the fastest of all AP course offerings to high school students across the United States.  A similar growth pattern has taken place in the number of contributors to the OpenStreetMap (OSM) since it's birth and, in the United States specifically, since the 1st State of the Map U.S. (SOTMUS) Conference in 2010.</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <a href="/posts/2015/02/farmers.html" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">GIS Day Farmers Market Mapping Project</div>
+      <div class="blog-post-card-image-wrapper">
+        
+        <img class="blog-post-card-image" src="./assets/images/blog/Market_Field_Paper-thumbnail.jpg">
+        
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">For Northern Virginia Community College GIS Day, we decided to plan a mapathon incorporating National Geographic’s “The Future of Food” theme.  We planned to map Farmers Markets in Virginia using Open Street Map.  While we were able to find long/lat information for Farmers Markets in Virginia which students could add to OSM, we also wanted to show students that they could go out to their local Farmers Markets and gather information to be uploaded to OSM using field papers.</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <a href="/posts/2015/01/DCGreatStreets.html" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">Conducting Street-level Surveys in DC</div>
+      <div class="blog-post-card-image-wrapper">
+        
+        <img class="blog-post-card-image" src="./assets/images/default-blog-post.jpg">
+        
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">Conducting a street-level survey is a great way to get students acquainted with local land use and land cover while learning important technical skills in the [OpenStreetMap](http://openstreetmap/) environment. The objective of a survey is to make a field-level determination of how the property or building is being used, create a geo-located photo survey of the streetscape, and add those features to OpenStreetMap. In the paragraphs below, we discuss the rationale for a street-level survey, outline the basic mapping activities, and offer pointers for your street-level survey.</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <a href="/posts/2014/10/gw-mapping.html" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">OSM at George Washington University</div>
+      <div class="blog-post-card-image-wrapper">
+        
+        <img class="blog-post-card-image" src="./assets/images/blog/gwu-casestudy-thumbnail.jpg">
+        
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">Nuala Cowan & Richard Hinton of the Geography department regularly integrate the open source mapping platform, OpenStreetMap into the curriculum for their introductory undergraduate Geographical Information Systems (GIS) & Cartography classes, -traditionally the domain of proprietary desktop software and data. They have sought to expand the traditional curriculum, and expose students to various open source software, web based platforms, and data collection initiatives, specifically in a service-learning environment.</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <a href="/posts/2014/10/Georgia-Ave.html" class="blog-post-card-wrapper">
+    <div class="blog-post-card">
+      <div class="blog-post-card-title">Georgia Avenue Mapping</div>
+      <div class="blog-post-card-image-wrapper">
+        
+        <img class="blog-post-card-image" src="./assets/images/blog/Georgia_Avenue_Youth_Ambassadors-thumbnail.jpg">
+        
+        <div class="blog-post-card-image-overlay">
+          <div class="blog-post-overlay-text">In July-August 2014, members of MappingDC worked with about 20 students ages 12-18 in Washington, DC to map out Georgia Avenue, a major commercial corridor in a largely lower-income part of town. The idea was to collect data on businesses so local groups and citizens can use it, while at the same time teaching the kids new skills and getting them engaged in their community while seeing it from a new viewpoint through geography and mapping. By the end, the students added almost 300 businesses to OpenStreetMap along the street and learned about geography and mapping.</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+</div>
+
+
+<!--
+<script>
+  document.querySelector(".pagination-number").addEventListener('keydown', function(event) {
+    var newPageNumber = event.target.value;
+    var code = (event.keyCode ? event.keyCode : event.which);
+    if (code == 13) {
+      var newUrl = window.location.origin + "/blog";
+      if (newPageNumber > 1) {
+        newUrl += "/page/" + newPageNumber;
+      }
+      window.open(newUrl, "_self");
+    }
+  });
+</script>
+-->
+
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li>
+            <a href="http://twitter.com/teachosm">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/TEACHOSM/">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/osmlab">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li><a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li><a href="/terms-of-use">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="/assets/js/agency.js"></script>
+
+
+  </body>
+</html>
