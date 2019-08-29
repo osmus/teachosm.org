@@ -1,60 +1,44 @@
-#Jekyll configuration file
-
-#Build configuration, see http://jekyllrb.com/docs/configuration/#default-configuration
-# auto: true
-# server: true
-highlighter:  rouge
+title: TeachOSM
+timezone: UTC
+collections:
+  filters:
+    title: Filters
+    output: false
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  resources:
+    title: Resources
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+collections_dir: collections
 markdown: kramdown
-kramdown:
-  extensions: [smart]
-
-#Permalink structure, see http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:title/
-email: info@teachosm.org
-
-#Front Matter, see http://jekyllrb.com/docs/configuration/#front-matter-defaults
-columnist:
-  paths:
-  - _posts
-
-#serving the site, see http://jekyllrb.com/docs/configuration/#default-configuration or http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: ''
-
-#Prose configurations, see https://github.com/prose/prose/wiki/Prose-Configuration
-prose:
-  rooturl: '_posts'
-  siteurl: "http://teachosm.org/"
-  media: 'images'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-#Added site map
-gems:
-  - jekyll-sitemap
-
-translations:
-  en:
-    tagline: "Teach OpenStreetMap Step by Step"
-    contribute: "Help improve our guides"
-    trainingspan: "Are you a workshop organizer?"
-    training: "Check out training material for this guide (in English)"
-    feedbackspan: "Was this chapter helpful?"
-    feedback: "Let us know and help us improve the guides!" 
-  de:
-    tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
-    contribute: "Hilf mit, unsere Anleitungen zu verbessern"
-    trainingspan: "Veranstaltest du Workshops?"
-    training: "Siehr dir unsere Unterlagen für diesen Kurs an (in Englisch)"
-    feedbackspan: "War dieses Kapitel hilfreich?"
-    feedback: "Sende uns Feedback und verbessere die Anleitungen!"
-    getstarted: "weiter zum nächsten Kapitel"
-  es:
-    tagline: "Enseña OpenStreetMap (OSM) paso a paso"
-    contribute: " "
-    trainingspan: " "
-    training: " "
-    feedbackspan: " "
-    feedback: " "
-    getstarted: " " 
+theme: minima
+plugins:
+- jekyll-feed
+#- jekyll-paginate-v2
+include:
+- pages
+pagination:
+  collection: posts
+  debug: true
+  enabled: true
+  per_page: 4
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: date
+  sort_reverse: true
+permalink: "/:collection/:year/:month/:title.html"
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+featured_blog_post: MapSaintLucia - a Community Development Roadmap

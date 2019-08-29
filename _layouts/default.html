@@ -1,87 +1,22 @@
-<!DOCTYPE html>
-<html lang="{{page.lang}}">
-  <head>
-    <meta charset="UTF-8">
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
-    <title>TeachOSM</title>
-    <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.baseurl }}/print.css" rel="stylesheet" type="text/css" media="print">
-    <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-    <link href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" >
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic |Quattrocento:400,700' rel='stylesheet' type='text/css'>
-    <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
-    <script src="{{ site.baseurl }}/vendor/jquery-ui-1.9.2.custom.js"></script>
-    <script>
-      window.app = window.app || {};
-      window.app.permalink = '{{page.permalink}}';
-      window.app.baseurl = '{{site.baseurl}}';
-      window.app.lang = '{{page.lang}}';
-      // Google Analytics
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-7046215-3']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script src="{{ site.baseurl }}/site.js"></script>
-  </head>
-  <body>
-  <div id='wrapper'>
-	<div class="fillG cell11" id="banner-top">
-      <small class='language-switcher marginL marginR cell11 cf'>
-        <a lang='en'>English</a> |
-        <a lang='de'>Deutsch</a> |
-	<a lang='es'>Español</a> |
-      </small>
-      <!-- small search bar does not appear on the front page -->
-      {% unless page.fronttitle or page.contributetitle%}
-      <form class='searchbox-default rounded'>
-        <span class='icon logo-search'></span>
-        <input id='search-field' type='text' name='search' class='default-value' />
-      </form>
-      {% endunless%}
-    </div>
-    <div id='header' class='cell12'>
-      <div class='marginL cell9 padAll'>
-        <div class='cell7 marginR'>
-           <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
-           <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
-        </div>
-        <a class='banner hide-mobile'>
-          <span class='{{page.lang}}'>{{site.translations.[page.lang].contribute}}</span>
-        </a>
-        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
-        </a>
+<!doctype html>
+<html>
+  {% if page.custom_head %}
+    {% include {{ page.custom_head }} %}
+  {% else %}
+    {% include head.html %}
+  {% endif %}
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+    <div class="{{ page.title }} page">
+      {% include navbar.html %}
+      <div class="wrapper">
+        <section class="panel-border-style">
+          <div class="{{ page.title }} content">
+            {{ content }}
+          </div>
+        </section>
       </div>
     </div>
-    <div id='content' class='cf'>
-        {{ content }}
-    </div>
-    <small id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell5 padAll'>
-        <li><a class='email' href="mailto:info@teachosm.org">info@teachosm.org</a></li>
-        <li><a class='twitter' href="https://twitter.com/hashtag/teachosm">#teachosm</a></li>
-        <li><a class='github' href='https://github.com/osmlab/teachosm'> Hosted on Github</a></li>
-        <li><a class='' href='/{{page.lang}}/contribute/'>Contributors</a></li>
-      </ul>
-      <a rel="license" class="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-      	<img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
-      </a>
-    </small>
-  </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56752719-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    {% include footer.html %}
+    {% include scripts.html %}
   </body>
 </html>

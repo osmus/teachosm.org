@@ -1,16 +1,27 @@
 ---
+title: home
+layout: generic
+custom_head: home/landing-page-head.html
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <script type="text/javascript">
-    <!--
-    window.location = "{{site.baseurl}}/en"
-    //-->
-    </script> 
-    <a href='{{site.baseurl}}'>Go to english version</a>
-  </body>
-</html>
+
+<!--
+<div class="navbar2 vertical-landing-page-menu">
+  <div class="navbar-default side-nav vertical-nav">
+      <div class="container-fluid">
+        <div class="row">
+          <ul class="nav nav2-list" style="padding-left: 0px;">
+            <li class="t-title"><a href="#about" class="page-scroll">About</a></li>
+            <li class="t-title"><a href="#calendar" class="page-scroll">Calendar</a></li>
+            <li class="t-title"><a href="#contact" class="page-scroll">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>
+-->
+
+{% include home/hero.html %}
+{% include home/about.html %}
+{% include home/featured_blog_post.html %}
+{% include home/calendar.html %}
+{% include home/contact.html %}
