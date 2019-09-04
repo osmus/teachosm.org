@@ -2,15 +2,18 @@
 	#resources-title {
 		margin-top: 62px;
 		margin-bottom: 200px;
+		max-width: 1000px;
+		margin: 100px auto;
 		position: relative;
 
 
 		#page-title {
-	    font-size: 40px;
-      font-weight: bold;
-      font-family: "Anderson_Grotesk", sans-serif;
-      font-style: italic;
-      text-align: center;
+			font-size: 40px;
+			font-weight: bold;
+			font-family: "Anderson_Grotesk", sans-serif;
+			font-style: italic;
+			text-align: center;
+			margin-bottom: 30px;
 		}
 
 		#spotlight-card {
@@ -18,14 +21,18 @@
 			display: block;
 			margin: 0 auto;
 			max-width: 1000px;
-			text-align: center;
+			text-align: left;
 
 			p {
-
+				font-size: 24px;
 				padding: 10px;
 				text-align: block;
 				margin-left: 15%;
 				margin-right: 15%;
+
+				@media (max-width: $tablet-width) {
+					text-align: center;
+				}
 			}
 		}
 	}
@@ -46,7 +53,17 @@
 			height: 500px;
 			position: absolute;
 			z-index: 1;
+
+			@media (max-width: $tablet-width) {
+				max-height: 200px;
+				width: 100%;
+				display: block;
+				position: relative;
+			}
 		}
+
+		/* 1200 breakpoint for mym section */
+
 		#MYM-right {
 			background-color: rgb(20,27,35);/*linear-gradient(to left,rgba(20,27,35,1), rgba(20,27,35, 0)) */
 			height: 500px;
@@ -54,16 +71,32 @@
 			margin-left: 40%;
 			padding: 100px;
 
+			@media (max-width: $tablet-width) {
+				width: 100%;
+				height: auto;
+				display: block;
+				position: relative;
+				margin-left: 0;
+				padding-top: 5px;
+				padding: 0;
+				padding-bottom: 5px;
+			}
+
 			a,h3 {
-				text-decoration: none;
-				color: $primary-color;
-				font-size: 15px;
+				text-decoration: none !important;
+				color: $primary-color !important;
+				font-size: 15px !important;
 			}
 
 			#mappers-title {
-				color: white;
+				color: $primary-color;
 				text-align: center;
-				margin-bottom: 20px;
+				margin-bottom: 30px;
+
+				@media screen and (max-width: $tablet-width) {
+					margin-top: 0;
+					padding-top: 21px;
+				}
 			}
 
 			#MYM-description {
@@ -72,21 +105,34 @@
 				text-align: center;
 				margin-bottom: 20px;
 				margin: auto;
+				font-size: 20px;
+
+				@media (max-width: $tablet-width) {
+					width: 100%;
+					margin: auto;
+				}
 			}
 
 			#MYM-map {
 				position: relative;
-			    margin-top: 10px;
-			    height: 100px;
-			    width: 100%;
+				margin-top: 10px;
+				height: 100px;
+				width: 100%;
 
-					#MYM-button {
-						color: rgb(20,27,35);
-						text-align: center;
-						width: 150px;
-						max-width: 20%;
-						margin: 50px auto;
+				#MYM-button {
+					font-size: 20px;
+					color: rgb(20,27,35);
+					text-align: center;
+					width: 150px;
+					max-width: 20%;
+					margin: 50px auto;
+
+					@media (max-width: $tablet-width) {
+						font-size: 16px;
+						margin-left: auto !important;
+						margin-right: auto !important;
 					}
+				}
 			}
 		}
 	}
@@ -95,6 +141,17 @@
 		margin-bottom: 50px;
 		height: 1200px;
 		padding-top: 50px;
+
+		@media (max-width: $tablet-width) {
+			max-width: 40%;
+			margin: auto;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		@media (max-width: $mobile-width) {
+			max-width: 80%;
+		}
 
 		#more-resources-title {
 			margin-left: 1.5%;
@@ -115,16 +172,29 @@
 			position: relative;
 			color: black;
 
+			@media (max-width: $tablet-width) {
+				height: auto;
+				display: block;
+				position: relative;
+				width: 100%;
+			}
+
 			#summary-container {
+				color: black;
 				position: relative;
 				width: 100%;
 				grid-column-start: 1;
 				grid-column-end: 4;
 				overflow-y: auto;
 
+				@media (max-width: $tablet-width) {
+					display: block;
+					position: relative;
+					width: 100%;
+				}
+
 				h3,h4,p {
 					color: black;
-
 				}
 
 				h3 {
@@ -145,16 +215,33 @@
 			#photo-container {
 				position: absolute;
 				top: 50%;
-        		transform: translateY(-50%);
-				grid-column-start: 5;
-				grid-column-end: 6;
+				transform: translateY(-50%);
+				grid-column-start: 4;
+				grid-column-end: 7;
+
+				@media (max-width: $tablet-width) {
+					display: block;
+					position: relative;
+					top: auto;
+					transform: none;
+					width: 100%;
+				}
+
 				img {
 					border-radius: 5%;
 					height: auto;
+					max-height: 175px;
 					margin: 0 auto;
+					margin-bottom: 16px;
+					margin-top: 16px;
 					text-align: center;
 					width: 100%;
 					position: relative;
+				}
+
+				.card-tags {
+					border-top: 16px;
+					margin-bottom: 16px;
 				}
 			}
 		}

@@ -8,15 +8,17 @@ layout: default
 	<section id="resources-title">
 		<h1 id="page-title">Resources</h1>
 		<span id="spotlight-card">
-			<p>This guide should give you sufficient information about the OpenStreetMap platform so that you can incorporate it into your classroom. But once you and your students are comfortable using the platform, you will want to branch out and do more. This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.</p>
+			<p>This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.</p>
 		</span>
 	</section>
 	<section id="meet-mappers">
-		<img src="{{site.baseurl}}/assets/images/meetmappers2.png">
+		<div>
+			<img src="{{site.baseurl}}/assets/images/meetmappers2.png">
+		</div>
 		<div id="MYM-right">
 			<h2 id="mappers-title">Discover Mappers Near You</h2>
 			<div id="MYM-description">
-				<a href="https://mym.rtijn.org/"><h3>https://mym.rtijn.org/</h3></a>
+				<!-- <a href="https://mym.rtijn.org/"><h3>https://mym.rtijn.org/</h3></a> -->
 				<p> "Meet Your Mapper (MYM) tells you who has mapped in your area, when, and how much. Use it for fun, curiosity, or to help you make a list of people to invite to a mapping party or some other OSM event."</p>
 			</div>
 			<div id="MYM-map">
@@ -38,9 +40,11 @@ layout: default
 						<div id="photo-container">
 						  <img src="{{site.baseurl}}/assets/images/resource-thumbnails/{{resource.thumbnail}}">
 						{% if resource.tags.size > 0 %}
+							<div class="card-tags" style="display: flex; align-items: center;">
 							{% for tag in resource.tags %}
-								<h4 class="card-tag">{{tag}}</h4>
+								<span class="card-tag">{{tag}}</span>
 							{% endfor %}
+							</div>
 						{% endif %}
 						</div>
 					</div>
