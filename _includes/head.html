@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/selectize.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/jquery.steps.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  {% if page.title == 'home' %}
+  <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+  {% endif %}
 
   <!-- recommended in https://jekyllrb.com/docs/posts/ -->
   <meta charset="utf-8" />
