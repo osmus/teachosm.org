@@ -4,6 +4,7 @@
 const initializeForm = () => {
   const form = $("#add-project-form");
   form.validate({
+    ignore: ".ignore",
     errorPlacement: (error, element) => element.before(error),
     rules: {
       confirmOSMUsername: {
@@ -15,6 +16,15 @@ const initializeForm = () => {
       projectFile: {
         required: true,
       },
+      hiddenRecaptcha: {
+                required: function () {
+                    if (grecaptcha.getResponse() == '') {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
     },
     messages: {
       projectImage: {
@@ -22,6 +32,9 @@ const initializeForm = () => {
       },
       projectFile: {
         required: 'Please upload your project content',
+      },
+      hiddenRecaptcha: {
+        required: 'Please complete the reCAPTCHA',
       },
     },
   });
