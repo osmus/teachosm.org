@@ -206,6 +206,7 @@ const submitForm = async () => {
       title,
       type,
       url: `${now}-${parseInt(Math.random() * 1000000)}`,
+      g-recaptcha-response: grecaptcha.getResponse(),
     };
 
     const pullRequestResponse = await axios.post(
