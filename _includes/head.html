@@ -9,10 +9,6 @@
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/jquery.steps.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  {% if page.title == 'add-project' %}
-  <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
-  {% endif %}
-
   <!-- recommended in https://jekyllrb.com/docs/posts/ -->
   <meta charset="utf-8" />
 
@@ -33,5 +29,10 @@
     if (!supportsES6) {
       alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
     }
+    
+  {% if page.title == 'add-project' %}
+  <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+  {% endif %}
+  
   </script>
 </head>
