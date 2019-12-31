@@ -120,11 +120,11 @@ const setProjectFile = file => {
 };
 
 //const projectImageUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_pics';
-const projectImageUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_pics';
+const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
 //const projectFileUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_content';
-const projectFileUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_content';
+const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
 //const pullRequestURL = 'https://p3keskibu8.execute-api.us-east-1.amazonaws.com/dev/posts';
-const pullRequestURL = 'https://grckpw7094.execute-api.us-east-1.amazonaws.com/personal/posts';
+const pullRequestURL = 'https://v0x93psmuj.execute-api.us-east-1.amazonaws.com/deploy/posts';
 
 const pdfFileName = fileName => {
   const noExtension = fileName.substring(0, fileName.lastIndexOf('.'));
