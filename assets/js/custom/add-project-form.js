@@ -4,6 +4,7 @@
 const initializeForm = () => {
   const form = $("#add-project-form");
   form.validate({
+    ignore: ".ignore",
     errorPlacement: (error, element) => element.before(error),
     rules: {
       confirmOSMUsername: {
@@ -15,6 +16,15 @@ const initializeForm = () => {
       projectFile: {
         required: true,
       },
+      hiddenRecaptcha: {
+                required: function () {
+                    if (grecaptcha.getResponse() == '') {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
     },
     messages: {
       projectImage: {
@@ -22,6 +32,9 @@ const initializeForm = () => {
       },
       projectFile: {
         required: 'Please upload your project content',
+      },
+      hiddenRecaptcha: {
+        required: 'Please complete the reCAPTCHA',
       },
     },
   });
@@ -106,9 +119,9 @@ const setProjectFile = file => {
   reader.readAsArrayBuffer(file);
 };
 
-const projectImageUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_pics';
-const projectFileUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_content';
-const pullRequestURL = 'https://p3keskibu8.execute-api.us-east-1.amazonaws.com/dev/posts';
+const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
+const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
+const pullRequestURL = 'https://v0x93psmuj.execute-api.us-east-1.amazonaws.com/deploy/posts';
 
 const pdfFileName = fileName => {
   const noExtension = fileName.substring(0, fileName.lastIndexOf('.'));
@@ -190,6 +203,7 @@ const submitForm = async () => {
       title,
       type,
       url: `${now}-${parseInt(Math.random() * 1000000)}`,
+      "g-recaptcha-response": $("#g-recaptcha-response").val(),
     };
 
     const pullRequestResponse = await axios.post(
