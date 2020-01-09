@@ -110,7 +110,7 @@ const setProjectImage = image => {
 let projectFile, projectFileName, projectFileType;
 const setProjectFile = file => {
   const reader = new FileReader();
-  projectFileName = `${Date.now()}-${file.name}`;
+  projectFileName = `${Date.now()}-${file.name.replace(/\s+/g, '-')}`;
   projectFileType = file.type;
   reader.onloadend = () => {
     projectFile = reader.result;
