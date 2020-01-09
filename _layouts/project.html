@@ -5,7 +5,7 @@
     <div class="page">
       {% include navbar.html %}
       <content class="project-content">
-        <img src="https://teachosm-project-pics.s3.amazonaws.com/{{ page.thumbnail }}" />
+        <img src="https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/{{ page.thumbnail }}" />
         <header class="project-title">
           <h1>{{ page.title }}</h1>
           <h3>{{ page.subtitle }}</h3>
@@ -91,7 +91,7 @@
         <p class="project-description">{{ page.description }}</p>
         <div class="project-buttons">
           <a class="primary-button" href="{{ site.baseurl }}/projects">Back to Projects</a>
-          <a class="primary-button" href="https://teachosm-project-content.s3.amazonaws.com/{{ page.filename }}">Download Project</a>
+          <a class="primary-button" href="teachosm-geosurge-content-deploy.s3.amazonaws.com/{{ page.filename }}">Download Project</a>
         </div>
       </content>
     </div>
