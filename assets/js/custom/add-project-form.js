@@ -241,7 +241,7 @@ fetch('{{site.baseurl}}/tags.json')
     initializeForm(); // need to set up query-steps before selectize, otherwise it will wipe out the tag options
 
     const tagSelector = $('#tagSelector').selectize({
-      create: false,
+      create: true,
       delimiter: ',',
       labelField: 'value',
       options: tags.map(tag => ({ value: tag })),
