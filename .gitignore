@@ -2,3 +2,6 @@
 #_build/
 _site/
 .DS_Store
+.bundle
+.sass-cache
+vendor/
