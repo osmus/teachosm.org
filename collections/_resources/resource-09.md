@@ -1,9 +1,15 @@
 ---
 title: Overpass-Turbo
-description: description coming soon
-author:
-  name: TeachOSM Contributors
-type:
+description: Overpass-Turbo is an application used for quality control as well as to extract small amounts of data from OSM. For documentation, see the OSM wiki (https://wiki.openstreetmap.org)
+author: 
+  name: Overpass-Turbo
+type: application
 thumbnail: tasks.png
 link: https://overpass-turbo.eu
+tags:
+  QA
+  QC
+  quality control
+  extract
+  overpass-turbo
 ---
