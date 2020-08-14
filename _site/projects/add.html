@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/assets/css/selectize.css" />
   <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  
   <!-- recommended in https://jekyllrb.com/docs/posts/ -->
   <meta charset="utf-8" />
 
@@ -33,6 +33,7 @@
       alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
     }
   </script>
+  
 </head>
 
   
@@ -79,9 +80,9 @@
         <li>
           <a class="page-scroll" href="/projects">Projects</a>
         </li>
-        <li>
+        <!--<li>
           <a class="page-scroll" href="/resources">Resources</a>
-        </li>
+        </li>-->
         <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
           </li>
       </ul>
@@ -299,7 +300,7 @@ $(function(){
         </div>
       
       <label for="tagSelector">Tags</label>
-      <p>Select as many tags as you would like. You can also opt not to select any tags, but it may make it more difficult for users to search for your project.</p>
+      <p>Select as many tags from the drop-down menu as you would like. You may also create your own custom tags by typing and then selecting them from the drop-down menu.</p>
       <input id="tagSelector" data-placeholder="Select tags" />
     </section>
     <h1>Finish and Submit</h1>
@@ -307,6 +308,7 @@ $(function(){
       <p>That's it! Thank you for contributing to the TeachOSM project portal. After a quick review, your project will be uploaded to the portal and be available for teachers everywhere to help them with their work.</p>
       <br />
       <div class="g-recaptcha" data-sitekey="6LdylbMUAAAAAHuUEVFVmstJkdafdAG9Z0LB6ziN"></div>
+      <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
       <br />
       <p>Press the "finish" button below to submit your project.</p>
     </section>
@@ -320,7 +322,7 @@ $(function(){
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+        <span class="copyright">Copyright &copy; TeachOSM 2020</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
