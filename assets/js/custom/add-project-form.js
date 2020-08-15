@@ -15,7 +15,7 @@ const initializeForm = () => {
         required: true,
       },
       projectFile: {
-        required: true,
+        required: false,
       },
       hiddenRecaptcha: {
                 required: function () {
@@ -120,6 +120,7 @@ const setProjectFile = file => {
   reader.readAsArrayBuffer(file);
 };
 
+
 //const projectImageUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_pics';
 const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
 //const projectFileUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_content';
@@ -198,6 +199,7 @@ const submitForm = async () => {
       date_posted: now,
       osm_username: osmUsername,
       filename: pdfFileName(projectFileName),
+      youTubeVideoID: videoID,
       group: '',
       layout: 'project',
       preparation_time: preparationTime,

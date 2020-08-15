@@ -1,6 +1,7 @@
 ---
 title: Education Activity Duration
 name: project_time
+type: checkbox
 options:
 - name: "< 1 hour"
   value: less_than_one_hour
@@ -12,5 +13,7 @@ options:
   value: one_day
 - name: "> 1 day"
   value: more_than_one_day
+- name: "flexible"
+  value: flexible
 ---
 
