@@ -123,9 +123,9 @@ $(function(){
     <h1>User Information</h1>
     <section>
       <p>Welcome to the Create Project form. This form was built to make it easy for contributors to add new projects to the TeachOSM projects portal. Please start by answering a couple questions about yourself.</p>
-      <label for="name">What is your name? (The name entered here will show up as the author of the project) *</label>
+      <label for="name" data-toggle="tooltip" data-placement="right" title="The name entered here will show up as the author of the project">What is your name? *</label>
       <input id="name" name="name" type="text" class="required">
-      <label for="osmUsername">What is your OSM username? *</label>
+      <label for="osmUsername" data-toggle="tooltip" data-placement="right" title="If you do not have an OSM username, please sign up at OpenStreetMap.org">What is your OSM username? *</label>
       <input id="osmUsername" name="osmUsername" type="text" class="required">
       <label for="confirmOSMUsername">Please confirm your OSM username *</label>
       <input id="confirmOSMUsername" name="confirmOSMUsername" type="text" class="required">
@@ -135,18 +135,18 @@ $(function(){
       <p>Next let's add the project information and resources, including the content you would like to upload as project materials.</p>
       <label for="projectTitle">What is your project's title? *</label>
       <input id="projectTitle" name="projectTitle" type="text" class="required">
-      <label for="projectSubtitle">What is your project's subtitle? (This is optional)</label>
+      <label for="projectSubtitle">What is your project's subtitle? (optional)</label>
       <input id="projectSubtitle" name="projectSubtitle" type="text">
       <label for="projectDescription">Please provide a brief description of the project. *</label>
       <textarea id="projectDescription" name="projectDescription" class="required"></textarea>
-      <label class="top-margin">Please upload a project image. (This will appear beside your project on the site and should be a .png, .jpg, or .tif file) *</label>
+      <label class="top-margin" data-toggle="tooltip" data-placement="right" title="This will appear beside your project on the site and should be a .png, .jpg, or .tif file">Please upload a project image. *</label>
       <br />
       <label style="font-style: italic;">You can either drag and drop an image or click on the "Upload Image" box below</label>
       <div class="uploadable">
         <input id="projectImage" name="projectImage" type="file" accept="image/*" class="required" />
         <label id="projectImageLabel" for="projectImage"><i class="fa fa-image"></i><br />Upload Image</label>
       </div>
-      <label class="top-margin">Please upload your project materials. (This is the main content that users will download to help teach the course and should have one of these extensions: .pdf, .doc, .docx, .odt, .xls, .xlsx) *</label>
+      <label class="top-margin" data-toggle="tooltip" data-placement="right" title="This is the main content that users will download to help teach the course and should have one of these extensions: .pdf, .doc, .docx, .odt, .xls, .xlsx">Please upload your project materials. *</label>
       <br />
       <label style="font-style: italic;">You can either drag and drop your file or click on the "Upload File" box below</label>
       <div class="uploadable">
@@ -158,9 +158,13 @@ $(function(){
     <section>
       <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. Please select one option for each of the filters below.</p>
 
+
+
       
         <div class="project-filter-list">
-          <h3>Audience *</h3>
+          
+            <label>Audience *</label>
+          
           <div class="project-filter-options-wrapper">
             
               <div class="project-filter-option">
@@ -192,7 +196,13 @@ $(function(){
         </div>
       
         <div class="project-filter-list">
-          <h3>Difficulty *</h3>
+          
+            <script> 
+                console.log('tooltip exists');
+                console.log("refers to student difficulty level");
+            </script>
+            <label data-toggle="tooltip" data-placement="right" title="refers to student difficulty level" > Difficulty *</label>
+          
           <div class="project-filter-options-wrapper">
             
               <div class="project-filter-option">
@@ -214,7 +224,9 @@ $(function(){
         </div>
       
         <div class="project-filter-list">
-          <h3>Educator Preparation Time *</h3>
+          
+            <label>Educator Preparation Time *</label>
+          
           <div class="project-filter-options-wrapper">
             
               <div class="project-filter-option">
@@ -246,7 +258,9 @@ $(function(){
         </div>
       
         <div class="project-filter-list">
-          <h3>Education Activity Duration *</h3>
+          
+            <label>Education Activity Duration *</label>
+          
           <div class="project-filter-options-wrapper">
             
               <div class="project-filter-option">
@@ -278,7 +292,9 @@ $(function(){
         </div>
       
         <div class="project-filter-list">
-          <h3>Project Type *</h3>
+          
+            <label>Project Type *</label>
+          
           <div class="project-filter-options-wrapper">
             
               <div class="project-filter-option">
@@ -299,6 +315,10 @@ $(function(){
           </div>
         </div>
       
+      
+      
+      
+      
       <label for="tagSelector">Tags</label>
       <p>Select as many tags from the drop-down menu as you would like. You may also create your own custom tags by typing and then selecting them from the drop-down menu.</p>
       <input id="tagSelector" data-placeholder="Select tags" />
@@ -314,6 +334,7 @@ $(function(){
     </section>
   </div>
 </form>
+
 
           </div>
 
@@ -369,6 +390,11 @@ $(function(){
 <script type="text/javascript" src="/assets/js/custom/add-project-form.js"></script>
 <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+    });
+</script>
 
 
   </body>

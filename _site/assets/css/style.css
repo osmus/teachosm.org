@@ -1140,9 +1140,7 @@ dl {
   z-index: 9999; }
 
 .project-filter-list {
-  margin-top: 24px;
-  display: flex;
-  flex-direction: column; }
+  margin-top: 24px; }
   .project-filter-list h3 {
     margin-top: 0;
     font-size: 12px !important;

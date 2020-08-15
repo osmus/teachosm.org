@@ -1,4 +1,5 @@
 const initializeForm = () => {
+  
   const form = $("#add-project-form");
   form.validate({
     ignore: ".ignore",
