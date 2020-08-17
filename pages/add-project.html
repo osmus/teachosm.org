@@ -90,10 +90,6 @@ layout: generic
       {% for filter in site.filters %}
         <div class="project-filter-list">
           {% if filter.tooltip %}
-            <script> 
-                console.log('tooltip exists');
-                console.log("{{ filter.tooltip }}");
-            </script>
             <label data-toggle="tooltip" data-placement="right" title="{{ filter.tooltip }}" > {{ filter.title }} *</label>
           {% else %}
             <label>{{ filter.title }} *</label>
