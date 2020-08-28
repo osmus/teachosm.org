@@ -124,7 +124,7 @@ section h3.section-subheading {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #222; }
+  background-color: #7EBC6F; }
 
 @media (max-width: 768px) {
   .nav2-list {
