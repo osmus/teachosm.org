@@ -18,7 +18,8 @@ const initializeForm = () => {
                     } else {
                         return true;
                     }
-                }
+                },
+                extension: "doc|docx|odt|pdf|md|txt|xls|xlsx|csv|pptx|ppt|jpg|jpeg|png|PNG"
       },
       hiddenRecaptcha: {
                 required: function () {
@@ -206,7 +207,7 @@ const submitForm = async () => {
   } catch (e) {
     Swal.fire({
       title: 'There was a problem uploading your project.',
-      text: 'Please make sure the project you selected is a valid .doc, .docx, .pdf, .md, or .txt file and try again. If this problem persists, please contact us.',
+      text: 'Please make sure the project you selected is a valid .pdf, .doc, .docx, .odt, .md, or .txt file and try again. If this problem persists, please contact us.',
       type: 'error',
       confirmButtonText: 'Ok, got it.'
     });
