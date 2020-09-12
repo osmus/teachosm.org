@@ -7,14 +7,4 @@ link: https://www.youtube.com/watch?v=mYQbY_7MVJ4
 tags:
 - Mapping
 - GIS
-
 ---
-
-<!--
-
-watch?v=Phwrgb16oEM&list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD
-
-
-I would think that we'd want to feature TeachOSM TM if that's what you're thinking at the top.
-
- -->
