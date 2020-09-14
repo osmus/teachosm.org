@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="{{site.baseurl}}/">
+      <a href="{{site.baseurl}}/" id="logo-link">
         <img class="logo" src="{{site.baseurl}}/assets/images/logo.png" />
         <span id="beta-text">beta</span>
       </a>
@@ -81,7 +81,7 @@ $(function(){
       console.log(window.location.href);
     } else {
 
-      $('a').each(function() {
+      $('a.page-scroll').each(function() {
         //console.log(location.search)
         if ($(this).prop('href') == window.location.href) {
         $(this).addClass('current');
