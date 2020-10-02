@@ -2,6 +2,16 @@
 <html>
   
     <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175556304-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+   gtag('config', 'UA-175556304-1');
+  </script>
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -80,11 +90,12 @@
         <li>
           <a class="page-scroll" href="/projects">Projects</a>
         </li>
-        <!--<li>
+        <li>
           <a class="page-scroll" href="/resources">Resources</a>
-        </li>-->
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        </li>
+        <li>
+          <a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -115,218 +126,464 @@ $(function(){
       <div class="wrapper">
         <section class="panel-border-style">
           <div class="resources content">
-            <div class="resources">
+            <div id="resources-panel" class="resources">
 	<section id="resources-title">
 		<h1 id="page-title">Resources</h1>
-		<span id="spotlight-card">
-			<p>This guide should give you sufficient information about the OpenStreetMap platform so that you can incorporate it into your classroom. But once you and your students are comfortable using the platform, you will want to branch out and do more. This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.</p>
-		</span>
+		<div id="spotlight-card">
+			This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.
+		</div>
 	</section>
-	<section id="meet-mappers">
-		<img src="/assets/images/meetmappers2.png">
-		<div id="MYM-right">
-			<h2 id="mappers-title">Discover Mappers Near You</h2>
-			<div id="MYM-description">
-				<a href="https://mym.rtijn.org/"><h3>https://mym.rtijn.org/</h3></a>
-				<p> "Meet Your Mapper (MYM) tells you who has mapped in your area, when, and how much. Use it for fun, curiosity, or to help you make a list of people to invite to a mapping party or some other OSM event."</p>
-			</div>
-			<div id="MYM-map">
-			  	<!--<img src="/assets/images/meetmappers.png" alt="" style="height:200px" style="width:300px"> -->
-			  <a href="https://mym.rtijn.org/"><button class="primary-button" id="MYM-button">Check it Out</button></a>
-			</div>
+	<section id="resources-carousel" data-carousel-tab="1" data-carousel-left="disabled" data-carousel-right="enabled">
+		<script>
+			
+			function moveResourcesCarouselLeft() {
+				var carouselElement = document.getElementById("resources-carousel");
+				var currentCarouselTab = parseInt(carouselElement.getAttribute("data-carousel-tab"));
+				if (currentCarouselTab > 1) {
+					var newCarouselTab = currentCarouselTab - 1;
+					carouselElement.setAttribute("data-carousel-tab", newCarouselTab);
+					if (newCarouselTab === 1) {
+						carouselElement.setAttribute("data-carousel-left", "disabled");
+					}
+					carouselElement.setAttribute("data-carousel-right", "enabled");
+				}			
+			}
+			function moveResourcesCarouselRight() {
+				var carouselElement = document.getElementById("resources-carousel");
+				var currentCarouselTab = parseInt(carouselElement.getAttribute("data-carousel-tab"));
+				if (currentCarouselTab < 3) {
+					var newCarouselTab = currentCarouselTab + 1;
+					carouselElement.setAttribute("data-carousel-tab", newCarouselTab);	
+					if (newCarouselTab === 3) {
+						carouselElement.setAttribute("data-carousel-right", "disabled");
+					}					
+					carouselElement.setAttribute("data-carousel-left", "enabled");
+				}			
+			}			
+		</script>
+		<div id="resources-carousel-left-wrapper" class="resources-carousel-arrow-wrapper">
+			<svg onClick="moveResourcesCarouselLeft()" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400"><path d="M900,200c-386,0-700,314-700,700s314,700,700,700,700-314,700-700S1286,200,900,200Zm0,1312.5c-337.71,0-612.47-274.76-612.48-612.48S562.27,287.5,900,287.5,1512.5,562.28,1512.5,900,1237.73,1512.5,900,1512.5Z" transform="translate(-200 -200)"/><path d="M1239.06,856.25H666.55L882.18,640.64a43.75,43.75,0,0,0-61.87-61.86L530,869.05a43.78,43.78,0,0,0,0,61.88l290.32,290.32a43.75,43.75,0,0,0,61.88-61.87L666.55,943.75h572.51a43.75,43.75,0,0,0,0-87.5Z" transform="translate(-200 -200)"/></svg>
+		</div>
+		
+			<section class="resources-carousel-content resources-carousel-tab-1">
+				<div class="resources-carousel-content-half resources-carousel-content-left">
+					<img src="/assets/images/meetmappers2.png">
+				</div>
+				<div class="resources-carousel-content-half resources-carousel-content-right">
+					<h1>Discover Mappers Near You</h1>
+					<div class="resources-carousel-content-description">
+						<p><p>Meet Your Mapper (MYM) tells you who has mapped in your area, when, and how much. Use it for fun, curiosity, or to help you make a list of people to invite to a mapping party or some other OSM event.</p>
+
+					</div>
+					<a class="resources-carousel-button-wrapper" href="https://mym.rtijn.org/" target="_blank">
+						<button><span>Check it Out</span></button>
+					</a>        
+				</div>
+			</section>
+			<style>
+				[data-carousel-tab="1"] .resources-carousel-tab-1 { display: block !important; }
+			</style>
+		
+			<section class="resources-carousel-content resources-carousel-tab-2">
+				<div class="resources-carousel-content-half resources-carousel-content-left">
+					<img src="/assets/images/map-roulette.jpg">
+				</div>
+				<div class="resources-carousel-content-half resources-carousel-content-right">
+					<h1>Map Roulette</h1>
+					<div class="resources-carousel-content-description">
+						<p><p>MapRoulette is a fun &amp; engaging way to fix mapping errors one step at a time. Particularly fun challenge for students!</p>
+
+					</div>
+					<a class="resources-carousel-button-wrapper" href="https://maproulette.org/" target="_blank">
+						<button><span>Check it Out</span></button>
+					</a>        
+				</div>
+			</section>
+			<style>
+				[data-carousel-tab="2"] .resources-carousel-tab-2 { display: block !important; }
+			</style>
+		
+			<section class="resources-carousel-content resources-carousel-tab-3">
+				<div class="resources-carousel-content-half resources-carousel-content-left">
+					<img src="/assets/images/tm.svg">
+				</div>
+				<div class="resources-carousel-content-half resources-carousel-content-right">
+					<h1>TeachOSM Tasking Manager</h1>
+					<div class="resources-carousel-content-description">
+						<p><p>Controls classroom workflow by dividing large areas into small, easy to map tasks.</p>
+
+					</div>
+					<a class="resources-carousel-button-wrapper" href="https://tasks.teachosm.org/" target="_blank">
+						<button><span>Check it Out</span></button>
+					</a>        
+				</div>
+			</section>
+			<style>
+				[data-carousel-tab="3"] .resources-carousel-tab-3 { display: block !important; }
+			</style>
+		
+		<div id="resources-carousel-right-wrapper" class="resources-carousel-arrow-wrapper">
+			<svg onClick="moveResourcesCarouselRight()"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400"><path d="M900,200c-386,0-700,314-700,700s314,700,700,700,700-314,700-700S1286,200,900,200Zm0,1312.5C562.27,1512.5,287.5,1237.72,287.5,900S562.27,287.5,900,287.5,1512.48,562.26,1512.5,900,1237.72,1512.5,900,1512.5Z" transform="translate(-200 -200)"/><path d="M979.68,578.75a43.75,43.75,0,1,0-61.86,61.89l215.62,215.61H560.94a43.75,43.75,0,0,0,0,87.5h572.5L917.82,1159.36a43.74,43.74,0,1,0,61.86,61.86L1270,930.93a43.75,43.75,0,0,0,0-61.86Z" transform="translate(-200 -200)"/></svg>
 		</div>
 	</section>
 	<section class="more-resources">
 		<h2 id="more-resources-title">More Resources</h2>
+		<h2 id="more-resources-title">
+
+
+
+
+
+
+
+
+
+
+
+</h2>
+		<div id="resource-card-container">
 			
-				<a href="https://www.youtube.com/watch?v=mYQbY_7MVJ4">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3>JOSM Digitization Tutorial</h3>
-							<h4>video</h4>
-							<p>The video focuses on how to map waterways and residential area. I also discuss the issue of digitization coverage for the scope of project</p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/JOSM.png">
-						
-							
-								<h4 class="card-tag">Mapping</h4>
-							
-								<h4 class="card-tag">GIS</h4>
-							
-						
-						</div>
+			<a href="https://www.youtube.com/watch?v=mYQbY_7MVJ4">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>JOSM Digitization Tutorial</h3>
+						<h4>video</h4>
+						<p>The video focuses on how to map waterways and residential area. I also discuss the issue of digitization coverage for the scope of project</p>
 					</div>
-				</a>
-			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
+					<div id="photo-container">
+						<img src="/assets/images/resource-thumbnails/JOSM.png">
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">Mapping</span>
+						
+							<span class="card-tag">GIS</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
-						
-						</div>
+			<a href="https://tasks.teachosm.org/">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>Teach OSM Tasking Manager</h3>
+						<h4></h4>
+						<p>Controls classroom workflow by dividing large areas into small, easy to map tasks.</p>
 					</div>
-				</a>
-			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">Mapping</span>
+						
+							<span class="card-tag">GIS</span>
+						
+							<span class="card-tag">tasks</span>
+						
+							<span class="card-tag">project</span>
+						
+							<span class="card-tag">workflow</span>
+						
+							<span class="card-tag">mapathon</span>
+						
+							<span class="card-tag">management</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
-						
-						</div>
+			<a href="https://wiki.openstreetmap.org/wiki/Map_Features">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>OpenStreetMap Map Features</h3>
+						<h4></h4>
+						<p>The reference list of features on OpenStreetMap. Use this when you want to know how to tag a map feature.</p>
 					</div>
-				</a>
-			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">map</span>
+						
+							<span class="card-tag">features</span>
+						
+							<span class="card-tag">tag</span>
+						
+							<span class="card-tag">tags</span>
+						
+							<span class="card-tag">tagging</span>
+						
+							<span class="card-tag">features</span>
+						
+							<span class="card-tag">wiki</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
-						
-						</div>
+			<a href="https://www.hotosm.org/">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>Humanitarian OpenStreetMap Team (HOT)</h3>
+						<h4>partner</h4>
+						<p>HOT is an organization dedicated to using OpenStreetMap to assist in various humanitarian purposes such as social & economic development and disaster response.</p>
 					</div>
-				</a>
-			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">HOT</span>
+						
+							<span class="card-tag">humanitarian</span>
+						
+							<span class="card-tag">mapping</span>
+						
+							<span class="card-tag">disaster</span>
+						
+							<span class="card-tag">response</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
-						
-						</div>
+			<a href="https://tasks.hotosm.org/">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>HOT Tasking Manager</h3>
+						<h4>partner</h4>
+						<p>HOT operates their own tasking manager for mission-driven mapping projects.</p>
 					</div>
-				</a>
-			
-				<a href="https://overpass-turbo.eu">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3>Overpass-Turbo</h3>
-							<h4>application</h4>
-							<p>Overpass-Turbo is an application used for quality control as well as to extract small amounts of data from OSM. For documentation, see the OSM wiki (https://wiki.openstreetmap.org)</p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/tasks.png">
+					<div id="photo-container">
 						
-							
-								<h4 class="card-tag">QA</h4>
-							
-								<h4 class="card-tag">QC</h4>
-							
-								<h4 class="card-tag">quality</h4>
-							
-								<h4 class="card-tag">control</h4>
-							
-								<h4 class="card-tag">extract</h4>
-							
-								<h4 class="card-tag">overpass-turbo</h4>
-							
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">HOT</span>
+						
+							<span class="card-tag">tasking</span>
+						
+							<span class="card-tag">manager</span>
+						
+							<span class="card-tag">task</span>
+						
+							<span class="card-tag">tasks</span>
+						
+							<span class="card-tag">mapping</span>
+						
+							<span class="card-tag">disaster</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3></h3>
-							<h4></h4>
-							<p></p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/">
+			<a href="https://www.youtube.com/user/hotosm">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>HOT OSM 'Learn to Map' 2-Minute Video Series</h3>
+						<h4>video</h4>
+						<p>HOT produced several 2-minute how-to videos for basic mapping technique</p>
+					</div>
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">training</span>
+						
+							<span class="card-tag">video</span>
+						
+							<span class="card-tag">HOT</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
-				<a href="">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3>Glossary</h3>
-							<h4></h4>
-							<p>description coming soon</p>
-						</div>
-						<div id="photo-container">
-						  <img src="/assets/images/resource-thumbnails/tasks.png">
+			<a href="https://maproulette.org/">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>MapRoulette</h3>
+						<h4>application</h4>
+						<p>MapRoulette is a fun & engaging way to fix mapping errors one step at a time. Particularly fun challenge for students!</p>
+					</div>
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">utility</span>
+						
+							<span class="card-tag">application</span>
+						
+							<span class="card-tag">maproulette</span>
+						
+							<span class="card-tag">QC</span>
+						
+							<span class="card-tag">QA</span>
+						
+							<span class="card-tag">quality</span>
+						
+							<span class="card-tag">control</span>
+						
+							<span class="card-tag">data</span>
+						
+							<span class="card-tag">quality</span>
+						
+							<span class="card-tag">fix</span>
 						
 						</div>
+					
 					</div>
-				</a>
+				</div>
+			</a>
 			
+			<a href="https://mapgive.state.gov/">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>MapGive</h3>
+						<h4>partner</h4>
+						<p>MapGive is an initiative of the US Department of State/Humanitarian Information Unit and is aimed at recruiting new mappers to add features in poorly mapped areas</p>
+					</div>
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">mapgive</span>
+						
+							<span class="card-tag">us</span>
+						
+							<span class="card-tag">dept</span>
+						
+							<span class="card-tag">of</span>
+						
+							<span class="card-tag">state</span>
+						
+							<span class="card-tag">mapping</span>
+						
+							<span class="card-tag">how-to</span>
+						
+						</div>
+					
+					</div>
+				</div>
+			</a>
+			
+			<a href="https://osmcha.mapbox.com">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>OSMCha</h3>
+						<h4>application</h4>
+						<p>OSMCha is short for, "OSM Changeset Analyzer". It is a flexible, powerful, and easy-to-use tool for quality control. Use it to examine your students' mapping progress.</p>
+					</div>
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">OSMCha</span>
+						
+							<span class="card-tag">utility</span>
+						
+							<span class="card-tag">application</span>
+						
+							<span class="card-tag">quality</span>
+						
+							<span class="card-tag">control</span>
+						
+							<span class="card-tag">QA</span>
+						
+							<span class="card-tag">QC</span>
+						
+						</div>
+					
+					</div>
+				</div>
+			</a>
+			
+			<a href="https://overpass-turbo.eu">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>Overpass-Turbo</h3>
+						<h4>application</h4>
+						<p>Overpass-Turbo is an application used for quality control as well as to extract small amounts of data from OSM. For documentation, see the OSM wiki (https://wiki.openstreetmap.org)</p>
+					</div>
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">QA</span>
+						
+							<span class="card-tag">QC</span>
+						
+							<span class="card-tag">quality</span>
+						
+							<span class="card-tag">control</span>
+						
+							<span class="card-tag">extract</span>
+						
+							<span class="card-tag">overpass-turbo</span>
+						
+						</div>
+					
+					</div>
+				</div>
+			</a>
+			
+			<a href="http://resultmaps.neis-one.org/">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>ResultMaps from Pascal Neis</h3>
+						<h4>application</h4>
+						<p>A collection of useful tools for interrogating OpenStreetMap. Important links here include 'How did you Contribute' and 'Your OSM Heatmap'</p>
+					</div>
+					<div id="photo-container">
+						
+					
+						<div class="card-tags">
+						
+							<span class="card-tag">utility</span>
+						
+							<span class="card-tag">application</span>
+						
+							<span class="card-tag">Neis-One</span>
+						
+						</div>
+					
+					</div>
+				</div>
+			</a>
+			
+			<a href="">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>Glossary</h3>
+						<h4></h4>
+						<p>description coming soon</p>
+					</div>
+					<div id="photo-container">
+						
+					
+					</div>
+				</div>
+			</a>
+			
+		</div>
 	</section>
 </div>
 

@@ -40,34 +40,77 @@ layout: generic
       <br />
       <label style="font-style: italic;">You can either drag and drop your file or click on the "Upload File" box below</label>
       <div class="uploadable">
-        <input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx" class="required" />
+        <input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx,.csv,.ppt,.pptx,.jpg,.jpeg,.png" class="required" />
         <label id="projectFileLabel" for="projectFile"><i class="fa fa-upload"></i><br />Upload File</label>
       </div>
+      <br />
+      <label for="videoLink">Or if your resource is a video, insert the YouTube video link</label>
+      <input id="videoLink" name="videoLink" type="text" onkeyup="formChanged()" onchange="formChanged()">
+      <div id="videoPreview" style="display:none">
+        <label>Preview Video</label>
+        </br>
+        <iframe id="videoFrame" src=""
+   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <script>
+      
+        function getId(url) {
+            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+            const match = url.match(regExp);
+
+            return (match && match[2].length === 11)
+              ? match[2]
+              : null;
+        }
+
+        let videoID = '';
+        
+        function formChanged() {
+            console.log('form changed');
+            var input = document.getElementById("videoLink").value;
+            console.log('print input');
+            console.log(input);
+            //does YouTube link contain embed?
+            videoID = getId(input);
+            input = "http://www.youtube.com/embed/" + videoID;
+            document.getElementById("videoFrame").src = input;
+            var x = document.getElementById("videoPreview");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              }
+        }
+    </script>
     </section>
     <h1>Filters and Tags</h1>
     <section>
-      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. Please select one option for each of the filters below.</p>
+      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. The Audience and Education Activity Duration categories allow for one or more options to be selected.</p>
 
 
 
       {% for filter in site.filters %}
         <div class="project-filter-list">
           {% if filter.tooltip %}
-            <script> 
-                console.log('tooltip exists');
-                console.log("{{ filter.tooltip }}");
-            </script>
             <label data-toggle="tooltip" data-placement="right" title="{{ filter.tooltip }}" > {{ filter.title }} *</label>
           {% else %}
             <label>{{ filter.title }} *</label>
           {% endif %}
           <div class="project-filter-options-wrapper">
+          {% if filter.type == "radio" %}
             {% for option in filter.options %}
               <div class="project-filter-option">
                 <input id="{{ filter.name }}::{{ option.name }}" type="radio" name="{{ filter.name }}" value="{{ option.value }}" class="required {{ filter.name }}-filter" />
                 <label for="{{ filter.name }}::{{ option.name }}">{{ option.name }}</label>
               </div>
             {% endfor %}
+          {% else %}
+            {% for option in filter.options %}
+              <div class="project-filter-option">
+                <input id="{{ filter.name }}::{{ option.name }}" type="checkbox" name="{{ filter.name }}" value="{{ option.value }}" class="required {{ filter.name }}-filter" />
+                <label for="{{ filter.name }}::{{ option.name }}">{{ option.name }}</label>
+              </div>
+            {% endfor %}
+          {% endif %}
+          
           </div>
         </div>
       {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: Audience
 name: audience
+type: checkbox
 options:
 - name: Primary
   value: primary

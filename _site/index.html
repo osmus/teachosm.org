@@ -26,7 +26,7 @@
 </head>
 
   
-  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450" style="position: relative">
     <div class="home page">
       <!-- <nav class="navbar">
   <div class="nav-wrapper">
@@ -76,6 +76,17 @@
             </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function() {
+            console.log('doc ready');
+            $('a.page-scroll').click(function() {
+                console.log('page-scroll clicked');
+                $('.t-title.active').removeClass("active");
+                //$(this).parentElement.addClass("active");
+                console.log($(this));
+            });
+        });
+     </script>
     
 
     </div>
@@ -92,11 +103,12 @@
         <li>
           <a class="page-scroll" href="/projects">Projects</a>
         </li>
-        <!--<li>
+        <li>
           <a class="page-scroll" href="/resources">Resources</a>
-        </li>-->
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        </li>
+        <li>
+          <a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+        </li>
       </ul>
     </div>
   </div>

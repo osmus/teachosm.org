@@ -15,7 +15,14 @@ const initializeForm = () => {
         required: true,
       },
       projectFile: {
-        required: true,
+                required: function () {
+                    if (document.getElementById("videoLink").value) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                },
+                extension: "doc|docx|odt|pdf|md|txt|xls|xlsx|csv|pptx|ppt|jpg|jpeg|png|PNG"
       },
       hiddenRecaptcha: {
                 required: function () {
@@ -32,7 +39,7 @@ const initializeForm = () => {
         required: 'Please add a thumbnail image',
       },
       projectFile: {
-        required: 'Please upload your project content',
+        required: 'Please upload your project content or insert a YouTube video link',
       },
       hiddenRecaptcha: {
         required: 'Please complete the reCAPTCHA',
@@ -82,7 +89,9 @@ let tags;
 const setTags = tagsString => tags = tagsString.split(',');
 
 let audience;
-const setAudience = value => audience = value;
+const setAudience = value => {
+    audience = value;
+}
 
 let difficulty;
 const setDifficulty = value => difficulty = value;
@@ -108,6 +117,7 @@ const setProjectImage = image => {
   reader.readAsArrayBuffer(image);
 };
 
+
 let projectFile, projectFileName, projectFileType;
 const setProjectFile = file => {
   const reader = new FileReader();
@@ -120,12 +130,22 @@ const setProjectFile = file => {
   reader.readAsArrayBuffer(file);
 };
 
-//const projectImageUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_pics';
-const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
-//const projectFileUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_content';
-const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
-//const pullRequestURL = 'https://p3keskibu8.execute-api.us-east-1.amazonaws.com/dev/posts';
+let videoLink;
+const setVideoLink = value => videoLink = value;
 
+// old  projectImageUploadURL
+//const projectImageUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_pics';
+
+// TeachOSM deployable backend
+const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
+
+// old projectFileUploadURL
+//const projectFileUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_content';
+
+// TeachOSM deployable backend
+const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
+
+//const pullRequestURL = 'https://p3keskibu8.execute-api.us-east-1.amazonaws.com/dev/posts';
 const pullRequestURL = 'https://v0x93psmuj.execute-api.us-east-1.amazonaws.com/deploy/posts';
 
 const pdfFileName = fileName => {
@@ -166,50 +186,92 @@ const submitForm = async () => {
     return;
   }
   try {
-    fileResponse = await axios.post(
-      projectFileUploadURL,
-      {
-        name: projectFileName,
-        type: projectFileType,
-      }
-    );
-    fileUploadResponse = await axios.put(
-      fileResponse.data.uploadURL,
-      projectFile,
-      {
-        'Content-Type': projectFileType,
-      }
-    );
+    // projectFile may not exist if user is just adding a video link
+    if (projectFile) {
+        
+        fileResponse = await axios.post(
+          projectFileUploadURL,
+          {
+            name: projectFileName,
+            type: projectFileType,
+          }
+        );
+        fileUploadResponse = await axios.put(
+          fileResponse.data.uploadURL,
+          projectFile,
+          {
+            'Content-Type': projectFileType,
+          }
+        );
+        
+    } else {
+        console.log("project file doesn't exist");
+    }
   } catch (e) {
     Swal.fire({
       title: 'There was a problem uploading your project.',
-      text: 'Please make sure the project you selected is a valid .doc, .docx, .pdf, .md, or .txt file and try again. If this problem persists, please contact us.',
+      text: 'Please make sure the project you selected is a valid .pdf, .doc, .docx, .odt, .md, or .txt file and try again. If this problem persists, please contact us.',
       type: 'error',
       confirmButtonText: 'Ok, got it.'
     });
     return;
   }
   try {
-    const pullRequestData = {
-      audience,
-      author: name,
-      description,
-      difficulty,
-      date_posted: now,
-      osm_username: osmUsername,
-      filename: pdfFileName(projectFileName),
-      group: '',
-      layout: 'project',
-      preparation_time: preparationTime,
-      project_time: projectTime,
-      subtitle,
-      tags,
-      thumbnail: projectImageName,
-      title,
-      type,
-      url: `${now}-${parseInt(Math.random() * 1000000)}`,
-      "g-recaptcha-response": $("#g-recaptcha-response").val(),
-    };
+      
+    console.log("last try block");
+    console.log("print videoLink");
+    console.log(audience,videoLink, description, difficulty, osmUsername);
+    
+    let pullRequestData = {};
+    
+    if (projectFile) {
+        pullRequestData = {
+          audience,
+          author: name,
+          description,
+          difficulty,
+          date_posted: now,
+          osm_username: osmUsername,
+          filename: pdfFileName(projectFileName),
+          video_link: videoLink,
+          group: '',
+          layout: 'project',
+          preparation_time: preparationTime,
+          project_time: projectTime,
+          subtitle,
+          tags,
+          thumbnail: projectImageName,
+          title,
+          type,
+          url: `${now}-${parseInt(Math.random() * 1000000)}`,
+          "g-recaptcha-response": $("#g-recaptcha-response").val(),
+        };
+    } else {
+        pullRequestData = {
+          audience,
+          author: name,
+          description,
+          difficulty,
+          date_posted: now,
+          osm_username: osmUsername,
+          filename: "None",
+          video_link: videoLink,
+          group: '',
+          layout: 'project',
+          preparation_time: preparationTime,
+          project_time: projectTime,
+          subtitle,
+          tags,
+          thumbnail: projectImageName,
+          title,
+          type,
+          url: `${now}-${parseInt(Math.random() * 1000000)}`,
+          "g-recaptcha-response": $("#g-recaptcha-response").val(),
+        };
+    }
+    
+    console.log("let's print the pullRequestData");
+    console.log(pullRequestData);
 
     const pullRequestResponse = await axios.post(
       pullRequestURL,
@@ -227,6 +289,8 @@ const submitForm = async () => {
       window.location.href = window.location.href.replace('/add', '');
     });
   } catch (e) {
+    console.log('error');
+    console.log(e);
     Swal.fire({
       title: 'Uh oh',
       text: 'Looks like there was an issue with the request. We apologize for the inconvenience, please try again.',
@@ -235,6 +299,16 @@ const submitForm = async () => {
     });
   }
 }
+
+function getSelectedCheckboxValues(name) {
+    const checkboxes = document.querySelectorAll(`input[name="${name}"]:checked`);
+    let values = [];
+    checkboxes.forEach((checkbox) => {
+        values.push(checkbox.value);
+    });
+    return values;
+}
+
 
 fetch('{{site.baseurl}}/tags.json')
   .then(response => response.json())
@@ -258,6 +332,7 @@ fetch('{{site.baseurl}}/tags.json')
     const descriptionSelector = $('#projectDescription');
     const projectImageSelector = $('#projectImage');
     const projectFileSelector = $('#projectFile');
+    const videoLinkSelector = $('#videoLink');
 
     const audienceSelector = $('.audience-filter');
     const difficultySelector = $('.difficulty-filter');
@@ -273,9 +348,25 @@ fetch('{{site.baseurl}}/tags.json')
     tagSelector.on('change', event => setTags(event.target.value));
     projectImageSelector.on('change', event => setProjectImage(event.target.files[0]));
     projectFileSelector.on('change', event => setProjectFile(event.target.files[0]));
-    audienceSelector.on('change', event => setAudience(event.target.value));
+    
+    videoLinkSelector.on('change', event => setVideoLink(event.target.value));
+    
+    audienceSelector.on('change', event => {
+        //setAudience(event.target.checked));
+        console.log('audience selection changed');
+        console.log(getSelectedCheckboxValues('audience'));
+        setAudience(getSelectedCheckboxValues('audience'));
+    });
+    
     difficultySelector.on('change', event => setDifficulty(event.target.value));
     preparationTimeSelector.on('change', event => setPreparationTime(event.target.value));
-    projectTimeSelector.on('change', event => setProjectTime(event.target.value));
+    
+    projectTimeSelector.on('change', event => {
+        //setProjectTime(event.target.value));
+        console.log('project time selection changed');
+        console.log(getSelectedCheckboxValues('project_time'));
+        setProjectTime(getSelectedCheckboxValues('project_time'));
+    });
+    
     typeSelector.on('change', event => setType(event.target.value));
   });

@@ -1,16 +1,34 @@
 <!doctype html>
 <html>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+</style>
+
+
   {% include head.html %}
   <body data-spy="scroll" data-target=".navbar2" data-offset="450">
     <div class="page">
       {% include navbar.html %}
+      
       <content class="project-content">
-        <img src="https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/{{ page.thumbnail }}" />
+      
+        <div>
+            <img src="https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/{{ page.thumbnail }}" />
+        </div>
+        
         <header class="project-title">
           <h1>{{ page.title }}</h1>
           <h3>{{ page.subtitle }}</h3>
           <p>{{ page.author }}</p>
         </header>
+        
+        
+        
+        
         <div class="project-filters-display">
           <h3>Project Type:</h3>
           <p>
@@ -23,8 +41,31 @@
               Mobile
             {% endcase %}
           </p>
+          
           <h3>Audience:</h3>
           <p>
+          
+          {%- for selection in page.audience %}
+            {%- case selection %}
+              {%- when 'primary' %}
+              Primary
+              {%- when 'high_school' %}
+              High School / Secondary
+              {%- when 'community_college' %}
+              Community College
+              {%- when 'university' %}
+              University
+              {%- when 'other' %}
+              Other
+            {%- endcase %}
+            {%- if forloop.last -%}
+             
+            {%- else -%}
+            ,
+            {%- endif -%}
+          {%- endfor %}
+          
+          {% comment %}
             {% case page.audience %}
               {% when 'primary' %}
               Primary
@@ -37,6 +78,7 @@
               {% when 'other' %}
               Other
             {% endcase %}
+         {% endcomment %}
           </p>
           <h3>Difficulty:</h3>
           <p>
@@ -66,20 +108,33 @@
           </p>
           <h3>Education Activity Duration:</h3>
           <p>
-            {% case page.project_time %}
+          
+          {%- for selection in page.project_time %}
+            {% case selection %}
               {% when 'less_than_one_hour' %}
               < 1 hour
-              {% when 'one_hour' %}
+              {%- when 'one_hour' %}
               1 hour
-              {% when 'two_to_four_hours' %}
+              {%- when 'two_to_four_hours' %}
               2 - 4 hours
-              {% when 'one_day' %}
+              {%- when 'one_day' %}
               1 day
-              {% when 'more_than_one_day' %}
+              {%- when 'more_than_one_day' %}
               > 1 day
+              {% when 'flexible' %}
+              flexible
             {% endcase %}
+            {%- if forloop.last -%}
+             
+            {%- else -%}
+            ,
+            {%- endif -%}
+          {%- endfor %}
+
           </p>
         </div>
+        
+        
         <div class="project-tags">
           <p>Tags:&nbsp;</p>
           <div class="card-tags">
@@ -88,6 +143,51 @@
             {% endfor %}
           </div>
         </div>
+        
+        {% if page.video_link %}
+        
+        
+        <div id="videoPreview" style="grid-column: 1 / 3">
+            <label>Video:</label>
+            </br>
+            <iframe id="videoFrame" src="" 
+                width="560" height="315" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+        
+        <script>
+          
+            function getId(url) {
+                const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+                const match = url.match(regExp);
+
+                return (match && match[2].length === 11)
+                  ? match[2]
+                  : null;
+            }
+
+            let videoID = '';
+            
+            function insertVideoLink() {
+                console.log('print input');
+                console.log('{{ page.video_link }}');
+                //does YouTube link contain embed?
+                videoID = getId('{{ page.video_link }}');
+                input = "http://www.youtube.com/embed/" + videoID;
+                document.getElementById("videoFrame").src = input;
+                var x = document.getElementById("videoPreview");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  }
+            }
+            
+            window.onload = insertVideoLink()
+            
+        </script>
+    
+    
+        {% endif %}
+        
         <p class="project-description">{{ page.description }}</p>
         <div class="project-buttons">
           <a class="primary-button" href="{{ site.baseurl }}/projects">Back to Projects</a>

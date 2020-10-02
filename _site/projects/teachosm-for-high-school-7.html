@@ -1,6 +1,25 @@
 <!doctype html>
 <html>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+</style>
+
+
   <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175556304-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+   gtag('config', 'UA-175556304-1');
+  </script>
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -78,11 +97,12 @@
         <li>
           <a class="page-scroll" href="/projects">Projects</a>
         </li>
-        <!--<li>
+        <li>
           <a class="page-scroll" href="/resources">Resources</a>
-        </li>-->
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        </li>
+        <li>
+          <a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -110,13 +130,22 @@ $(function(){
 });
 </script>
 
+      
       <content class="project-content">
-        <img src="https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-7.png" />
+      
+        <div>
+            <img src="https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-7.png" />
+        </div>
+        
         <header class="project-title">
           <h1>Teach OSM for High School</h1>
           <h3>Module 7 - Mapping Political Organization of Space OSM Map Features</h3>
           <p>TeachOSM Contributors</p>
         </header>
+        
+        
+        
+        
         <div class="project-filters-display">
           <h3>Project Type:</h3>
           <p>
@@ -124,11 +153,12 @@ $(function(){
               Desktop
               
           </p>
+          
           <h3>Audience:</h3>
           <p>
-            
               University
-              
+          
+          
           </p>
           <h3>Difficulty:</h3>
           <p>
@@ -146,9 +176,11 @@ $(function(){
           <p>
             
               2 - 4 hours
-              
+
           </p>
         </div>
+        
+        
         <div class="project-tags">
           <p>Tags:&nbsp;</p>
           <div class="card-tags">
@@ -157,6 +189,9 @@ $(function(){
             
           </div>
         </div>
+        
+        
+        
         <p class="project-description">In this module, students will map political/governmental facilities, properties and other map features associated with politics and the government at location(s) in the world.  Students will explore similarities and differences between the arrangement of these facilities in areas where government structures may differ.  A suggested implementation is provided.</p>
         <div class="project-buttons">
           <a class="primary-button" href="/projects">Back to Projects</a>

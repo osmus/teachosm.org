@@ -46,6 +46,17 @@
             </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function() {
+            console.log('doc ready');
+            $('a.page-scroll').click(function() {
+                console.log('page-scroll clicked');
+                $('.t-title.active').removeClass("active");
+                //$(this).parentElement.addClass("active");
+                console.log($(this));
+            });
+        });
+     </script>
     {% endif %}
 
     </div>

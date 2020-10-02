@@ -2,6 +2,16 @@
 <html>
   
     <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175556304-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+   gtag('config', 'UA-175556304-1');
+  </script>
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -37,7 +47,7 @@
 </head>
 
   
-  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450" style="position: relative">
     <div class="add-project page">
       <!-- <nav class="navbar">
   <div class="nav-wrapper">
@@ -80,11 +90,12 @@
         <li>
           <a class="page-scroll" href="/projects">Projects</a>
         </li>
-        <!--<li>
+        <li>
           <a class="page-scroll" href="/resources">Resources</a>
-        </li>-->
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        </li>
+        <li>
+          <a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -150,13 +161,50 @@ $(function(){
       <br />
       <label style="font-style: italic;">You can either drag and drop your file or click on the "Upload File" box below</label>
       <div class="uploadable">
-        <input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx" class="required" />
+        <input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx,.csv,.ppt,.pptx,.jpg,.jpeg,.png" class="required" />
         <label id="projectFileLabel" for="projectFile"><i class="fa fa-upload"></i><br />Upload File</label>
       </div>
+      <br />
+      <label for="videoLink">Or if your resource is a video, insert the YouTube video link</label>
+      <input id="videoLink" name="videoLink" type="text" onkeyup="formChanged()" onchange="formChanged()">
+      <div id="videoPreview" style="display:none">
+        <label>Preview Video</label>
+        </br>
+        <iframe id="videoFrame" src=""
+   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <script>
+      
+        function getId(url) {
+            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+            const match = url.match(regExp);
+
+            return (match && match[2].length === 11)
+              ? match[2]
+              : null;
+        }
+
+        let videoID = '';
+        
+        function formChanged() {
+            console.log('form changed');
+            var input = document.getElementById("videoLink").value;
+            console.log('print input');
+            console.log(input);
+            //does YouTube link contain embed?
+            videoID = getId(input);
+            input = "http://www.youtube.com/embed/" + videoID;
+            document.getElementById("videoFrame").src = input;
+            var x = document.getElementById("videoPreview");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              }
+        }
+    </script>
     </section>
     <h1>Filters and Tags</h1>
     <section>
-      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. Please select one option for each of the filters below.</p>
+      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. The Audience and Education Activity Duration categories allow for one or more options to be selected.</p>
 
 
 
@@ -166,44 +214,44 @@ $(function(){
             <label>Audience *</label>
           
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
-                <input id="audience::Primary" type="radio" name="audience" value="primary" class="required audience-filter" />
+                <input id="audience::Primary" type="checkbox" name="audience" value="primary" class="required audience-filter" />
                 <label for="audience::Primary">Primary</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::High School / Secondary" type="radio" name="audience" value="high_school" class="required audience-filter" />
+                <input id="audience::High School / Secondary" type="checkbox" name="audience" value="high_school" class="required audience-filter" />
                 <label for="audience::High School / Secondary">High School / Secondary</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::Community College" type="radio" name="audience" value="community_college" class="required audience-filter" />
+                <input id="audience::Community College" type="checkbox" name="audience" value="community_college" class="required audience-filter" />
                 <label for="audience::Community College">Community College</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::University" type="radio" name="audience" value="university" class="required audience-filter" />
+                <input id="audience::University" type="checkbox" name="audience" value="university" class="required audience-filter" />
                 <label for="audience::University">University</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::Other" type="radio" name="audience" value="other" class="required audience-filter" />
+                <input id="audience::Other" type="checkbox" name="audience" value="other" class="required audience-filter" />
                 <label for="audience::Other">Other</label>
               </div>
             
+          
+          
           </div>
         </div>
       
         <div class="project-filter-list">
           
-            <script> 
-                console.log('tooltip exists');
-                console.log("refers to student difficulty level");
-            </script>
             <label data-toggle="tooltip" data-placement="right" title="refers to student difficulty level" > Difficulty *</label>
           
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
                 <input id="difficulty::Beginner" type="radio" name="difficulty" value="beginner" class="required difficulty-filter" />
@@ -220,6 +268,8 @@ $(function(){
                 <label for="difficulty::Advanced">Advanced</label>
               </div>
             
+          
+          
           </div>
         </div>
       
@@ -228,6 +278,7 @@ $(function(){
             <label>Educator Preparation Time *</label>
           
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
                 <input id="preparation_time::< 1 hour" type="radio" name="preparation_time" value="less_than_one_hour" class="required preparation_time-filter" />
@@ -254,6 +305,8 @@ $(function(){
                 <label for="preparation_time::> 1 day">> 1 day</label>
               </div>
             
+          
+          
           </div>
         </div>
       
@@ -262,32 +315,40 @@ $(function(){
             <label>Education Activity Duration *</label>
           
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
-                <input id="project_time::< 1 hour" type="radio" name="project_time" value="less_than_one_hour" class="required project_time-filter" />
+                <input id="project_time::< 1 hour" type="checkbox" name="project_time" value="less_than_one_hour" class="required project_time-filter" />
                 <label for="project_time::< 1 hour">< 1 hour</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::1 hour" type="radio" name="project_time" value="one_hour" class="required project_time-filter" />
+                <input id="project_time::1 hour" type="checkbox" name="project_time" value="one_hour" class="required project_time-filter" />
                 <label for="project_time::1 hour">1 hour</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::2 - 4 hours" type="radio" name="project_time" value="two_to_four_hours" class="required project_time-filter" />
+                <input id="project_time::2 - 4 hours" type="checkbox" name="project_time" value="two_to_four_hours" class="required project_time-filter" />
                 <label for="project_time::2 - 4 hours">2 - 4 hours</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::1 day" type="radio" name="project_time" value="one_day" class="required project_time-filter" />
+                <input id="project_time::1 day" type="checkbox" name="project_time" value="one_day" class="required project_time-filter" />
                 <label for="project_time::1 day">1 day</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::> 1 day" type="radio" name="project_time" value="more_than_one_day" class="required project_time-filter" />
+                <input id="project_time::> 1 day" type="checkbox" name="project_time" value="more_than_one_day" class="required project_time-filter" />
                 <label for="project_time::> 1 day">> 1 day</label>
               </div>
             
+              <div class="project-filter-option">
+                <input id="project_time::flexible" type="checkbox" name="project_time" value="flexible" class="required project_time-filter" />
+                <label for="project_time::flexible">flexible</label>
+              </div>
+            
+          
+          
           </div>
         </div>
       
@@ -296,6 +357,7 @@ $(function(){
             <label>Project Type *</label>
           
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
                 <input id="type::Desktop" type="radio" name="type" value="desktop" class="required type-filter" />
@@ -312,6 +374,8 @@ $(function(){
                 <label for="type::Mobile">Mobile</label>
               </div>
             
+          
+          
           </div>
         </div>
       
@@ -385,6 +449,7 @@ $(function(){
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <script type="text/javascript" src="/assets/js/selectize.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/assets/js/additional-methods.min.js"></script>
 <script src="/assets/js/fullcalendar/dist/moment.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.steps.min.js"></script>
 <script type="text/javascript" src="/assets/js/custom/add-project-form.js"></script>
