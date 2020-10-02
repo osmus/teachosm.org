@@ -25,6 +25,29 @@
           </p>
           <h3>Audience:</h3>
           <p>
+          
+
+          {%- for selection in page.audience %}
+            {%- case selection %}
+              {%- when 'primary' %}
+              Primary
+              {%- when 'high_school' %}
+              High School / Secondary
+              {%- when 'community_college' %}
+              Community College
+              {%- when 'university' %}
+              University
+              {%- when 'other' %}
+              Other
+            {%- endcase %}
+            {%- if forloop.last -%}
+             
+            {%- else -%}
+            ,
+            {%- endif -%}
+          {%- endfor %}
+          
+          {% comment %}
             {% case page.audience %}
               {% when 'primary' %}
               Primary
@@ -37,6 +60,7 @@
               {% when 'other' %}
               Other
             {% endcase %}
+         {% endcomment %}
           </p>
           <h3>Difficulty:</h3>
           <p>
@@ -66,18 +90,29 @@
           </p>
           <h3>Education Activity Duration:</h3>
           <p>
-            {% case page.project_time %}
+          
+          {%- for selection in page.project_time %}
+            {% case selection %}
               {% when 'less_than_one_hour' %}
               < 1 hour
-              {% when 'one_hour' %}
+              {%- when 'one_hour' %}
               1 hour
-              {% when 'two_to_four_hours' %}
+              {%- when 'two_to_four_hours' %}
               2 - 4 hours
-              {% when 'one_day' %}
+              {%- when 'one_day' %}
               1 day
-              {% when 'more_than_one_day' %}
+              {%- when 'more_than_one_day' %}
               > 1 day
+              {% when 'flexible' %}
+              flexible
             {% endcase %}
+            {%- if forloop.last -%}
+             
+            {%- else -%}
+            ,
+            {%- endif -%}
+          {%- endfor %}
+
           </p>
         </div>
         <div class="project-tags">
@@ -88,6 +123,11 @@
             {% endfor %}
           </div>
         </div>
+        
+        {% if page.video_link %}
+            <div> insert video </div>
+        {% endif %}
+        
         <p class="project-description">{{ page.description }}</p>
         <div class="project-buttons">
           <a class="primary-button" href="{{ site.baseurl }}/projects">Back to Projects</a>

@@ -81,6 +81,54 @@
     },
   
     {
+      "title": "Downloading and Mapping Data from OpenStreetMap using QGIS",
+      "subtitle": "",
+      "description": "This tutorial is an introduction to downloading and mapping data from OpenStreetMap using QGIS. OpenStreetMap, or OSM, is a free, editable map of the world created and edited entirely by volunteer contributors known as mappers. QGIS is a free, open-source geographic information system (GIS) application that allows users to view, edit, visualize, and analyze geographic data. This tutorial is intended to guide a complete beginner to OpenStreetMap and GIS software through the process of downloading OSM data and creating a simple, informative map.",
+      "date_posted": "Aug 20, 2020",
+      "tags": "Cities and Urban Land Use",
+      "type": "desktop",
+      "audience": "other",
+      "difficulty": "beginner",
+      "preparation_time": "two_to_four_hours",
+      "project_time": "two_to_four_hours",
+      "author": "Eugene Chong",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1597972011599-Tutorial preview.png",
+      "url": "/projects/2020-08-20-320060"
+    },
+  
+    {
+      "title": "OpenStreetMap Mapathon Pre-Event Instructions",
+      "subtitle": "",
+      "description": "For those of you who are new to OpenStreetMap, here are a few steps to take before joining a mapping event. This project walks you through creating an OpenStreetMap editing account, getting to know the mapping interface, and the iD Editor walkthrough.",
+      "date_posted": "Sep 18, 2020",
+      "tags": "beginner, account, mapathon",
+      "type": "desktop",
+      "audience": "other",
+      "difficulty": "beginner",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "less_than_one_hour",
+      "author": "TeachOSM",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1600452166301-osmus logo.png",
+      "url": "/projects/2020-09-18-189203"
+    },
+  
+    {
+      "title": "test2",
+      "subtitle": "",
+      "description": "test2",
+      "date_posted": "Sep 04, 2020",
+      "tags": "Environmental, react",
+      "type": "mobile",
+      "audience": "primaryhigh_school",
+      "difficulty": "intermediate",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "two_to_four_hoursone_dayflexible",
+      "author": "test2",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1599220777514-cat1.png",
+      "url": "/projects/2020-10-01-new-features-test"
+    },
+  
+    {
       "title": "Teach OSM for High School",
       "subtitle": "Module 0 - How to use these modules",
       "description": "This module provides an overview and explanation of the TeachOSM for High School modules and how to use them.  Educators should work through this module prior to introducing students to Modules 1-12.",
