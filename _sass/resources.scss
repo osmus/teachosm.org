@@ -39,7 +39,6 @@ $resources-card-padding: 15px;
 }
 
 #resources-panel {
-	background: #eee;
 	max-width: 1200px;
 
 	#resources-carousel {
@@ -169,7 +168,6 @@ $resources-card-padding: 15px;
 					right: 0;
 					h1 {
 						color: white;
-						font-family: Roboto;
 						font-size: 32px;
 						margin-bottom: 30px;
 						margin-top: 0;
@@ -202,7 +200,6 @@ $resources-card-padding: 15px;
 								margin-right: auto !important;
 							}
 							span {
-								font-family: Roboto;
 								font-size: 12px;
 								left: 50%;
 								position: absolute;
@@ -231,7 +228,6 @@ $resources-card-padding: 15px;
 
 .resources {
 	section {
-		background: #eee;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: $resources-max-width;
@@ -257,7 +253,6 @@ $resources-card-padding: 15px;
 			color: $primary-color;
 			font-size: 78px;
 			font-weight: bold;
-			font-family: Roboto;
 			left: 25%;
 			margin: 0;
 			position: absolute;
@@ -278,8 +273,7 @@ $resources-card-padding: 15px;
 
 		#spotlight-card {
 			display: block;
-			font-family: 'Roboto';
-			font-size: 20px;
+			font-size: 18px;
 			font-weight: bold;
 			right: 25%;
 			position: absolute;
@@ -427,7 +421,6 @@ $resources-card-padding: 15px;
 				> div {
 					position: absolute;
 					top: $resources-card-padding;
-					width: calc(50% - #{$resources-card-padding});
 				}
 	
 				#summary-container {
@@ -435,7 +428,8 @@ $resources-card-padding: 15px;
 					color: black;
 					left: $resources-card-padding;
 					padding-right: 8px;				
-					overflow-y: auto;
+					overflow-y: hidden;
+                    width: calc(55% - #{$resources-card-padding});
 	
 					@include resource-cards-one-column {
 						display: block;
@@ -480,6 +474,7 @@ $resources-card-padding: 15px;
 					grid-column-start: 4;
 					grid-column-end: 7;
 					padding-left: 8px;
+                    width: calc(45% - #{$resources-card-padding});
 
 					@include resource-cards-one-column {
 						display: block;
@@ -534,7 +529,7 @@ $resources-card-padding: 15px;
 						border-top: 16px;
 						display: block;
 						margin-bottom: 16px;
-						overflow-y: scroll;
+						overflow-y: hidden;
 						@include resource-cards-one-column-small {
 							display: block;
 							max-height: none !important;
@@ -548,7 +543,6 @@ $resources-card-padding: 15px;
 						}						
 						.card-tag {
 							display: inline-block;
-							font-family: Roboto;
 							height: auto;
 							line-height: 100%;
 							padding-bottom: 4px;

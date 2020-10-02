@@ -69,7 +69,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/">
+      <a href="/" id="logo-link">
         <img class="logo" src="/assets/images/logo.png" />
         <span id="beta-text">beta</span>
       </a>
@@ -109,7 +109,7 @@ $(function(){
       console.log(window.location.href);
     } else {
 
-      $('a').each(function() {
+      $('a.page-scroll').each(function() {
         //console.log(location.search)
         if ($(this).prop('href') == window.location.href) {
         $(this).addClass('current');
@@ -193,7 +193,7 @@ $(function(){
             console.log(input);
             //does YouTube link contain embed?
             videoID = getId(input);
-            input = "http://www.youtube.com/embed/" + videoID;
+            input = "https://www.youtube.com/embed/" + videoID;
             document.getElementById("videoFrame").src = input;
             var x = document.getElementById("videoPreview");
               if (x.style.display === "none") {

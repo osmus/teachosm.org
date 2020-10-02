@@ -173,7 +173,7 @@
                 console.log('{{ page.video_link }}');
                 //does YouTube link contain embed?
                 videoID = getId('{{ page.video_link }}');
-                input = "http://www.youtube.com/embed/" + videoID;
+                input = "https://www.youtube.com/embed/" + videoID;
                 document.getElementById("videoFrame").src = input;
                 var x = document.getElementById("videoPreview");
                   if (x.style.display === "none") {

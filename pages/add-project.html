@@ -72,7 +72,7 @@ layout: generic
             console.log(input);
             //does YouTube link contain embed?
             videoID = getId(input);
-            input = "http://www.youtube.com/embed/" + videoID;
+            input = "https://www.youtube.com/embed/" + videoID;
             document.getElementById("videoFrame").src = input;
             var x = document.getElementById("videoPreview");
               if (x.style.display === "none") {

@@ -585,7 +585,7 @@ dl {
   display: grid;
   grid-gap: 24px 24px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   height: 100%;
   margin-top: 100px;
   max-width: 800px;
@@ -889,7 +889,6 @@ dl {
   display: flex; }
 
 #resources-panel {
-  background: #eee;
   max-width: 1200px; }
   #resources-panel #resources-carousel {
     background: #141b23;
@@ -999,7 +998,6 @@ dl {
           right: 0; }
           #resources-panel #resources-carousel .resources-carousel-content .resources-carousel-content-half.resources-carousel-content-right h1 {
             color: white;
-            font-family: Roboto;
             font-size: 32px;
             margin-bottom: 30px;
             margin-top: 0;
@@ -1029,7 +1027,6 @@ dl {
                   margin-left: auto !important;
                   margin-right: auto !important; } }
               #resources-panel #resources-carousel .resources-carousel-content .resources-carousel-content-half.resources-carousel-content-right .resources-carousel-button-wrapper button span {
-                font-family: Roboto;
                 font-size: 12px;
                 left: 50%;
                 position: absolute;
@@ -1048,7 +1045,6 @@ dl {
       width: calc(100% - 10px - 10px); } }
 
 .resources section {
-  background: #eee;
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px; }
@@ -1071,7 +1067,6 @@ dl {
     color: #7EBC6F;
     font-size: 78px;
     font-weight: bold;
-    font-family: Roboto;
     left: 25%;
     margin: 0;
     position: absolute;
@@ -1089,15 +1084,14 @@ dl {
         width: 100%; } }
   .resources #resources-title #spotlight-card {
     display: block;
-    font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     right: 25%;
     position: absolute;
     margin: 0 auto;
     width: 45%;
     max-width: 1000px;
-    text-align: left;
+    text-align: center;
     top: 50%;
     transform: translate(50%, -50%); }
     @media (max-width: 800px) {
@@ -1192,14 +1186,14 @@ dl {
           width: calc(((100% - 20px - 32px) / 3) - 20px); } }
       .resources .more-resources #resource-card-container .resource-card > div {
         position: absolute;
-        top: 15px;
-        width: calc(50% - 15px); }
+        top: 15px; }
       .resources .more-resources #resource-card-container .resource-card #summary-container {
         bottom: 15px;
         color: black;
         left: 15px;
         padding-right: 8px;
-        overflow-y: auto; }
+        overflow-y: hidden;
+        width: calc(55% - 15px); }
         @media (max-width: 600.5px) {
           .resources .more-resources #resource-card-container .resource-card #summary-container {
             display: block;
@@ -1232,7 +1226,8 @@ dl {
         transform: translateY(-50%);
         grid-column-start: 4;
         grid-column-end: 7;
-        padding-left: 8px; }
+        padding-left: 8px;
+        width: calc(45% - 15px); }
         @media (max-width: 600.5px) {
           .resources .more-resources #resource-card-container .resource-card #photo-container {
             display: block;
@@ -1275,7 +1270,7 @@ dl {
           border-top: 16px;
           display: block;
           margin-bottom: 16px;
-          overflow-y: scroll; }
+          overflow-y: hidden; }
           @media (max-width: 450.5px) {
             .resources .more-resources #resource-card-container .resource-card #photo-container .card-tags {
               display: block;
@@ -1289,7 +1284,6 @@ dl {
               max-height: none !important; } }
           .resources .more-resources #resource-card-container .resource-card #photo-container .card-tags .card-tag {
             display: inline-block;
-            font-family: Roboto;
             height: auto;
             line-height: 100%;
             padding-bottom: 4px;
