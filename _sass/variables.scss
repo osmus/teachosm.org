@@ -13,6 +13,7 @@ $font: 'Anderson_Grotesk', sans-serif;
 
 $mobile-width: 600px;
 $tablet-width: 900px;
+$smaller-desktop: 1050px;
 
 // .primary-button {
 //   background: $secondary-color;
@@ -70,3 +71,5 @@ $tablet-width: 900px;
     border-radius: 4px;
     margin-left: 8px;
 }
+
+$panel-border-style-margin: 16px;

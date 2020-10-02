@@ -1,6 +1,9 @@
 title: TeachOSM
 timezone: UTC
 collections:
+  carousel:
+    title: Carousel
+    output: false
   filters:
     title: Filters
     output: false

@@ -1,9 +1,8 @@
 ---
 title: Glossary
 description: description coming soon
-author:
-  name: TeachOSM Contributors
+name: TeachOSM Contributors
 type:
-thumbnail: tasks.png
+thumbnail:
 link:
 ---
