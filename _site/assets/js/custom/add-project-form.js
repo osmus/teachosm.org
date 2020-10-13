@@ -13,6 +13,7 @@ const initializeForm = () => {
       },
       projectFile: {
                 required: function () {
+                    //checks to see if a video link was added
                     if (document.getElementById("videoLink").value) {
                         return false;
                     } else {
