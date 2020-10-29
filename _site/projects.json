@@ -1,6 +1,118 @@
 [
   
     {
+      "title": "How to Map Buildings",
+      "subtitle": "A Self-paced Worksheet for New-ish Mappers",
+      "description": "This self-paced worksheet takes the new mapper through the mapping workflow. Adding buildings is a gentle introduction to open mapping and a good starting point for developing mapping expertise. ",
+      "date_posted": "Oct 10, 2019",
+      "tags": "Cities and Urban Land Use",
+      "type": "desktop",
+      "audience": "community_college",
+      "difficulty": "beginner",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "one_hour",
+      "author": "Steven Johnson",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1570755613720-rockford_aerial2018.jpeg",
+      "url": "/projects/2019-10-10-391508"
+    },
+  
+    {
+      "title": "How to Map Roads in OpenStreetMap",
+      "subtitle": "Worksheet",
+      "description": "This worksheet takes newish mappers through the process of adding roads to OpenStreetMap. Techniques are introduced for aligning and connecting roads, as well as naming and classifying all types of &#39;roads&#39; from footpaths to expressways.",
+      "date_posted": "Nov 15, 2019",
+      "tags": "",
+      "type": "desktop",
+      "audience": "high_school",
+      "difficulty": "beginner",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "one_hour",
+      "author": "Steven Johnson",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1573840169233-RuralRoadQual_2019-03-02_1223.png",
+      "url": "/projects/2019-11-15-390767"
+    },
+  
+    {
+      "title": "Energy Infrastructure",
+      "subtitle": "",
+      "description": "This is an inquiry activity to introduce OpenStreetMap users to energy generation and transmission using OpenInfraMap.",
+      "date_posted": "Jan 14, 2020",
+      "tags": "Environmental, Industrialization and Economic Development",
+      "type": "desktop",
+      "audience": "high_school",
+      "difficulty": "beginner",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "one_hour",
+      "author": "Betsy Smalley",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1579025031071-energy infrastructure.JPG",
+      "url": "/projects/2020-01-14-93473"
+    },
+  
+    {
+      "title": "Field Mapping with OpenStreetMap",
+      "subtitle": "How to conduct a street survey using OpenStreetMap",
+      "description": "This how-to has all the instructions you&#39;ll need to conduct a street, or site survey in your neighborhood and add the information to OpenStreetMap. It is written to introduce learners of all ages how to gather geographic information from direct observation and improve your town&#39;s accuracy on OpenStreetMap. ",
+      "date_posted": "Mar 10, 2020",
+      "tags": "field mapping, site survey, street survey, field survey, primary data collection, geographic data",
+      "type": "field",
+      "audience": "other",
+      "difficulty": "beginner",
+      "preparation_time": "one_hour",
+      "project_time": "one_hour",
+      "author": "Steven Johnson",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1583854434696-IMG_0476.JPG",
+      "url": "/projects/2020-03-10-68709"
+    },
+  
+    {
+      "title": "Creating Compelling Mapping Projects",
+      "subtitle": "How to engage your students by creating a really cool mapping project",
+      "description": "One of the compelling features of open mapping is being able to connect geographic learning with projects that have immediate and tangible impact. Humanitarian mapping projects are the best known examples, but there are other ways of teaching geography through service. This how-to will take you through the steps of creating your own mapping projects for your classroom mapping projects.",
+      "date_posted": "Mar 10, 2020",
+      "tags": "mapathon, how-to, service learning, spatial citizenship, open mapping",
+      "type": "desktop",
+      "audience": "other",
+      "difficulty": "beginner",
+      "preparation_time": "one_hour",
+      "project_time": "two_to_four_hours",
+      "author": "Steven Johnson",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1583855138629-2017-03-31 19.05.32.jpg",
+      "url": "/projects/2020-03-10-824075"
+    },
+  
+    {
+      "title": "Downloading and Mapping Data from OpenStreetMap using QGIS",
+      "subtitle": "",
+      "description": "This tutorial is an introduction to downloading and mapping data from OpenStreetMap using QGIS. OpenStreetMap, or OSM, is a free, editable map of the world created and edited entirely by volunteer contributors known as mappers. QGIS is a free, open-source geographic information system (GIS) application that allows users to view, edit, visualize, and analyze geographic data. This tutorial is intended to guide a complete beginner to OpenStreetMap and GIS software through the process of downloading OSM data and creating a simple, informative map.",
+      "date_posted": "Aug 20, 2020",
+      "tags": "Cities and Urban Land Use",
+      "type": "desktop",
+      "audience": "other",
+      "difficulty": "beginner",
+      "preparation_time": "two_to_four_hours",
+      "project_time": "two_to_four_hours",
+      "author": "Eugene Chong",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1597972011599-Tutorial preview.png",
+      "url": "/projects/2020-08-20-320060"
+    },
+  
+    {
+      "title": "OpenStreetMap Mapathon Pre-Event Instructions",
+      "subtitle": "",
+      "description": "For those of you who are new to OpenStreetMap, here are a few steps to take before joining a mapping event. This project walks you through creating an OpenStreetMap editing account, getting to know the mapping interface, and the iD Editor walkthrough.",
+      "date_posted": "Sep 18, 2020",
+      "tags": "beginner, account, mapathon",
+      "type": "desktop",
+      "audience": "other",
+      "difficulty": "beginner",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "less_than_one_hour",
+      "author": "TeachOSM",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1600452166301-osmus logo.png",
+      "url": "/projects/2020-09-18-189203"
+    },
+  
+    {
       "title": "Teach OSM for High School",
       "subtitle": "Module 0 - How to use these modules",
       "description": "This module provides an overview and explanation of the TeachOSM for High School modules and how to use them.  Educators should work through this module prior to introducing students to Modules 1-12.",
@@ -12,7 +124,7 @@
       "preparation_time": "less_than_one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-0.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-0.png",
       "url": "/projects/teachosm-for-high-school-0"
     },
   
@@ -28,7 +140,7 @@
       "preparation_time": "one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-1.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-1.png",
       "url": "/projects/teachosm-for-high-school-1"
     },
   
@@ -44,7 +156,7 @@
       "preparation_time": "less_than_one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM and OpenStreetMap contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-10.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-10.png",
       "url": "/projects/teachosm-for-high-school-10"
     },
   
@@ -60,7 +172,7 @@
       "preparation_time": "less_than_one_hour",
       "project_time": "two_to_four_hours",
       "author": "OpenStreetMap contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-11.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-11.png",
       "url": "/projects/teachosm-for-high-school-11"
     },
   
@@ -76,7 +188,7 @@
       "preparation_time": "less_than_one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM and OpenStreetMap contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-12.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-12.png",
       "url": "/projects/teachosm-for-high-school-12"
     },
   
@@ -92,7 +204,7 @@
       "preparation_time": "one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-2.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-2.png",
       "url": "/projects/teachosm-for-high-school-2"
     },
   
@@ -108,7 +220,7 @@
       "preparation_time": "one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-3.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-3.png",
       "url": "/projects/teachosm-for-high-school-3"
     },
   
@@ -124,7 +236,7 @@
       "preparation_time": "one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM and OpenStreetMap Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-4.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-4.png",
       "url": "/projects/teachosm-for-high-school-4"
     },
   
@@ -140,7 +252,7 @@
       "preparation_time": "one_hour",
       "project_time": "one_hour",
       "author": "OpenStreetMap Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-5.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-5.png",
       "url": "/projects/teachosm-for-high-school-5"
     },
   
@@ -156,7 +268,7 @@
       "preparation_time": "two_to_four_hours",
       "project_time": "one_hour",
       "author": "OpenStreetMap Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-6.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-6.png",
       "url": "/projects/teachosm-for-high-school-6"
     },
   
@@ -172,7 +284,7 @@
       "preparation_time": "one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-7.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-7.png",
       "url": "/projects/teachosm-for-high-school-7"
     },
   
@@ -188,7 +300,7 @@
       "preparation_time": "less_than_one_hour",
       "project_time": "two_to_four_hours",
       "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-8.jpg",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-8.jpg",
       "url": "/projects/teachosm-for-high-school-8"
     },
   
@@ -204,7 +316,7 @@
       "preparation_time": "less_than_one_hour",
       "project_time": "two_to_four_hours",
       "author": "OpenStreetMap Contributors",
-      "thumbnail": "https://teachosm-project-pics.s3.amazonaws.com/teachosm-for-high-school-9.png",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-9.png",
       "url": "/projects/teachosm-for-high-school-9"
     }
   

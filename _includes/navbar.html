@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="{{site.baseurl}}/">
+      <a href="{{site.baseurl}}/" id="logo-link">
         <img class="logo" src="{{site.baseurl}}/assets/images/logo.png" />
         <span id="beta-text">beta</span>
       </a>
@@ -46,6 +46,17 @@
             </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function() {
+            console.log('doc ready');
+            $('a.page-scroll').click(function() {
+                console.log('page-scroll clicked');
+                $('.t-title.active').removeClass("active");
+                //$(this).parentElement.addClass("active");
+                console.log($(this));
+            });
+        });
+     </script>
     {% endif %}
 
     </div>
@@ -62,11 +73,12 @@
         <li>
           <a class="page-scroll" href="{{site.baseurl}}/projects">Projects</a>
         </li>
-        <!--<li>
+        <li>
           <a class="page-scroll" href="{{site.baseurl}}/resources">Resources</a>
-        </li>-->
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        </li>
+        <li>
+          <a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -80,7 +92,7 @@ $(function(){
       console.log(window.location.href);
     } else {
 
-      $('a').each(function() {
+      $('a.page-scroll').each(function() {
         //console.log(location.search)
         if ($(this).prop('href') == window.location.href) {
         $(this).addClass('current');

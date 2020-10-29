@@ -4,47 +4,92 @@ permalink: "/resources"
 layout: default
 ---
 
-<div class="resources">
+<div id="resources-panel" class="resources">
 	<section id="resources-title">
 		<h1 id="page-title">Resources</h1>
-		<span id="spotlight-card">
-			<p>This guide should give you sufficient information about the OpenStreetMap platform so that you can incorporate it into your classroom. But once you and your students are comfortable using the platform, you will want to branch out and do more. This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.</p>
-		</span>
+		<div id="spotlight-card">
+			This includes more advanced mapping topics, utilities for data quality, and pointers to the wider OpenStreetMap community.
+		</div>
 	</section>
-	<section id="meet-mappers">
-		<img src="{{site.baseurl}}/assets/images/meetmappers2.png">
-		<div id="MYM-right">
-			<h2 id="mappers-title">Discover Mappers Near You</h2>
-			<div id="MYM-description">
-				<a href="https://mym.rtijn.org/"><h3>https://mym.rtijn.org/</h3></a>
-				<p> "Meet Your Mapper (MYM) tells you who has mapped in your area, when, and how much. Use it for fun, curiosity, or to help you make a list of people to invite to a mapping party or some other OSM event."</p>
-			</div>
-			<div id="MYM-map">
-			  	<!--<img src="{{site.baseurl}}/assets/images/meetmappers.png" alt="" style="height:200px" style="width:300px"> -->
-			  <a href="https://mym.rtijn.org/"><button class="primary-button" id="MYM-button">Check it Out</button></a>
-			</div>
+	<section id="resources-carousel" data-carousel-tab="1" data-carousel-left="disabled" data-carousel-right="enabled">
+		<script>
+			{% assign count = site.carousel | size %}
+			function moveResourcesCarouselLeft() {
+				var carouselElement = document.getElementById("resources-carousel");
+				var currentCarouselTab = parseInt(carouselElement.getAttribute("data-carousel-tab"));
+				if (currentCarouselTab > 1) {
+					var newCarouselTab = currentCarouselTab - 1;
+					carouselElement.setAttribute("data-carousel-tab", newCarouselTab);
+					if (newCarouselTab === 1) {
+						carouselElement.setAttribute("data-carousel-left", "disabled");
+					}
+					carouselElement.setAttribute("data-carousel-right", "enabled");
+				}			
+			}
+			function moveResourcesCarouselRight() {
+				var carouselElement = document.getElementById("resources-carousel");
+				var currentCarouselTab = parseInt(carouselElement.getAttribute("data-carousel-tab"));
+				if (currentCarouselTab < {{ count }}) {
+					var newCarouselTab = currentCarouselTab + 1;
+					carouselElement.setAttribute("data-carousel-tab", newCarouselTab);	
+					if (newCarouselTab === {{ count }}) {
+						carouselElement.setAttribute("data-carousel-right", "disabled");
+					}					
+					carouselElement.setAttribute("data-carousel-left", "enabled");
+				}			
+			}			
+		</script>
+		<div id="resources-carousel-left-wrapper" class="resources-carousel-arrow-wrapper">
+			<svg onClick="moveResourcesCarouselLeft()" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400"><path d="M900,200c-386,0-700,314-700,700s314,700,700,700,700-314,700-700S1286,200,900,200Zm0,1312.5c-337.71,0-612.47-274.76-612.48-612.48S562.27,287.5,900,287.5,1512.5,562.28,1512.5,900,1237.73,1512.5,900,1512.5Z" transform="translate(-200 -200)"/><path d="M1239.06,856.25H666.55L882.18,640.64a43.75,43.75,0,0,0-61.87-61.86L530,869.05a43.78,43.78,0,0,0,0,61.88l290.32,290.32a43.75,43.75,0,0,0,61.88-61.87L666.55,943.75h572.51a43.75,43.75,0,0,0,0-87.5Z" transform="translate(-200 -200)"/></svg>
+		</div>
+		{% for highlight in site.carousel %}
+			<section class="resources-carousel-content resources-carousel-tab-{{ forloop.index }}">
+				<div class="resources-carousel-content-half resources-carousel-content-left">
+					<img src="{{site.baseurl}}/assets/images/{{highlight.image}}">
+				</div>
+				<div class="resources-carousel-content-half resources-carousel-content-right">
+					<h1>{{highlight.title}}</h1>
+					<div class="resources-carousel-content-description">
+						<p>{{highlight.content}}
+					</div>
+					<a class="resources-carousel-button-wrapper" href="{{highlight.link}}" target="_blank">
+						<button><span>Check it Out</span></button>
+					</a>        
+				</div>
+			</section>
+			<style>
+				[data-carousel-tab="{{forloop.index}}"] .resources-carousel-tab-{{forloop.index}} { display: block !important; }
+			</style>
+		{% endfor %}
+		<div id="resources-carousel-right-wrapper" class="resources-carousel-arrow-wrapper">
+			<svg onClick="moveResourcesCarouselRight()"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400"><path d="M900,200c-386,0-700,314-700,700s314,700,700,700,700-314,700-700S1286,200,900,200Zm0,1312.5C562.27,1512.5,287.5,1237.72,287.5,900S562.27,287.5,900,287.5,1512.48,562.26,1512.5,900,1237.72,1512.5,900,1512.5Z" transform="translate(-200 -200)"/><path d="M979.68,578.75a43.75,43.75,0,1,0-61.86,61.89l215.62,215.61H560.94a43.75,43.75,0,0,0,0,87.5h572.5L917.82,1159.36a43.74,43.74,0,1,0,61.86,61.86L1270,930.93a43.75,43.75,0,0,0,0-61.86Z" transform="translate(-200 -200)"/></svg>
 		</div>
 	</section>
 	<section class="more-resources">
 		<h2 id="more-resources-title">More Resources</h2>
+		<h2 id="more-resources-title">{{site.resources}}</h2>
+		<div id="resource-card-container">
 			{% for resource in site.resources %}
-				<a href="{{resource.link}}">
-					<div id="resource-card">
-						<div id="summary-container">
-							<h3>{{resource.title}}</h3>
-							<h4>{{resource.type}}</h4>
-							<p>{{resource.description}}</p>
-						</div>
-						<div id="photo-container">
-						  <img src="{{site.baseurl}}/assets/images/resource-thumbnails/{{resource.thumbnail}}">
-						{% if resource.tags.size > 0 %}
-							{% for tag in resource.tags %}
-								<h4 class="card-tag">{{tag}}</h4>
-							{% endfor %}
-						{% endif %}
-						</div>
+			<a href="{{resource.link}}">
+				<div class="resource-card">
+					<div id="summary-container">
+						<h3>{{resource.title}}</h3>
+						<h4>{{resource.type}}</h4>
+						<p>{{resource.description}}</p>
 					</div>
-				</a>
+					<div id="photo-container">
+						{% if resource.thumbnail %}<img src="{{site.baseurl}}/assets/images/resource-thumbnails/{{resource.thumbnail}}">{% endif %}
+					{% if resource.tags.size > 0 %}
+						<div class="card-tags">
+						{% for tag in resource.tags %}
+							<span class="card-tag">{{tag}}</span>
+						{% endfor %}
+						</div>
+					{% endif %}
+					</div>
+				</div>
+			</a>
 			{% endfor %}
+		</div>
 	</section>
 </div>

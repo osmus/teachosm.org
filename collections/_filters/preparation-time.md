@@ -1,6 +1,7 @@
 ---
 title: Educator Preparation Time
 name: preparation_time
+type: radio
 options:
 - name: "< 1 hour"
   value: less_than_one_hour

@@ -1,6 +1,16 @@
 <!doctype html>
 <html>
   <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175556304-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+   gtag('config', 'UA-175556304-1');
+  </script>
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -10,7 +20,7 @@
   <link rel="stylesheet" href="/assets/css/selectize.css" />
   <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  
   <!-- recommended in https://jekyllrb.com/docs/posts/ -->
   <meta charset="utf-8" />
 
@@ -32,6 +42,7 @@
       alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
     }
   </script>
+  
 </head>
 
   <body data-spy="scroll" data-target=".navbar2" data-offset="450">
@@ -56,7 +67,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/">
+      <a href="/" id="logo-link">
         <img class="logo" src="/assets/images/logo.png" />
         <span id="beta-text">beta</span>
       </a>
@@ -80,8 +91,9 @@
         <li>
           <a class="page-scroll" href="/resources">Resources</a>
         </li>
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        <li>
+          <a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -95,7 +107,7 @@ $(function(){
       console.log(window.location.href);
     } else {
 
-      $('a').each(function() {
+      $('a.page-scroll').each(function() {
         //console.log(location.search)
         if ($(this).prop('href') == window.location.href) {
         $(this).addClass('current');
@@ -122,7 +134,7 @@ $(function(){
         </br>
         <h3 id="the-backstory">The Backstory</h3>
 
-<p>For Northern Virginia Community College GIS Day, we decided to plan a mapathon incorporating National Geographic’s “The Future of Food” theme.  We planned to map Farmers Markets in Virginia using Open Street Map.  While we were able to find long/lat information for Farmers Markets in Virginia which students could add to OSM, we also wanted to show students that they could go out to their local Farmers Markets and gather information to be uploaded to OSM using field papers.</p>
+<p>For Northern Virginia Community College GIS Day, we decided to plan a mapathon incorporating National Geographic’s “The Future of Food” theme.  We planned to map Farmers Markets in Virginia using OpenStreetMap.  While we were able to find long/lat information for Farmers Markets in Virginia which students could add to OSM, we also wanted to show students that they could go out to their local Farmers Markets and gather information to be uploaded to OSM using field papers.</p>
 
 <h3 id="the-mapping-challenge">The Mapping Challenge</h3>
 
@@ -133,6 +145,7 @@ After the information was gathered, the paper map was converted to a jpeg file a
 <h3 id="the-workflow">The Workflow</h3>
 
 <p>Because our participants were not actually going to use field papers for this event, the workflow only involved an instructor and a family member assistant!  If field papers had been part of the event, a map atlas would have been printed and distributed to participants ahead of time.</p>
+
 <h3 id="stumbling-blocks">Stumbling Blocks</h3>
 
 <p>Creating an atlas using field papers took some time to master, but the process was relatively simple.
@@ -144,7 +157,7 @@ Make sure that you follow the instructions for the correct type of file that can
 
 <h3 id="contact-information">Contact Information</h3>
 
-<p>Please contact Janice Ouellette jouellette [at] nvcc.edu with any questions.</p>
+<p>Please contact Janice Ouellette jouellette@nvcc.edu with any questions.</p>
 
       </div>
     </div>
@@ -152,7 +165,7 @@ Make sure that you follow the instructions for the correct type of file that can
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+        <span class="copyright">Copyright &copy; TeachOSM 2020</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
