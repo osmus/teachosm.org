@@ -113,22 +113,6 @@
     },
   
     {
-      "title": "test2",
-      "subtitle": "",
-      "description": "test2",
-      "date_posted": "Sep 04, 2020",
-      "tags": "Environmental, react",
-      "type": "mobile",
-      "audience": "primaryhigh_school",
-      "difficulty": "intermediate",
-      "preparation_time": "less_than_one_hour",
-      "project_time": "two_to_four_hoursone_dayflexible",
-      "author": "test2",
-      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1599220777514-cat1.png",
-      "url": "/projects/2020-10-01-new-features-test"
-    },
-  
-    {
       "title": "Teach OSM for High School",
       "subtitle": "Module 0 - How to use these modules",
       "description": "This module provides an overview and explanation of the TeachOSM for High School modules and how to use them.  Educators should work through this module prior to introducing students to Modules 1-12.",
