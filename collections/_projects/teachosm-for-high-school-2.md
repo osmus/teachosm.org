@@ -15,6 +15,7 @@ project_time: two_to_four_hours
 group: ''
 layout: project
 url: teachosm-for-high-school-2
+published: false
 tags:
 ---
 
