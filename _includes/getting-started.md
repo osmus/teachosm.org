@@ -1,7 +1,5 @@
 # Introducing Students to OpenStreetMap? Start Here
-OpenStreetMap as an ideal teaching tool to introduce to students that compliments humanities, social & environmental science subjects while providing valuable service learning opportunities. The open platform encourages collaborative learning and supports project-based learning by integrating mapping with real-world concerns (e.g. humanitarian mapping). Navigating the ecosystem of tools and resources available to use in OpenStreetMap, however, can be intimidating. Use this guide as an overview on how to start using OpenStreetMap in your classroom, after-school club, and other educational settings. 
-
-From this page and the resources linked through TeachOSM, you will gain a better understanding of
+OpenStreetMap as an ideal teaching tool to introduce to students that compliments humanities, social & environmental science subjects while providing valuable service learning opportunities. The open platform encourages collaborative learning and supports project-based learning by integrating mapping with real-world concerns (e.g. humanitarian mapping). Navigating the ecosystem of tools and resources available to use in OpenStreetMap, however, can be intimidating. Use this guide as an overview on how to start using OpenStreetMap in your classroom, after-school club, and other educational settings. From this page and the resources linked through TeachOSM, you will gain a better understanding of
 
 -   What OpenStreetMap is and how the data is used
 
@@ -15,7 +13,7 @@ From this page and the resources linked through TeachOSM, you will gain a better
 
 <br>
 
-Jump to a section below: 
+### Jump to a section below: 
 
 1.  What is OpenStreetMap and how is it used?
 
@@ -28,7 +26,7 @@ Jump to a section below:
 
 
 
-
+<br>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -60,6 +58,8 @@ Data can be expensive, and even more expensive to maintain when confined to priv
 By using OpenStreetMap in your classroom, you can transform your students from map users into map creators and immediately see their contributions used around the world by these users and more.
 
 
+<br>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Why should I introduce students to OpenStreetMap?
 
@@ -147,7 +147,10 @@ Student groups and after-school clubs are a great way to introduce students to O
 
 Teachers can also introduce students through [OSMTeenMaptivists](https://sites.google.com/mpspk12.org/teenmaptivists/home). TeenMaptivists provides an opportunity for high school students to become introduced to OpenStreetMap community and learn how OSM is being used in the Real World to help people all around the world.  Students can open a free OSM account and join in monthly MapAlongs, Mapathons, and hear from people who use OSM to solve real-world problems.  High school students can learn how creating maps helps solve many problems people face all over the world.  
 
-What resources should I use to get started? 
+<br>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## What resources should I use to get started? 
 ---------------------------------------------------------
 
 TeachOSM provides educators with lesson plans, virtual meetups and training workshops, and social networking to learn from other educators. 
