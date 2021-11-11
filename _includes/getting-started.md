@@ -1,3 +1,4 @@
+# Introducing Students to OpenStreetMap? Start Here
 OpenStreetMap as an ideal teaching tool to introduce to students that compliments humanities, social & environmental science subjects while providing valuable service learning opportunities. The open platform encourages collaborative learning and supports project-based learning by integrating mapping with real-world concerns (e.g. humanitarian mapping). Navigating the ecosystem of tools and resources available to use in OpenStreetMap, however, can be intimidating. Use this guide as an overview on how to start using OpenStreetMap in your classroom, after-school club, and other educational settings. 
 
 From this page and the resources linked through TeachOSM, you will gain a better understanding of
@@ -30,8 +31,6 @@ Jump to a section below:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![](https://lh3.googleusercontent.com/6rL6zz3yFXba2Q9BHuO28sv75igPu0CeYrx3pRVpe0IhKvDV72UjsCYB08lw1SaePZ-XdRfAJAToemJvkBQEibaiXBnN-vrDgSU18PzpEaDdXtJOLSXv8bEMlAeDDOGus3OAIwZu)
-
 
 ## What is OpenStreetMap and how is it used?
 
@@ -40,9 +39,6 @@ OpenStreetMap is a free and open web map of the world. It empowers anyone, anywh
 As an online database developed by over 1.5 million contributors (largely on a volunteer basis) and over 7 million registered users, OpenStreetMap is often referred to as the "Wikipedia of maps". This community collaborates to build a free and open map of the world that contains data and information important to those that use the map. All that is needed to contribute to OSM is an internet connection and email address.
 
 Due to the low barrier for contribution, OpenStreetMap has also become a popular avenue for marginalized communities to literally "put themselves on the map". One excellent example is the Map Kibera initiative, a community project (using OSM) to map one of Africa's largest slums, home to more than half a million people, in Nairobi, Kenya. Its street and building infrastructure (most of it informal and unplanned) cannot be found on any official maps, nor the other major mapping platforms (including Google Maps). Visibility is an important step toward recognition for communities like Kibera, but perhaps more importantly, an open mapping platform allows the community to direct planning processes and social organization.
-
-![Students in Indonesia using OpenStreetMap, image courtesy of Humanitarian OpenStreetMap Team.](https://lh6.googleusercontent.com/2WSRMLi37oAwrRDpqu39WIXB356MA534QJWzmHxd97UVlQtAbPqeZQiu4kS-QlcwyYTTNjiEmpAqNnpkmA0l5JLFXGl9glfFJ6-fEJgHGqWwrc9RKwRxeia89j84fBnXbyGqHVWG)
-_Students in Indonesia using OpenStreetMap, image courtesy of Humanitarian OpenStreetMap Team._
 
 
 OpenStreetMap is used by people and organizations around the world such as:
@@ -137,9 +133,6 @@ Your students can answer and investigate questions like these through hands-on m
 
 Read [here](https://teachosm.org/posts/2014/10/Georgia-Ave.html) how students in DC supported a local business association and community development task force by mapping businesses in their neighborhood.
 
-![A close up of a map
-
-Description automatically generated](https://lh6.googleusercontent.com/Ic1ZOnnWNhiuHJPd4S7g0u8Q17wG_s437_sDuD4cjH0wgOishXplAaIEMzodVjEJEz-7PBDuiBW0-a67tRWevfoAe8wkuyCpa8Zmms2FtnIPW-ne4OAo8XTkw1FJAtIW8Q1Btw3z)
 
 ### Understanding current events
 
@@ -153,8 +146,6 @@ Once students have learned the basics of mapping, they can contribute to current
 Student groups and after-school clubs are a great way to introduce students to OpenStreetMap, especially if integrating OpenStreetMap into the classroom is not feasible or as a complementary opportunity for highly-interested students. Service-oriented clubs are particularly well-suited for learning and mapping in OpenStreetMap as students can work together on a mapping project that aids an organization or group elsewhere in the world. 
 
 Teachers can also introduce students through [OSMTeenMaptivists](https://sites.google.com/mpspk12.org/teenmaptivists/home). TeenMaptivists provides an opportunity for high school students to become introduced to OpenStreetMap community and learn how OSM is being used in the Real World to help people all around the world.  Students can open a free OSM account and join in monthly MapAlongs, Mapathons, and hear from people who use OSM to solve real-world problems.  High school students can learn how creating maps helps solve many problems people face all over the world.  
-
-![](https://lh3.googleusercontent.com/IOrT61GVAv8yLW4vghXc9_MngZ0lnf-FJmB-jQibqyCKcpuC3ulgb3KI3iorAhoKANf-xtHxhsB0ELkZri8IpQq0D-75OBW0y5Rx9plTsCmS3XTYms67_cfZwZXDpeyRZ4m6vfHX)
 
 What resources should I use to get started? 
 ---------------------------------------------------------
