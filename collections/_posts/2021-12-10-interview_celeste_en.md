@@ -1,9 +1,9 @@
 ---
 title: Instead of consuming maps, let’s produce maps!
-thumbnail: students-mapping-2.jpg
+thumbnail: Geog2050_2020_Workshop_cr.png
 description: "Mrs. Reynolds shows students how OpenStreetMap can be used as a tool to understand our reality and contribute to different communities."
 ---
-*Para obtener la versión en español de este blog, vaya aquí.*
+*Para obtener la versión en español de este blog, vaya [aquí](https://teachosm.org/posts/2021/12/interview_celeste_es.html).*
 
 ![Mrs. Reynolds' Class Learning through Mapping](../../../assets/images/blog/students-mapping-2.jpg)
 
