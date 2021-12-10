@@ -3,7 +3,7 @@ title: ¡Produzcamos mapas, en lugar de consumir mapas!
 thumbnail: students-mapping-2.jpg
 description: "La Sra. Reynolds nos demuestra cómo OpenStreetMap puede ser utilizado como herramienta para entender nuestra realidad y contribuir a diferentes comunidades."
 ---
-*For an English version of this blog post, click here.*
+*For an English version of this blog post, click [here](https://teachosm.org/posts/2021/12/interview_celeste_en.html).*
 
 ![Mrs. Reynolds' Class Learning through Mapping](../../../assets/images/blog/students-mapping-2.jpg)
 
