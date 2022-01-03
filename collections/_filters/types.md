@@ -1,6 +1,7 @@
 ---
 title: Project Type
 name: type
+type: radio
 options:
 - name: Desktop
   value: desktop

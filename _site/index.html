@@ -26,7 +26,7 @@
 </head>
 
   
-  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450" style="position: relative">
     <div class="home page">
       <!-- <nav class="navbar">
   <div class="nav-wrapper">
@@ -48,7 +48,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/">
+      <a href="/" id="logo-link">
         <img class="logo" src="/assets/images/logo.png" />
         <span id="beta-text">beta</span>
       </a>
@@ -76,6 +76,17 @@
             </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function() {
+            console.log('doc ready');
+            $('a.page-scroll').click(function() {
+                console.log('page-scroll clicked');
+                $('.t-title.active').removeClass("active");
+                //$(this).parentElement.addClass("active");
+                console.log($(this));
+            });
+        });
+     </script>
     
 
     </div>
@@ -95,8 +106,9 @@
         <li>
           <a class="page-scroll" href="/resources">Resources</a>
         </li>
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        <li>
+          <a href="https://osmus.civicrm.org/civicrm/contribute/transact?cid=0&reset=1&id=3">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -110,7 +122,7 @@ $(function(){
       console.log(window.location.href);
     } else {
 
-      $('a').each(function() {
+      $('a.page-scroll').each(function() {
         //console.log(location.search)
         if ($(this).prop('href') == window.location.href) {
         $(this).addClass('current');
@@ -132,7 +144,7 @@ $(function(){
       <div class="container-fluid">
         <div class="row">
           <ul class="nav nav2-list" style="padding-left: 0px;">
-            <li class="t-title"><a href="#about" class="page-scroll">About</a></li>
+            <li class="t-title"><a href="#about" class="page-scroll">Test</a></li>
             <li class="t-title"><a href="#calendar" class="page-scroll">Calendar</a></li>
             <li class="t-title"><a href="#contact" class="page-scroll">Contact Us</a></li>
           </ul>
@@ -150,48 +162,53 @@ $(function(){
     </div>
 </section>
 
+<style>
+.fa-stack:hover {filter:drop-shadow(0 5px 20px #7EBC6F)}
+</style>
+
 <section class="about" id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">About TeachOSM</h2>
-        <div class="section-subheading">TeachOSM was chartered in 2016 as a project of OpenStreetMap US (OSM US) to provide operational support and strategic guidance for the educational outreach mission of OSM US.
-
-          The TeachOSM website's purpose is to be a central location to empower and support educators at all levels to integrate open source mapping and the OpenStreetMap ecosystem of tools in the classroom. Educators are encouraged to make use of the instructional materials to develop projects for their particular discipline and curricular needs. This site also provides resources to support educators in identifying, assigning, managing and grading mapping projects. This site includes training resources for both educators and students.
-
-        TeachOSM is led by a volunteer steering committee based throughout the United States, and relies upon educators, students, and OpenStreetMap contributors all over the globe.
+        <div class="section-subheading">TeachOSM was chartered in 2016 as a project of <a href="https://www.openstreetmap.org">OpenStreetMap US (OSM US)</a>, led by a volunteer steering committee, providing operational support and strategic guidance for the educational outreach mission of OSM US. TeachOSM's purpose is to empower and support educators at all levels to integrate open source mapping and the OpenStreetMap ecosystem of tools in the classroom.
         </div>
         </br></br>
       </div>
     </div>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <!--<i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>-->
-          <!--<i class="fa educational_content fa-stack-1x fa-inverse"></i>-->
-          <img src="/assets/images/about_icons/educational_content.png" width="100px">
-          
-        </span>
-        <h4>Educational Content</h4>
-        <p class="">The Educational Portal is where educators can share educational exercises, projects and lesson plans with one another and obtain contact information for educators around the world.</p>
-      </div>
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <!--<i class="fa fa-map-o fa-stack-1x fa-inverse"></i>-->
-          <img src="/assets/images/about_icons/educator_training.png" width="100px">
 
+
+    <div class="row text-center">
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <a href="/projects"><img src="/assets/images/about_icons/educational_content.png" width="100px"></a>
+        </span>
+
+        <h4>Educational Content</h4>
+        <p class="">The Projects Portal is where educators can share educational exercises, projects and lesson plans with one another and obtain contact information for educators around the world.</p>
+      </div>
+
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <a href="#calendar"><img src="/assets/images/about_icons/educator_training.png" width="100px"></a>
         </span>
         <h4>Educator Training</h4>
         <p class="">We offer educator training in person and remotely and announce those training opportunities and other similar educator training opportunities through our calendar of events.</p>
       </div>
+
+
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
-          <!--<i class="fa fa-users fa-stack-1x fa-inverse"></i>-->
-          <img src="/assets/images/about_icons/open_mapping_resources.png" width="100px">
+          <a href="/resources"><img src="/assets/images/about_icons/open_mapping_resources.png" width="100px"></a>
         </span>
+
         <h4>Open Mapping Resources</h4>
         <p class="">We have curated various OpenStreetMap and other open mapping resources that we have identified as helping educators solve issues and roadblocks either themselves or their students commonly encounter.</p>
       </div>
+
+
     </div>
   </div>
 </section>
@@ -336,7 +353,7 @@ $(function(){
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+        <span class="copyright">Copyright &copy; TeachOSM 2021</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">

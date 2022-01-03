@@ -113,6 +113,11 @@
           {
             "name": "> 1 day",
             "value": "more_than_one_day"
+          },
+        
+          {
+            "name": "flexible",
+            "value": "flexible"
           }
         
       ]

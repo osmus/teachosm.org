@@ -2,6 +2,16 @@
 <html>
   
     <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175556304-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+   gtag('config', 'UA-175556304-1');
+  </script>
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
@@ -11,7 +21,7 @@
   <link rel="stylesheet" href="/assets/css/selectize.css" />
   <link rel="stylesheet" href="/assets/css/jquery.steps.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  
   <!-- recommended in https://jekyllrb.com/docs/posts/ -->
   <meta charset="utf-8" />
 
@@ -33,10 +43,11 @@
       alert('Some features on this site are not supported by your browser. We recommend updating your browser or using a different browser for the best possible experience.');
     }
   </script>
+  
 </head>
 
   
-  <body data-spy="scroll" data-target=".navbar2" data-offset="450">
+  <body data-spy="scroll" data-target=".navbar2" data-offset="450" style="position: relative">
     <div class="add-project page">
       <!-- <nav class="navbar">
   <div class="nav-wrapper">
@@ -58,7 +69,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/">
+      <a href="/" id="logo-link">
         <img class="logo" src="/assets/images/logo.png" />
         <span id="beta-text">beta</span>
       </a>
@@ -82,8 +93,9 @@
         <li>
           <a class="page-scroll" href="/resources">Resources</a>
         </li>
-        <li id=""><a href="https://osmus.wufoo.com/forms/openstreetmap-us-donation-form/">Donate</a>
-          </li>
+        <li>
+          <a href="https://osmus.civicrm.org/civicrm/contribute/transact?cid=0&reset=1&id=3">Donate</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -97,7 +109,7 @@ $(function(){
       console.log(window.location.href);
     } else {
 
-      $('a').each(function() {
+      $('a.page-scroll').each(function() {
         //console.log(location.search)
         if ($(this).prop('href') == window.location.href) {
         $(this).addClass('current');
@@ -122,9 +134,9 @@ $(function(){
     <h1>User Information</h1>
     <section>
       <p>Welcome to the Create Project form. This form was built to make it easy for contributors to add new projects to the TeachOSM projects portal. Please start by answering a couple questions about yourself.</p>
-      <label for="name">What is your name? (The name entered here will show up as the author of the project) *</label>
+      <label for="name" data-toggle="tooltip" data-placement="right" title="The name entered here will show up as the author of the project">What is your name? *</label>
       <input id="name" name="name" type="text" class="required">
-      <label for="osmUsername">What is your OSM username? *</label>
+      <label for="osmUsername" data-toggle="tooltip" data-placement="right" title="If you do not have an OSM username, please sign up at OpenStreetMap.org">What is your OSM username? *</label>
       <input id="osmUsername" name="osmUsername" type="text" class="required">
       <label for="confirmOSMUsername">Please confirm your OSM username *</label>
       <input id="confirmOSMUsername" name="confirmOSMUsername" type="text" class="required">
@@ -134,65 +146,113 @@ $(function(){
       <p>Next let's add the project information and resources, including the content you would like to upload as project materials.</p>
       <label for="projectTitle">What is your project's title? *</label>
       <input id="projectTitle" name="projectTitle" type="text" class="required">
-      <label for="projectSubtitle">What is your project's subtitle? (This is optional)</label>
+      <label for="projectSubtitle">What is your project's subtitle? (optional)</label>
       <input id="projectSubtitle" name="projectSubtitle" type="text">
       <label for="projectDescription">Please provide a brief description of the project. *</label>
       <textarea id="projectDescription" name="projectDescription" class="required"></textarea>
-      <label class="top-margin">Please upload a project image. (This will appear beside your project on the site and should be a .png, .jpg, or .tif file) *</label>
+      <label class="top-margin" data-toggle="tooltip" data-placement="right" title="This will appear beside your project on the site and should be a .png, .jpg, or .tif file">Please upload a project image. *</label>
       <br />
       <label style="font-style: italic;">You can either drag and drop an image or click on the "Upload Image" box below</label>
       <div class="uploadable">
         <input id="projectImage" name="projectImage" type="file" accept="image/*" class="required" />
         <label id="projectImageLabel" for="projectImage"><i class="fa fa-image"></i><br />Upload Image</label>
       </div>
-      <label class="top-margin">Please upload your project materials. (This is the main content that users will download to help teach the course and should have one of these extensions: .pdf, .doc, .docx, .odt, .xls, .xlsx) *</label>
+      <label class="top-margin" data-toggle="tooltip" data-placement="right" title="This is the main content that users will download to help teach the course and should have one of these extensions: .pdf, .doc, .docx, .odt, .xls, .xlsx">Please upload your project materials. *</label>
       <br />
       <label style="font-style: italic;">You can either drag and drop your file or click on the "Upload File" box below</label>
       <div class="uploadable">
-        <input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx" class="required" />
+        <!--<input id="projectFile" name="projectFile" type="file" accept=".pdf,.doc,.docx,.odt,.xls,.xlsx,.csv,.ppt,.pptx,.jpg,.jpeg,.png" class="required" />-->
+        <input id="projectFile" name="projectFile" type="file" class="required" />
         <label id="projectFileLabel" for="projectFile"><i class="fa fa-upload"></i><br />Upload File</label>
       </div>
+      <br />
+      <label for="videoLink">Or if your resource is a video, insert the YouTube video link</label>
+      <input id="videoLink" name="videoLink" type="text" onkeyup="formChanged()" onchange="formChanged()">
+      <div id="videoPreview" style="display:none">
+        <label>Preview Video</label>
+        </br>
+        <iframe id="videoFrame" src=""
+   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <script>
+      
+        function getId(url) {
+            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+            const match = url.match(regExp);
+
+            return (match && match[2].length === 11)
+              ? match[2]
+              : null;
+        }
+
+        let videoID = '';
+        
+        function formChanged() {
+            console.log('form changed');
+            var input = document.getElementById("videoLink").value;
+            console.log('print input');
+            console.log(input);
+            //does YouTube link contain embed?
+            videoID = getId(input);
+            input = "https://www.youtube.com/embed/" + videoID;
+            document.getElementById("videoFrame").src = input;
+            var x = document.getElementById("videoPreview");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              }
+        }
+    </script>
     </section>
     <h1>Filters and Tags</h1>
     <section>
-      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. Please select one option for each of the filters below.</p>
+      <p>Next, let's select some filters and tags to make it easier for people to find your project in the TeachOSM portal. The Audience and Education Activity Duration categories allow for one or more options to be selected.</p>
+
+
 
       
         <div class="project-filter-list">
-          <h3>Audience *</h3>
+          
+            <label>Audience *</label>
+          
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
-                <input id="audience::Primary" type="radio" name="audience" value="primary" class="required audience-filter" />
+                <input id="audience::Primary" type="checkbox" name="audience" value="primary" class="required audience-filter" />
                 <label for="audience::Primary">Primary</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::High School / Secondary" type="radio" name="audience" value="high_school" class="required audience-filter" />
+                <input id="audience::High School / Secondary" type="checkbox" name="audience" value="high_school" class="required audience-filter" />
                 <label for="audience::High School / Secondary">High School / Secondary</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::Community College" type="radio" name="audience" value="community_college" class="required audience-filter" />
+                <input id="audience::Community College" type="checkbox" name="audience" value="community_college" class="required audience-filter" />
                 <label for="audience::Community College">Community College</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::University" type="radio" name="audience" value="university" class="required audience-filter" />
+                <input id="audience::University" type="checkbox" name="audience" value="university" class="required audience-filter" />
                 <label for="audience::University">University</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="audience::Other" type="radio" name="audience" value="other" class="required audience-filter" />
+                <input id="audience::Other" type="checkbox" name="audience" value="other" class="required audience-filter" />
                 <label for="audience::Other">Other</label>
               </div>
             
+          
+          
           </div>
         </div>
       
         <div class="project-filter-list">
-          <h3>Difficulty *</h3>
+          
+            <label data-toggle="tooltip" data-placement="right" title="refers to student difficulty level" > Difficulty *</label>
+          
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
                 <input id="difficulty::Beginner" type="radio" name="difficulty" value="beginner" class="required difficulty-filter" />
@@ -209,12 +269,17 @@ $(function(){
                 <label for="difficulty::Advanced">Advanced</label>
               </div>
             
+          
+          
           </div>
         </div>
       
         <div class="project-filter-list">
-          <h3>Educator Preparation Time *</h3>
+          
+            <label>Educator Preparation Time *</label>
+          
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
                 <input id="preparation_time::< 1 hour" type="radio" name="preparation_time" value="less_than_one_hour" class="required preparation_time-filter" />
@@ -241,44 +306,59 @@ $(function(){
                 <label for="preparation_time::> 1 day">> 1 day</label>
               </div>
             
+          
+          
           </div>
         </div>
       
         <div class="project-filter-list">
-          <h3>Education Activity Duration *</h3>
+          
+            <label>Education Activity Duration *</label>
+          
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
-                <input id="project_time::< 1 hour" type="radio" name="project_time" value="less_than_one_hour" class="required project_time-filter" />
+                <input id="project_time::< 1 hour" type="checkbox" name="project_time" value="less_than_one_hour" class="required project_time-filter" />
                 <label for="project_time::< 1 hour">< 1 hour</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::1 hour" type="radio" name="project_time" value="one_hour" class="required project_time-filter" />
+                <input id="project_time::1 hour" type="checkbox" name="project_time" value="one_hour" class="required project_time-filter" />
                 <label for="project_time::1 hour">1 hour</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::2 - 4 hours" type="radio" name="project_time" value="two_to_four_hours" class="required project_time-filter" />
+                <input id="project_time::2 - 4 hours" type="checkbox" name="project_time" value="two_to_four_hours" class="required project_time-filter" />
                 <label for="project_time::2 - 4 hours">2 - 4 hours</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::1 day" type="radio" name="project_time" value="one_day" class="required project_time-filter" />
+                <input id="project_time::1 day" type="checkbox" name="project_time" value="one_day" class="required project_time-filter" />
                 <label for="project_time::1 day">1 day</label>
               </div>
             
               <div class="project-filter-option">
-                <input id="project_time::> 1 day" type="radio" name="project_time" value="more_than_one_day" class="required project_time-filter" />
+                <input id="project_time::> 1 day" type="checkbox" name="project_time" value="more_than_one_day" class="required project_time-filter" />
                 <label for="project_time::> 1 day">> 1 day</label>
               </div>
             
+              <div class="project-filter-option">
+                <input id="project_time::flexible" type="checkbox" name="project_time" value="flexible" class="required project_time-filter" />
+                <label for="project_time::flexible">flexible</label>
+              </div>
+            
+          
+          
           </div>
         </div>
       
         <div class="project-filter-list">
-          <h3>Project Type *</h3>
+          
+            <label>Project Type *</label>
+          
           <div class="project-filter-options-wrapper">
+          
             
               <div class="project-filter-option">
                 <input id="type::Desktop" type="radio" name="type" value="desktop" class="required type-filter" />
@@ -295,11 +375,17 @@ $(function(){
                 <label for="type::Mobile">Mobile</label>
               </div>
             
+          
+          
           </div>
         </div>
       
+      
+      
+      
+      
       <label for="tagSelector">Tags</label>
-      <p>Select as many tags as you would like. You can also opt not to select any tags, but it may make it more difficult for users to search for your project.</p>
+      <p>Select as many tags from the drop-down menu as you would like. You may also create your own custom tags by typing and then selecting them from the drop-down menu.</p>
       <input id="tagSelector" data-placeholder="Select tags" />
     </section>
     <h1>Finish and Submit</h1>
@@ -307,11 +393,13 @@ $(function(){
       <p>That's it! Thank you for contributing to the TeachOSM project portal. After a quick review, your project will be uploaded to the portal and be available for teachers everywhere to help them with their work.</p>
       <br />
       <div class="g-recaptcha" data-sitekey="6LdylbMUAAAAAHuUEVFVmstJkdafdAG9Z0LB6ziN"></div>
+      <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
       <br />
       <p>Press the "finish" button below to submit your project.</p>
     </section>
   </div>
 </form>
+
 
           </div>
 
@@ -320,7 +408,7 @@ $(function(){
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">Copyright &copy; TeachOSM 2019</span>
+        <span class="copyright">Copyright &copy; TeachOSM 2021</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
@@ -362,11 +450,17 @@ $(function(){
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <script type="text/javascript" src="/assets/js/selectize.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/assets/js/additional-methods.min.js"></script>
 <script src="/assets/js/fullcalendar/dist/moment.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.steps.min.js"></script>
 <script type="text/javascript" src="/assets/js/custom/add-project-form.js"></script>
 <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+    });
+</script>
 
 
   </body>
