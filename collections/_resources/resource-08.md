@@ -4,7 +4,7 @@ description: OSMCha is short for, "OSM Changeset Analyzer". It is a flexible, po
 author: Wille Marcel
 type: application
 thumbnail:
-link: https://osmcha.mapbox.com
+link: https://osmcha.org
 tags:
   OSMCha
   utility
