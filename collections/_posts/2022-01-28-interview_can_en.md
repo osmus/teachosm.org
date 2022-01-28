@@ -34,7 +34,7 @@ In contrast, Ünen has used OpenStreetMap in conjunction with other open access 
 
 The work done with HOT is accompanied by sessions dedicated to understanding how to digitize data and improve maps, so that at the end of the semester the students prepare a report on the contributions they've made throughout the semester in different Humanitarian OpenStreetMap projects. For example, Can shares the results of a report done by Oyku, who mapped the village her parents are from, in detail, which consisted in 114 buildings which are houses, industrial buildings, cowsheds, and a school; connection roads, pedestrian roads, paths, agriculture roads, and unused old railway to the village.
 
-![ÖYKÜ KALKAN's semester report.](../../../assets/images/blog/interviewblog_jan22_pic3.jpg)
+![Example of Student Work](../../../assets/images/blog/interviewblog_jan22_pic3.PNG)
 
 All these activities promote a greater involvement from Turkey's community, on the mapping of the spaces that surround them, as well as an exchange with other places that are in need of being mapped, to respond to critical situations. Can comments that these efforts have been fruitful, when observing that there are volunteers who return to participate in new activities.
 
