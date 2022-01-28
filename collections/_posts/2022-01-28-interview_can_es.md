@@ -32,7 +32,7 @@ Debido a que se tiene un acceso limitado a información geográfica, entre la pl
 
 Sin embargo, Can Ünen ha utilizado OpenStreetMap junto con otros programas de acceso libre para involucrar a más personas en la contribución de información geográfica. La libertad de cátedra en la universidad le ha permitido realizar cada mitad del semestre un Mapaton, enfocado en aquellos proyectos urgentes para nivel principiante. Esto va acompañado de sesiones dedicadas a entender cómo digitalizar datos y mejorar mapas, para que al final del semestre los estudiantes preparen un reporte sobre la continuidad que le han dado a sus contribuciones en diferentes proyectos [Humanitarian OpenStreetMap](https://tasks.hotosm.org/explore). Dentro de los logros al momento de involucrar a sus estudiantes con OSM,  Ünen comenta que se encuentran: el mapeo de 20,355 edificios y 1,347 caminos que significaron 142,640 ediciones en el mapa y 185 días de trabajo, distribuidos en 26 estudiantes a lo largo del semestre de otoño en 2021. Además, se encuentra el trabajo realizado por Oyku, estudiante que mapeó el pueblo de sus padres, en el que incluyó elementos importantes sobre el acceso al área.
 
-![ÖYKÜ KALKAN's semester report.](../../../assets/images/blog/interviewblog_jan22_pic3.jpg)
+![ÖYKÜ KALKAN's semester report.](../../../assets/images/blog/interviewblog_jan22_pic3.PNG)
 
 Todas estas actividades promueven un mayor involucramiento de parte de la comunidad en Turquía, sobre el mapeo de los espacios que les rodean, así como un intercambio con otros lugares que están en necesidad de ser mapeados, para responder a situaciones críticas. 
 
