@@ -10,7 +10,7 @@ description: "Para esta entrada, platicamos con Can Ünen, quien  ha trabajado c
 
 TeachOSM se encuentra realizando una serie de entrevistas para conocer y mostrar las experiencias de quienes han utilizado OpenStreetMap en las clases, como herramienta para la enseñanza. Es primordial, para la comunidad OSM y para quienes desean integrarse a esta, el compartir los proyectos desarrollados, los logros y desafíos encontrados en el camino, para retroalimentar a la colectividad que contribuye internacionalmente. 
 
-Para esta entrada, platicamos con Can Ünen, quien  ha trabajado como profesor de Ingeniería Geomática, participó en la creación de OpenStreetMap Turquía en Estambul y actualmente desarrolla contenidos de clase utilizando los mapas de OSM como punto de partida. Aquí presentamos un poco sobre su relación dentro y fuera de las clases con OSM, la situación actual del país con los datos abiertos y recomendaciones para quienes utilizan esta herramienta en sus actividades académicas. 
+Para esta entrada, platicamos con Can Ünen, quien trabaja como profesor asistente en la facultad de Ingeniería Civil en  MEF University, participó en la creación de OpenStreetMap Turquía en Estambul y actualmente desarrolla contenidos de clase utilizando los mapas de OSM como punto de partida. Aquí presentamos un poco sobre su relación dentro y fuera de las clases con OSM, la situación actual del país con los datos abiertos y recomendaciones para quienes utilizan esta herramienta en sus actividades académicas. 
 
 ### Sobre el contexto de Can Ünen  
 
