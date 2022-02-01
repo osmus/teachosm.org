@@ -10,7 +10,7 @@ description: "For this post, we spoke with Can Ünen, who has worked as a profes
 
 TeachOSM is conducting a series of interviews to learn and show the experiences of those who have used OpenStreetMap in their classes, as a teaching tool. It is essential, for the OSM community and for those who wish to join it, to share the projects developed, the achievements and challenges encountered along the way, and to provide feedback to the community that contributes internationally.
 
-For this post, we spoke with Can Ünen, who has worked as a professor of Geomatics Engineering, participated in the creation of OpenStreetMap Turkey in Istanbul and is currently developing class content using OSM maps as a starting point. Here we briefly present his relationship inside and outside the classes with OSM, the current situation in the country with open data and recommendations for those who use this tool in their academic activities. 
+For this post, we spoke with Can Ünen, who works as an assistant professor in the Civil Engineering Department of MEF University, participated in the creation of OpenStreetMap Turkey in Istanbul and is currently developing class content using OSM maps as a starting point. Here we briefly present his relationship inside and outside the classes with OSM, the current situation in the country with open data and recommendations for those who use this tool in their academic activities. 
 
 ### Can Ünen’s background  
 
