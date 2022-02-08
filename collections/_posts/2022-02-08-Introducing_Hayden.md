@@ -1,7 +1,7 @@
 ---
-title: Join us in welcoming Maya Lovo, our new intern!
+title: Welcome to our newest communications & outreach intern, Hayden MacLachlan!
 thumbnail: teachosm_blogheader_hayden.png
-description: "TeachOSM is excited to welcome our newest intern, Hayden. Hayden will be assisting with Communications and Outreach through May 2022. Get to know her in this latest blog post."
+description: "TeachOSM is excited to welcome our newest intern, Hayden MacLachlan. Hayden will be assisting with Communications and Outreach through May 2022. Get to know her in this latest blog post."
 ---
 *TeachOSM is excited to welcome our newest intern, Hayden MacLachlan. Hayden will be assisting with Communications and Outreach through May 2022. Get to know her in this latest blog post.*
 
