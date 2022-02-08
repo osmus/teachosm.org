@@ -1,6 +1,6 @@
 ---
 title: Transformando la educación universitaria con OpenStreetMap 
-thumbnail: interviewblog_jan22_pic2.jpg
+thumbnail: interviewblog_jan22_pic2_crop.jpg
 description: "Para esta entrada, platicamos con Can Ünen, quien  ha trabajado como profesor de Ingeniería Geomática, participó en la creación de OpenStreetMap Turquía en Estambul y actualmente desarrolla contenidos de clase utilizando los mapas de OSM como punto de partida."
 ---
 
