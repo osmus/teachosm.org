@@ -1,10 +1,12 @@
 ---
 title: What is State of the Map US?
-thumbnail: teachosm_blogheader_hayden.png
+thumbnail: hayden_sotmus22.JPG
 description: "A look into the direction of OpenStreetMap and the current problems it is tackling."
 ---
 
-In a world as vast and varying as open-source technologies, it was a great pleasure being able to see the amazing work that those in the OpenStreetMap US community are contributing. I had the opportunity to attend the State of the Map 2022 Conference as a member of TeachOSM and as a scholar. Having the chance to both facilitate sessions and attend speakers’ events; my eyes were opened to the capabilities of OSM. Though it might sound cliché, I felt a bit out of my depth attending a conference for which I felt I had little to contribute. I am a fourth-year undergraduate student, conducting no research, with a solid working knowledge of OSM tools and how to educate others on such tools.
+![Hayden MacLachlan, TeachOSM Intern, at State of the Map US 2022](../../../assets/images/blog/hayden_sotmus22.JPG)
+
+In a world as vast and varying as open-source technologies, it was a great pleasure being able to see the amazing work that those in the OpenStreetMap US community are contributing. I had the opportunity to attend the [State of the Map 2022 Conference](https://2022.stateofthemap.us/) as a member of TeachOSM and as a scholar. Having the chance to both facilitate sessions and attend speakers’ events; my eyes were opened to the capabilities of OSM. Though it might sound cliché, I felt a bit out of my depth attending a conference for which I felt I had little to contribute. I am a fourth-year undergraduate student, conducting no research, with a solid working knowledge of OSM tools and how to educate others on such tools.
  
 I can say, without any hesitation, that I was proven wrong in my doubt. OSM is a project that thrives on the variety of capabilities its members provide. A community driven organization has many moving parts to it. And that is just the case with OSM. One prime example of this is the YouthMappers network. As a member myself, I cannot dote enough about the impact of this student led organization and the contributions they provide. The best way to interest students in almost anything is peer recommendation. YouthMappers allows students the freedom to explore their own interests, among other likeminded people, while furthering the overall aim of the Open Street Map project. The representation of YouthMappers at the conference was quite strong. Passionate students, working on amazing projects for their own countries and abroad, demonstrated their capacity to lead within the community. Engagement is key and having representatives in younger generations is imperative for the long-term sustainability of OSM. I would add that I believe we are in very capable hands.
  
@@ -13,6 +15,8 @@ Another notable experience I had occurred during a presentation from Nohely Alva
 A final takeaway picked up in my time at SOTMUS came from a relaxed discussion around the uses of OSM in disaster resilience efforts. An unpredictable yet looming threat that is always there, coordinated efforts are in some part lacking within this sector. The question was posed, “Is there a role for OpenStreetMap to play in closing such gaps?” The simple answer is, yes. The data provided by OSM can be applied in countless ways. There are manners that we have yet to comprehend of these use cases. The reason one person might map a region is specific, but its uses can be diverse if we allow them. Of related import is the initiative to spread notoriety of OSM tools and the utility they can bring to organizations beyond the open-source world.
   
 So, it is my determination that the state of the map is strong indeed. The OpenStreetMap organization and community are busy with unique projects that will shape the future of open geospatial data. The continued efforts of this group are invaluable and will continue to be as we move forward.
+
+*Interested in attending State of the Map US in 2023? [Follow State of the Map US on twitter for updates](https://twitter.com/sotmus).*
 
 ---
 
