@@ -3,10 +3,11 @@ title: What is State of the Map US?
 thumbnail: hayden_sotmus22.JPG
 description: "A look into the direction of OpenStreetMap and the current problems it is tackling."
 ---
-
 ![Hayden MacLachlan, TeachOSM Intern, at State of the Map US 2022](../../../assets/images/blog/hayden_sotmus22.JPG)
 
-*TeachOSM intern Hayden MacLachlan assisting a new mapper during a TeachOSM workshop at State of the Map US 2022.*
+*Hayden MacLachlan assisting a new mapper during a TeachOSM workshop at State of the Map US 2022.*
+
+---
 
 In a world as vast and varying as open-source technologies, it was a great pleasure being able to see the amazing work that those in the OpenStreetMap US community are contributing. I had the opportunity to attend the [State of the Map US 2022 Conference](https://2022.stateofthemap.us/) as a member of TeachOSM and as a scholar. Having the chance to both facilitate sessions and attend speakers’ events; my eyes were opened to the capabilities of OpenStreetMap. Though it might sound cliché, I felt a bit out of my depth attending a conference for which I felt I had little to contribute. I am a fourth-year undergraduate student, conducting no research, with a solid working knowledge of OpenStreetMap tools and how to educate others on such tools.
  
