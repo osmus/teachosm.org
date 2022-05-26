@@ -113,6 +113,70 @@
     },
   
     {
+      "title": "Getting Started with OpenStreetMap",
+      "subtitle": "Module 1: Getting to Know OpenStreetMap",
+      "description": "This module introduces both the instructor and students to the OpenStreetMap interface. Each of these activities entails the use of a tool, or utility on the OpenStreetMap website. ",
+      "date_posted": "Aug 13, 2021",
+      "tags": "",
+      "type": "desktop",
+      "audience": "high_schoolcommunity_collegeuniversity",
+      "difficulty": "beginner",
+      "preparation_time": "less_than_one_hour",
+      "project_time": "one_hourtwo_to_four_hours",
+      "author": "TeachOSM Contributors",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1628869760499-GETTING STARTED WITH OPENSTREETMAP.png",
+      "url": "/projects/2021-08-13-351782"
+    },
+  
+    {
+      "title": "Getting Started with OpenStreetMap",
+      "subtitle": "Module 2: Adding to the Map",
+      "description": "This module organizes basic OSM contributing resources for teachers to introduce to students to the concept of students making contributions to the OSM project. In this module, students will be fully prepared to contribute to the OSM project. Students will familiarize themselves with these mapping-ready resources and answer open-ended questions on important points of the three resources. ",
+      "date_posted": "Aug 13, 2021",
+      "tags": "",
+      "type": "desktop",
+      "audience": "high_schoolcommunity_collegeuniversity",
+      "difficulty": "beginner",
+      "preparation_time": "one_hour",
+      "project_time": "one_hourtwo_to_four_hours",
+      "author": "TeachOSM Contributors",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1628874206590-GETTING STARTED WITH OPENSTREETMAP.png",
+      "url": "/projects/2021-08-13-986498"
+    },
+  
+    {
+      "title": "Getting Started With OpenStreetMap",
+      "subtitle": "Module 3: Making Your First Edits in OpenStreetMap",
+      "description": "By now your students should have an OpenStreetMap account, be familiar with the OpenStreetMap interface, have located an area of interest, and are ready to map. In this module, we take control of the iD editor and learn to add geographic data to the map. At the end of this module, your students will be able to add simple features to OpenStreetMap, give those features descriptive &#39;tags&#39;, navigate the iD interface to personalize controls, and understand how to use iD Editor&#39;s Help facility.",
+      "date_posted": "Sep 03, 2021",
+      "tags": "iD editor",
+      "type": "desktop",
+      "audience": "high_schoolcommunity_college",
+      "difficulty": "beginner",
+      "preparation_time": "one_hour",
+      "project_time": "one_hour",
+      "author": "TeachOSM Contributors",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1630682254073-GETTING STARTED WITH OPENSTREETMAP.png",
+      "url": "/projects/2021-09-03-821147"
+    },
+  
+    {
+      "title": "Getting Started With OpenStreetMap",
+      "subtitle": "Module 4: Using a Tasking Manager",
+      "description": "The Tasking Manager is a key tool in the OpenStreetMap ecosystem because it helps organize a group of mappers working in the same place at the same time. It divides the mapping task into small, manageable chunks and prevents overlapping mapping efforts. The Tasking Manager is often the start and finish of a mapping task making it a critical tool to learn and use.  The tool allows groups and organizations to highlight which areas of the world need volunteers to map for different purposes. For example, a humanitarian organization might use the Tasking Manager to ask volunteers to map roads in the Caribbean following a hurricane to assist with recovery efforts. ",
+      "date_posted": "Sep 21, 2021",
+      "tags": "",
+      "type": "desktop",
+      "audience": "high_schoolcommunity_college",
+      "difficulty": "beginner",
+      "preparation_time": "one_hour",
+      "project_time": "one_hourtwo_to_four_hours",
+      "author": "TeachOSM Contributors",
+      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/1632234510676-GETTING STARTED WITH OPENSTREETMAP.png",
+      "url": "/projects/2021-09-21-884160"
+    },
+  
+    {
       "title": "Teach OSM for High School",
       "subtitle": "Module 0 - How to use these modules",
       "description": "This module provides an overview and explanation of the TeachOSM for High School modules and how to use them.  Educators should work through this module prior to introducing students to Modules 1-12.",
@@ -190,54 +254,6 @@
       "author": "TeachOSM and OpenStreetMap contributors",
       "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-12.png",
       "url": "/projects/teachosm-for-high-school-12"
-    },
-  
-    {
-      "title": "Teach OSM for High School",
-      "subtitle": "Module 2 - Introduction to OpenStreetMap",
-      "description": "This module organizes introductory level OpenStreetMap (OSM) resources that provide the teacher with a simple, but comprehensive overview of the OSM project.",
-      "date_posted": "Aug 01, 2019",
-      "tags": "",
-      "type": "desktop",
-      "audience": "university",
-      "difficulty": "beginner",
-      "preparation_time": "one_hour",
-      "project_time": "two_to_four_hours",
-      "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-2.png",
-      "url": "/projects/teachosm-for-high-school-2"
-    },
-  
-    {
-      "title": "Teach OSM for High School",
-      "subtitle": "Module 3 - OSM Contributing Onboarding",
-      "description": "This module organizes basic OSM contributing resources for teachers to introduce to students to initialize the concept of students making contributions to the OSM project. In this module, students will be fully prepared to contribute to the OSM project.  Students will familiarize themselves with these mapping-ready resources and answer open-ended questions on important points of the three resources.",
-      "date_posted": "Aug 01, 2019",
-      "tags": "",
-      "type": "desktop",
-      "audience": "university",
-      "difficulty": "beginner",
-      "preparation_time": "one_hour",
-      "project_time": "two_to_four_hours",
-      "author": "TeachOSM Contributors",
-      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-3.png",
-      "url": "/projects/teachosm-for-high-school-3"
-    },
-  
-    {
-      "title": "Teach OSM for High School",
-      "subtitle": "Module 4 - Editing OpenStreetMap",
-      "description": "This module introduces the iD Editor for OpenStreetMap and how to use it to create and maintain geographic data on the OpenStreetMap platform",
-      "date_posted": "Aug 01, 2019",
-      "tags": "",
-      "type": "desktop",
-      "audience": "university",
-      "difficulty": "beginner",
-      "preparation_time": "one_hour",
-      "project_time": "two_to_four_hours",
-      "author": "TeachOSM and OpenStreetMap Contributors",
-      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/teachosm-for-high-school-4.png",
-      "url": "/projects/teachosm-for-high-school-4"
     },
   
     {

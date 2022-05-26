@@ -1,0 +1,4 @@
+# dev urls
+projectImageUploadURL: 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_pics'
+projectFileUploadURL: 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_content'
+pullRequestURL: 'https://grckpw7094.execute-api.us-east-1.amazonaws.com/personal/posts'

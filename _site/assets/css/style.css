@@ -154,17 +154,6 @@ section h3.section-subheading {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em; }
 
-  .vertical-nav {
-    #position: fixed;
-    #margin: 90px 0px 0px 145px;
-    text-transform: uppercase;
-    font-family: "Anderson_Grotesk","Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    transition: all ease .35s;
-    #margin-top: 80px;
-    font-size: 15px; }
-
   .disappear {
     display: none; }
 
@@ -173,7 +162,7 @@ section h3.section-subheading {
 
   .horizontal-landing-page-menu {
     visibility: hidden; } }
-@media (min-width: 768px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .menu2.navbar-nav > li > a {
     padding-top: 5px;
     padding-bottom: 5px; }
@@ -699,7 +688,7 @@ dl {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      #height: 56px;
+      height: 56px;
       margin: 10px 0px 10px 0px; }
       .projects .projects-wrapper .projects-title .page-title {
         font-size: 40px;
@@ -712,7 +701,7 @@ dl {
         border: 1px solid #7EBC6F;
         width: 500px;
         padding: 8px;
-        #width: 100%;
+        width: 100%;
         margin-right: 16px; }
         @media (max-width: 900px) {
           .projects .projects-wrapper .projects-title #project-search {
@@ -885,7 +874,7 @@ dl {
   justify-content: space-between; }
 
 .card-child {
-  #width: 300px; }
+  width: 300px; }
 
 #search-and-add {
   display: flex; }

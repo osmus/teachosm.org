@@ -79,6 +79,7 @@
 }
 
 @media(min-width:768px) {
+
   .navbar-default {
     padding: 10px 0;
     border: 0;
@@ -108,17 +109,17 @@
     font-size: 1.5em;
   }
 
-  .vertical-nav {
-    #position: fixed;
-    #margin: 90px 0px 0px 145px;
-    text-transform: uppercase;
-    font-family: "Anderson_Grotesk","Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    transition: all ease .35s;
-    #margin-top: 80px;
-    font-size: 15px;
-  }
+  // .vertical-nav {
+  //   #position: "fixed";
+  //   #margin: 90px 0px 0px 145px;
+  //   text-transform: uppercase;
+  //   font-family: "Anderson_Grotesk","Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  //   font-weight: 400;
+  //   letter-spacing: 1px;
+  //   transition: all ease .35s;
+  //   #margin-top: 80px;
+  //   font-size: 15px;
+  // }
 
   .disappear {
     display: none;
@@ -131,8 +132,9 @@
   .horizontal-landing-page-menu {
     visibility: hidden;
   }
+}
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
 
     .menu2.navbar-nav>li>a {
         padding-top: 5px;
@@ -149,7 +151,7 @@
     }
 
   }
-}
+
 
 /* bootstrap overrides for a thinner navbar */
 .navbar-nav > li > a, .navbar-brand {

@@ -135,14 +135,17 @@ let videoLink;
 const setVideoLink = value => videoLink = value;
 
 //const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
-const projectImageUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_pics';
+//const projectImageUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_pics';
+const projectImageUploadURL = '{{ site.data.urls.projectImageUploadURL }}'
 
 // TeachOSM deployable backend
 //const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
-const projectFileUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_content';
+//const projectFileUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_content';
+const projectFileUploadURL = '{{ site.data.urls.projectFileUploadURL }}'
 
 //const pullRequestURL = 'https://v0x93psmuj.execute-api.us-east-1.amazonaws.com/deploy/posts';
-const pullRequestURL = 'https://grckpw7094.execute-api.us-east-1.amazonaws.com/personal/posts';
+//const pullRequestURL = 'https://grckpw7094.execute-api.us-east-1.amazonaws.com/personal/posts';
+const pullRequestURL = '{{ site.data.urls.pullRequestURL }}'
 
 const pdfFileName = fileName => {
   const noExtension = fileName.substring(0, fileName.lastIndexOf('.'));

@@ -17,7 +17,7 @@
       <content class="project-content">
       
         <div>
-            <img src="https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/{{ page.thumbnail }}" />
+            <img src="https://teachosm-geosurge-project-pics-personal.s3.amazonaws.com/{{ page.thumbnail }}" />
         </div>
         
         <header class="project-title">
@@ -192,7 +192,7 @@
         <div class="project-buttons">
           <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" href="{{ site.baseurl }}/projects">Back to Projects</a>
           {% unless page.filename == "None" %}
-            <a class="btn btn-primary btn-lg active" role="button" aria-disabled="true" href="https://teachosm-geosurge-content-deploy.s3.amazonaws.com/{{ page.filename }}">Download Project</a>
+            <a class="btn btn-primary btn-lg active" role="button" aria-disabled="true" href="https://teachosm-geosurge-content-personal.s3.amazonaws.com/{{ page.filename }}">Download Project</a>
           {% endunless %}
         </div>
       </content>

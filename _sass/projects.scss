@@ -25,8 +25,9 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      #height: 56px;
+      height: 56px;
       margin: 10px 0px 10px 0px;
+      
 
       .page-title {
         font-size: 40px;
@@ -41,7 +42,7 @@
         border: 1px solid $primary-color;
         width: 500px;
         padding: 8px;
-        #width: 100%;
+        width: 100%;
         margin-right: 16px;
 
         @media(max-width: $tablet-width) {
@@ -298,7 +299,7 @@
 }
 
 .card-child {
-  #width: 300px;
+  width: 300px;
 }
 
 #search-and-add {
