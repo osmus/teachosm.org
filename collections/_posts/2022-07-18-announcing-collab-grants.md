@@ -8,6 +8,8 @@ description: "Grant applications are due August 20, 2022"
 Collaboration & geography are at the heart of OpenStreetMap. To promote this camaraderie and learning through open mapping, **TeachOSM is awarding grants of up to $500 USD** to support activities that bring together students and educators across different classrooms, groups, or geographies to learn through OpenStreetMap. Examples of activities include hosting mapping events bringing classes from different schools together, multi-school field trips to conduct mapping activities, or virtual mapping campaigns between schools on a regional issue. 
 
 ### Fall 2022 Grant Guidelines & Eligibility
+*The Fall 2022 grant period is a pilot and guidelines may be adjusted. Please review the guidelines below before submitting an application.* 
+
 - Collaboration activities MUST involve a minimum of two schools or groups. 
   - Classes or school-based groups must be from different schools to qualify for collaboration. Geographic connection between schools is encouraged (i.e. same state or region of the country).
   - Youth organization chapters can be within the same entity (i.e. Boys & Girls Clubs) but must be from different chapter locations to qualify as a collaboration. 
@@ -16,10 +18,8 @@ Collaboration & geography are at the heart of OpenStreetMap. To promote this cam
 - Grants are currently only available to groups in the United States. We hope to expand this in future years. 
 - All activities must be concluded by December 15, 2022. We will consider applications for activities covering the entire academic year on a case-by-case basis. 
 
-*The Fall 2022 Grant Application period is a pilot and guidelines may be adjusted. Please review guidelines before submitting an application.* 
-
 ### Evaluation
-Applications will be reviewed by the TeachOSM Steering Committee and OpenStreetMap US, based on the following aspects:
+Applications will be reviewed based on the following aspects:
 
 **1.  Localization:** Does the activity improve OpenStreetMap data locally or otherwise have a local impact? 
 
@@ -65,8 +65,8 @@ Funding comes from TeachOSM's parent organization [OpenStreetMap US](https://ope
 
 *How many grants will be made?* <br>
 
-We anticipate supporting two to four collaborations but may fund more, dependent on the amount requested by selected grantees.
+We anticipate supporting two to four collaborations but may fund more, depending on the amount requested by selected grantees.
 
 ## Apply Now!
 
-Ready to apply? Continue to the application [here](https://forms.gle/MFANMR9KL96B4yxC6).
+Ready to apply? Continue to the application [here](https://forms.gle/MFANMR9KL96B4yxC6). If you have any questions, please contact info@teachosm.org.
