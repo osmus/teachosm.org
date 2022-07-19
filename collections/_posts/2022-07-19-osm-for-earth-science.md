@@ -3,6 +3,7 @@ title: Shaking Up Earth Science with OSM
 thumbnail: teachosm_blogheader_jd_guestblog.png
 description: "Guest blog post by Jamie Dickinson"
 ---
+
 ![Student mapping in OpenStreetMap](../../../assets/images/blog/teachosm_blogheader_jd_guestblog.png)
 
 As a teacher who practices project-based learning, I try to design projects that not only engage my students, but also make an impact in some way.  For the Earthquake Microgrant Project, my students identified a part of the world and produce a two minute pitch video that explained why their area was in need of mapping. They had to show that houses currently weren't mapped and it was an area that was geologically prone to earthquakes because it had a history of earthquakes and was near a plate boundary. I modeled the project after the work of Humanitarian OpenStreetMap Team (HOT). HOT works with communities and local disaster management agencies to map and understand disaster risk by developing detailed maps of roads and buildings.  Data is then used to produce realistic scenarios of natural disasters.  This allows community leaders to better plan, prepare and respond to these natural disasters.
