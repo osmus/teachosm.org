@@ -1,6 +1,6 @@
 ---
-title: Teach OSM for High School
-subtitle: Module 0 - How to use these modules
+title: Module 0 - How to use these modules
+subtitle: Teach OSM for High School
 description: This module provides an overview and explanation of the TeachOSM for
   High School modules and how to use them.  Educators should work through this module
   prior to introducing students to Modules 1-12.
