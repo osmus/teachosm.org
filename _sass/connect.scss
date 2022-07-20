@@ -1,6 +1,6 @@
-$resources-title-break: 800px;
-$resources-max-width: 1200px;
-$resources-page-margin: 10px;
+$connect-title-break: 800px;
+$connect-max-width: 1200px;
+$connect-page-margin: 10px;
 $resources-carousel-arrow-wrapper-size: 100px;
 $resources-carousel-arrow-wrapper-size-mobile: 50px;
 $resources-carousel-background-color: #141b23;
@@ -216,13 +216,13 @@ $resources-card-padding: 15px;
 	}
 }
 
-.resources .wrapper section.panel-border-style {
+.connect .wrapper section.panel-border-style {
 	border: 1px solid #CCC;
 	box-shadow: 0px 7px 9px lighten(#000, 80%);
-	@media (max-width: $resources-max-width) {
-		margin-right: $resources-page-margin;
-		margin-left: $resources-page-margin;
-		width: calc(100% - #{$resources-page-margin} - #{$resources-page-margin});
+	@media (max-width: $connect-max-width) {
+		margin-right: $connect-page-margin;
+		margin-left: $connect-page-margin;
+		width: calc(100% - #{$connect-page-margin} - #{$connect-page-margin});
 	}
 }
 
@@ -230,20 +230,20 @@ $resources-card-padding: 15px;
 	section {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: $resources-max-width;
-		@media (max-width: $resources-title-break) {
+		max-width: $connect-max-width;
+		@media (max-width: $connect-title-break) {
 			margin-bottom: 0;
 		}
 	}
-	#resources-title {
+	#connect-title {
 		height: 200px;
 		margin-top: 62px;
 		margin-bottom: 200px;
-		max-width: $resources-max-width;
+		max-width: $connect-max-width;
 		margin: 100px auto;
 		position: relative;
 
-		@media (max-width: $resources-title-break) {
+		@media (max-width: $connect-title-break) {
 			height: auto;
 			margin-bottom: $panel-border-style-margin;
 			margin-top: 0;
@@ -260,7 +260,7 @@ $resources-card-padding: 15px;
 			top: 50%;
 			transform: translate(-50%, -50%);
 
-			@media (max-width: $resources-title-break) {
+			@media (max-width: $connect-title-break) {
 				font-size: 50px;
 				left: 0;
 				position: relative;
@@ -284,7 +284,7 @@ $resources-card-padding: 15px;
 			top: 50%;
 			transform: translate(50%, -50%);
 
-			@media (max-width: $resources-title-break) {
+			@media (max-width: $connect-title-break) {
 				left: 0;
 				max-width: 90%;
 				position: relative;
