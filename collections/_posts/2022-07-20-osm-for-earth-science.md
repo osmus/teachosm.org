@@ -24,6 +24,6 @@ Though mapping only seemed like something that applied to geography classes, I l
 
 ---
 
-Written by Jamie Dickinson
+Written by Jamie Dickinson, Earth Science Teacher at Northville High School
 
 Do you have a story to share about how you are using OpenStreetMap in the classroom? Reach out at info@teachosm.org!
