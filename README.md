@@ -3,6 +3,7 @@ This is the code repository for the TeachOSM website.
 
 # Site maintenance and update
 This applies to only removing old modules & resources, modifying existing content. To upload, use the 'Add new project' from the top of the projects page. 
+
 ## To remove an old module:
 1. Select 'master' as the working branch
 2. Create and select a new branch from master using the format 'YYYY-MM-DD_<description>' 
