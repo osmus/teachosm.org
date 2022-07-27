@@ -1,4 +1,4 @@
-# teachosm
+# Teachosm website code
 This is the code repository for the TeachOSM website. 
 
 # Site maintenance and update
