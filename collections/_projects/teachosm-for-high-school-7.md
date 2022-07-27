@@ -1,6 +1,6 @@
 ---
-title: Teach OSM for High School
-subtitle: Module 7 - Mapping Political Organization of Space OSM Map Features
+title: Module 7 - Mapping Political Organization of Space OSM Map Features
+subtitle: Teach OSM for High School
 description: In this module, students will map political/governmental facilities,
   properties and other map features associated with politics and the government at
   location(s) in the world.  Students will explore similarities and differences between

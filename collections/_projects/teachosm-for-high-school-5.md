@@ -1,6 +1,6 @@
 ---
-title: Teach OSM for High School
-subtitle: Module 5 - Population and Open Street Map
+title: Module 5 - Population and Open Street Map
+subtitle: Teach OSM for High School
 description: This module organizes introductory level OpenStreetMap (OSM) resources
   that provide the teacher with a simple but comprehensive overview of the OSM project.
 author: OpenStreetMap Contributors

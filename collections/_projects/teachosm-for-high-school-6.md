@@ -1,6 +1,6 @@
 ---
-title: Teach OSM for High School
-subtitle: Module 6 - Mapping Cultural Patterns and Processes OSM Map Features
+title: Module 6 - Mapping Cultural Patterns and Processes OSM Map Features
+subtitle: Teach OSM for High School
 description: Students will map cultural patterns and processes features anywhere in
   the world. Specific map features and an example implementation approach will be
   described.
