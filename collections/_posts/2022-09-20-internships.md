@@ -43,4 +43,4 @@ Funding comes from TeachOSM's parent organization [OpenStreetMap US](https://ope
 
 ## Apply Now!
 
-Ready to apply? Continue to the application [here]([https://forms.gle/MFANMR9KL96B4yxC6](https://forms.gle/6TJwnN5byCoXKEcS9)). If you have any questions, please contact info@teachosm.org.
+Ready to apply? Continue to the application [here](https://forms.gle/DUEBpL7bEgvaCwAe9). If you have any questions, please contact info@teachosm.org.
