@@ -9,7 +9,7 @@ TeachOSM is excited to open the internship application for the 2022-2023 academi
 
 ### What you'll do
 
-As our intern, you will work closely with OSM US staff and the TeachOSM volunteer steering committee to achieve program goals, based on your interests. This may include communications, mentorship, curriculum development, website development, or mapathon validation. For reference, please view our previous description for the Communications & Outreach internship position: https://bit.ly/TeachOSMInternship2021
+As our intern, you will work closely with OSM US staff and the TeachOSM volunteer steering committee to achieve program goals, based on your interests. This may include communications, mentorship, curriculum development, website development, or mapathon validation. For reference, please view our previous description for the [2021 Communications & Outreach internship position](https://bit.ly/TeachOSMInternship2021).
 
 ### Compensation & Benefits
 
@@ -27,7 +27,7 @@ Please note: we are only able to offer internships to students based in the Unit
 
 *When is the application deadline?* <br>
 
-No deadline! We'll accept applications on a rolling basis throughout the school year.
+No deadline! We'll accept applications on a rolling basis. We encourage you to apply as soon as possible as positions may fill quickly.
 
 *What are the internship dates?* <br>
 
