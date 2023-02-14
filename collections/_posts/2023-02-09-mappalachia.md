@@ -1,9 +1,9 @@
 ---
 title: Roads as Collaborative Corridors
-thumbnail: 2022-09-20-blogheader.png
+thumbnail: billwetherholt_blogheader.png
 description: "Guest Blog Post by Bill Wetherholt (Associate Professor of Geography, Frostburg State University)"
 ---
-![2022-2023 internship applications are now open](../../../assets/images/blog/billwetherholt_blogheader.png)
+![](../../../assets/images/blog/billwetherholt_blogheader.png)
 
 The power of the map is undeniable.  The map serves as common ground in my classroom: no matter your discipline, there is little debate about the equity a map has in communicating patterns and processes at varied scales.  Sure, it doesn't hurt to be a geographer to have this perspective, but it is by no means a prerequisite.  The OSM Community facilitates the improvement of the human condition through the collective power of the map.
 
