@@ -37,7 +37,7 @@ Students from Pennsylvania Western University and Frostburg State University pro
 
 In other areas, such as where US-40 passes through Brownsville, PA a few miles south of PennWest, the buffer was more efficient in capturing missing areas.  This is because the route better approximates the historic National Road through Brownsville but follows the more modern interstate system closer to Frostburg.  (Please note that the Brownsville before/after example below is displayed at a slightly smaller map scale than the previous figures.)
 
-<iframe src="https://sandbox.elfsightcdn.com/49d56718-f1aa-463e-ad80-e4ba84f1d95d" width="400px" height="100%" frameborder="0"></iframe>
+<iframe src="https://sandbox.elfsightcdn.com/49d56718-f1aa-463e-ad80-e4ba84f1d95d" width="100%" height="400px" frameborder="0"></iframe>
 
 The limitations encountered in no way detract from the utility of this methodology.  The empty spaces betwixt groups are not going to be mapped completely in one fell swoop.  If you're interested in tackling your underrepresented corner of OSM, it's likely you are not alone.  Begin by seeking partnerships within an approachable geographic radius, engage in dialogue to formulate a plan, set your parameters, and don't be afraid to ask questions or make mistakes as you start down the road, literally or metaphorically.
 
