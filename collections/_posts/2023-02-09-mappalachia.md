@@ -21,9 +21,9 @@ In the second half of the Fall 2022 Semester, Tom Mueller's online Geobusiness c
 
 Formal classroom mapping was complimented by Geography Awareness Week, which falls on the third week of November each year.  Frostburg's germinating GTU YouthMappers chapter hosted a Map-a-Thon during GIS Day that was open to the campus community and focused on the task.
 
-![](../../../assets/images/blog/2023-02-09-pic4.PNG)
+![](../../../assets/images/blog/2023-02-09-pic4.jpg)
 
-![](../../../assets/images/blog/2023-02-09-pic5.PNG)
+![](../../../assets/images/blog/2023-02-09-pic5.jpg)
 
 Turnout on GIS Day was encouraging!  Campus members with no exposure to OpenStreetMap came with laptops, and those that didn't have a computer were set up in an adjoining lab.  I gave a short discussion over pizza on participatory mapping and the principles of OSM along with demonstrating how to provide good edits before everyone started.  During the mapping, I mostly floated between rooms to check on progress, offer guidance and encouragement, and maybe snag an additional slice of pizza.
 
