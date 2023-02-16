@@ -1,9 +1,9 @@
 ---
 title: Welcome our new Communications and Outreach intern, Emma Gray!
-thumbnail: billwetherholt_blogheader.png
+thumbnail: 2023-02-16-emmaheader.png
 description: "TeachOSM is excited to welcome our new intern, Emma Gray. Emma will be assisting with Communications and Outreach through May 2023. Get to know her in this latest blog post."
 ---
-![](../../../assets/images/blog/billwetherholt_blogheader.png)
+![](../../../assets/images/blog/2023-02-16-emmaheader.png)
 
 My name is Emma Gray, and I am the new communications and outreach intern for TeachOSM! I am a third year undergraduate student at the George Washington University, where I am studying Geography and Political Science, and minoring in Geographic Information Systems. I also serve as the outreach coordinator for the Humanitarian Mapping Society (HMS at GW.
 
