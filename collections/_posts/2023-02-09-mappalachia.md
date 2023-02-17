@@ -11,7 +11,7 @@ My relationship with OpenStreetMap is five years old, and I have turned a corner
 
 ![](../../../assets/images/blog/2023-02-09-pic1.PNG)
 
-![](../../../assets/images/blog/2023-02-09-pic2.PNG)
+![](../../../assets/images/blog/2023-02-09-pic6.PNG)
 
 When the OSM Community discusses missing portions of the map, the conversation often orbits developing parts of the world, and for good reason.  However, similar gaps can be identified in highly developed nations, too.  Appalachia serves as a touchstone in that respect, as do the Great Plains.  The recurring question in mapping Appalachia has been "where to start?"  Primary transportation arteries offer a springboard to collaborative mapping in underrepresented regions.  These routes often contain much of the population in clustered rural settlements, they provide a logical progression to lower-order streets that feed into them, and most importantly, they are connections between regional mappers.
 
@@ -31,7 +31,7 @@ In retrospect, this TeachOSM pilot demonstrates ample potential for collaboratio
 
 Students from Pennsylvania Western University and Frostburg State University provided over 1,200 changesets that contributed over 6,000 new map edits to OSM.  Recall the difference in detail between DC's Capitol Hill and LaVale, MD provided in the beginning; below is that same area after being mapped.  While there has been clear improvement, you can plainly see the 0.25mi buffer straddling US-40 and the neighborhood that fell outside of the Tasking Manager.
 
-![](../../../assets/images/blog/2023-02-09-pic6.PNG)
+![](../../../assets/images/blog/2023-02-09-pic2.PNG)
 
 In other areas, such as where US-40 passes through Brownsville, PA a few miles south of PennWest, the buffer was more efficient in capturing missing areas.  This is because the route better approximates the historic National Road through Brownsville but follows the more modern interstate system closer to Frostburg.  (Please note that the Brownsville before/after example below is displayed at a slightly smaller map scale than the previous figures.)
 
