@@ -1,6 +1,10 @@
+---
+title: The Origins of TeachOSM
+thumbnail:
+description: "Blog post detailing the history and origin story of TeachOSM"
+---
+![](../../../assets/images/blog/billwetherholt_blogheader.png)
 
-
-The Origins of TeachOSM
 
 While interning for TeachOSM, I found myself asking the following question a few times: how did TeachOSM get started? After looking at the Wiki, and performing a few Google searches, I found the dates connected to the program -- its bare bones emerged in 2013, in 2016 the project was chartered by OpenStreetMap US, and it is now an official program of OSM US. Although these dates were informative, they do not tell the story of the educators who reached beyond their own classrooms and brought TeachOSM to teachers and those inclined to learn throughout the United States and across the world.
 
