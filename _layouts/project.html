@@ -17,7 +17,7 @@
       <content class="project-content">
       
         <div>
-            <img src="https://teachosm-geosurge-project-pics-personal.s3.amazonaws.com/{{ page.thumbnail }}" />
+            <img src="https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ page.thumbnail }}" />
         </div>
         
         <header class="project-title">
@@ -192,9 +192,83 @@
         <div class="project-buttons">
           <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" href="{{ site.baseurl }}/projects">Back to Projects</a>
           {% unless page.filename == "None" %}
-            <a class="btn btn-primary btn-lg active" role="button" aria-disabled="true" href="https://teachosm-geosurge-content-personal.s3.amazonaws.com/{{ page.filename }}">Download Project</a>
+            <select id="download-select" class="btn btn-primary btn-lg active">
+              <option value="" selected disabled >Download Project</option>
+            </select>
+            <a id="download-link" style="display: none;"></a>
+            <!-- <a class="btn btn-primary btn-lg active" role="button" aria-disabled="true" href="https://teachosm-geosurge-content-personal.s3.amazonaws.com/{{ page.filename }}">Download Project</a> -->
           {% endunless %}
         </div>
+
+        
+
+        <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+          var filename = "{{ page.filename }}";
+          var filenameWithoutExtension = filename.substr(0, filename.lastIndexOf('.')) || filename;
+          var docxFilename = filenameWithoutExtension + ".docx";
+          var docFilename = filenameWithoutExtension + ".doc";
+          
+          var originalUrl = "https://{{ site.CONTENT_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/" + filename;
+          var docxUrl = "https://{{ site.CONTENT_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/" + docxFilename;
+          var docUrl = "https://{{ site.CONTENT_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/" + docFilename;
+
+          // Create option for original file
+          var originalOption = document.createElement('option');
+          originalOption.text = 'PDF File';
+          originalOption.value = originalUrl;
+
+          // Create option for .docx file
+          var docxOption = document.createElement('option');
+          docxOption.text = 'DOCX File';
+          docxOption.value = docxUrl;
+
+          // Create option for .docx file
+          var docOption = document.createElement('option');
+          docOption.text = 'DOC File';
+          docOption.value = docUrl;
+
+          // Add options to select
+          var downloadSelect = document.getElementById('download-select');
+          downloadSelect.appendChild(originalOption);
+          
+
+          // Show select if .docx file exists
+          fetch(docxUrl, { method: 'HEAD' })
+            .then(res => {
+              if (res.ok) {
+                console.log('DocX does exist');
+                downloadSelect.appendChild(docxOption);
+                downloadSelect.style.display = 'block';
+              } else {
+                console.log('File does not exist');
+              }
+            })
+            .catch(err => console.log('Error:', err));
+
+          // Show select if .docc file exists
+          fetch(docUrl, { method: 'HEAD' })
+            .then(res => {
+              if (res.ok) {
+                console.log('Doc does exist');
+                downloadSelect.appendChild(docOption);
+                downloadSelect.style.display = 'block';
+              } else {
+                console.log('File does not exist');
+              }
+            })
+            .catch(err => console.log('Error:', err));
+
+            // Set up event listener for select element
+            downloadSelect.addEventListener('change', (event) => {
+              var downloadLink = document.getElementById('download-link');
+              downloadLink.href = event.target.value;
+              downloadLink.download = '';
+              downloadLink.click();
+            });
+        });
+
+        </script>
       </content>
     </div>
     {% include footer.html %}

@@ -15,7 +15,7 @@
       "preparation_time": "{{ project.preparation_time }}",
       "project_time": "{{ project.project_time }}",
       "author": "{{ project.author }}",
-      "thumbnail": "https://teachosm-geosurge-project-pics-deploy.s3.amazonaws.com/{{ project.thumbnail }}",
+      "thumbnail": "https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ project.thumbnail }}",
       "url": "{{ site.baseurl }}{{ project.url }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}

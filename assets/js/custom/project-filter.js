@@ -1,7 +1,7 @@
 ---
 ---
 
-const DEFAULT_THUMBNAIL = 'https://teachosm-project-pics.s3.amazonaws.com/default-thumbnail.jpg';
+const DEFAULT_THUMBNAIL = 'https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/default-thumbnail.jpg';
 
 class ProjectFilter {
   constructor ({ clearElement, filterElements, filterOptions, projects, projectsElement, searchElement, tagOptions, tagsElement }) {
@@ -19,14 +19,32 @@ class ProjectFilter {
     this.projectsElement = projectsElement;
     this.addEventListeners();
     this.renderProjects();
+
+    this.reverseSortOrder = false;  // Add this line
+    // Add the following lines
+    const toggleSortButton = document.getElementById('toggle-sort');
+    toggleSortButton.addEventListener('click', () => {
+      this.reverseSortOrder = !this.reverseSortOrder;
+      this.renderProjects();
+    });
+
   }
 
-  get filteredProjects () {
-    return this.projects
+  // Change your filteredProjects method to use this.reverseSortOrder
+  filteredProjects() {
+    let sortedProjects = this.projects
       .filter(this.applySearch.bind(this))
       .filter(this.applyFilters.bind(this))
-      .filter(this.applyTags.bind(this));
+      .filter(this.applyTags.bind(this))
+      .sort((a, b) => new Date(b.date_posted) - new Date(a.date_posted));
+
+    if (this.reverseSortOrder) {
+      sortedProjects.reverse();
+    }
+
+    return sortedProjects;
   }
+
 
   addEventListeners () {
     const self = this;
@@ -145,7 +163,7 @@ class ProjectFilter {
 
   renderProjects () {
     this.projectsElement.empty();
-    this.filteredProjects.forEach(project => {
+    this.filteredProjects().forEach(project => {
       this.projectsElement.append(this.projectHtml(project));
     });
   }

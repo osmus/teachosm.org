@@ -323,7 +323,35 @@ fetch('{{site.baseurl}}/tags.json')
       persist: false,
       searchField: ['value'],
       valueField: 'value',
-    });
+  });
+  
+  tagSelector[0].selectize.on('dropdown_open', function() {
+    console.log('dropdown is opened');
+
+    setTimeout(() => {
+      // use the Selectize input to get the dropdown's position
+      var $selectInput = this.$input;
+      var dropdownOffset = $selectInput.offset();
+      
+      var dropdownHeight = $selectInput.outerHeight();
+      console.log(`dropdownHeight is ${dropdownHeight}`);
+      var dropdownBottom = dropdownOffset.top + dropdownHeight;
+      console.log(`dropdownBottom is ${dropdownBottom}`);
+
+      // Get the scrollable container. Replace with your scrollable container selector.
+      var scrollContainer = $('.add-project form .wizard > .content > section');
+      var scrollContainerBottom = scrollContainer.offset().top + scrollContainer.outerHeight();
+      console.log(`scrollContainerBottom is ${scrollContainerBottom}`);
+
+      scrollContainer.animate({scrollTop: 1000}, 500);
+
+      // if (dropdownBottom > scrollContainerBottom) {
+      //     scrollContainer.animate({scrollTop: scrollContainer.scrollTop() + dropdownBottom - scrollContainerBottom}, 500);
+      // }
+  }, 0);
+});
+
+  
 
     const nameSelector = $('#name');
     const osmUsernameSelector = $('#osmUsername');

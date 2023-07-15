@@ -6,3 +6,6 @@ _site/
 .sass-cache
 vendor/
 _site/*
+_sass/*
+_layout/*
+_config.yml

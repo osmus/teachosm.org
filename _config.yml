@@ -1,5 +1,9 @@
 title: TeachOSM
+future: true #allows posts whose date in the filename is in the future
 timezone: UTC
+CONTENT_BUCKET: teachosm-geosurge-content
+PICS_UPLOADS_BUCKET: teachosm-geosurge-project-pics
+STAGE: personal
 collections:
   carousel:
     title: Carousel

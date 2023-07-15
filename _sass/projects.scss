@@ -52,12 +52,24 @@
       
       .project-filter-div {
         margin-left: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .project-filter-div button {
+        margin: 0 10px;
       }
 
       .project-filter-button {
         margin-left: auto;
         margin: 10px 0px 10px 0px;
       }
+
+      .project-arrange-button {
+        margin-left: auto;
+        margin: 10px 0px 10px 0px;
+      }
+
     }
 
     @media(max-width: $tablet-width) {
