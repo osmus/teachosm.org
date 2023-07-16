@@ -3,6 +3,7 @@
 
 const DEFAULT_THUMBNAIL = 'https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/default-thumbnail.jpg';
 
+
 class ProjectFilter {
   constructor ({ clearElement, filterElements, filterOptions, projects, projectsElement, searchElement, tagOptions, tagsElement }) {
     this.clearElement = clearElement;
@@ -32,18 +33,18 @@ class ProjectFilter {
 
   // Change your filteredProjects method to use this.reverseSortOrder
   filteredProjects() {
-    let sortedProjects = this.projects
-      .filter(this.applySearch.bind(this))
-      .filter(this.applyFilters.bind(this))
-      .filter(this.applyTags.bind(this))
-      .sort((a, b) => new Date(b.date_posted) - new Date(a.date_posted));
+      let sortedProjects = this.projects
+        .filter(this.applySearch.bind(this))
+        .filter(this.applyFilters.bind(this))
+        .filter(this.applyTags.bind(this))
+        .sort((a, b) => new Date(b.date_posted) - new Date(a.date_posted));
 
-    if (this.reverseSortOrder) {
-      sortedProjects.reverse();
+      if (this.reverseSortOrder) {
+        sortedProjects.reverse();
+      }
+
+      return sortedProjects;
     }
-
-    return sortedProjects;
-  }
 
 
   addEventListeners () {
@@ -114,6 +115,7 @@ class ProjectFilter {
       subtitle,
       tags,
       thumbnail,
+      original_image,
       title,
       url,
     } = project;
@@ -121,7 +123,9 @@ class ProjectFilter {
     return `
       <div class="project-card">
         <a class="image-wrapper" href="${project.url}">
-          <img src="${thumbnail || DEFAULT_THUMBNAIL }" />
+          <img id="thumbnailImage-${title}" src="${thumbnail || DEFAULT_THUMBNAIL }" 
+          onerror="this.onerror=null; this.src='${original_image}'" />
+          
         </a>
         <div class="card-content">
           <div class="card-title">

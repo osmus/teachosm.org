@@ -3,6 +3,10 @@
 
 [
   {% for project in site.projects %}
+    {% assign file_parts = project.thumbnail | split: '.' %}
+    {% assign file_name = file_parts[0] %}
+    {% assign file_extension = file_parts[1] %}
+    {% assign thumbnail_file = file_name | append: '_thumbnail.' | append: file_extension %}
     {
       "title": "{{ project.title | escape }}",
       "subtitle": "{{ project.subtitle | escape }}",
@@ -15,8 +19,11 @@
       "preparation_time": "{{ project.preparation_time }}",
       "project_time": "{{ project.project_time }}",
       "author": "{{ project.author }}",
-      "thumbnail": "https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ project.thumbnail }}",
+      "thumbnail": "https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ thumbnail_file }}",
+      "original_image": "https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ project.thumbnail }}",
       "url": "{{ site.baseurl }}{{ project.url }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
+
+

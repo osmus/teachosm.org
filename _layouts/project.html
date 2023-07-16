@@ -8,6 +8,19 @@
 }
 </style>
 
+{% assign file_parts = page.thumbnail | split: '.' %}
+{% assign file_name = file_parts[0] %}
+{% assign file_extension = file_parts[1] %}
+
+{% assign thumbnail_file = file_name | append: '_thumbnail.' | append: file_extension %}
+
+<script>
+  document.getElementById('thumbnailImage').onerror = function() {
+      this.onerror = null;
+      this.src = 'https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ page.thumbnail }}';
+  };
+</script>
+
 
   {% include head.html %}
   <body data-spy="scroll" data-target=".navbar2" data-offset="450">
@@ -17,8 +30,11 @@
       <content class="project-content">
       
         <div>
-            <img src="https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ page.thumbnail }}" />
+            
+            <img id="thumbnailImage" src="https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ thumbnail_file }}" alt="thumbnail" >
+
         </div>
+
         
         <header class="project-title">
           <h1>{{ page.title }}</h1>
