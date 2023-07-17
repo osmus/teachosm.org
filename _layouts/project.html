@@ -14,12 +14,6 @@
 
 {% assign thumbnail_file = file_name | append: '_thumbnail.' | append: file_extension %}
 
-<script>
-  document.getElementById('thumbnailImage').onerror = function() {
-      this.onerror = null;
-      this.src = 'https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ page.thumbnail }}';
-  };
-</script>
 
 
   {% include head.html %}
@@ -204,7 +198,7 @@
     
         {% endif %}
 
-        <p class="project-description">{{ page.description }}</p>
+        <p id="project-description" class="project-description"></p>
         <div class="project-buttons">
           <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" href="{{ site.baseurl }}/projects">Back to Projects</a>
           {% unless page.filename == "None" %}
@@ -216,7 +210,26 @@
           {% endunless %}
         </div>
 
-        
+        <script>
+          document.getElementById('thumbnailImage').onerror = function() {
+              this.onerror = null;
+              this.src = 'https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/{{ page.thumbnail }}';
+          };
+
+          // Suppose 'encodedDescription' is the URI-encoded string you get from the API
+          let encodedDescription = "{{ page.description }}";
+
+          //console.log(encodedDescription)
+
+          // Decode the string
+          let decodedDescription = decodeURIComponent(encodedDescription);
+
+          //console.log(decodedDescription)
+
+          // Insert the decoded string into the HTML
+          document.getElementById('project-description').innerHTML = decodedDescription;
+
+        </script>
 
         <script>
           window.addEventListener('DOMContentLoaded', (event) => {

@@ -3,6 +3,11 @@
 
 const DEFAULT_THUMBNAIL = 'https://{{ site.PICS_UPLOADS_BUCKET }}-{{ site.STAGE }}.s3.amazonaws.com/default-thumbnail.jpg';
 
+function decodeHtml(html) {
+  var txt = document.createElement("textarea");
+  txt.innerHTML = html;
+  return txt.value;
+}
 
 class ProjectFilter {
   constructor ({ clearElement, filterElements, filterOptions, projects, projectsElement, searchElement, tagOptions, tagsElement }) {
@@ -120,6 +125,11 @@ class ProjectFilter {
       url,
     } = project;
 
+    // Decode URL-encoded description
+    let decodedDescription = decodeURIComponent(project.description);
+    // Then decode HTML entities
+    decodedDescription = decodeHtml(decodedDescription);
+
     return `
       <div class="project-card">
         <a class="image-wrapper" href="${project.url}">
@@ -144,7 +154,7 @@ class ProjectFilter {
             </p>
 
           </div>
-          <p class="card-description">${project.description}</p>
+          <p class="card-description">${decodedDescription}</p>
         </div>
         <div class="card-tags">
           <p>Tags:&nbsp;</p>
