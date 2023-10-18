@@ -50,6 +50,14 @@
   transition: all ease .35s;
 }
 
+.text-green {
+  color: #2eb05c;
+}
+
+.text-white {
+  color: #fff;
+}
+
 .navbar-default.black-text .nav li a {
   color: #222;
 }
@@ -59,6 +67,17 @@
   outline: 0;
   color: $primary-color;
 }
+
+.navbar-default .nav li a:hover .text-green,
+.navbar-default .nav li a:focus .text-green {
+  color: $primary-color; /* Or whatever color you want on hover/focus */
+}
+
+.navbar-default .nav li a:hover .text-white,
+.navbar-default .nav li a:focus .text-white {
+  color: $primary-color; /* Or another color if you want a different one from .text-green */
+}
+
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
