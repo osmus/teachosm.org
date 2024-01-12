@@ -145,11 +145,20 @@
         </div>
         
         
-        <div class="project-tags">
+        <!-- <div class="project-tags">
           <p>Tags:&nbsp;</p>
           <div class="card-tags">
             {% for tag in page.tags %}
               <span class="card-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div> -->
+
+        <div class="project-tags">
+          <p>Tags:&nbsp;</p>
+          <div class="card-tags" id="card-tags">
+            {% for tag in page.tags %}
+              <span class="card-tag" data-encoded-tag="{{ tag | url_decode }}">{{ tag | url_decode }}</span>
             {% endfor %}
           </div>
         </div>
@@ -225,9 +234,22 @@
           let decodedDescription = decodeURIComponent(encodedDescription);
 
           //console.log(decodedDescription)
+          //console.log('lets decode')
 
           // Insert the decoded string into the HTML
           document.getElementById('project-description').innerHTML = decodedDescription;
+
+          // Decode the fields
+          let decodedTitle = decodeURIComponent("{{ page.title }}");
+          let decodedSubtitle = decodeURIComponent("{{ page.subtitle }}");
+          let decodedAuthor = decodeURIComponent("{{ page.author }}");
+
+          //console.log('lets decode title')
+          //console.log(decodedTitle)
+          // Set the decoded strings into the HTML
+          document.querySelector('.project-title h1').textContent = decodedTitle;
+          document.querySelector('.project-title h3').textContent = decodedSubtitle;
+          document.querySelector('.project-title p').textContent = decodedAuthor;
 
         </script>
 

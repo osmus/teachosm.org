@@ -125,10 +125,16 @@ class ProjectFilter {
       url,
     } = project;
 
+    let decodedTitle = decodeURIComponent(project.title);
+    let decodedSubtitle = decodeURIComponent(project.subtitle);
+    let decodedAuthor = decodeURIComponent(project.author);
     // Decode URL-encoded description
     let decodedDescription = decodeURIComponent(project.description);
     // Then decode HTML entities
     decodedDescription = decodeHtml(decodedDescription);
+    //decode tags
+    let decodedTags = project.tags.map(tag => decodeURIComponent(tag));
+
 
     return `
       <div class="project-card">
@@ -140,12 +146,12 @@ class ProjectFilter {
         <div class="card-content">
           <div class="card-title">
 
-            <a href="${project.url}"><h1><strong>Title: </strong>${title}</h1></a>
-            <h2><strong>Subtitle: </strong>${subtitle}</h2>
+            <a href="${project.url}"><h1><strong>Title: </strong>${decodedTitle}</h1></a>
+            <h2><strong>Subtitle: </strong>${decodedSubtitle}</h2>
 
             <div class="card-container">
                 <div class="card-child">
-                    <strong>Author: </strong>${author}
+                    <strong>Author: </strong>${decodedAuthor}
                 </div>
                 <div class="card-child">
                     <strong>Date posted: </strong>${date_posted || '-'}
@@ -159,7 +165,7 @@ class ProjectFilter {
         <div class="card-tags">
           <p>Tags:&nbsp;</p>
           ${
-            tags
+            decodedTags
               .map(tag => `<span class="card-tag">${tag}</span>`)
               .join('')
           }
