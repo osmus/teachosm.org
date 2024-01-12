@@ -81,7 +81,7 @@ let subtitle;
 const setSubtitle = value => subtitle = value;
 
 let description;
-const setDescription = value => description = value;
+const setDescription = value => description = value.replace(/[\u2018\u2019]/g, "'");;
 
 let tags;
 const setTags = tagsString => tags = tagsString.split(',');
@@ -269,6 +269,7 @@ const submitForm = async () => {
     }
     
     console.log("let's print the pullRequestData");
+    console.log("smart single quotes should be replaced");
     console.log(pullRequestData);
 
     const pullRequestResponse = await axios.post(

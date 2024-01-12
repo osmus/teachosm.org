@@ -1,295 +1,331 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-25T02:28:54+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TeachOSM</title><entry><title type="html">MapSaintLucia - a Community Development Roadmap</title><link href="http://localhost:4000/posts/2016/04/StLuciaRoadmap.html" rel="alternate" type="text/html" title="MapSaintLucia - a Community Development Roadmap" /><published>2016-04-20T00:00:00+00:00</published><updated>2016-04-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2016/04/StLuciaRoadmap</id><content type="html" xml:base="http://localhost:4000/posts/2016/04/StLuciaRoadmap.html">&lt;p&gt;Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.&lt;/p&gt;
-
-&lt;h3 id=&quot;schedule-regular-events&quot;&gt;Schedule Regular Events:&lt;/h3&gt;
-
-&lt;p&gt;The OpenStreetMap community typically schedule at least four events a year, though we always have more.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Begin organizing the next mapathon now. The dates for 2016 are:
-    &lt;ul&gt;
-      &lt;li&gt;Winter: March 5-6&lt;/li&gt;
-      &lt;li&gt;Spring: May 14-15&lt;/li&gt;
-      &lt;li&gt;Summer: August 9-10&lt;/li&gt;
-      &lt;li&gt;Fall: November 5-6&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use the TeachOSM Tasking Manager to create bite-sized mapping jobs for future events: &lt;a href=&quot;http://tasks.teachosm.org/&quot;&gt;http://tasks.teachosm.org/&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Consider a theme for next mapathon. You can focus on a specific geographic area, e.g. all roads and buildings in Laborie or Micoud. Or, you can focus on collecting a specific feature, such as collecting all fire stations or schools. In fact, mapping critical infrastructure makes a great project due to the high value of the data.  But smaller mapping projects can also be useful such as mapping historical and cultural sites, capturing hiking trails using GPS, or even mapping all local rum shops.&lt;/li&gt;
-  &lt;li&gt;Plan an Open Mapping Roadshow and hold OpenStreetMap mapathons across Saint Lucia. The regional ICT Access centers make excellent sites for mapathons as they are properly equipped and offer access to local mapping communities. Follow the basic requirements for hosting a mapathon (e.g. computers, wifi, FieldPapers, and Mapillary).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;data-quality--validation&quot;&gt;Data quality &amp;amp; Validation:&lt;/h2&gt;
-
-&lt;p&gt;Begin taking steps to address data quality. It’s common for new mappers to enter roads that don’t connect properly, building corners that should be squared, and features improperly tagged. The following resources provide examples of validation and data quality procedures.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;To square building corners, see the ‘Buildings’ section of the Bandung tracing guide: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/guide/Bandung-Indo.html&quot;&gt;http://hotosm.github.io/tracing-guides/guide/Bandung-Indo.html&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The JOSM editor (see Power Mapping, below) provides robust data validation tools. To use them, see this tracing guide: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/tip/josm-validation.html&quot;&gt;http://hotosm.github.io/tracing-guides/tip/josm-validation.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;MapRoulette: &lt;a href=&quot;http://maproulette.org/&quot;&gt;http://maproulette.org/&lt;/a&gt; - An fun and addictive tool to improve data quality.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;power-mapping&quot;&gt;Power Mapping:&lt;/h2&gt;
-
-&lt;p&gt;OpenStreetMap’s web-based iD editor is the easiest and most convenient way to get started mapping. But eventually, you will become quite proficient in OpenStreetMap mapping techniques and you will want to graduate to the Java OpenStreetMap Editor, aka JOSM. JOSM allows you to map quickly with keyboard shortcuts, a series of editing tools for common tasks and specialized plugins. Here is your guide to take your mapping skills to the next level.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A quick guide to JOSM: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/guide/josm101-part1.html&quot;&gt;http://hotosm.github.io/tracing-guides/guide/josm101-part1.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Becoming a power mapper: &lt;a href=&quot;https://www.mapbox.com/blog/osm-mapping-guide/&quot;&gt;https://www.mapbox.com/blog/osm-mapping-guide/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Graduate to JOSM: &lt;a href=&quot;https://www.mapbox.com/blog/making-the-most-josm/&quot;&gt;https://www.mapbox.com/blog/making-the-most-josm/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Becoming a power mapper: &lt;a href=&quot;https://www.mapbox.com/blog/power-mapper/&quot;&gt;https://www.mapbox.com/blog/power-mapper/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Keyboard shortcuts for the iD editor: &lt;a href=&quot;http://wiki.openstreetmap.org/wiki/ID/Shortcuts&quot;&gt;http://wiki.openstreetmap.org/wiki/ID/Shortcuts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;More editing tips for the iD editor: &lt;a href=&quot;http://osmgeoweek.org/plan/id-editor/&quot;&gt;http://osmgeoweek.org/plan/id-editor/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;reference-materials&quot;&gt;Reference Materials:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How to tag that thing? See the Map Features page on the wiki: &lt;a href=&quot;http://wiki.openstreetmap.org/wiki/Map_Features&quot;&gt;http://wiki.openstreetmap.org/wiki/Map_Features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use TagInfo to know which tags are in common usage - &lt;a href=&quot;http://taginfo.openstreetmap.org/&quot;&gt;http://taginfo.openstreetmap.org/&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Begin development of a Tracing Guide specific to the Eastern Caribbean region. The tracing guide should show examples of land uses specific to the eastern Caribbean, such as banana farms, orchards for tropical fruits, buildings peculiar to Saint Lucia. See more here: &lt;a href=&quot;http://hotosm.github.io/tracing-guides/&quot;&gt;http://hotosm.github.io/tracing-guides/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The OSM Wiki page for Saint Lucia is YOUR place to add projects, resources, contacts, and more: &lt;a href=&quot;http://wiki.openstreetmap.org/wiki/WikiProject_Saint_Lucia&quot;&gt;http://wiki.openstreetmap.org/wiki/WikiProject_Saint_Lucia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Subscribe to Talk-Carib and start conversation about mapping projects: &lt;a href=&quot;https://lists.openstreetmap.org/listinfo/talk-carib&quot;&gt;https://lists.openstreetmap.org/listinfo/talk-carib&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Continue cultivating Street/Field Survey using FieldPapers. http://fieldpapers.org/&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-18T17:13:52+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TeachOSM</title><entry><title type="html">Welcome our new Communications and Outreach intern, Emma Gray!</title><link href="http://localhost:4000/posts/2023/02/emmaintroblog.html" rel="alternate" type="text/html" title="Welcome our new Communications and Outreach intern, Emma Gray!" /><published>2023-02-16T00:00:00+00:00</published><updated>2023-02-16T00:00:00+00:00</updated><id>http://localhost:4000/posts/2023/02/emmaintroblog</id><content type="html" xml:base="http://localhost:4000/posts/2023/02/emmaintroblog.html"><![CDATA[<p><img src="../../../assets/images/blog/2023-02-16-emmaheader.png" alt="" /></p>
 
-&lt;h2 id=&quot;education--credentials&quot;&gt;Education &amp;amp; Credentials:&lt;/h2&gt;
+<p>My name is Emma Gray, and I am the new communications and outreach intern for TeachOSM! I am a third year undergraduate student at the George Washington University, where I am studying Geography and Political Science, and minoring in Geographic Information Systems. I also serve as the outreach coordinator for the Humanitarian Mapping Society (HMS) at GW.</p>
 
-&lt;p&gt;Geobadges are micro-credentials for students or all ages: &lt;a href=&quot;http://geobadges.org/&quot;&gt;http://geobadges.org/&lt;/a&gt;&lt;/p&gt;
+<p>My first introduction to mapping, and to considering geography as a whole, was in my high school AP Human Geography course. Alongside learning about various principles of geography, I was introduced to GIS. While my initial exposure to GIS was limited, its significance struck me. After enrolling at GW, I was enticed to learn more about geographic information systems, and my introductory class in the subject only increased my passion for the software and their capabilities.</p>
 
-&lt;p&gt;TeachOSM offers resources to teachers and instructors who want to use OpenStreetMap to teach geographic skills and reasoning - &lt;a href=&quot;http://teachosm.org/&quot;&gt;http://teachosm.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;promotional&quot;&gt;Promotional:&lt;/h2&gt;
+<p>While taking my first course in GIS, I was introduced to the Humanitarian Mapping Society (HMS) at GW. Serving as the GW chapter of YouthMappers, the organization hosts “Mapathons” twice a month to aid in mapping areas that have recently faced disaster using OpenStreetMap. While the first handful of HMS events I attended were online due to the COVID-19 pandemic, the importance of the work being done was immediately apparent, and I was captivated. I continued to attend events, and at the start of my junior year I joined the executive board as outreach coordinator, where I write and distribute weekly newsletters throughout the academic year.</p>
 
-&lt;p&gt;Here are some resources to promote future events with comparisons, establish bragging rights, and create printed maps.&lt;/p&gt;
+<p>It was my initial introduction to GIS, the projects and practicals in my GIS courses, and the familiarity with OpenStreetMap after participating in Mapathons that led me to TeachOSM. I have benefitted firsthand from the promotion of geography and its disciplines by teachers and educators, and I hope to help others realize the importance and magnitude of mapping.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TeachOSM is excited to welcome our new intern, Emma Gray. Emma will be assisting with Communications and Outreach through May 2023. Get to know her in this latest blog post.]]></summary></entry><entry><title type="html">Roads as Collaborative Corridors</title><link href="http://localhost:4000/posts/2023/02/mappalachia.html" rel="alternate" type="text/html" title="Roads as Collaborative Corridors" /><published>2023-02-09T00:00:00+00:00</published><updated>2023-02-09T00:00:00+00:00</updated><id>http://localhost:4000/posts/2023/02/mappalachia</id><content type="html" xml:base="http://localhost:4000/posts/2023/02/mappalachia.html"><![CDATA[<p><img src="../../../assets/images/blog/billwetherholt_blogheader.png" alt="" /></p>
 
-&lt;ul&gt;
-  &lt;li&gt;Use Geofabrik’s Map Compare to measure progress against proprietary maps - &lt;a href=&quot;http://tools.geofabrik.de/mc/#16/13.8192/-60.8997&amp;amp;num=2&amp;amp;mt0=mapnik&amp;amp;mt1=google-map&quot;&gt;http://tools.geofabrik.de/mc/#16/13.8192/-60.8997&amp;amp;num=2&amp;amp;mt0=mapnik&amp;amp;mt1=google-map&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;OSM Fight is a fun little game to pit your mapping skills against your peers! &lt;a href=&quot;http://osmfight.neis-one.org&quot;&gt;http://osmfight.neis-one.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Printed maps - &lt;a href=&quot;http://maperitive.net/&quot;&gt;http://maperitive.net/&lt;/a&gt; is a lightweight application that provides the ability to print specialized maps based on GPS and OpenStreetMap. The user controls what data are on the map and how they are rendered.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Congratulations! You just completed a successful mapathon and are excited for the possibilities for undertaking more mapping events. What then, should you do next? This document contains elements of an open mapping plan for Saint Lucia with a special focus on continuing technical proficiency and community development. This is envisioned as a six-month roadmap, but can easily be adjusted to suit the needs of the local community.</summary></entry><entry><title type="html">TeachOSM on Cape Cod</title><link href="http://localhost:4000/posts/2015/04/TeachOSM-CapeCod.html" rel="alternate" type="text/html" title="TeachOSM on Cape Cod" /><published>2015-04-23T00:00:00+00:00</published><updated>2015-04-23T00:00:00+00:00</updated><id>http://localhost:4000/posts/2015/04/TeachOSM-CapeCod</id><content type="html" xml:base="http://localhost:4000/posts/2015/04/TeachOSM-CapeCod.html">&lt;p&gt;&lt;img src=&quot;../../../assets/images/blog/capecod-casestudy-1.jpg&quot; alt=&quot;capecod-casestudy-1.jpg&quot; /&gt;
-&lt;img src=&quot;../../../assets/images/blog/capecod-casestudy-2.jpg&quot; alt=&quot;capecod-casestudy-2.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
-&lt;p&gt;In the United States, AP Geography is offered during high school students’ freshman year.  As explained by The College Board [1], since it’s introduction in 2001, the growth of the number of students taking the course has been one of the fastest of all AP course offerings to high school students across the United States.  A similar growth pattern has taken place in the number of contributors to the OpenStreetMap (OSM) since it’s birth and, in the United States specifically, since the 1st State of the Map U.S. (SOTMUS) Conference in 2010.&lt;/p&gt;
-
-&lt;p&gt;Shawn Goulet, a GIS Analyst with the Cape Cod Commission made an introduction to OSM presentation to the staff of the Social Studies department of Barnstable Public Schools in the Fall of 2013 and was bolstered following Shawn’s attendance at
-SOTMUS 2014 in Washington, D.C.  Hilary Mueller, the AP Geography teacher at Barnstable High School, and Virginia Turner, the Social Studies Curriculum Coordinator for grades 6-12 in Barnstable Public Schools enthusiastically welcomed Shawn to
-work with them on working with the students of the AP sections on editing the OSM throughout the school year.  This collaboration with Hilary and her students has continued over the past 2 school years.&lt;/p&gt;
+<p>The power of the map is undeniable.  The map serves as common ground in my classroom: no matter your discipline, there is little debate about the equity a map has in communicating patterns and processes at varied scales.  Sure, it doesn’t hurt to be a geographer to have this perspective, but it is by no means a prerequisite.  The OSM Community facilitates the improvement of the human condition through the collective power of the map.</p>
 
-&lt;p&gt;Additionally, over the past year, Celeste Reynolds, the AP Geography teacher at Mashpee High School has expressed interest in adding OSM editing to Mashpee’s AP Geography sections.  Towareds that end, Shawn has been working with a
-Mashpee High School senior who went through the AP Geography program and assists Celeste with her current sections, to develop a plan in hopes that Celeste can begin adding OSM editing to the curriculum for the 2015-2016 school year.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-mapping-task&quot;&gt;The Mapping Task&lt;/h3&gt;
-&lt;p&gt;On Cape Cod, TeachOSM mapping began in the Fall of 2013.  Hilary and Shawn agreed that the simplest approach to track students’ contributions to the OSM was to grid the specific town and assign grids to students to begin working on
-specific areas within the town  The grids are generated in GIS software and the number and/or size of the grids is whatever the teacher and Shawn agree is appropriate depending on different variables such as the number of students, the
-number of sections offered and others that is variable annually.  At this point, the students are introduced to OSM and Field Papers [2] throughout the course of the school year.  Throughout the course of the school year, the students
-are tasked with continuously editing the OSM map features within their assigned grids.  In addition, there is a map features theme which tasks the students with editing map features that fall under the topics covered in the various
-sections of the course at the time each section is being covered within their town or another geographic area where they have great knowledge of map features on the ground.  If the teacher chooses, students work with the teacher and Shawn to
-develop a project surrounding OSM and possibly the use of a geoprocessing software.&lt;/p&gt;
-
-&lt;p&gt;For Mashpee, the OSM outline for integration with the course will be completed before the end of Spring 2015.  Looking forward, Celeste wishes to commence OSM editing in a similar fashion as described above in Mashpee during the 2015-2016
-school year.&lt;/p&gt;
-
-&lt;h3 id=&quot;our-workflow&quot;&gt;Our Workflow&lt;/h3&gt;
-&lt;p&gt;The workflow of students’ contribution to the OSM is described above.  To track the students’ progress, the students are required to document their contributions in a journal entering information such as beginning location, ending location,
-and a screen shot(s) of their edits from their account page at the end of each editing session.  For now, this journal is maintained in a Google Doc file that is shared between the student and the teacher.  Thus far, we have found that
-this provides a sufficient framework for the students to establish their independent workflows and the teacher to track the student’s contributions.  The student is to be assigned additional grids in the town as each is deemed completed to the
-best of their ability by the student.  Also, the editing of map features under each course section changes everytime the course moves to a new section.  This component provides a direct connection to the course curriculum and it allows
-students to map features not necessarily within their town of which they have great knowledge and care.  Finally, the course project is open to a discussion between the teacher and Shawn.&lt;/p&gt;
-
-&lt;h3 id=&quot;issues&quot;&gt;Issues&lt;/h3&gt;
-&lt;p&gt;The largest challenge to this point for all parties has been the coordination of schedules and time during work and school hours.  TeachOSM is time-consuming.  There is a lot of material that is mandated for the teachers and students to cover
-in the AP Geography sections not including the integration of OSM contributions.  TeachOSM sessions have to take place during the school day due to the many after school commitments that the teachers and students may have.  As a result, that
-provides many challenges including the need for long periods (if avalailable) to provide sufficient time for edits and issues resolution.  Additionally, school cancellations due to weather events put the teachers and students behind in their
-course schedule, which in turn pushes TeachOSM meetings further back on everyone’s schedule and the TeachOSM component loses momentum.  Towards this end, we have found that coordination, flexibility and patience is extremely important.  Also,
-repitition of the editing process with students is necessary at each TeachOSM meeting due to the students’ becoming overwhelmed from not necessarily actively contribuitng to OSM on a regular basis outside of the school day.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-weve-learned&quot;&gt;What We’ve Learned&lt;/h3&gt;
-&lt;p&gt;TeachOSM has been a lot of fun for everyone involved.  The teachers and students enjoy contributing to OSM.  It is productive and students are learning a new way to think, new areas of their town they may never have visited and are gaining
-practical skills that are applied to work in many positions in today’s workforce.  The independent thinking nature of OSM editing in a relatively free-form structure brings the students outside of their comfort zone that they typically learn
-within.  This is valuable.  Today’s professionals in many fields may need to go outside of their everyday working environment from time to time to conduct business and be able to adapt to whatever is necessary for them to do their jobs.  This
-is a skill that is only improved through experience.  Gaining this experience early on in life will only prove more worthwhile with time.&lt;/p&gt;
-
-&lt;p&gt;When given the opportunity to work with students, time management is extremely important to being productive.  OSM editing is also valuable both to the AP Geography course and to the students’ futures.  The students can easily relate to the
-map features and they can see their work being integrated in products they actively use such as Craigslist, MapQuest, Pintrest and others.  This process is a continuous work in progress and flexibility is key due to the uncertainty of
-dynamics out of everyone’s control as previously described.  Regardless, OSM integration is most certainly valuable for high school-aged students to be given the opportunity.  Towards this end, we commend the teachers that give us the
-opportunity to introduce OSM to their students.  It is much appreciated.&lt;/p&gt;
-
-&lt;h3 id=&quot;contact-information&quot;&gt;Contact Information&lt;/h3&gt;
-&lt;p&gt;Shawn Goulet &lt;br /&gt;
-shawndotgouletatgmaildotcom &lt;br /&gt;
-[@Shawn_Goulet] (https://twitter.com/Shawn_Goulet)&lt;/p&gt;
-
-&lt;p&gt;[1] [The College Board - AP Geography] (http://apcentral.collegeboard.com/apc/members/courses/teachers_corner/220797.html) &lt;br /&gt;
-[2] &lt;a href=&quot;http://fieldpapers.org/&quot;&gt;Field Papers&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">GIS Day Farmers Market Mapping Project</title><link href="http://localhost:4000/posts/2015/02/farmers.html" rel="alternate" type="text/html" title="GIS Day Farmers Market Mapping Project" /><published>2015-02-05T00:00:00+00:00</published><updated>2015-02-05T00:00:00+00:00</updated><id>http://localhost:4000/posts/2015/02/farmers</id><content type="html" xml:base="http://localhost:4000/posts/2015/02/farmers.html">&lt;h3 id=&quot;the-backstory&quot;&gt;The Backstory&lt;/h3&gt;
-
-&lt;p&gt;For Northern Virginia Community College GIS Day, we decided to plan a mapathon incorporating National Geographic’s “The Future of Food” theme.  We planned to map Farmers Markets in Virginia using OpenStreetMap.  While we were able to find long/lat information for Farmers Markets in Virginia which students could add to OSM, we also wanted to show students that they could go out to their local Farmers Markets and gather information to be uploaded to OSM using field papers.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-mapping-challenge&quot;&gt;The Mapping Challenge&lt;/h3&gt;
-
-&lt;p&gt;The first step was to print a map from the &lt;a href=&quot;http://fieldpapers.org/&quot;&gt;field papers website&lt;/a&gt; which would include the location of a local Farmers Market.  Once the map was printed, a NOVA instructor was able to write information directly onto the printed map including street address and names of buildings in the same area as the Farmers Market.&lt;br /&gt;
-&lt;img src=&quot;../../../assets/images/blog/Market_Field_Paper.jpg&quot; alt=&quot;field_paper1001.jpg&quot; /&gt;
-After the information was gathered, the paper map was converted to a jpeg file and then uploaded using the field papers website.  Once the map was uploaded, information was easily added to OSM.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-workflow&quot;&gt;The Workflow&lt;/h3&gt;
-
-&lt;p&gt;Because our participants were not actually going to use field papers for this event, the workflow only involved an instructor and a family member assistant!  If field papers had been part of the event, a map atlas would have been printed and distributed to participants ahead of time.&lt;/p&gt;
-
-&lt;h3 id=&quot;stumbling-blocks&quot;&gt;Stumbling Blocks&lt;/h3&gt;
-
-&lt;p&gt;Creating an atlas using field papers took some time to master, but the process was relatively simple.
-Make sure that you follow the instructions for the correct type of file that can be uploaded using field papers or your map will not upload.&lt;/p&gt;
-
-&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
-
-&lt;p&gt;With three simple pictures, we were able to show students how easy it is to work in the field and add the most accurate information to OSM.&lt;/p&gt;
-
-&lt;h3 id=&quot;contact-information&quot;&gt;Contact Information&lt;/h3&gt;
-
-&lt;p&gt;Please contact Janice Ouellette jouellette@nvcc.edu with any questions.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Backstory</summary></entry><entry><title type="html">Conducting Street-level Surveys in DC</title><link href="http://localhost:4000/posts/2015/01/DCGreatStreets.html" rel="alternate" type="text/html" title="Conducting Street-level Surveys in DC" /><published>2015-01-04T00:00:00+00:00</published><updated>2015-01-04T00:00:00+00:00</updated><id>http://localhost:4000/posts/2015/01/DCGreatStreets</id><content type="html" xml:base="http://localhost:4000/posts/2015/01/DCGreatStreets.html">&lt;h1 id=&quot;dc-great-streets-a-street-level-survey-using-openstreetmap&quot;&gt;“DC Great Streets: A Street-level Survey Using OpenStreetMap”&lt;/h1&gt;
-
-&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;Conducting a street-level survey is a great way to get students acquainted with local land
- use and land cover while learning important technical skills in the
- &lt;a href=&quot;http://openstreetmap/&quot;&gt;OpenStreetMap&lt;/a&gt; environment. The objective of a survey is to make
- a field-level determination of how the property or building is being used, create a
- geo-located photo survey of the streetscape, and add those features to OpenStreetMap. In
- the paragraphs below, we discuss the rationale for a street-level survey, outline the
- basic mapping activities, and offer pointers for your street-level survey.&lt;/p&gt;
-
-&lt;h2 id=&quot;rationale&quot;&gt;Rationale&lt;/h2&gt;
-
-&lt;p&gt;In late 2014, &lt;a href=&quot;http://mappingdc.org/&quot;&gt;MappingDC&lt;/a&gt; began a collaboration with the &lt;a href=&quot;http://greatstreets.dc.gov/&quot;&gt;DC Great Streets&lt;/a&gt;
- program to conduct
-a street-level survey in the twelve DC Great Streets corridors. The DC Great Streets
-program dispenses capital improvement grants to small businesses in these corridors to
-boost neighborhood economic resilience and help create lively urban centers around the city.
-Once a month, MappingDC hosts a &lt;a href=&quot;http://www.meetup.com/MappingDC/&quot;&gt;mapping party&lt;/a&gt; in or along one of the corridors where we
-gather data in the field, upload, and edit the data in OpenStreetMap. The project is
-evolving with an emphasis on creating service learning opportunities for young adults that
-meet the needs of the DC Great Streets program.&lt;/p&gt;
-
-&lt;h2 id=&quot;conducting-your-own-street-level-survey&quot;&gt;Conducting your own street-level survey&lt;/h2&gt;
-
-&lt;h3 id=&quot;tools-youll-need&quot;&gt;Tools you’ll need&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mapillary: To create the streetview, we use &lt;a href=&quot;http://mapillary.com/&quot;&gt;Mapillary&lt;/a&gt;, a
-lightweight app that you add to your smartphone. So, before you get started, download and
-install Mapillary. Also review the  tips and techniques on the Mapillary page so you take good, usable photos.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Field Papers: We use &lt;a href=&quot;http://fieldpapers.org/&quot;&gt;Field Papers&lt;/a&gt; to make a paper map of the streets, which
-we annotate in the field. Print out large-scale maps of your area of interest so you can
-annotate liberally and legibly. There is a very good Field Papers how-to on the
-&lt;a href=&quot;http://wiki.openstreetmap.org/wiki/Field_Papers&quot;&gt;OpenStreetMap wiki&lt;/a&gt; which shows how to
-use Field Papers for field data collection.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
-&lt;p&gt;The workflow:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Conduct field work&lt;/li&gt;
-  &lt;li&gt;Return to base and begin editing in OpenStreetMap&lt;/li&gt;
-  &lt;li&gt;Upload photos to Mapillary site&lt;/li&gt;
-  &lt;li&gt;Review work for completeness and accuracy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;form-teams-for-field-work&quot;&gt;Form teams for field work:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Two teams of two or three people, one team on each side of the street. One person records
-basic information about the property or building (e.g. name, address, phone, website, etc.),
- the second person records takes photos. A third person is useful to take supplemental notes,
- help navigate, but not essential.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;editing-process&quot;&gt;Editing process&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Trace building outlines as necessary. There are often multiple businesses in a building
-so enter each business as a point and give it its own address.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Great Streets program has a simple rating system to help determine which properties
-qualify for assistance. Mappers tag each property with a rating, which the DC Great
-Streets program can use to assess property condition. You should refer to the
-&lt;a href=&quot;http://wiki.openstreetmap.org/wiki/Key:building:condition&quot;&gt;building condition&lt;/a&gt; page on the
-OSM wiki for help in tagging building conditions.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Follow the instructions on the Mapillary page for uploading your photos from your phone
-to the Mapillary site.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons Learned&lt;/h2&gt;
-&lt;p&gt;MappingDC and DC Great Streets program are still working on how to standardize the tagging
-scheme for building conditions so that they are useful to the program. We’ve also learned
-that some photos are not usable because they are blurry, too dark, washed out, or taken at
-a bad angle. We’re working on developing field techniques that will make for more consistently
-usable photo quality.
-Tactically, teams of three seem to work best, but plan on at least two per team.&lt;/p&gt;
-
-&lt;h2 id=&quot;for-more-information&quot;&gt;For more information:&lt;/h2&gt;
-
-&lt;p&gt;Mapillary provides detailed &lt;a href=&quot;https://help.mapillary.com/hc/en-us&quot;&gt;instructions&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;See also Elliott Plack’s diary &lt;a href=&quot;https://www.openstreetmap.org/user/ElliottPlack/diary/26065&quot;&gt;entry&lt;/a&gt;
-on how he created a street-level survey on bicycle.&lt;/p&gt;
-
-&lt;p&gt;For more information on street surveys or DC Great Streets mapping parties, please contact Steven Johnson (sejohnson8 at gmail dot com).&lt;/p&gt;</content><author><name></name></author><summary type="html">“DC Great Streets: A Street-level Survey Using OpenStreetMap”</summary></entry><entry><title type="html">Georgia Avenue Mapping</title><link href="http://localhost:4000/posts/2014/10/Georgia-Ave.html" rel="alternate" type="text/html" title="Georgia Avenue Mapping" /><published>2014-10-20T00:00:00+00:00</published><updated>2014-10-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2014/10/Georgia-Ave</id><content type="html" xml:base="http://localhost:4000/posts/2014/10/Georgia-Ave.html">&lt;h2 id=&quot;georgia-avenue-youth-ambassadors-mapping-project&quot;&gt;Georgia Avenue Youth Ambassadors Mapping Project&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../../assets/images/blog/Georgia_Avenue_Youth_Ambassadors.jpg&quot; alt=&quot;Georgia_Avenue_Youth_Ambassadors.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-backstory&quot;&gt;The Backstory&lt;/h3&gt;
-&lt;p&gt;In July-August 2014, members of MappingDC worked with about 20 students ages 12-18 in Washington, DC to map out Georgia Avenue, a major commercial corridor in a largely lower-income part of town.
-The idea was to collect data on businesses so local groups and citizens can use it, while at the same time teaching the kids new skills and getting them engaged in their community while seeing it from a new viewpoint through geography and mapping. By the end, the students added almost 300 businesses to OpenStreetMap along the street and learned about geography and mapping.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-partners&quot;&gt;The Partners&lt;/h3&gt;
-&lt;p&gt;The project is part of the city’s Summer Youth Program, where young people work with local nonprofits on their projects that benefit the community. The nonprofit in this case is MOMIE’s TLC, which teaches minority students about local history, social justice, entrepreneurship, business skills and such. Part of their summer curriculum is to work with two local nonprofits, the Georgia Avenue Business Association (GABA) and the Georgia Avenue Community Development Task Force, on a biennial business survey, where they track what businesses exist and what local residents want, then have community meetings to discuss the survey and the mapping data that was collected.
-Previously the survey and data was just on the Task Force’s website, so it wasn’t very easy for people to find or use it – we figured, why not put this data they’re already collecting in a place where it’s more accessible and anybody around the world can use, while at the same time getting local kids involved – OpenStreetMap!&lt;/p&gt;
-
-&lt;h3 id=&quot;the-workflow&quot;&gt;The Workflow&lt;/h3&gt;
-&lt;p&gt;Buildings for many of the areas around Georgia Avenue were missing, so Tasking Manager was used to help subdivide the area, and help volunteers target the missing buildings.
-Volunteers helped add buildings along the avenue and elsewhere in the area, so we had a good base for the students to use.
-Andrew and Steven met with the Youth Ambassadors and organizers and gave a presentation on OpenStreetMap, with a brief demo of the system. They were excited to use it.
-Then came the actual business information. The nonprofits developed forms for the students to use, and they went out to collect that data. Having done this multiple times in the past, the nonprofits had good forms and steps worked out already. (Along the way, the students also spoke with business owners about entrepreneurship and business skills, and refined an “elevator speech,” as part of their curriculum.) The students also collected some info on the building structures and facades, which the businesses can use to apply for “Great Streets” revitalization grants from the city government.
-For the data entry into OSM, Andrew, Steven, Brandon and Richard met with the students at a community center to help them enter the data they collected back into OpenStreetMap. After some compuer struggles (more on that below) we got the students logins and they started to add the data they had collected.&lt;/p&gt;
-
-&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
-&lt;p&gt;The students mapped at least 268 places, including local businesses, restaurants, fire stations, offices, salons, etc. We expect there are more now the project is done. About 7 students were registered on OpenStreetMap. One student even started mapping mailboxes on the street on her own, outside of the project. We are thinking about more interaction in the future with them, like other community mapping sessions.
-The data was also used to create a poster-sized map for a meeting of the Georgia Avenue Community Development Task Force, where local residents will discuss business and development needs. The Youth Ambassadors presented on their project and received a standing ovation, and the maps were printed and used in community conversations during the meeting.&lt;/p&gt;</content><author><name></name></author><summary type="html">Georgia Avenue Youth Ambassadors Mapping Project</summary></entry><entry><title type="html">OSM at George Washington University</title><link href="http://localhost:4000/posts/2014/10/gw-mapping.html" rel="alternate" type="text/html" title="OSM at George Washington University" /><published>2014-10-20T00:00:00+00:00</published><updated>2014-10-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2014/10/gw-mapping</id><content type="html" xml:base="http://localhost:4000/posts/2014/10/gw-mapping.html">&lt;h2 id=&quot;osm-at-george-washington-university&quot;&gt;OSM at George Washington University&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../../assets/images/blog/gwu-casestudy.jpg&quot; alt=&quot;gwu-casestudy.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
-&lt;p&gt;Nuala Cowan &amp;amp; Richard Hinton of the Geography department regularly integrate the open source mapping platform, OpenStreetMap into the curriculum for their introductory undergraduate Geographical Information Systems (GIS) &amp;amp; Cartography classes, -traditionally the domain of proprietary desktop software and data. They have sought to expand the traditional curriculum, and expose students to various open source software, web based platforms, and data collection initiatives, specifically in a service-learning environment.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-mapping-challenge&quot;&gt;The Mapping Challenge&lt;/h3&gt;
-&lt;p&gt;In spring 2013, classes collaborated with the American Red Cross to map disaster prone communities in both Colombia and Indonesia. Using high-resolution satellite imagery, GW Geography students remotely traced road and building infrastructure, data that was subsequently field validated by domestic chapters of the Red Cross. In fall 2013 they worked on another collaborative project in conjunction with USAID and the Open Cities Project at the World Bank. Once again, students mapped street level infrastructure, this time, in the city of Kathmandu, Nepal. Field partner for this collaboration was a non-profit called &lt;a href=&quot;http://kathmandulivinglabs.org/&quot;&gt;Kathmandu Living Labs&lt;/a&gt; (KLL). KLL then performed OSM Patrol Sessions (Data Quality check and Validation) on the data created by the students (and others) for Kathmandu. Richard and Nuala’s classes have continued to work on collaborations in recent semesters. In Spring 2014 students traced infrastructure in the Philippines in conjunction with the GeoCenter at USAID, and in Summer 2014 students worked once again with the American Red Cross to trace buildings in Harare, Zimbabwe.&lt;/p&gt;
-
-&lt;h3 id=&quot;our-workflow&quot;&gt;Our Workflow&lt;/h3&gt;
-&lt;p&gt;The instructors used the Tasking Manager tool to outline the study area (which is determined by our partners), and partition it for tracing. Each student is given a quota of nodes to trace.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-we-discovered&quot;&gt;What we discovered&lt;/h3&gt;
-&lt;p&gt;The collaborative mapping initiatives at GWU Geography have been exclusively disaster related to date, as this coincides with the research interests of the faculty involved. We believe this type of instructional module/assignment is applicable to many disciplines and teaching scenarios, and the objective of the TeachOSM resource is to open that possibility to these other fields, in a comprehensive user friendly way.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Backstory&lt;/li&gt;
-  &lt;li&gt;The mapping challenge&lt;/li&gt;
-  &lt;li&gt;Our workflow&lt;/li&gt;
-  &lt;li&gt;Stumbling Blocks&lt;/li&gt;
-  &lt;li&gt;Discuss the results and what was learned&lt;/li&gt;
-  &lt;li&gt;Provide contact information&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">OSM at George Washington University</summary></entry></feed>
+<p>My relationship with OpenStreetMap is five years old, and I have turned a corner from a beginner mapper to intermediate.  The pandemic’s push to online for my courses was the nudge necessary to transition from wiggling my toe in the OSM ecosystem to taking a deep breath and diving in.  During this time, I have increased student exposure to OSM at Frostburg State University: formal lab exercises in my cartography courses, highlighting humanitarian mapping efforts in my introductory courses, evening Map-a-Thons open to anyone on campus, and most recently, a shared mapping task with Dr. Tom Mueller and his students at Pennsylvania Western University.  While learning OSM, I have been looking for my niche, and I have come out on the other side with a rallying cry: Map Appalachia!  Many portions of the United States are mapped with incredible detail in OSM, but swaths of Appalachia are underrepresented or terra incognita altogether.  Consider the detail of Capitol Hill compared to my region of rural Maryland only two hours to the northwest in the mountains of Appalachia.</p>
+
+<p><img src="../../../assets/images/blog/2023-02-09-pic1.PNG" alt="" /></p>
+
+<p><img src="../../../assets/images/blog/2023-02-09-pic6.PNG" alt="" /></p>
+
+<p>When the OSM Community discusses missing portions of the map, the conversation often orbits developing parts of the world, and for good reason.  However, similar gaps can be identified in highly developed nations, too.  Appalachia serves as a touchstone in that respect, as do the Great Plains.  The recurring question in mapping Appalachia has been “where to start?”  Primary transportation arteries offer a springboard to collaborative mapping in underrepresented regions.  These routes often contain much of the population in clustered rural settlements, they provide a logical progression to lower-order streets that feed into them, and most importantly, they are connections between regional mappers.</p>
+
+<p>In the second half of the Fall 2022 Semester, Tom Mueller’s online Geobusiness course at PennWest and my on-campus Cartography course at Frostburg utilized the seventy miles of US-40 separating our institutions to begin filling in the map between us.  Our initial focus was buildings.  To keep everyone organized and along the chosen route, Tom crafted a task in the TeachOSM Tasking Manager (which you can learn to do here: <a href="https://teachosm.org/projects/2020-03-10-824075">https://teachosm.org/projects/2020-03-10-824075</a>) and utilized a US-40 shapefile to create the area where contributions would be requested.  The shapefile was clipped to only incorporate the counties between the universities through which the route passed, and a 0.25mi buffer was placed around the road.  From there, all that was left was for students to map through varied guided course assignments on our respective ends, with the Tasking Manager providing an ideal conduit.</p>
+
+<p><img src="../../../assets/images/blog/2023-02-09-pic3.PNG" alt="" /></p>
+
+<p>Formal classroom mapping was complimented by Geography Awareness Week, which falls on the third week of November each year.  Frostburg’s germinating GTU YouthMappers chapter hosted a Map-a-Thon during GIS Day that was open to the campus community and focused on the task.</p>
+
+<p><img src="../../../assets/images/blog/2023-02-09-pic4.jpg" alt="" /></p>
+
+<p><img src="../../../assets/images/blog/2023-02-09-pic5.jpg" alt="" /></p>
+
+<p>Turnout on GIS Day was encouraging!  Campus members with no exposure to OpenStreetMap came with laptops, and those that didn’t have a computer were set up in an adjoining lab.  I gave a short discussion over pizza on participatory mapping and the principles of OSM along with demonstrating how to provide good edits before everyone started.  During the mapping, I mostly floated between rooms to check on progress, offer guidance and encouragement, and maybe snag an additional slice of pizza.</p>
+
+<p>In retrospect, this TeachOSM pilot demonstrates ample potential for collaboration between two groups in regional proximity.  Living in an under-mapped area is certainly a challenge, but it is also an opportunity when other groups in the region have similar aspirations for enumeration.  Working towards each other along the transportation corridors that connect us utilizes local knowledge, often focuses effort in areas with relatively higher population densities, encourages communication between vested interests where it may have been absent, and ultimately, speaks to that latent power resting in the collective.  Admittedly, it was disappointing to not have both groups come together at the end of the semester for lunch and a debrief, and there were a few challenges along the way such as minor vandalism and the 0.25mi buffer not catching some residential areas, but the activity was no doubt successful in addressing underrepresentation.</p>
+
+<p>Students from Pennsylvania Western University and Frostburg State University provided over 1,200 changesets that contributed over 6,000 new map edits to OSM.  Recall the difference in detail between DC’s Capitol Hill and LaVale, MD provided in the beginning; below is that same area after being mapped.  While there has been clear improvement, you can plainly see the 0.25mi buffer straddling US-40 and the neighborhood that fell outside of the Tasking Manager.</p>
+
+<p><img src="../../../assets/images/blog/2023-02-09-pic2.PNG" alt="" /></p>
+
+<p>In other areas, such as where US-40 passes through Brownsville, PA a few miles south of PennWest, the buffer was more efficient in capturing missing areas.  This is because the route better approximates the historic National Road through Brownsville but follows the more modern interstate system closer to Frostburg.  (Please note that the Brownsville before/after example below is displayed at a slightly smaller map scale than the previous figures.)</p>
+
+<iframe src="https://sandbox.elfsightcdn.com/49d56718-f1aa-463e-ad80-e4ba84f1d95d" width="100%" height="400px" frameborder="0"></iframe>
+
+<p>The limitations encountered in no way detract from the utility of this methodology.  The empty spaces betwixt groups are not going to be mapped completely in one fell swoop.  If you’re interested in tackling your underrepresented corner of OSM, it’s likely you are not alone.  Begin by seeking partnerships within an approachable geographic radius, engage in dialogue to formulate a plan, set your parameters, and don’t be afraid to ask questions or make mistakes as you start down the road, literally or metaphorically.</p>
+
+<p>Finally, Tom and I would like to extend our sincere gratitude to the TeachOSM Community for helping facilitate the success of this pilot study with the awarding of a collaboration grant.  Furthermore, Steven and Jess remained supportive throughout our work, and their feedback was most appreciated.  Here’s to many more mappy adventures.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Guest Blog Post by Bill Wetherholt (Associate Professor of Geography, Frostburg State University)]]></summary></entry><entry><title type="html">Intern with TeachOSM this school year!</title><link href="http://localhost:4000/posts/2022/09/internships.html" rel="alternate" type="text/html" title="Intern with TeachOSM this school year!" /><published>2022-09-20T00:00:00+00:00</published><updated>2022-09-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/09/internships</id><content type="html" xml:base="http://localhost:4000/posts/2022/09/internships.html"><![CDATA[<p><img src="../../../assets/images/blog/2022-09-20-blogheader.png" alt="2022-2023 internship applications are now open" /></p>
+
+<p>TeachOSM is excited to open the internship application for the 2022-2023 academic school year! We are looking for self-driven college students interested in supporting TeachOSM’s mission to bring OpenStreetMap to educational settings.</p>
+
+<h3 id="what-youll-do">What you’ll do</h3>
+
+<p>As our intern, you will work closely with OSM US staff and the TeachOSM volunteer steering committee to achieve program goals, based on your interests. This may include communications, mentorship, curriculum development, website development, or mapathon validation. For reference, please view our previous description for the <a href="https://bit.ly/TeachOSMInternship2021">2021 Communications &amp; Outreach internship position</a>.</p>
+
+<h3 id="compensation--benefits">Compensation &amp; Benefits</h3>
+
+<ul>
+  <li>$500/semester stipend (based on a 16-week period; pro-rated to agreed internship dates)</li>
+  <li>Scholarship (up to $500 limit) for the State of the Map US conference</li>
+  <li>Opportunity to develop skills and gain experience such as professional tools &amp; software (i.e. communications management software, customer relationship management software); training and public engagement; program &amp; material development</li>
+  <li>Opportunities to attend and present at virtual workshops/conferences</li>
+  <li>Opportunities to help coordinate content for TeachOSM events &amp; trainings</li>
+  <li>Cultivate relationships across the OpenStreetMap community and with OSM US partnering organizations.</li>
+  <li>Creative flexibility to help us grow and expand our programming.</li>
+</ul>
+
+<p>Please note: we are only able to offer internships to students based in the United States at this time. We hope to expand this in future years.</p>
+
+<h3 id="faq">FAQ</h3>
+
+<p><em>When is the application deadline?</em> <br /></p>
+
+<p>No deadline! We’ll accept applications on a rolling basis. We encourage you to apply as soon as possible as positions may fill quickly.</p>
+
+<p><em>What are the internship dates?</em> <br /></p>
+
+<p>Internships will last approximately 16 weeks but are not set to any calendar dates. We will work with you to set start and end dates that work best for you and your studies.</p>
+
+<p><em>I have applied. When will I hear back?</em> <br /></p>
+
+<p>We cannot provide feedback on every application. We will review all applications and reach out within two weeks if we would like to move forward with an interview.</p>
+
+<p><em>Where is funding for the internships coming from?</em> <br /></p>
+
+<p>Funding comes from TeachOSM’s parent organization <a href="https://openstreetmap.us/">OpenStreetMap US</a>. If you’re interested in supporting future internships for TeachOSM, please <a href="https://osmus.civicrm.org/civicrm/contribute/transact?cid=0&amp;reset=1&amp;id=3">consider donating</a>.</p>
+
+<h2 id="apply-now">Apply Now!</h2>
+
+<p>Ready to apply? Continue to the application <a href="https://forms.gle/DUEBpL7bEgvaCwAe9">here</a>. If you have any questions, please contact info@teachosm.org.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Design your own internship to support our mission]]></summary></entry><entry><title type="html">Shaking Up Earth Science with OSM</title><link href="http://localhost:4000/posts/2022/07/osm-for-earth-science.html" rel="alternate" type="text/html" title="Shaking Up Earth Science with OSM" /><published>2022-07-20T00:00:00+00:00</published><updated>2022-07-20T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/07/osm-for-earth-science</id><content type="html" xml:base="http://localhost:4000/posts/2022/07/osm-for-earth-science.html"><![CDATA[<p><img src="../../../assets/images/blog/teachosm_blogheader_jd_guestblog.png" alt="Student mapping in OpenStreetMap" /></p>
+
+<p>As a teacher who practices project-based learning, I try to design projects that not only engage my students, but also make an impact in some way.  For the Earthquake Microgrant Project, my students identified a part of the world and produced a two minute pitch video that explained why their area was in need of mapping. They had to show that houses currently weren’t mapped and it was an area that was geologically prone to earthquakes because it had a history of earthquakes and was near a plate boundary. I modeled the project after the work of Humanitarian OpenStreetMap Team (HOT). HOT works with communities and local disaster management agencies to map and understand disaster risk by developing detailed maps of roads and buildings.  Data is then used to produce realistic scenarios of natural disasters.  This allows community leaders to better plan, prepare and respond to these natural disasters.</p>
+
+<p>In my 9th and 10th grade Earth Science classes, students must understand that plate boundaries are the sites of most earthquakes and that earthquakes present geologic hazards to humans. Effective emergency preparedness is key to preventing loss of life, property and personal injury.  Students learned through OpenStreetMap and HOT’s work that there are places that are missing from the map.  If these places are in earthquake prone areas, it will be difficult for rescue workers to respond. Hence, students were to research an area that was prone to earthquakes, understand the geologic forces at work, and find places that were missing from the map.  While this was an engaging project the year prior, it was missing one thing: students wanted to actually map the area.</p>
+
+<p>I had no experience with OpenStreetMap, yet I knew it was the key to making the project a success.  I dove into the resources at TeachOSM and joined their biweekly mapping session, where we mapped green spaces in urban areas.  I also reached out to Dr. Mike Jabot, who facilitates the YouthMappers chapter at SUNY Fredonia, and he showed me how to use ArcGIS to see the satellite images that we would use to locate the houses and roads that were missing from OpenStreetMap.</p>
+
+<p>Though at this point I had little experience with the technology, I decided to jump headfirst into figuring it out with the students.  I explained that we would be learning together, and if we had an issue, we would figure it out with the help of our experts at TeachOSM, our IT Department, and the resources provided by the TeachOSM website.  We initially had an issue with student emails rejecting the confirmation, but our IT Director quickly aided us in setting up our accounts.  Because we were all in the same general area, I could keep track of students’ edits and ensure they were not duplicating information.</p>
+
+<p><img src="../../../assets/images/blog/teachosm_2022-07_guestblog_pic2.png" alt="Area mapped by students on satellite imagery and in OpenStreetMap" /></p>
+
+<p><em>Students mapped Batang Anai, Pariaman, West Sumatra, Indonesia shown here on satellite imagery and in OpenStreetMap</em></p>
+
+<p>I structured the mapping to take place on a day just before spring break, so it was exciting to see students still mapping during their lunch break. On a day when it is increasingly difficult to keep student attention, mapping using OSM provided a way for students to give back to the community, have fun and learn at the same time.  Hailey, a freshman, stated “the mapping was therapeutic and better than normal projects because we were directly helping people.”  Abigail, who continued mapping through her study hall and lunch, felt  the mapping project was important because it helped show where people were in case they truly needed help.  Danielle, also a freshman, liked mapping because “it was a new way to learn and help others in disasters like an earthquake.”</p>
+
+<p>Though mapping only seemed like something that applied to geography classes, I learned quickly how much authenticity and meaning mapping in OpenStreetMap afforded my earth science classes.  As a bonus, when you create a culture in your classroom that allows learning together, you don’t have to fear not being the expert.  I highly recommend using the resources at TeachOSM and joining a mapalong to help you feel confident that mapping can connect in any classroom.  You may be surprised how much fun your students will have.</p>
+
+<hr />
+
+<p>Written by Jamie Dickinson, Earth Science Teacher at Northville High School</p>
+
+<p>Do you have a story to share about how you are using OpenStreetMap in the classroom? Reach out at info@teachosm.org!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Guest blog post by Jamie Dickinson]]></summary></entry><entry><title type="html">Launching the TeachOSM Collaboration Grants</title><link href="http://localhost:4000/posts/2022/07/announcing-collab-grants.html" rel="alternate" type="text/html" title="Launching the TeachOSM Collaboration Grants" /><published>2022-07-18T00:00:00+00:00</published><updated>2022-07-18T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/07/announcing-collab-grants</id><content type="html" xml:base="http://localhost:4000/posts/2022/07/announcing-collab-grants.html"><![CDATA[<p><img src="../../../assets/images/blog/2022-07-18-blogheader.png" alt="Launching the TeachOSM Collaboration Grants" /></p>
+
+<p>Collaboration &amp; geography are at the heart of OpenStreetMap. To promote this camaraderie and learning through open mapping, <strong>TeachOSM is awarding grants of up to $500 USD</strong> to support activities that bring together students and educators across different classrooms, groups, or geographies to learn through OpenStreetMap. Examples of activities include hosting mapping events bringing classes from different schools together, multi-school field trips to conduct mapping activities, or virtual mapping campaigns between schools on a regional issue.</p>
+
+<h3 id="fall-2022-grant-guidelines--eligibility">Fall 2022 Grant Guidelines &amp; Eligibility</h3>
+<p><em>The Fall 2022 grant period is a pilot and guidelines may be adjusted. Please review the guidelines below before submitting an application.</em></p>
+
+<ul>
+  <li>Collaboration activities MUST involve a minimum of two schools or groups.
+    <ul>
+      <li>Classes or school-based groups must be from different schools to qualify for collaboration. Geographic connection between schools is encouraged (i.e. same state or region of the country).</li>
+      <li>Youth organization chapters can be within the same entity (i.e. Boys &amp; Girls Clubs) but must be from different chapter locations to qualify as a collaboration.</li>
+    </ul>
+  </li>
+  <li>Grants are open to classes in high school or higher education institutions, after-school or extracurricular groups, student groups with experience hosting events, chapter-based youth organizations (i.e. Girl Scouts of America, 4-H). If you are unsure if your group qualifies, please contact us.</li>
+  <li>Grants are NOT limited to classes and groups focused on geography or mapping. Grants are broadly available to classes in social sciences, environmental sciences, humanities, and other disciplines.</li>
+  <li>Grants are currently only available to groups in the United States. We hope to expand this in future years.</li>
+  <li>All activities must be concluded by December 15, 2022. We will consider applications for activities covering the entire academic year on a case-by-case basis.</li>
+</ul>
+
+<h3 id="evaluation">Evaluation</h3>
+<p>Applications will be reviewed based on the following aspects:</p>
+
+<p><strong>1.  Localization:</strong> Does the activity improve OpenStreetMap data locally or otherwise have a local impact? </p>
+
+<p><strong>2.  Purpose:</strong> What will students gain or learn from this activity, besides practicing skills in OpenStreetMap?</p>
+
+<p><strong>3.  Collaboration:</strong> How well does the activity promote interaction between groups? How will students learn from each other?</p>
+
+<p><strong>4.  Inspiration:</strong> How will this activity impact the continuation of mapping both in your classroom/group and collaboration between classrooms/groups involved?</p>
+
+<h3 id="what-we-ask-of-you">What We Ask of You</h3>
+
+<p>We want to showcase your work and inspire others! To receive the full grant, we will require all grantees to:</p>
+
+<ul>
+  <li>
+    <p><strong>Take photos</strong> to share on social media. TeachOSM will use these to celebrate your work as well for future promotions.</p>
+  </li>
+  <li>
+    <p><strong>Help develop resources for others</strong> such as a lesson plan/module or a guide on how you developed your collaboration to help other educators and students host similar activities. (Don’t worry - TeachOSM and OpenStreetMap US will provide support and publish the document.)</p>
+  </li>
+  <li>
+    <p><strong>Write a blog post or create a video</strong> about your activity. Posts and videos created by students are welcome, with proper permissions. </p>
+  </li>
+  <li>
+    <p><strong>Check-in with us</strong> 1-2 times during the activity period to make sure that you have all the support you need to make your collaboration happen.</p>
+  </li>
+</ul>
+
+<h3 id="important-dates">Important Dates</h3>
+
+<p>Fall 2022 Grant Period:</p>
+
+<ul>
+  <li>
+    <p>July 18, 2022 - Grant applications open</p>
+  </li>
+  <li>
+    <p>August, 20, 2022 - Grant applications close</p>
+  </li>
+  <li>
+    <p>September 9, 2022 - Awardees notified</p>
+  </li>
+  <li>
+    <p>December 15, 2022 - Deadline for planned activities</p>
+  </li>
+</ul>
+
+<h3 id="faq">FAQ</h3>
+
+<p><em>May I submit more than one idea?</em> <br /></p>
+
+<p>Yes! However we will only fund one idea per applicant/collaborator. We may consider your additional ideas for future granting periods.</p>
+
+<p><em>Where is funding for the Collaboration Grants coming from?</em> <br /></p>
+
+<p>Funding comes from TeachOSM’s parent organization <a href="https://openstreetmap.us/">OpenStreetMap US</a>. If you’re interested in supporting future funding for TeachOSM, please <a href="https://osmus.civicrm.org/civicrm/contribute/transact?cid=0&amp;reset=1&amp;id=3">consider donating</a>.</p>
+
+<p><em>How many grants will be made?</em> <br /></p>
+
+<p>We anticipate supporting two to four collaborations but may fund more, depending on the amount requested by selected grantees.</p>
+
+<h2 id="apply-now">Apply Now!</h2>
+
+<p>Ready to apply? Continue to the application <a href="https://forms.gle/MFANMR9KL96B4yxC6">here</a>. If you have any questions, please contact info@teachosm.org.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Grant applications are due August 20, 2022]]></summary></entry><entry><title type="html">A New Way to Get Involved with TeachOSM</title><link href="http://localhost:4000/posts/2022/05/announcing-wg.html" rel="alternate" type="text/html" title="A New Way to Get Involved with TeachOSM" /><published>2022-05-09T00:00:00+00:00</published><updated>2022-05-09T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/05/announcing-wg</id><content type="html" xml:base="http://localhost:4000/posts/2022/05/announcing-wg.html"><![CDATA[<p><img src="../../../assets/images/blog/teachosm_blogheader_wg.png" alt="Announcing the Education Working Group" /></p>
+
+<p>OpenStreetMap has great potential for use in education with direct application for geography, but also for social sciences, environmental sciences, civics, and many other subjects. After all, a mapping project is a ready-made project-based learning experience, utilizing direct application of cartography &amp; geographic reasoning. Despite these benefits, there is still more work to be done to promote broader adoption of OpenStreetMap in schools.</p>
+
+<p>TeachOSM, a program of OpenStreetMap US, is dedicated to advocating for open mapping in educational settings. Led by a small volunteer group of educators, TeachOSM works to promote open mapping and remove barriers to using OSM in classrooms through programming, technical infrastructure, and developing educational content. TeachOSM has trained an estimated 500 teachers reaching over 1,000 students in open mapping techniques since 2013, and provides free, open mapping lesson modules online. Recently, the TeachOSM program has gained significant momentum as evidenced by the growth in educator and student interest, as well as the number of partnering institutions.</p>
+
+<p>With this growth, we are inviting volunteers to join the OSM US Education Working Group, led by TeachOSM, to match community appetite with project needs. The launch of this working group is a natural outgrowth of the TeachOSM program and our hope is that the Working Group will allow us to direct the talent of the larger open mapping community to support and scale existing projects as well as fuel academic innovation and civic engagement. </p>
+
+<h2 id="youre-invited">You’re Invited! </h2>
+
+<p>Whether you’re a mapper, community organizer, or educator, there are numerous ways you can make solid contributions to the Education Working Group, such as:</p>
+
+<ul>
+  <li>
+    <p>Mentoring a teacher or a school. </p>
+  </li>
+  <li>
+    <p>Create content such as how-tos or instructional videos for using your favorite OpenStreetMap tools</p>
+  </li>
+  <li>
+    <p>If you’re an educator or have used OSM in a classroom setting, share your case study. </p>
+  </li>
+  <li>
+    <p>If you’re a developer or engineer, you can apply your skills to helping maintain our website or develop tools for teachers to more easily integrate OSM into their curriculum schools.</p>
+  </li>
+</ul>
+
+<p>The working group launches on May 18th and will meet monthly on the 3rd Wednesday. Like other OSM US working groups, we hope to have a diversity of participation and there is no requirement to make every meeting. <a href="https://www.meetup.com/teachosm/">Join our Meetup</a> for meeting times and links.</p>
+
+<p>Have questions or want to connect with the TeachOSM community? Reach out on the #TeachOSM channel on the <a href="https://slack.openstreetmap.us/">OSMUS Slack</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Announcing the Education Working Group.]]></summary></entry><entry><title type="html">What is State of the Map US?</title><link href="http://localhost:4000/posts/2022/04/SOTMUS22-reflection.html" rel="alternate" type="text/html" title="What is State of the Map US?" /><published>2022-04-15T00:00:00+00:00</published><updated>2022-04-15T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/04/SOTMUS22-reflection</id><content type="html" xml:base="http://localhost:4000/posts/2022/04/SOTMUS22-reflection.html"><![CDATA[<p><img src="../../../assets/images/blog/hayden_sotmus22.JPG" alt="Hayden MacLachlan, TeachOSM Intern, at State of the Map US 2022" /></p>
+
+<p><em>Hayden MacLachlan assisting a new mapper during a TeachOSM workshop at State of the Map US 2022.</em></p>
+
+<hr />
+
+<p>In a world as vast and varying as open-source technologies, it was a great pleasure being able to see the amazing work that those in the OpenStreetMap US community are contributing. I had the opportunity to attend the <a href="https://2022.stateofthemap.us/">State of the Map US 2022 Conference</a> as a member of TeachOSM and as a scholar. Having the chance to both facilitate sessions and attend speakers’ events; my eyes were opened to the capabilities of OpenStreetMap. Though it might sound cliché, I felt a bit out of my depth attending a conference for which I felt I had little to contribute. I am a fourth-year undergraduate student, conducting no research, with a solid working knowledge of OpenStreetMap tools and how to educate others on such tools.</p>
+
+<p>I can say, without any hesitation, that I was proven wrong in my doubt. OpenStreetMap is a project that thrives on the variety of capabilities its members provide. A community driven organization has many moving parts to it. And that is just the case with OpenStreetMap. One prime example of this is the YouthMappers network. As a member myself, I cannot dote enough about the impact of this student led organization and the contributions they provide. The best way to interest students in almost anything is peer recommendation. YouthMappers allows students the freedom to explore their own interests, among other likeminded people, while furthering the overall aim of the OpenStreetMap project. The representation of YouthMappers at the conference was quite strong. Passionate students, working on amazing projects for their own countries and abroad, demonstrated their capacity to lead within the community. Engagement is key and having representatives in younger generations is imperative for the long-term sustainability of OpenStreetMap. I would add that I believe we are in very capable hands.</p>
+
+<p>Another notable experience I had occurred during a presentation from Nohely Alvarez. Conducting research in the Langley Park region of Maryland, Alvarez’s work centers around mapping narratives and the determination of best practices of mapping. What is on, or lacking, from the map tells a story. In its most basic form, maps show people what is in a particular location. Looking deeper, it can tell you what the needs of a community are and where improvements are needed. One point particularly stuck with me, that time is a very relevant factor to narratives. Locations are permanent, but the features within them are fluid. If the OpenStreetMap is unmaintained with current information, it is painting a false narrative. Visibility is the only solution to counter such a narrative and develops from the efforts of people. An up-to-date map demonstrates the needs of a community to decisionmakers and often drives solutions. The necessity of “putting places on the map” should be cautioned with what narrative one desires to display.</p>
+
+<p>A final takeaway picked up in my time at State of the Map US came from a relaxed discussion around the uses of OpenStreetMap in disaster resilience efforts. An unpredictable yet looming threat that is always there, coordinated efforts are in some part lacking within this sector. The question was posed, “Is there a role for OpenStreetMap to play in closing such gaps?” The simple answer is, yes. The data provided by OpenStreetMap can be applied in countless ways. There are manners that we have yet to comprehend of these use cases. The reason one person might map a region is specific, but its uses can be diverse if we allow them. Of related import is the initiative to spread notoriety of OpenStreetMap tools and the utility they can bring to organizations beyond the open-source world.</p>
+
+<p>So, it is my determination that the state of the map is strong indeed. The OpenStreetMap organization and community are busy with unique projects that will shape the future of open geospatial data. The continued efforts of this group are invaluable and will continue to be as we move forward.</p>
+
+<p><em>Interested in attending State of the Map US in 2023? <a href="https://twitter.com/sotmus">Follow State of the Map US on twitter for updates</a>.</em></p>
+
+<hr />
+
+<p>Written by Hayden MacLachlan.</p>
+
+<p>Do you have a story to share about how you are using OpenStreetMap in the classroom? Reach out at info@teachosm.org!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A look into the direction of OpenStreetMap and the current problems it is tackling.]]></summary></entry><entry><title type="html">Welcome to our newest communications &amp;amp; outreach intern, Hayden MacLachlan!</title><link href="http://localhost:4000/posts/2022/02/Introducing_Hayden.html" rel="alternate" type="text/html" title="Welcome to our newest communications &amp;amp; outreach intern, Hayden MacLachlan!" /><published>2022-02-08T00:00:00+00:00</published><updated>2022-02-08T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/02/Introducing_Hayden</id><content type="html" xml:base="http://localhost:4000/posts/2022/02/Introducing_Hayden.html"><![CDATA[<p><em>TeachOSM is excited to welcome our newest intern, Hayden MacLachlan. Hayden will be assisting with Communications and Outreach through May 2022. Get to know her in this latest blog post.</em></p>
+
+<p><img src="../../../assets/images/blog/TeachOSM_hayden_socialmedia.png" alt="TeachOSM_hayden_socialmedia.png" /></p>
+
+<p>Hi, my name is Hayden MacLachlan, and I am the current communications intern for TeachOSM. As a student at George Washington University, I am pursuing my final semester as an International Affairs major with a minor in Geographic Information Systems. My exposure and passion for mapping developed at a late stage in my academic career. As a junior, I had no prior knowledge of mapping, GIS, or Open-Source technologies. It was the recommendation of a regional geography course instructor that I attended a mapping event with the GW branch of YouthMappers, The Humanitarian Mapping Society (HMS GW). At the time I often felt disconnected from the world I studied. And suddenly, I had the tools to contribute to meaningful data creation. The overlap between my interests and values in real-world problem solving were encouraged.</p>
+
+<p>Since then, I have joined the executive board of HMS GW, where I manage training for new members and provide collaborative support to the organization. Through bi-weekly Mapathons, we focus on issue areas ranging from climate change to agricultural needs, and natural disaster planning and management projects.</p>
+
+<p>My familiarity with OSM lead me to TeachOSM, where I now feel my contributions can assist in furthering the geographic and technical proficiency of students and educators. I am excited to pass along the importance of OSM to others and very much look forward to working with this community in the coming months.</p>
+
+<hr />
+
+<p>Do you have a story to share about how you are using OpenStreetMap in the classroom? Reach out at info@teachosm.org!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TeachOSM is excited to welcome our newest intern, Hayden MacLachlan. Hayden will be assisting with Communications and Outreach through May 2022. Get to know her in this latest blog post.]]></summary></entry><entry><title type="html">Transformando la educación universitaria con OpenStreetMap </title><link href="http://localhost:4000/posts/2022/01/interview_can_es.html" rel="alternate" type="text/html" title="Transformando la educación universitaria con OpenStreetMap " /><published>2022-01-28T00:00:00+00:00</published><updated>2022-01-28T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/01/interview_can_es</id><content type="html" xml:base="http://localhost:4000/posts/2022/01/interview_can_es.html"><![CDATA[<p><em>For an English version of this blog post, click <a href="https://teachosm.org/posts/2022/01/interview_can_en.html">here</a>.</em></p>
+
+<p><img src="../../../assets/images/blog/interviewblog_jan22_pic2.jpg" alt="Mapaton con Yer Çizenler Herkes İçin Haritacılık Derneği" /></p>
+
+<p>TeachOSM se encuentra realizando una serie de entrevistas para conocer y mostrar las experiencias de quienes han utilizado OpenStreetMap en las clases, como herramienta para la enseñanza. Es primordial, para la comunidad OSM y para quienes desean integrarse a esta, el compartir los proyectos desarrollados, los logros y desafíos encontrados en el camino, para retroalimentar a la colectividad que contribuye internacionalmente. </p>
+
+<p>Para esta entrada, platicamos con Can Ünen, quien trabaja como profesor asistente en la facultad de Ingeniería Civil en  MEF University, participó en la creación de OpenStreetMap Turquía en Estambul y actualmente desarrolla contenidos de clase utilizando los mapas de OSM como punto de partida. Aquí presentamos un poco sobre su relación dentro y fuera de las clases con OSM, la situación actual del país con los datos abiertos y recomendaciones para quienes utilizan esta herramienta en sus actividades académicas. </p>
+
+<h3 id="sobre-el-contexto-de-can-ünen">Sobre el contexto de Can Ünen  </h3>
+
+<p>En 2012, después del terremoto (2011) que sacudió a Turquía, una persona cercana a Ünen lo invitó a mapear las zonas, con el objetivo de un mejor manejo del desastre. Estos proyectos son realizados dentro de OpenStreetMap para aliviar situaciones drásticas, a través del mapeo de rutas de acceso, infraestructura de la localidad, características del entorno.</p>
+
+<p>Después de esta primera experiencia con el mapa de acceso abierto, Can Ünen se mantuvo pendiente de las actividades desarrolladas por parte de la comunidad OSM. Dentro de las acciones realizadas incluye proyectos en conjunto entre escuelas en Europa y Turquía, que buscaban mapear pueblos con poca información geográfica. Como lo presentamos en <a href="https://teachosm.org/posts/2021/12/interview_celeste_es.html">nuestro post anterior</a>, la falta de mapeo significa la inexistencia de datos que pueden impactar las políticas y acciones concretas al momento de afrontar desastres.</p>
+
+<p>Actualmente, Can forma parte de OpenStreetMap Turquía y se desempeña como mentor de OpenStreetMap para el Hub de Asia-Pacific, en la organización HumanitarianOpenStreetMap. Además, trabaja por mantener conectada a la comunidad del país, a través de actividades integradas con otras organizaciones, universidades e individuos que deseen acercarse a los mapas abiertos. Porque, como lo explica el profesor “son parte de la comunidad, parte de los datos.” Por esta razón, desde la organización a la que pertenece, Yer Çizenler Herkes İçin Haritacılık Derneği, se han desarrollado Mapatones, para incluir a diferentes individuos. </p>
+
+<blockquote>
+  <p>Si deseas conocer más sobre el trabajo de Can Unen, a través de Yer Çizenler Herkes İçin Haritacılık Derneği y cómo este tiene un impacto en el acceso a la información en diferentes escalas, sigue el <a href="https://yercizenler.org/en/home/">enlace</a>.</p>
+</blockquote>
+
+<p><img src="../../../assets/images/blog/interviewblog_jan22_pic1.jpg" alt="Can teaching OpenStreetMap in class" /></p>
+
+<h3 id="openstreetmap-como-fuente-de-renovación-para-nuestras-clases">OpenStreetMap como fuente de renovación para nuestras clases  </h3>
+
+<p>Actualmente, relata el Can Ünen, se está dando una apertura gradual desde las universidades y sus docentes, con los espacios de mapeo abierto como OpenStreetMap. Sin embargo, durante años existió resistencia hacia estas iniciativas, porque quienes estaban dentro de los círculos dedicados al mapeo y uso de herramientas de información geográfica, veían OSM como un mapa para principiantes, porque está construido gracias a las contribuciones de la comunidad de voluntarios. Sin embargo, esta mirada ha presentado obstáculos para quienes enseñan cursos sobre geomática, remote sensing y tecnologías digitales, ya que los recursos y materiales utilizados dentro de las clases dependen estrictamente en la información geográfica con licencia (de plataformas pagadas) a las que tengan acceso los profesores. ¿Qué significa esto para las esferas que trabajan con el espacio, la academia, los estudiantes? Can comparte que la falta de apertura con iniciativas de mapeo libre se refleja en los universitarios, que no están familiarizados con la oportunidad de datos abiertos, así como impacta los contenidos enseñados dentro de las aulas. </p>
+
+<p>Debido a que se tiene un acceso limitado a información geográfica, entre la planta académica se deben compartir muestras, lo que resulta en múltiples trabajos a lo largo de los años, utilizando un mismo conjunto de datos. Esta información utilizada dentro de la universidad no puede ser fácilmente actualizada en caso de desastres o cambios espaciales, ya que se encuentran en programas que no admiten contribuciones. Esto limita el alcance de los trabajos realizados, así como de los análisis que se pueden desarrollar de diferentes espacios. Además, significa no poder extender nuestro estudio a otros territorios y tener que reutilizar formas de analizar los procesos espaciales. </p>
+
+<p>Sin embargo, Can Ünen ha utilizado OpenStreetMap junto con otros programas de acceso libre para involucrar a más personas en la contribución de información geográfica. La libertad de cátedra en la universidad le ha permitido realizar cada mitad del semestre un Mapaton, enfocado en aquellos proyectos urgentes para nivel principiante. Esto va acompañado de sesiones dedicadas a entender cómo digitalizar datos y mejorar mapas, para que al final del semestre los estudiantes preparen un reporte sobre la continuidad que le han dado a sus contribuciones en diferentes proyectos <a href="https://tasks.hotosm.org/explore">Humanitarian OpenStreetMap</a>. Dentro de los logros al momento de involucrar a sus estudiantes con OSM,  Ünen comenta que se encuentran: el mapeo de 20,355 edificios y 1,347 caminos que significaron 142,640 ediciones en el mapa y 185 días de trabajo, distribuidos en 26 estudiantes a lo largo del semestre de otoño en 2021. Además, se encuentra el trabajo realizado por Oyku, estudiante que mapeó el pueblo de sus padres, en el que incluyó elementos importantes sobre el acceso al área.</p>
+
+<p><img src="../../../assets/images/blog/interviewblog_jan22_pic3.PNG" alt="ÖYKÜ KALKAN's semester report." /></p>
+
+<p>Todas estas actividades promueven un mayor involucramiento de parte de la comunidad en Turquía, sobre el mapeo de los espacios que les rodean, así como un intercambio con otros lugares que están en necesidad de ser mapeados, para responder a situaciones críticas. </p>
+
+<p>No obstante, aún existen desafíos al momento de mantener voluntarios constantes dentro de la universidad. Esto se trabaja con proyectos puntuales que permitan que los estudiantes comprendan y se interesen por la importancia de las plataformas abiertas. Desde contribuir a situaciones específicas hasta descargar las contribuciones hechas y apoyarlas con programas de análisis espacial. </p>
+
+<p>Finalmente, el profesor Can Ünen recomienda a quienes estén interesados en las herramientas de mapeo, que se acerquen a OpenStreetMap ya que ayuda a evitar la repetición y fomenta la mejora de los análisis. Se debe entender a la comunidad OSM como un esfuerzo por mejorar la calidad de información para el futuro y hacerla más accesible.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Para esta entrada, platicamos con Can Ünen, quien ha trabajado como profesor de Ingeniería Geomática, participó en la creación de OpenStreetMap Turquía en Estambul y actualmente desarrolla contenidos de clase utilizando los mapas de OSM como punto de partida.]]></summary></entry><entry><title type="html">Transforming university education through OpenStreetMap </title><link href="http://localhost:4000/posts/2022/01/interview_can_en.html" rel="alternate" type="text/html" title="Transforming university education through OpenStreetMap " /><published>2022-01-28T00:00:00+00:00</published><updated>2022-01-28T00:00:00+00:00</updated><id>http://localhost:4000/posts/2022/01/interview_can_en</id><content type="html" xml:base="http://localhost:4000/posts/2022/01/interview_can_en.html"><![CDATA[<p><em>Para obtener la versión en español de este blog, vaya <a href="https://teachosm.org/posts/2022/01/interview_can_es.html">aqui</a>.</em></p>
+
+<p><img src="../../../assets/images/blog/interviewblog_jan22_pic2.jpg" alt="Mapathon with Yer Çizenler Herkes İçin Haritacılık Derneği" /></p>
+
+<p>TeachOSM is conducting a series of interviews to learn and show the experiences of those who have used OpenStreetMap in their classes, as a teaching tool. It is essential, for the OSM community and for those who wish to join it, to share the projects developed, the achievements and challenges encountered along the way, and to provide feedback to the community that contributes internationally.</p>
+
+<p>For this post, we spoke with Can Ünen, who works as an assistant professor in the Civil Engineering Department of MEF University, participated in the creation of OpenStreetMap Turkey in Istanbul and is currently developing class content using OSM maps as a starting point. Here we briefly present his relationship inside and outside the classes with OSM, the current situation in the country with open data and recommendations for those who use this tool in their academic activities. </p>
+
+<h3 id="can-ünens-background">Can Ünen’s background  </h3>
+
+<p>In 2012, after the earthquake that struck Turkey, a person close to Can invited him to map the affected areas, with the aim of better managing the disaster. These projects were carried out within OpenStreetMap to alleviate drastic situations, through the mapping of access routes, local infrastructure, and environmental characteristics.</p>
+
+<p>After this first experience with open mapping, Can kept an eye on the activities carried out by the OSM community globally. Among the actions carried out, he highlights joint projects between schools in Europe and Turkey that mapped towns that had little geographic information, located in Turkey and internationally, As we presented in our <a href="https://teachosm.org/posts/2021/12/interview_celeste_en.html">previous post</a>, the lack of mapping means the lack of data that can allow better policies and more concrete actions when facing disasters.</p>
+
+<p>Can is currently an OpenStreetMap trainer for the Asia-Pacific Hub at HumanitarianOpenStreetMap and an active member  of OpenStreetMap Turkey. He also works to keep the country’s community connected, through integrated activities with other organizations such as Yer Çizenler Herkes İçin Haritacılık Derneği, universities and individuals who wish to get closer to open maps. Because, as the professor explains, “they are part of the community, part of the data.”</p>
+
+<blockquote>
+  <p>If you want to know more about Can Unen’s work, through Yer Çizenler Herkes İçin Haritacılık Derneği and how it has an impact on access to information at different scales, follow the <a href="https://yercizenler.org/en/home/">link</a>.</p>
+</blockquote>
+
+<p><img src="../../../assets/images/blog/interviewblog_jan22_pic1.jpg" alt="Can teaching OpenStreetMap in class" /></p>
+
+<h3 id="openstreetmap-as-a-tool-to-keep-our-classes-updated">OpenStreetMap as a tool to keep our classes updated  </h3>
+
+<p>Currently, says Can, there is a growing acceptance of OpenStreetMap and other open mapping spaces from universities and their teachers in Turkey. For years though, he witnessed and experienced resistance to these initiatives. Those in the academic circles dedicated to mapping and use of geographic information tools saw OSM as a map for beginners, since it is built with contributions of volunteers. However, this view has presented obstacles for those who teach courses on geomatics, remote sensing, and digital technologies, since the resources and materials used within the classes strictly depend on the licensed geographic information (from paid platforms) to which they have access. </p>
+
+<p>What does this mean for the spatial representation and its analysis? Can shares that the lack of openness with free mapping initiatives is reflected in university students, who are not familiar with the opportunities of open data, as well as its impacts on the content taught in classes. Due to the limited access to geographic information, sample data must be shared among the academic staff, which results in repetitive assignments over the years, using the same data set. This information used within the university cannot be easily updated in the event of disasters or spatial changes, as they are found in programs that do not allow contributions or changes. This limits the scope of the work, as well as the analysis that can be carried out in different spaces. </p>
+
+<p>In contrast, Ünen has used OpenStreetMap in conjunction with other open access programs to engage more people in contributing to geographic information. The academic freedom at the university has allowed him to carry out a Mapathon every half of the semester, focused on urgent projects at a beginner level available on the <a href="https://tasks.hotosm.org/explore">HOT Tasking Manager</a>. For Fall Semester (2021), Can shares that the contributions made by 26 students represent: 185 working days and 142,640 map changes, 805 changesets, 20,355 buildings, and 1,347 roads.</p>
+
+<p>The work done with HOT is accompanied by sessions dedicated to understanding how to digitize data and improve maps, so that at the end of the semester the students prepare a report on the contributions they’ve made throughout the semester in different Humanitarian OpenStreetMap projects. For example, Can shares the results of a report done by Oyku, who mapped the village her parents are from, in detail, which consisted in 114 buildings which are houses, industrial buildings, cowsheds, and a school; connection roads, pedestrian roads, paths, agriculture roads, and unused old railway to the village.</p>
+
+<p><img src="../../../assets/images/blog/interviewblog_jan22_pic3.PNG" alt="Example of Student Work" /></p>
+
+<p>All these activities promote a greater involvement from Turkey’s community, on the mapping of the spaces that surround them, as well as an exchange with other places that are in need of being mapped, to respond to critical situations. Can comments that these efforts have been fruitful, when observing that there are volunteers who return to participate in new activities.</p>
+
+<p>However, there are still challenges in maintaining constant volunteers within the university. To promote engagement among the community Can pairs mapping existing projects with learning how to download one’s contributions and using spatial analysis programs.</p>
+
+<p>Finally, Can Ünen recommends to those interested in teaching mapping tools to approach OpenStreetMap as a community that helps to avoid repetition and encourages analysis. This space should be understood as an effort to improve the quality of information for the future and make it more accessible.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[For this post, we spoke with Can Ünen, who has worked as a professor of Geomatics Engineering, participated in the creation of OpenStreetMap Turkey in Istanbul and is currently developing class content using OSM maps as a starting point.]]></summary></entry></feed>
