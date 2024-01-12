@@ -25,8 +25,9 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      #height: 56px;
+      height: 56px;
       margin: 10px 0px 10px 0px;
+      
 
       .page-title {
         font-size: 40px;
@@ -41,7 +42,7 @@
         border: 1px solid $primary-color;
         width: 500px;
         padding: 8px;
-        #width: 100%;
+        width: 100%;
         margin-right: 16px;
 
         @media(max-width: $tablet-width) {
@@ -51,12 +52,24 @@
       
       .project-filter-div {
         margin-left: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .project-filter-div button {
+        margin: 0 10px;
       }
 
       .project-filter-button {
         margin-left: auto;
         margin: 10px 0px 10px 0px;
       }
+
+      .project-arrange-button {
+        margin-left: auto;
+        margin: 10px 0px 10px 0px;
+      }
+
     }
 
     @media(max-width: $tablet-width) {
@@ -298,7 +311,7 @@
 }
 
 .card-child {
-  #width: 300px;
+  width: 300px;
 }
 
 #search-and-add {

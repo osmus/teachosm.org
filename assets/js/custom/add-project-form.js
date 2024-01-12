@@ -134,20 +134,18 @@ const setProjectFile = file => {
 let videoLink;
 const setVideoLink = value => videoLink = value;
 
-// old  projectImageUploadURL
-//const projectImageUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_pics';
+//const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
+//const projectImageUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_pics';
+const projectImageUploadURL = '{{ site.data.urls.projectImageUploadURL }}'
 
 // TeachOSM deployable backend
-const projectImageUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_pics';
+//const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
+//const projectFileUploadURL = 'https://99vdeppwg3.execute-api.us-east-1.amazonaws.com/personal/requestUploadURL_content';
+const projectFileUploadURL = '{{ site.data.urls.projectFileUploadURL }}'
 
-// old projectFileUploadURL
-//const projectFileUploadURL = 'https://ohwy7x30i8.execute-api.us-east-1.amazonaws.com/dev/requestUploadURL_content';
-
-// TeachOSM deployable backend
-const projectFileUploadURL = 'https://akmfeqy8h5.execute-api.us-east-1.amazonaws.com/deploy/requestUploadURL_content';
-
-//const pullRequestURL = 'https://p3keskibu8.execute-api.us-east-1.amazonaws.com/dev/posts';
-const pullRequestURL = 'https://v0x93psmuj.execute-api.us-east-1.amazonaws.com/deploy/posts';
+//const pullRequestURL = 'https://v0x93psmuj.execute-api.us-east-1.amazonaws.com/deploy/posts';
+//const pullRequestURL = 'https://grckpw7094.execute-api.us-east-1.amazonaws.com/personal/posts';
+const pullRequestURL = '{{ site.data.urls.pullRequestURL }}'
 
 const pdfFileName = fileName => {
   const noExtension = fileName.substring(0, fileName.lastIndexOf('.'));
@@ -325,7 +323,35 @@ fetch('{{site.baseurl}}/tags.json')
       persist: false,
       searchField: ['value'],
       valueField: 'value',
-    });
+  });
+  
+  tagSelector[0].selectize.on('dropdown_open', function() {
+    console.log('dropdown is opened');
+
+    setTimeout(() => {
+      // use the Selectize input to get the dropdown's position
+      var $selectInput = this.$input;
+      var dropdownOffset = $selectInput.offset();
+      
+      var dropdownHeight = $selectInput.outerHeight();
+      console.log(`dropdownHeight is ${dropdownHeight}`);
+      var dropdownBottom = dropdownOffset.top + dropdownHeight;
+      console.log(`dropdownBottom is ${dropdownBottom}`);
+
+      // Get the scrollable container. Replace with your scrollable container selector.
+      var scrollContainer = $('.add-project form .wizard > .content > section');
+      var scrollContainerBottom = scrollContainer.offset().top + scrollContainer.outerHeight();
+      console.log(`scrollContainerBottom is ${scrollContainerBottom}`);
+
+      scrollContainer.animate({scrollTop: 1000}, 500);
+
+      // if (dropdownBottom > scrollContainerBottom) {
+      //     scrollContainer.animate({scrollTop: scrollContainer.scrollTop() + dropdownBottom - scrollContainerBottom}, 500);
+      // }
+  }, 0);
+});
+
+  
 
     const nameSelector = $('#name');
     const osmUsernameSelector = $('#osmUsername');
