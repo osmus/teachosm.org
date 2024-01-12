@@ -1,16 +1,7 @@
-# Teachosm website code
-This is the code repository for the TeachOSM website. 
+# teachosm
+teachosm site
 
-# Site maintenance and update
-This applies to only removing old modules & resources, modifying existing content. To upload, use the 'Add new project' from the top of the projects page. 
-
-## To remove an old module:
-1. Select 'master' as the working branch
-2. Create and select a new branch from master using the format 'YYYY-MM-DD_<description>' 
-3. Make changes directly in Github to the new branch. For example, delete the old module and click 'Commit' to commit the change to the new branch.
-4. When finished making changes on the new branch, create a pull request TO master FROM your new branch.
-5. Preview the changes, once Github has completed the update.
-6. Merge the pull request once all checks are final
+## The live site is built from the master branch. To make changes to the site, create a new branch from the master branch, make your changes, then make a pull request. When this is done, you should also be able to see a preview using Netlify. If the changes look good, approve the pull request to merge the changes back into the master branch. 
 
 # development
 For steps on running a local instance for development purposes, please see [CONTRIBUTING.md](CONTRIBUTING.md).

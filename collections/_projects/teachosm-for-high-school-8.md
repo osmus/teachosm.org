@@ -1,6 +1,6 @@
 ---
-title: Teach OSM for High School
-subtitle: Module 8 - Mapping Agricultural and Rural Land Use OSM Map Features
+title: Module 8 - Mapping Agricultural and Rural Land Use OSM Map Features
+subtitle: Teach OSM for High School
 description: In this module, students will map road map features associated with agricultural
   practices and rural areas at location(s) in the world.  Students will explore similarities
   and differences between the arrangement of these facilities in areas where agricultural
