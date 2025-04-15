@@ -1,0 +1,28 @@
+---
+  audience: 
+    - "high_school"
+    - "community_college"
+    - "university"
+    - "other"
+  author: "Richard Hinton"
+  description: "Vespucci is a free mobile app for Android that supports the full OpenStreetMap (OSM) data model. With Vespucci, you can perform almost all the editing operations available on a desktop directly from your mobile device. This section focuses on using Vespucci for building feature tagging in OSM"
+  difficulty: "intermediate"
+  date_posted: "2025-04-15"
+  osm_username: "RAHinton"
+  filename: ""
+  group: ""
+  layout: "project"
+  preparation_time: "two_to_four_hours"
+  project_time: 
+    - "one_hour"
+    - "flexible"
+  subtitle: "Mobile Mapping & Field Mapping"
+  tags: 
+    - "Field mapping"
+    - "Mobile Mapping"
+    - "Street Survey"
+    - "General Mapping Skills"
+  thumbnail: "1651850760615-osmand.png"
+  title: "Mobile Field Mapping with VEspucci"
+  type: "mobile"
+  url: ""
